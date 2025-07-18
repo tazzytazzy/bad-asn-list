@@ -1,0 +1,20 @@
+{
+  "asn": 18645,
+  "descr": "UMHB-BELTON, US",
+  "country": "us",
+  "active": true,
+  "org": "UMHB",
+  "domain": "umhb.edu",
+  "abuse": "Abuse@umhb.edu",
+  "type": "education",
+  "created": "2017-12-13",
+  "updated": "2017-12-13",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS18645",
+  "prefixes": [
+    "67.79.54.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

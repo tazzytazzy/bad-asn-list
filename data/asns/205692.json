@@ -1,0 +1,26 @@
+{
+  "asn": 205692,
+  "descr": "WEBINVESTPLUS, UA",
+  "country": "ua",
+  "active": true,
+  "org": "Webinvest Plus LLC",
+  "domain": "webinvest-plus.kiev.ua",
+  "abuse": "lir@webinvest-plus.kiev.ua",
+  "type": "business",
+  "created": "2017-06-23",
+  "updated": "2025-05-21",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205692",
+  "prefixesIPv6": [
+    "2602:fed2:7910::/44",
+    "2a09:f040::/29",
+    "2a0b:2fc0::/29",
+    "2a0b:4ec0::/29",
+    "2a0d:c00::/29",
+    "2a0d:7a00::/29",
+    "2a0f:9400:6170::/44"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

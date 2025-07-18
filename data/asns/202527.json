@@ -1,0 +1,20 @@
+{
+  "asn": 202527,
+  "descr": "AS_SMON - SAS -, KZ",
+  "country": "kz",
+  "active": true,
+  "org": "Aktau Spec Montazh TOO",
+  "domain": "amontazh.kz",
+  "abuse": "m.popov.yu@gmail.com",
+  "type": "business",
+  "created": "2022-10-03",
+  "updated": "2024-11-21",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202527",
+  "prefixes": [
+    "193.111.47.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

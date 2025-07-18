@@ -1,0 +1,20 @@
+{
+  "asn": 201449,
+  "descr": "DAB-AS, PT",
+  "country": "pt",
+  "active": true,
+  "org": "Digital Absolut Business - Servidor, Virtualizacao, Cluster, Datacenters e Telecomunicacoes, Lda",
+  "domain": "dab.pt",
+  "abuse": "dab@dab.pt",
+  "type": "hosting",
+  "created": "2014-10-23",
+  "updated": "2018-09-18",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201449",
+  "prefixes": [
+    "185.72.152.0/22"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

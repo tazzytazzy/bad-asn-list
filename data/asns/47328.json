@@ -1,0 +1,32 @@
+{
+  "asn": 47328,
+  "descr": "TRI-AS DigitalOne AG, CH",
+  "country": "ch",
+  "active": true,
+  "org": "DigitalOne AG",
+  "domain": "zerocdn.com",
+  "abuse": "abuse@zerocdn.com",
+  "type": "hosting",
+  "created": "2008-06-03",
+  "updated": "2023-11-08",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS47328",
+  "prefixes": [
+    "83.222.124.0/22",
+    "185.190.188.0/24",
+    "185.190.189.0/24",
+    "212.124.96.0/22",
+    "212.124.97.0/24",
+    "212.124.99.0/24",
+    "212.124.100.0/22",
+    "212.124.104.0/23",
+    "212.124.106.0/24",
+    "212.124.107.0/24",
+    "212.124.108.0/22",
+    "212.124.112.0/21",
+    "212.124.120.0/21"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

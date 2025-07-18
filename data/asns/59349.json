@@ -1,0 +1,23 @@
+{
+  "asn": 59349,
+  "descr": "GMO-Z-COM GMO-Z.COM PTE. LTD., JP",
+  "country": "jp",
+  "active": true,
+  "org": "GMO-Z.COM PTE. LTD.",
+  "domain": "gmo.jp",
+  "abuse": "abuse@gmo.jp",
+  "type": "hosting",
+  "updated": "2023-04-21",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS59349",
+  "prefixes": [
+    "103.234.170.0/23",
+    "103.234.170.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:df6:b800::/48"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

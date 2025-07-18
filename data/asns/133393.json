@@ -1,0 +1,26 @@
+{
+  "asn": 133393,
+  "descr": "NAKIHOST-AS-AP Naki Host Limited, NZ",
+  "country": "nz",
+  "active": true,
+  "org": "Naki Host Limted",
+  "domain": "nakihost.nz",
+  "abuse": "abuse@nakicloud.co.nz",
+  "type": "hosting",
+  "updated": "2020-06-17",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS133393",
+  "prefixes": [
+    "103.217.96.0/24",
+    "103.217.97.0/24",
+    "103.238.194.0/24",
+    "103.253.116.0/24",
+    "139.5.120.0/24",
+    "139.5.121.0/24",
+    "139.5.122.0/24",
+    "139.5.123.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

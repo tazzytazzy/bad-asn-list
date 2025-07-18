@@ -1,0 +1,19 @@
+{
+  "asn": 45201,
+  "descr": "NEXON-AS-AP Nexon Asia Pacific Pty Ltd, AU",
+  "country": "au",
+  "active": true,
+  "org": "Nexon Asia Pacific Pty Ltd",
+  "domain": "nexon.com.au",
+  "abuse": "abuse@nexon.com.au",
+  "type": "business",
+  "updated": "2020-07-22",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS45201",
+  "prefixes": [
+    "203.56.225.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

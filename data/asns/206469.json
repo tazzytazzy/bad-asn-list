@@ -1,0 +1,20 @@
+{
+  "asn": 206469,
+  "descr": "SOLVE, TR",
+  "country": "tr",
+  "active": true,
+  "org": "SOLVELINE TELEKOMUNIKASYON ILETISIM HIZM.TIC.LTD.STI.",
+  "domain": "solveline.com.tr",
+  "abuse": "info@solveline.com.tr",
+  "type": "isp",
+  "created": "2023-08-07",
+  "updated": "2023-08-15",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS206469",
+  "prefixes": [
+    "62.106.71.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

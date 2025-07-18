@@ -1,0 +1,20 @@
+{
+  "asn": 34432,
+  "descr": "PHH-AS, DE",
+  "country": "de",
+  "active": true,
+  "org": "dogado GmbH",
+  "domain": "dogado.de",
+  "abuse": "abuse@dogado.de",
+  "type": "hosting",
+  "created": "2005-01-18",
+  "updated": "2024-07-10",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS34432",
+  "prefixes": [
+    "37.228.157.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

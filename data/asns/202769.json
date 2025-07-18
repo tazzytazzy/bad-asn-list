@@ -1,0 +1,20 @@
+{
+  "asn": 202769,
+  "descr": "COOP, IL",
+  "country": "il",
+  "active": true,
+  "org": "NETSTYLE A. LTD",
+  "domain": "netstyle.io",
+  "abuse": "abuse@netstyle.io",
+  "type": "hosting",
+  "created": "2016-06-07",
+  "updated": "2022-03-18",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202769",
+  "prefixes": [
+    "168.80.32.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

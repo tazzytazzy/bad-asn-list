@@ -1,0 +1,27 @@
+{
+  "asn": 14987,
+  "descr": "RETHEMHOSTING, US",
+  "country": "us",
+  "active": true,
+  "org": "Rethem Hosting LLC",
+  "domain": "rethemhosting.net",
+  "abuse": "noc@rethemhosting.net",
+  "type": "hosting",
+  "created": "2011-03-21",
+  "updated": "2012-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS14987",
+  "prefixes": [
+    "104.152.52.0/22",
+    "104.152.52.0/24",
+    "104.152.53.0/24",
+    "104.152.54.0/24",
+    "104.152.55.0/24"
+  ],
+  "prefixesIPv6": [
+    "2607:8500::/32"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0.0586",
+  "abuse_rank": "High"
+}

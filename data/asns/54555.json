@@ -1,0 +1,23 @@
+{
+  "asn": 54555,
+  "descr": "HOSTDUPLEX, US",
+  "country": "us",
+  "active": true,
+  "org": "Host Duplex, LLC",
+  "domain": "hostduplex.com",
+  "abuse": "abuse@hostduplex.com",
+  "type": "hosting",
+  "created": "2012-03-16",
+  "updated": "2012-03-16",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS54555",
+  "prefixes": [
+    "104.219.172.0/24",
+    "104.219.173.0/24",
+    "104.219.174.0/24",
+    "162.254.116.0/22"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

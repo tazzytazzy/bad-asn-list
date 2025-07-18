@@ -1,0 +1,20 @@
+{
+  "asn": 53342,
+  "descr": "DELCO-PRI-01, CA",
+  "country": "ca",
+  "active": true,
+  "org": "Delco Automation Inc",
+  "domain": "delcoautomation.com",
+  "abuse": "dledrew@delcoautomation.com",
+  "type": "business",
+  "created": "2020-06-03",
+  "updated": "2020-06-03",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS53342",
+  "prefixes": [
+    "64.141.12.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

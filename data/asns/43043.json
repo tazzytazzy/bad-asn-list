@@ -1,0 +1,17 @@
+{
+  "asn": 43043,
+  "descr": "AUROLOGIC-CLOUD aurologic.com Cloud Infrastructure, DE",
+  "country": "de",
+  "active": false,
+  "org": "aurologic GmbH",
+  "domain": "aurologic.com",
+  "abuse": "abuse@aurologic.com",
+  "type": "hosting",
+  "created": "2019-08-19",
+  "updated": "2023-07-19",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS43043",
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

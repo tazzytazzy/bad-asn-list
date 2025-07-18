@@ -1,0 +1,63 @@
+# Python
+## Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+## Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+## Environments
+.env
+.venv
+env/
+venv/
+
+## Virtualenv
+# http://docs.python-guide.org/en/latest/dev/virtualenvs/
+bin/
+include/
+lib/
+lib64/
+local/
+scripts/
+
+
+# IDEs / Editors
+## JetBrains
+.idea/
+
+## VSCode
+.vscode/
+
+## Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+mynotes
+
+# OS-specific
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary file for contributing
+# Add new ASNs here, run `merge_lists.py`, then commit the updated `bad-asn-list.csv`.
+/to_merge.csv
+
+# Cloudflare configuration
+/cf.yaml
+
+# ipapi config file
+/ipapi.yaml
+
+fetch_asn_details.log

@@ -1,0 +1,17 @@
+{
+  "asn": 206068,
+  "descr": "HOSTING, MD",
+  "country": "md",
+  "active": false,
+  "org": "Uplink SRL",
+  "domain": "uplink.md",
+  "abuse": "abuse@uplink.in.md",
+  "type": "isp",
+  "created": "2017-03-31",
+  "updated": "2025-03-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS206068",
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

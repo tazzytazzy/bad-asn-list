@@ -1,0 +1,23 @@
+{
+  "asn": 44227,
+  "descr": "AS-WILD-ENGINEERING, DE",
+  "country": "de",
+  "active": true,
+  "org": "Stefan Wild",
+  "domain": "wild.engineering",
+  "abuse": "abuse-noc.nl@wild.engineering",
+  "type": "business",
+  "created": "2007-12-06",
+  "updated": "2023-08-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS44227",
+  "prefixes": [
+    "156.67.15.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:67c:978::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,24 @@
+{
+  "asn": 199997,
+  "descr": "IPPON_HOSTING-AS, FR",
+  "country": "fr",
+  "active": true,
+  "org": "Ippon Hosting SARL",
+  "domain": "ippon-hosting.com",
+  "abuse": "ims@ippon.fr",
+  "type": "hosting",
+  "created": "2013-11-07",
+  "updated": "2019-03-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199997",
+  "prefixes": [
+    "46.245.224.0/21",
+    "46.245.226.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a01:bfe0::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

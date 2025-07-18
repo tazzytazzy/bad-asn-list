@@ -1,0 +1,17 @@
+{
+  "asn": 41665,
+  "descr": "HOSTING-AS hosting.ua, UA",
+  "country": "ua",
+  "active": false,
+  "org": "Tehnologii Budushego LLC",
+  "domain": "hosting.ua",
+  "abuse": "abuse@hosting.ua",
+  "type": "hosting",
+  "created": "2006-10-03",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS41665",
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

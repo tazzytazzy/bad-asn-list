@@ -1,0 +1,27 @@
+{
+  "asn": 205848,
+  "descr": "DOMINIK-POHL Dominik Pohl, DE",
+  "country": "de",
+  "active": true,
+  "org": "Dominik Pohl",
+  "domain": "sn-p.io",
+  "abuse": "administration@sn-p.io",
+  "type": "business",
+  "created": "2022-09-14",
+  "updated": "2025-05-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205848",
+  "prefixes": [
+    "27.0.235.0/24",
+    "89.187.68.0/24",
+    "89.187.69.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a06:1282::/48",
+    "2a06:1282:1::/48",
+    "2a06:1282:2::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0013",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,27 @@
+{
+  "asn": 43317,
+  "descr": "VEESP-AS, LV",
+  "country": "lv",
+  "active": true,
+  "org": "SIA VEESP",
+  "domain": "veesp.com",
+  "abuse": "abuse@veesp.com",
+  "type": "hosting",
+  "created": "2007-07-12",
+  "updated": "2023-03-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS43317",
+  "prefixes": [
+    "77.73.64.0/21",
+    "91.209.70.0/24",
+    "94.242.0.0/23",
+    "94.242.48.0/20"
+  ],
+  "prefixesIPv6": [
+    "2a00:1838::/32",
+    "2a0a:4784::/32"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.004",
+  "abuse_rank": "Low"
+}

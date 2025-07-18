@@ -1,0 +1,25 @@
+{
+  "asn": 49074,
+  "descr": "TECHNOLOGICAL, RO",
+  "country": "ro",
+  "active": true,
+  "org": "SC TECHNOLOGICAL SRL",
+  "domain": "technological.ro",
+  "abuse": "abuse@technological.ro",
+  "type": "isp",
+  "created": "2009-04-07",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49074",
+  "prefixes": [
+    "85.255.112.0/22",
+    "91.228.140.0/22",
+    "91.234.56.0/22",
+    "151.248.95.0/24",
+    "178.212.207.0/24",
+    "194.40.204.0/22"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

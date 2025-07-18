@@ -1,0 +1,20 @@
+{
+  "asn": 64056,
+  "descr": "KAZILALLC-AS-AP Kazila LLC, AU",
+  "country": "au",
+  "active": true,
+  "org": "Kazila LLC",
+  "domain": "kazila.com",
+  "abuse": "abuse@kazila.com",
+  "type": "hosting",
+  "updated": "2020-07-22",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS64056",
+  "prefixes": [
+    "103.196.180.0/22",
+    "202.173.116.0/22"
+  ],
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

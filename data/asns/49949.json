@@ -1,0 +1,26 @@
+{
+  "asn": 49949,
+  "descr": "COMPLIOR, SE",
+  "country": "se",
+  "active": true,
+  "org": "Complior AB",
+  "domain": "complior.se",
+  "abuse": "support@complior.se",
+  "type": "business",
+  "created": "2009-10-16",
+  "updated": "2023-06-08",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49949",
+  "prefixes": [
+    "176.124.250.0/23",
+    "193.183.60.0/24",
+    "193.235.121.0/24",
+    "195.110.44.0/23"
+  ],
+  "prefixesIPv6": [
+    "2001:67c:1880::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

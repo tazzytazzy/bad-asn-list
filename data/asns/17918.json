@@ -1,0 +1,32 @@
+{
+  "asn": 17918,
+  "descr": "AC3-AS-AP ac3, Australian Centre for Advanced Computing and Communications, AU",
+  "country": "au",
+  "active": true,
+  "org": "AUSTRALIAN CENTRE FOR ADVANCED COMPUTING AND COMMUNICATION PTY LTD",
+  "domain": "ac3.com.au",
+  "abuse": "abuse@ac3.com.au",
+  "type": "hosting",
+  "updated": "2020-05-19",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS17918",
+  "prefixes": [
+    "117.53.160.0/20",
+    "117.53.166.0/24",
+    "119.77.0.0/18",
+    "119.77.0.0/19",
+    "119.77.0.0/22",
+    "119.77.12.0/24",
+    "119.77.17.0/24",
+    "119.77.22.0/24",
+    "202.44.98.0/23",
+    "202.129.128.0/19"
+  ],
+  "prefixesIPv6": [
+    "2404:8600::/32",
+    "2404:8600:4000::/37"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

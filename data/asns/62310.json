@@ -1,0 +1,23 @@
+{
+  "asn": 62310,
+  "descr": "MH-DC-AS, DE",
+  "country": "de",
+  "active": true,
+  "org": "managedhosting.de GmbH",
+  "domain": "managedhosting.de",
+  "abuse": "ripe-abuse@managedhosting.de",
+  "type": "hosting",
+  "created": "2013-11-14",
+  "updated": "2025-03-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS62310",
+  "prefixes": [
+    "77.220.248.0/21"
+  ],
+  "prefixesIPv6": [
+    "2a02:2878:8000::/34"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

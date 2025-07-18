@@ -1,0 +1,21 @@
+{
+  "asn": 56291,
+  "descr": "ACE-AS-AP Ace, Inc., JP",
+  "country": "jp",
+  "active": true,
+  "org": "Ace, Inc.",
+  "domain": "ace-idc.com",
+  "abuse": "abuse@ace-idc.com",
+  "type": "hosting",
+  "updated": "2021-01-11",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS56291",
+  "prefixes": [
+    "49.156.160.0/19",
+    "111.223.192.0/19",
+    "113.212.128.0/19"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

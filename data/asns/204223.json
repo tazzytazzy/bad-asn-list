@@ -1,0 +1,20 @@
+{
+  "asn": 204223,
+  "descr": "SERVERPLANCE, TR",
+  "country": "tr",
+  "active": true,
+  "org": "Serverplance Bilisim Ve Telekomunikasyon Hizm. Ltd. Sti.",
+  "domain": "serverplance.com",
+  "abuse": "abuse@serverplance.com",
+  "type": "hosting",
+  "created": "2022-06-30",
+  "updated": "2024-07-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS204223",
+  "prefixes": [
+    "77.90.26.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

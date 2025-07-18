@@ -1,0 +1,24 @@
+{
+  "asn": 14160,
+  "descr": "PREMIUMTELECOM, US",
+  "country": "us",
+  "active": true,
+  "org": "Premium Hosting, Inc.",
+  "domain": "premiumhosting.net",
+  "abuse": "BOB@premiumhosting.net",
+  "type": "hosting",
+  "created": "2007-11-12",
+  "updated": "2012-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS14160",
+  "prefixes": [
+    "208.86.16.0/24",
+    "208.86.18.0/24",
+    "208.86.19.0/24",
+    "208.86.20.0/24",
+    "208.86.21.0/24"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

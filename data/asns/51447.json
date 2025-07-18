@@ -1,0 +1,29 @@
+{
+  "asn": 51447,
+  "descr": "ROOTLAYERNET, BD",
+  "country": "bd",
+  "active": true,
+  "org": "RootLayer Web Services Ltd.",
+  "domain": "rootlayer.net",
+  "abuse": "complain@rootlayer.net",
+  "type": "hosting",
+  "created": "2017-09-25",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS51447",
+  "prefixes": [
+    "45.137.20.0/24",
+    "45.137.21.0/24",
+    "45.137.22.0/24",
+    "45.137.23.0/24",
+    "103.178.236.0/24",
+    "103.178.237.0/24",
+    "185.222.56.0/24",
+    "185.222.57.0/24",
+    "185.222.58.0/24",
+    "185.222.59.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0131",
+  "abuse_rank": "Elevated"
+}

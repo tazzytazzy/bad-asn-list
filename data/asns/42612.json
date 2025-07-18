@@ -1,0 +1,33 @@
+{
+  "asn": 42612,
+  "descr": "DINAHOSTING-AS, ES",
+  "country": "es",
+  "active": true,
+  "org": "DinaHosting S.L.",
+  "domain": "dinahosting.com",
+  "abuse": "abuse@dinahosting.com",
+  "type": "hosting",
+  "created": "2007-03-22",
+  "updated": "2024-01-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS42612",
+  "prefixes": [
+    "46.231.120.0/21",
+    "46.231.123.0/24",
+    "82.98.128.0/18",
+    "185.192.220.0/24",
+    "185.192.221.0/24",
+    "185.192.222.0/24",
+    "185.192.223.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:be8::/32",
+    "2a02:be8:f001::/48",
+    "2a02:be8:f002::/48",
+    "2a02:be8:f003::/48",
+    "2a02:be8:f004::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

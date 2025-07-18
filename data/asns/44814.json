@@ -1,0 +1,35 @@
+{
+  "asn": 44814,
+  "descr": "BTEL-BG-AS, BG",
+  "country": "bg",
+  "active": true,
+  "org": "Bulgartel AD",
+  "domain": "bulgartel.bg",
+  "abuse": "abuse@bulgartel.bg",
+  "type": "isp",
+  "created": "2008-03-14",
+  "updated": "2024-12-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS44814",
+  "prefixes": [
+    "46.253.8.0/24",
+    "46.253.10.0/24",
+    "46.253.15.0/24",
+    "93.94.136.0/24",
+    "93.94.137.0/24",
+    "93.94.138.0/24",
+    "93.94.141.0/24",
+    "93.94.143.0/24",
+    "95.169.208.0/20",
+    "95.169.213.0/24",
+    "95.169.219.0/24",
+    "95.169.222.0/24",
+    "185.7.217.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a01:4a40::/29"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

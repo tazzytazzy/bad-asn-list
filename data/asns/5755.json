@@ -1,0 +1,23 @@
+{
+  "asn": 5755,
+  "descr": "SIAM-ASN-01, US",
+  "country": "us",
+  "active": true,
+  "org": "SIAM",
+  "domain": "siam.org",
+  "abuse": "posey@siam.org",
+  "type": "business",
+  "created": "2025-01-22",
+  "updated": "2025-01-22",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS5755",
+  "prefixes": [
+    "192.108.225.0/24"
+  ],
+  "prefixesIPv6": [
+    "2620:d3:6000::/48"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

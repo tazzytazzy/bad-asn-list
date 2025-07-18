@@ -1,0 +1,18 @@
+{
+  "asn": 14708,
+  "descr": "WebHost Chile S.A., CL",
+  "country": "cl",
+  "active": true,
+  "org": "WebHost Chile S.A.",
+  "domain": "webhost.cl",
+  "abuse": "ekaftan@nivel5.cl",
+  "type": "hosting",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS14708",
+  "prefixes": [
+    "200.29.224.0/21"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,23 @@
+{
+  "asn": 209623,
+  "descr": "GASCADE-BIZ, DE",
+  "country": "de",
+  "active": true,
+  "org": "GASCADE Gastransport GmbH",
+  "domain": "gascade.de",
+  "abuse": "ripe@gascade.de",
+  "type": "business",
+  "created": "2023-04-03",
+  "updated": "2024-12-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS209623",
+  "prefixes": [
+    "45.142.21.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0e:d3c1::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

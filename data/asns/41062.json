@@ -1,0 +1,27 @@
+{
+  "asn": 41062,
+  "descr": "PRO100-NET-AS, UA",
+  "country": "ua",
+  "active": true,
+  "org": "ProstoHosting LTD",
+  "domain": "prostohosting.com",
+  "abuse": "abuse@prostohosting.com",
+  "type": "hosting",
+  "created": "2006-06-07",
+  "updated": "2021-12-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS41062",
+  "prefixes": [
+    "178.216.168.0/24",
+    "178.216.169.0/24",
+    "178.216.170.0/24",
+    "178.216.171.0/24",
+    "195.189.246.0/23"
+  ],
+  "prefixesIPv6": [
+    "2001:678:26c::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,28 @@
+{
+  "asn": 64013,
+  "descr": "CYBERFORESTLLC-AS-AP CyberForest LLC., US",
+  "country": "us",
+  "active": true,
+  "org": "CyberForest LLC.",
+  "domain": "bbkhost.com",
+  "abuse": "abuse@bbkhost.com",
+  "type": "hosting",
+  "updated": "2025-01-28",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS64013",
+  "prefixes": [
+    "23.226.50.0/24",
+    "156.234.116.0/24",
+    "156.234.168.0/24",
+    "156.247.32.0/24",
+    "156.247.33.0/24",
+    "156.247.34.0/24",
+    "156.247.36.0/24",
+    "156.247.43.0/24",
+    "156.247.44.0/24",
+    "165.21.114.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0031",
+  "abuse_rank": "Low"
+}

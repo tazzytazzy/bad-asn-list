@@ -1,0 +1,26 @@
+{
+  "asn": 207096,
+  "descr": "ASLINKWEB, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Link Web Solutions LLP",
+  "domain": "linkwebsolutions.com",
+  "abuse": "abuse@linkwebsolutions.com",
+  "type": "hosting",
+  "created": "2016-09-01",
+  "updated": "2019-12-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS207096",
+  "prefixes": [
+    "185.166.40.0/23",
+    "185.166.42.0/23",
+    "185.176.204.0/23",
+    "185.176.206.0/23"
+  ],
+  "prefixesIPv6": [
+    "2a0a:7600::/29"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0103",
+  "abuse_rank": "Elevated"
+}

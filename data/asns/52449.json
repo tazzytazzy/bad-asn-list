@@ -1,0 +1,23 @@
+{
+  "asn": 52449,
+  "descr": "My Tech, BZ",
+  "country": "bz",
+  "active": true,
+  "org": "My Tech BZ",
+  "domain": "my-tec.bz",
+  "abuse": "admin1@my-tec.bz",
+  "type": "isp",
+  "created": "20130307",
+  "updated": "20130307",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS52449",
+  "prefixes": [
+    "138.97.156.0/22",
+    "167.249.200.0/22",
+    "168.195.76.0/22",
+    "170.247.220.0/22"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0093",
+  "abuse_rank": "Elevated"
+}

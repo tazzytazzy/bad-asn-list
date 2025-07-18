@@ -1,0 +1,31 @@
+{
+  "asn": 52674,
+  "descr": "BRASIL TECPAR | AMIGO | AVATO, BR",
+  "country": "br",
+  "active": true,
+  "org": "BRASIL TECPAR | AMIGO | AVATO",
+  "domain": "brasiltecpar.com.br",
+  "abuse": "magnum.foletto@me.com",
+  "type": "isp",
+  "created": "20121127",
+  "updated": "20230313",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS52674",
+  "prefixes": [
+    "131.161.40.0/22",
+    "131.161.40.0/23",
+    "131.161.42.0/23",
+    "168.227.236.0/22",
+    "168.227.236.0/23",
+    "168.227.238.0/23",
+    "177.67.88.0/22",
+    "177.67.88.0/23",
+    "177.67.90.0/23"
+  ],
+  "prefixesIPv6": [
+    "2804:1d40::/32"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

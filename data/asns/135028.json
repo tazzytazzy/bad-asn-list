@@ -1,0 +1,23 @@
+{
+  "asn": 135028,
+  "descr": "GEMSTARCABLETV-AS-AP GEMSTAR CABLE TV, PH",
+  "country": "ph",
+  "active": true,
+  "org": "GEMSTAR CABLE TV",
+  "abuse": "gemstarcatv@yahoo.com",
+  "type": "isp",
+  "updated": "2024-12-07",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS135028",
+  "prefixes": [
+    "161.248.190.0/23",
+    "161.248.190.0/24",
+    "161.248.191.0/24"
+  ],
+  "prefixesIPv6": [
+    "2401:e960::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.001",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,23 @@
+{
+  "asn": 9290,
+  "descr": "GOHOSTING-AS-AP GoHosting, AU",
+  "country": "au",
+  "active": true,
+  "org": "GoHosting",
+  "domain": "gohosting.com.au",
+  "abuse": "support@gohosting.com.au",
+  "type": "hosting",
+  "updated": "2020-07-22",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS9290",
+  "prefixes": [
+    "103.11.144.0/22",
+    "110.34.52.0/22",
+    "121.127.35.0/24",
+    "202.47.95.0/24",
+    "203.83.219.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

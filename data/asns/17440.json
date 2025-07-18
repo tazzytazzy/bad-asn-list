@@ -1,0 +1,23 @@
+{
+  "asn": 17440,
+  "descr": "SAANET-AS-ID PT Sinar Alam Abadi, ID",
+  "country": "id",
+  "active": true,
+  "org": "PT Sinar Alam Abadi",
+  "domain": "ptsaa.co.id",
+  "abuse": "abuse@ptsaa.co.id",
+  "type": "isp",
+  "updated": "2020-01-03",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS17440",
+  "prefixes": [
+    "103.209.248.0/22",
+    "103.209.248.0/24",
+    "103.209.249.0/24",
+    "103.209.250.0/24",
+    "103.209.251.0/24"
+  ],
+  "fetched": "2025-07-18T08:27:46.797146Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low"
+}

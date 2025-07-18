@@ -1,0 +1,38 @@
+{
+  "asn": 63213,
+  "descr": "ASTUTEHOSTING-VALUE, CA",
+  "country": "ca",
+  "active": true,
+  "org": "Astute Internet",
+  "domain": "astuteinternet.com",
+  "abuse": "abuse@astuteinternet.com",
+  "type": "hosting",
+  "created": "2014-09-12",
+  "updated": "2014-09-12",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS63213",
+  "prefixes": [
+    "23.83.216.0/22",
+    "23.83.220.0/23",
+    "23.83.222.0/24",
+    "23.83.223.0/24",
+    "65.38.38.0/24",
+    "65.38.39.0/24",
+    "104.37.72.0/23",
+    "104.255.8.0/23",
+    "104.255.10.0/24",
+    "104.255.11.0/24",
+    "142.147.82.0/24",
+    "162.213.159.0/24",
+    "162.245.144.0/23",
+    "199.196.6.0/23"
+  ],
+  "prefixesIPv6": [
+    "2607:6b80:66::/48",
+    "2607:d500:203::/48",
+    "2607:d500:303::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

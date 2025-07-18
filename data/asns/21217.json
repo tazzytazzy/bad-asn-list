@@ -1,0 +1,35 @@
+{
+  "asn": 21217,
+  "descr": "SAFEHOSTNET Colocation center in Geneva, CH",
+  "country": "ch",
+  "active": true,
+  "org": "Infrastructure Switzerland Colo Sarl",
+  "domain": "stackinfra.com",
+  "abuse": "abuse-colo-ch@stackinfra.com",
+  "type": "business",
+  "created": "2001-10-01",
+  "updated": "2025-05-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS21217",
+  "prefixes": [
+    "80.80.224.0/21",
+    "80.80.232.0/22",
+    "80.80.236.0/23",
+    "80.80.238.0/24",
+    "83.97.120.0/22",
+    "91.199.255.0/24",
+    "185.169.92.0/23",
+    "185.169.95.0/24",
+    "185.247.8.0/22",
+    "185.247.9.0/24",
+    "185.254.152.0/24",
+    "193.72.147.0/24",
+    "194.88.9.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:40c0::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,20 @@
+{
+  "asn": 49682,
+  "descr": "BNB-BANK-AS, BY",
+  "country": "by",
+  "active": true,
+  "org": "BNB-Bank OJSC",
+  "domain": "bnb.by",
+  "abuse": "abus@bnb.by",
+  "type": "banking",
+  "created": "2016-09-19",
+  "updated": "2021-04-14",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49682",
+  "prefixes": [
+    "93.170.34.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

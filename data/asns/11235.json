@@ -1,0 +1,21 @@
+{
+  "asn": 11235,
+  "descr": "ITRONHOSTINGAS, US",
+  "country": "us",
+  "active": true,
+  "org": "Itron-Hosting",
+  "domain": "itron.com",
+  "abuse": "Michael.Scott@itron.com",
+  "type": "business",
+  "created": "2008-12-18",
+  "updated": "2012-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS11235",
+  "prefixes": [
+    "69.194.138.0/24",
+    "136.179.130.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

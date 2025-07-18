@@ -1,0 +1,29 @@
+{
+  "asn": 32647,
+  "descr": "CRUCIALWEBHOST, US",
+  "country": "us",
+  "active": true,
+  "org": "Crucial Web Hosting, Ltd.",
+  "domain": "crucialhosting.com",
+  "abuse": "ops@crucialwebhost.com",
+  "type": "hosting",
+  "created": "2013-04-09",
+  "updated": "2016-04-25",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS32647",
+  "prefixes": [
+    "45.54.74.0/24",
+    "198.91.24.0/24",
+    "198.91.25.0/24",
+    "198.91.26.0/24",
+    "198.91.27.0/24",
+    "198.91.28.0/23",
+    "198.91.30.0/23"
+  ],
+  "prefixesIPv6": [
+    "2604:4340::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

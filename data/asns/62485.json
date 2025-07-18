@@ -1,0 +1,20 @@
+{
+  "asn": 62485,
+  "descr": "SERVERKING, US",
+  "country": "us",
+  "active": true,
+  "org": "ServerKing.io, LLC",
+  "domain": "serverking.io",
+  "abuse": "abuse@serverking.io",
+  "type": "hosting",
+  "created": "2022-08-15",
+  "updated": "2022-08-16",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS62485",
+  "prefixes": [
+    "23.147.184.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,20 @@
+{
+  "asn": 26045,
+  "descr": "LUBBCO1, US",
+  "country": "us",
+  "active": true,
+  "org": "Lubbock County",
+  "domain": "co.lubbock.tx.us",
+  "abuse": "lbknotify@lubbockcounty.gov",
+  "type": "government",
+  "created": "2018-07-05",
+  "updated": "2018-07-05",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS26045",
+  "prefixes": [
+    "199.34.9.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

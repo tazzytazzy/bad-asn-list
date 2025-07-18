@@ -1,0 +1,28 @@
+{
+  "asn": 202023,
+  "descr": "OSP-AS, FR",
+  "country": "fr",
+  "active": true,
+  "org": "SCALEWAY S.A.S.",
+  "domain": "scaleway.com",
+  "abuse": "abuse@proxad.net",
+  "type": "isp",
+  "created": "2023-05-24",
+  "updated": "2023-05-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202023",
+  "prefixes": [
+    "139.26.0.0/17",
+    "139.26.0.0/21",
+    "139.26.8.0/21",
+    "139.26.16.0/21",
+    "139.26.24.0/21"
+  ],
+  "prefixesIPv6": [
+    "2c0f:3781::/32",
+    "2c0f:3781:2100::/44"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

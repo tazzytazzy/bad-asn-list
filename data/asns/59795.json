@@ -1,0 +1,27 @@
+{
+  "asn": 59795,
+  "descr": "PERFGRID, NL",
+  "country": "nl",
+  "active": true,
+  "org": "Lucas Rolff trading as PerfGrid",
+  "domain": "hosting4real.net",
+  "abuse": "abuse@hosting4real.net",
+  "type": "hosting",
+  "created": "2017-05-23",
+  "updated": "2024-10-21",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS59795",
+  "prefixes": [
+    "213.184.84.0/24",
+    "213.184.85.0/24",
+    "213.184.86.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a09:3a00:3000::/40",
+    "2a09:3a00:3a00::/40",
+    "2a09:3a00:4000::/40"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

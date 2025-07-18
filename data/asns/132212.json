@@ -1,0 +1,19 @@
+{
+  "asn": 132212,
+  "descr": "IGTINTERGLOBE-AS-PH IGT-INTERGLOBE TECHNOLOGIES PHILIPPINES INC., PH",
+  "country": "ph",
+  "active": true,
+  "org": "IGT TECHNOLOGIES PHILIPPINES INC.",
+  "domain": "vitrodc.com",
+  "abuse": "abuse@vitrodc.com",
+  "type": "business",
+  "updated": "2024-10-23",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS132212",
+  "prefixes": [
+    "125.5.236.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

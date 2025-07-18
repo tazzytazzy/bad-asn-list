@@ -1,0 +1,20 @@
+{
+  "asn": 209128,
+  "descr": "EVRESIS, GR",
+  "country": "gr",
+  "active": true,
+  "org": "Evresis SA",
+  "domain": "evresis.gr",
+  "abuse": "webmaster@evresis.gr",
+  "type": "business",
+  "created": "2022-02-02",
+  "updated": "2023-05-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS209128",
+  "prefixes": [
+    "185.149.121.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

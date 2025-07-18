@@ -1,0 +1,20 @@
+{
+  "asn": 42465,
+  "descr": "FORCEPOINT-ANYCAST-AS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Forcepoint Cloud Ltd",
+  "domain": "forcepoint.com",
+  "abuse": "noc@forcepoint.com",
+  "type": "hosting",
+  "created": "2007-02-23",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS42465",
+  "prefixes": [
+    "86.111.216.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

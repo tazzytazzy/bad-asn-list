@@ -1,0 +1,23 @@
+{
+  "asn": 200557,
+  "descr": "KRONICD-AS, AU",
+  "country": "au",
+  "active": true,
+  "org": "Peter Hannay",
+  "domain": "hannay.id.au",
+  "abuse": "peter@hannay.id.au",
+  "type": "business",
+  "created": "2022-12-13",
+  "updated": "2024-12-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS200557",
+  "prefixes": [
+    "44.31.177.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0a:6040:1400::/40"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

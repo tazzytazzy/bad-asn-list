@@ -1,0 +1,20 @@
+{
+  "asn": 61147,
+  "descr": "CALLHOSTED-AS Callhosted BV provides  Broadband, Voice, Data, Internet, NL",
+  "country": "nl",
+  "active": true,
+  "org": "CallHosted B.V.",
+  "domain": "callhosted.com",
+  "abuse": "c.keijzer@callhosted.com",
+  "type": "isp",
+  "created": "2013-02-01",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS61147",
+  "prefixes": [
+    "195.54.38.0/23"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

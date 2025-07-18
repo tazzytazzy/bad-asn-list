@@ -1,0 +1,17 @@
+{
+  "asn": 205770,
+  "descr": "AUTOMATICA, MD",
+  "country": "md",
+  "active": false,
+  "org": "CONTRUST SOLUTIONS S.R.L.",
+  "domain": "contrust.md",
+  "abuse": "alex.kontrast.eu@gmail.com",
+  "type": "hosting",
+  "created": "2017-06-07",
+  "updated": "2025-05-28",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205770",
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

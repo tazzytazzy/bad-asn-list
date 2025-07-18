@@ -1,0 +1,20 @@
+{
+  "asn": 42776,
+  "descr": "ITHANDS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "I T Hands LLC",
+  "domain": "hostelnet.ru",
+  "abuse": "ugin@hostelnet.ru",
+  "type": "business",
+  "created": "2007-04-13",
+  "updated": "2021-12-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS42776",
+  "prefixes": [
+    "91.193.143.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

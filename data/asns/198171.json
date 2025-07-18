@@ -1,0 +1,23 @@
+{
+  "asn": 198171,
+  "descr": "WEBGLOBERS  UPSTREAM connectivity , CZ",
+  "country": "cz",
+  "active": true,
+  "org": "Webglobe, s.r.o.",
+  "domain": "webglobe.com",
+  "abuse": "abuse@webglobe.com",
+  "type": "hosting",
+  "created": "2011-10-25",
+  "updated": "2021-11-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS198171",
+  "prefixes": [
+    "185.102.76.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a00:ca80::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.001",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,38 @@
+{
+  "asn": 15497,
+  "descr": "COLOCALL Internet Data Center ColoCALL, SK",
+  "country": "sk",
+  "active": true,
+  "org": "1 Cloud Lab s.r.o.",
+  "domain": "1cloudlab.com",
+  "abuse": "abuse@1cloudlab.net",
+  "type": "hosting",
+  "created": "2002-09-20",
+  "updated": "2024-09-26",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS15497",
+  "prefixes": [
+    "31.28.160.0/22",
+    "31.28.164.0/22",
+    "31.28.168.0/22",
+    "31.28.169.0/24",
+    "31.28.172.0/22",
+    "31.28.176.0/22",
+    "31.28.180.0/22",
+    "31.28.184.0/22",
+    "31.28.188.0/22",
+    "31.28.188.0/24",
+    "31.28.190.0/24",
+    "31.28.191.0/24",
+    "62.149.0.0/19",
+    "62.149.2.0/24",
+    "62.149.31.0/24",
+    "193.41.239.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a03:6300::/32"
+  ],
+  "fetched": "2025-07-18T08:17:32.165576Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

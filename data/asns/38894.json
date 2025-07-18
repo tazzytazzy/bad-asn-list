@@ -1,0 +1,21 @@
+{
+  "asn": 38894,
+  "descr": "HHPL-AS-AP HHJK Holdings Pty Ltd, AU",
+  "country": "au",
+  "active": true,
+  "org": "ManageNET",
+  "domain": "managenet.com.au",
+  "abuse": "skalache@managenet.com.au",
+  "type": "isp",
+  "updated": "2023-08-29",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS38894",
+  "prefixes": [
+    "103.26.88.0/22",
+    "119.82.0.0/21",
+    "119.82.4.0/22"
+  ],
+  "fetched": "2025-07-18T09:14:04.534473Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

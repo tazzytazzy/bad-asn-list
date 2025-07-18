@@ -1,0 +1,20 @@
+{
+  "asn": 30849,
+  "descr": "HOST-AS, UA",
+  "country": "ua",
+  "active": true,
+  "org": "Research-and-production company Host Ltd",
+  "domain": "host.kr.ua",
+  "abuse": "admin@host.kr.ua",
+  "type": "hosting",
+  "created": "2003-12-19",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS30849",
+  "prefixes": [
+    "193.23.157.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0039",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,19 @@
+{
+  "asn": 8219,
+  "descr": "RU-ISKH-20180719, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Inna Grigorevna Khoruzhaya",
+  "abuse": "inna.khoruzhaya72@mail.ru",
+  "type": "business",
+  "created": "1970-01-01",
+  "updated": "2021-11-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS8219",
+  "prefixes": [
+    "2.56.26.0/23"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

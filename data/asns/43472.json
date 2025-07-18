@@ -1,0 +1,20 @@
+{
+  "asn": 43472,
+  "descr": "HM-UA-AS, UA",
+  "country": "ua",
+  "active": true,
+  "org": "HostingMax LTD",
+  "domain": "hostingmax.net",
+  "abuse": "admins@geeksforless.net",
+  "type": "hosting",
+  "created": "2007-08-07",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS43472",
+  "prefixes": [
+    "193.46.86.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

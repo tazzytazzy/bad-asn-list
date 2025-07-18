@@ -1,0 +1,29 @@
+{
+  "asn": 56611,
+  "descr": "REBACOM-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "REBA Communications BV",
+  "domain": "rebacom.net",
+  "abuse": "abuse@rebacom.net",
+  "type": "hosting",
+  "created": "2011-04-11",
+  "updated": "2022-06-17",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS56611",
+  "prefixes": [
+    "80.82.71.0/24",
+    "80.82.72.0/24",
+    "80.82.75.0/24",
+    "185.173.232.0/24",
+    "185.173.233.0/24",
+    "185.173.234.0/24",
+    "193.160.96.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:6c8::/33"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0022",
+  "abuse_rank": "Low"
+}

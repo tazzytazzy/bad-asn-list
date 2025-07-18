@@ -1,0 +1,26 @@
+{
+  "asn": 201670,
+  "descr": "INFOTECH-GRUP, MD",
+  "country": "md",
+  "active": true,
+  "org": "S.C. INFOTECH-GRUP S.R.L.",
+  "domain": "avenacloud.com",
+  "abuse": "abuse@avenacloud.com",
+  "type": "hosting",
+  "created": "2022-11-02",
+  "updated": "2023-05-28",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201670",
+  "prefixes": [
+    "93.185.165.0/24",
+    "185.229.64.0/24",
+    "193.233.246.0/23",
+    "195.20.19.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0c:b641:3a0::/44"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0141",
+  "abuse_rank": "Elevated"
+}

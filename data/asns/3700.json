@@ -1,0 +1,26 @@
+{
+  "asn": 3700,
+  "descr": "CLOUD9, US",
+  "country": "us",
+  "active": true,
+  "org": "Cloud 9 Internet, Inc.",
+  "domain": "cloud9.net",
+  "abuse": "hostmaster@cloud9.net",
+  "type": "isp",
+  "created": "1994-07-02",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS3700",
+  "prefixes": [
+    "168.100.0.0/22",
+    "168.100.4.0/24",
+    "168.100.175.0/24",
+    "168.100.176.0/24"
+  ],
+  "prefixesIPv6": [
+    "2604:8d00::/32"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

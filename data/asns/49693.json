@@ -1,0 +1,21 @@
+{
+  "asn": 49693,
+  "descr": "BEST-HOSTER, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Best-Hoster Group Co. Ltd.",
+  "domain": "best-hoster.ru",
+  "abuse": "abuse@best-hoster.ru",
+  "type": "hosting",
+  "created": "2009-08-25",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49693",
+  "prefixes": [
+    "91.215.168.0/22",
+    "91.219.192.0/22"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

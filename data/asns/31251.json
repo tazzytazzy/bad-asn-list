@@ -1,0 +1,30 @@
+{
+  "asn": 31251,
+  "descr": "NETGUARD-AS Falco Networks BV provides  Broadband, Voice, Data, Internet, NL",
+  "country": "nl",
+  "active": true,
+  "org": "Falco Networks B.V.",
+  "domain": "falco-networks.com",
+  "abuse": "jeroen@falco-networks.com",
+  "type": "isp",
+  "created": "2004-03-31",
+  "updated": "2019-12-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS31251",
+  "prefixes": [
+    "85.203.0.0/22",
+    "85.203.0.0/24",
+    "85.203.2.0/24",
+    "85.203.3.0/24",
+    "85.203.5.0/24",
+    "85.203.6.0/24",
+    "85.203.12.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:a10::/29",
+    "2a03:60c0::/29"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

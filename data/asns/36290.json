@@ -1,0 +1,27 @@
+{
+  "asn": 36290,
+  "descr": "THECABLE-STKITTS-01, KN",
+  "country": "kn",
+  "active": true,
+  "org": "The Cable of St. Kitts",
+  "domain": "thecable.net",
+  "abuse": "colin.norford@thecable.biz",
+  "type": "isp",
+  "created": "2005-11-16",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS36290",
+  "prefixes": [
+    "199.21.164.0/22",
+    "204.16.8.0/22",
+    "204.19.200.0/22",
+    "204.137.192.0/19",
+    "208.70.92.0/22",
+    "208.72.230.0/24",
+    "208.81.160.0/22",
+    "208.87.144.0/22"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

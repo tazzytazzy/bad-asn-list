@@ -1,0 +1,14 @@
+{
+  "asn": 199432,
+  "descr": "SABERS, FR",
+  "country": "fr",
+  "active": true,
+  "whois": "https://api.ipapi.is/?whois=AS199432",
+  "prefixes": [
+    "151.244.132.0/24",
+    "151.244.133.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.001",
+  "abuse_rank": "Low"
+}

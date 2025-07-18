@@ -1,0 +1,26 @@
+{
+  "asn": 263829,
+  "descr": "HOST PARA TU VIDA S.A., HN",
+  "country": "hn",
+  "active": true,
+  "org": "HOST PARA TU VIDA S.A.",
+  "domain": "hostparatuvida.com",
+  "abuse": "netops@hostparatuvida.com",
+  "type": "hosting",
+  "created": "20150827",
+  "updated": "20150827",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS263829",
+  "prefixes": [
+    "138.36.136.0/22",
+    "138.219.72.0/22",
+    "168.181.228.0/22",
+    "170.82.0.0/22"
+  ],
+  "prefixesIPv6": [
+    "2803:8f80::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0048",
+  "abuse_rank": "Low"
+}

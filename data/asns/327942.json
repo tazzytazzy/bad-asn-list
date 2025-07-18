@@ -1,0 +1,18 @@
+{
+  "asn": 327942,
+  "descr": "LANDMARK-UNIVERSITY, NG",
+  "country": "ng",
+  "active": true,
+  "org": "LANDMARK UNIVERSITY OMU-ARAN",
+  "domain": "lmu.edu.ng",
+  "type": "education",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS327942",
+  "prefixes": [
+    "196.13.111.0/24",
+    "196.223.112.0/20"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,32 @@
+{
+  "asn": 16262,
+  "descr": "DATACHEAP-LLC-AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Datacheap LLC",
+  "domain": "datacheap.ru",
+  "abuse": "info@datacheap.ru",
+  "type": "hosting",
+  "created": "2009-10-08",
+  "updated": "2024-09-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS16262",
+  "prefixes": [
+    "45.10.174.0/24",
+    "45.81.33.0/24",
+    "45.150.238.0/24",
+    "45.150.239.0/24",
+    "46.8.52.0/24",
+    "46.8.53.0/24",
+    "46.8.153.0/24",
+    "87.251.73.0/24",
+    "109.248.168.0/24",
+    "109.248.169.0/24",
+    "185.245.42.0/24",
+    "192.162.240.0/21",
+    "195.211.100.0/22"
+  ],
+  "fetched": "2025-07-18T08:22:39.236137Z",
+  "abuser_score": "0.001",
+  "abuse_rank": "Low"
+}

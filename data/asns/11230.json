@@ -1,0 +1,22 @@
+{
+  "asn": 11230,
+  "descr": "MHSFL, US",
+  "country": "us",
+  "active": true,
+  "org": "Managed Hosting Services, LLC",
+  "domain": "netengadv.com",
+  "abuse": "noc@netengadv.com",
+  "type": "hosting",
+  "created": "2014-01-23",
+  "updated": "2016-04-01",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS11230",
+  "prefixes": [
+    "198.183.220.0/24",
+    "198.183.221.0/24",
+    "198.183.223.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

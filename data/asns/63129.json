@@ -1,0 +1,28 @@
+{
+  "asn": 63129,
+  "descr": "AIRRABBIT-NETWORK, US",
+  "country": "us",
+  "active": true,
+  "org": "AirRabbit, LLC",
+  "domain": "airrabbithost.com",
+  "abuse": "noc@airrabbithost.com",
+  "type": "isp",
+  "created": "2024-07-01",
+  "updated": "2024-07-01",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS63129",
+  "prefixes": [
+    "23.137.52.0/24",
+    "130.51.96.0/24",
+    "130.51.97.0/24",
+    "130.51.98.0/24",
+    "130.51.99.0/24"
+  ],
+  "prefixesIPv6": [
+    "2602:f7d5::/36",
+    "2602:f87f::/36"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

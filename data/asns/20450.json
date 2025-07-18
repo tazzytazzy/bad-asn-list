@@ -1,0 +1,20 @@
+{
+  "asn": 20450,
+  "descr": "THL16-ASN, US",
+  "country": "us",
+  "active": true,
+  "org": "Trojan Hosting, LLC.",
+  "domain": "colmanagement.com",
+  "abuse": "casey@colmanagement.com",
+  "type": "hosting",
+  "created": "2007-10-01",
+  "updated": "2025-03-28",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS20450",
+  "prefixes": [
+    "74.231.237.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

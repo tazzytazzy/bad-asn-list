@@ -1,0 +1,26 @@
+{
+  "asn": 20714,
+  "descr": "MERLIN-TELECOM, UA",
+  "country": "ua",
+  "active": true,
+  "org": "Merlin-Telekom LLC",
+  "domain": "merlin.ua",
+  "abuse": "abuse@merlin.ua",
+  "type": "isp",
+  "created": "2002-06-26",
+  "updated": "2023-11-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS20714",
+  "prefixes": [
+    "31.42.48.0/21",
+    "31.42.56.0/24",
+    "31.128.224.0/20",
+    "31.128.240.0/23",
+    "31.128.255.0/24",
+    "195.177.124.0/22",
+    "195.214.196.0/22"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

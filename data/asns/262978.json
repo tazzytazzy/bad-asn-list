@@ -1,0 +1,40 @@
+{
+  "asn": 262978,
+  "descr": "Centro de Tecnologia Armazem Datacenter Ltda., BR",
+  "country": "br",
+  "active": true,
+  "org": "Centro de Tecnologia Armazem Datacenter Ltda.",
+  "domain": "armazemdc.com.br",
+  "abuse": "suporte@armazemdc.com.br",
+  "type": "hosting",
+  "created": "20120503",
+  "updated": "20170925",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS262978",
+  "prefixes": [
+    "132.255.220.0/22",
+    "132.255.220.0/24",
+    "132.255.221.0/24",
+    "132.255.222.0/24",
+    "132.255.223.0/24",
+    "143.0.120.0/22",
+    "143.0.120.0/24",
+    "143.0.121.0/24",
+    "143.0.122.0/24",
+    "143.0.123.0/24",
+    "186.250.184.0/22",
+    "186.250.184.0/24",
+    "186.250.185.0/24",
+    "186.250.186.0/24",
+    "186.250.187.0/24"
+  ],
+  "prefixesIPv6": [
+    "2804:4d44::/32",
+    "2804:4d44:c::/48",
+    "2804:4d44:10::/48",
+    "2804:4d44:ada::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

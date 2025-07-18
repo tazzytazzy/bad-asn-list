@@ -1,0 +1,23 @@
+{
+  "asn": 10737,
+  "descr": "MOBI, US",
+  "country": "us",
+  "active": true,
+  "org": "CellularONE",
+  "domain": "cellonenation.com",
+  "abuse": "legal@mobi.com",
+  "type": "isp",
+  "created": "1997-11-13",
+  "updated": "2024-07-01",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS10737",
+  "prefixes": [
+    "159.85.0.0/16",
+    "199.255.215.0/24",
+    "204.145.177.0/24",
+    "204.145.185.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

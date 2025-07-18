@@ -1,0 +1,17 @@
+{
+  "asn": 27524,
+  "descr": "OCTALION, US",
+  "country": "us",
+  "active": false,
+  "org": "OCTALION INC.",
+  "domain": "octalioninc.com",
+  "abuse": "losangelesram@gmail.com",
+  "type": "isp",
+  "created": "2003-03-24",
+  "updated": "2025-01-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS27524",
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,27 @@
+{
+  "asn": 29140,
+  "descr": "HOSTSERVER-AS Hostserver GmbH, DE",
+  "country": "de",
+  "active": true,
+  "org": "Hostserver GmbH",
+  "domain": "hostserver.de",
+  "abuse": "abuse@hostserver.de",
+  "type": "hosting",
+  "created": "2003-06-13",
+  "updated": "2024-07-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS29140",
+  "prefixes": [
+    "185.102.64.0/22",
+    "217.31.80.0/20"
+  ],
+  "prefixesIPv6": [
+    "2a00:15a8::/32",
+    "2a00:15a8::/40",
+    "2a00:15a8:500::/40",
+    "2a00:15a8:600::/40"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

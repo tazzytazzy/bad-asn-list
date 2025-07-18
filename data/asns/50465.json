@@ -1,0 +1,26 @@
+{
+  "asn": 50465,
+  "descr": "IQHOST, RU",
+  "country": "ru",
+  "active": true,
+  "org": "IQHost Ltd",
+  "domain": "iqhost.ru",
+  "abuse": "info@iqhost.ru",
+  "type": "hosting",
+  "created": "2010-01-21",
+  "updated": "2022-10-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50465",
+  "prefixes": [
+    "193.106.172.0/24",
+    "193.106.173.0/24",
+    "193.106.174.0/24",
+    "193.106.175.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a03:5a00:1e::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

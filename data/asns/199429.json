@@ -1,0 +1,21 @@
+{
+  "asn": 199429,
+  "descr": "DYON-AS, RO",
+  "country": "ro",
+  "active": true,
+  "org": "PFA Dinu Laurentiu Viorel",
+  "domain": "dyon-network.ro",
+  "abuse": "abuse@dyon-network.ro",
+  "type": "business",
+  "created": "2013-01-23",
+  "updated": "2017-11-15",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199429",
+  "prefixes": [
+    "178.157.77.0/24",
+    "217.156.90.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

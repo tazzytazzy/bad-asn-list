@@ -1,0 +1,20 @@
+{
+  "asn": 25642,
+  "descr": "SPIDERHOST, US",
+  "country": "us",
+  "active": true,
+  "org": "The Frohman Group Inc.",
+  "domain": "spiderhost.com",
+  "abuse": "support@spiderhost.com",
+  "type": "hosting",
+  "created": "2002-04-12",
+  "updated": "2019-06-11",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS25642",
+  "prefixes": [
+    "66.192.101.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

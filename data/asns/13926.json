@@ -1,0 +1,29 @@
+{
+  "asn": 13926,
+  "descr": "NETPROTECT-PHX, US",
+  "country": "us",
+  "active": true,
+  "org": "Strong Technology, LLC.",
+  "domain": "strongtechnology.net",
+  "abuse": "abuse@strongtechnology.net",
+  "type": "business",
+  "created": "2009-12-22",
+  "updated": "2019-07-29",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS13926",
+  "prefixes": [
+    "192.200.152.0/24",
+    "192.200.153.0/24",
+    "192.200.154.0/24",
+    "192.200.155.0/24",
+    "192.200.156.0/24",
+    "192.200.157.0/24",
+    "192.200.158.0/23"
+  ],
+  "prefixesIPv6": [
+    "2606:b300:8000::/40"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0.0098",
+  "abuse_rank": "Elevated"
+}

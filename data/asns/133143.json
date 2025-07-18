@@ -1,0 +1,19 @@
+{
+  "asn": 133143,
+  "descr": "MHS-AS-AP Medihost Solutions Pty Ltd, AU",
+  "country": "au",
+  "active": true,
+  "org": "Medihost Solutions Pty Ltd",
+  "domain": "medihostsolutions.com.au",
+  "abuse": "support@medihostsolutions.com.au",
+  "type": "hosting",
+  "updated": "2020-11-25",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS133143",
+  "prefixes": [
+    "103.243.91.0/24"
+  ],
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

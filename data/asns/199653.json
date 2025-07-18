@@ -1,0 +1,30 @@
+{
+  "asn": 199653,
+  "descr": "ARUBAFR-AS, FR",
+  "country": "fr",
+  "active": true,
+  "org": "Aruba SAS",
+  "domain": "arubacloud.fr",
+  "abuse": "abuse@staff.aruba.it",
+  "type": "hosting",
+  "created": "2012-10-24",
+  "updated": "2021-09-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199653",
+  "prefixes": [
+    "89.36.212.0/22",
+    "89.38.148.0/22",
+    "89.40.112.0/22",
+    "94.177.232.0/21",
+    "94.177.240.0/22",
+    "185.8.48.0/22",
+    "185.35.64.0/22",
+    "217.61.96.0/21"
+  ],
+  "prefixesIPv6": [
+    "2a03:2c40::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,24 @@
+{
+  "asn": 58313,
+  "descr": "MISAKA-UK-AS Misaka Network, Inc., US",
+  "country": "us",
+  "active": true,
+  "org": "Misaka Network, Inc.",
+  "domain": "misaka.network",
+  "abuse": "abuse@misaka.email",
+  "type": "hosting",
+  "created": "2019-09-16",
+  "updated": "2020-02-14",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS58313",
+  "prefixes": [
+    "45.142.244.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0f:3b03::/32",
+    "2a0f:3b03:800::/48"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0059",
+  "abuse_rank": "Low"
+}

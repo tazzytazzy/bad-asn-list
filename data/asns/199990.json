@@ -1,0 +1,23 @@
+{
+  "asn": 199990,
+  "descr": "LOCALHOST_AS, NO",
+  "country": "no",
+  "active": true,
+  "org": "LOCALHOST AS",
+  "domain": "local-host.no",
+  "abuse": "rune@local-host.no",
+  "type": "hosting",
+  "created": "2013-11-11",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199990",
+  "prefixes": [
+    "5.158.192.0/21"
+  ],
+  "prefixesIPv6": [
+    "2a01:6060::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

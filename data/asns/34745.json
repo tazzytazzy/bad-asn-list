@@ -1,0 +1,21 @@
+{
+  "asn": 34745,
+  "descr": "TELEWARE, GB",
+  "country": "gb",
+  "active": true,
+  "org": "TeleWare Hosted Services Ltd.",
+  "domain": "teleware.com",
+  "abuse": "zayoabuse@zayo.com",
+  "type": "business",
+  "created": "2005-03-29",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS34745",
+  "prefixes": [
+    "193.17.226.0/24",
+    "193.164.252.0/23"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

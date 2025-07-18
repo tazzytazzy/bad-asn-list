@@ -1,0 +1,27 @@
+{
+  "asn": 7595,
+  "descr": "READYSPACE-SG Readyspace Cloud Services, SG",
+  "country": "sg",
+  "active": true,
+  "org": "Readyspace Network Pte Ltd",
+  "domain": "readyspace.com.sg",
+  "abuse": "apnic@readyspace.com",
+  "type": "hosting",
+  "updated": "2022-11-29",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS7595",
+  "prefixes": [
+    "103.3.164.0/24",
+    "117.120.0.0/21",
+    "117.120.2.0/24",
+    "117.120.5.0/24",
+    "117.120.6.0/24",
+    "117.120.7.0/24"
+  ],
+  "prefixesIPv6": [
+    "2400:ed00::/32"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

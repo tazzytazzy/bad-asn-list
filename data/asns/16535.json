@@ -1,0 +1,10 @@
+{
+  "asn": 16535,
+  "descr": "ECHOS-3, US",
+  "country": "us",
+  "active": false,
+  "whois": "https://api.ipapi.is/?whois=AS16535",
+  "fetched": "2025-07-18T08:22:42.234591Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

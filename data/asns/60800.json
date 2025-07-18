@@ -1,0 +1,29 @@
+{
+  "asn": 60800,
+  "descr": "NHL-AS1, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Netwise Hosting Ltd",
+  "domain": "netwise.co.uk",
+  "abuse": "abuse@netwise.co.uk",
+  "type": "hosting",
+  "created": "2013-05-08",
+  "updated": "2024-06-03",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60800",
+  "prefixes": [
+    "91.210.100.0/22",
+    "103.82.0.0/22",
+    "125.62.72.0/22",
+    "154.41.135.0/24",
+    "185.17.172.0/22",
+    "185.42.16.0/22",
+    "185.222.112.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a03:ec40::/29"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

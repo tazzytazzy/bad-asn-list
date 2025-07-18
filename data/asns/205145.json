@@ -1,0 +1,17 @@
+{
+  "asn": 205145,
+  "descr": "STARTTELECOM, UA",
+  "country": "ua",
+  "active": false,
+  "org": "Start Telecom LLC",
+  "domain": "start-tele.com.ua",
+  "abuse": "support@start-tele.com.ua",
+  "type": "isp",
+  "created": "2017-10-31",
+  "updated": "2021-02-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205145",
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

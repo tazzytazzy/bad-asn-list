@@ -1,0 +1,20 @@
+{
+  "asn": 134190,
+  "descr": "IPDC-AS-AP IPDC SOLUTIONS PTE LTD, SG",
+  "country": "sg",
+  "active": true,
+  "org": "IPDC SOLUTIONS PTE LTD",
+  "domain": "ipdc.asia",
+  "abuse": "abuse@ipdc.asia",
+  "type": "hosting",
+  "updated": "2020-05-14",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS134190",
+  "prefixes": [
+    "45.117.123.0/24",
+    "103.117.129.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

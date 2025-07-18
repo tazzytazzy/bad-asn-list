@@ -1,0 +1,17 @@
+{
+  "asn": 201813,
+  "descr": "HOSTING, MD",
+  "country": "md",
+  "active": false,
+  "org": "SC ITNS.NET SRL",
+  "domain": "itns.md",
+  "abuse": "abuse@itns.net",
+  "type": "isp",
+  "created": "2018-07-16",
+  "updated": "2025-03-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201813",
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

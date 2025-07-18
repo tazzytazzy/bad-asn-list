@@ -1,0 +1,25 @@
+{
+  "asn": 29854,
+  "descr": "WESTHOST, US",
+  "country": "us",
+  "active": true,
+  "org": "WestHost, Inc.",
+  "domain": "westhost.com",
+  "abuse": "abuse@uk2group.com",
+  "type": "hosting",
+  "created": "2003-05-20",
+  "updated": "2015-01-21",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS29854",
+  "prefixes": [
+    "192.40.144.0/21",
+    "192.245.255.0/24"
+  ],
+  "prefixesIPv6": [
+    "2606:2e00::/33",
+    "2607:fc98::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

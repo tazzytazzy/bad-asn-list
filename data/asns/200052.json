@@ -1,0 +1,20 @@
+{
+  "asn": 200052,
+  "descr": "FERAL Feral Hosting, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Feral.io Ltd",
+  "domain": "feral.io",
+  "abuse": "abuse@feral.io",
+  "type": "hosting",
+  "created": "2013-10-22",
+  "updated": "2019-12-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS200052",
+  "prefixes": [
+    "185.21.216.0/22"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0034",
+  "abuse_rank": "Low"
+}

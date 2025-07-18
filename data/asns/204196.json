@@ -1,0 +1,26 @@
+{
+  "asn": 204196,
+  "descr": "ABELOHOST, NL",
+  "country": "nl",
+  "active": true,
+  "org": "Abelohost BV",
+  "domain": "abelohost.com",
+  "abuse": "abuses@abelohost.net",
+  "type": "hosting",
+  "created": "2016-05-23",
+  "updated": "2023-03-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS204196",
+  "prefixes": [
+    "80.209.252.0/23",
+    "185.145.128.0/22",
+    "185.207.204.0/22",
+    "185.217.92.0/22",
+    "185.221.200.0/22",
+    "185.224.80.0/22",
+    "185.235.176.0/22"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0014",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,26 @@
+{
+  "asn": 60476,
+  "descr": "MYCOM-AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Digital Transformation Plus LLC",
+  "domain": "digitaltransformation.plus",
+  "abuse": "abuse@corp.mail.ru",
+  "type": "business",
+  "created": "2013-07-12",
+  "updated": "2025-04-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60476",
+  "prefixes": [
+    "95.142.206.0/24",
+    "185.30.176.0/22",
+    "185.205.76.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a00:bdc0:e006::/48",
+    "2a14:25c1::/32"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

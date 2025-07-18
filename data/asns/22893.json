@@ -1,0 +1,20 @@
+{
+  "asn": 22893,
+  "descr": "TRINUS-TECH-EDM-01, CA",
+  "country": "ca",
+  "active": true,
+  "org": "Trinus Technologies Inc.",
+  "domain": "trinustech.com",
+  "abuse": "techsupport@trinustech.com",
+  "type": "business",
+  "created": "2018-07-23",
+  "updated": "2018-07-23",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS22893",
+  "prefixes": [
+    "161.184.8.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

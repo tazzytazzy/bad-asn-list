@@ -1,0 +1,20 @@
+{
+  "asn": 395978,
+  "descr": "VALLEYWATER, US",
+  "country": "us",
+  "active": true,
+  "org": "SANTA CLARA VALLEY WATER DISTRICT PUBLIC FACILITIES FINANCING CORPORATION",
+  "domain": "valleywater.org",
+  "abuse": "ccannard@valleywater.org",
+  "type": "government",
+  "created": "2020-09-16",
+  "updated": "2020-09-16",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS395978",
+  "prefixes": [
+    "64.190.101.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

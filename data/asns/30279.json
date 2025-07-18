@@ -1,0 +1,21 @@
+{
+  "asn": 30279,
+  "descr": "TUHSD-AS1, US",
+  "country": "us",
+  "active": true,
+  "org": "TOLLESON UNION HIGH SCHOOL DISTRICT #214",
+  "domain": "tuhsd.org",
+  "abuse": "TUHSD.IPV4@tuhsd.org",
+  "type": "education",
+  "created": "2023-06-22",
+  "updated": "2023-06-22",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS30279",
+  "prefixes": [
+    "69.72.68.0/24",
+    "69.72.69.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

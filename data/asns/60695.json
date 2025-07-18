@@ -1,0 +1,39 @@
+{
+  "asn": 60695,
+  "descr": "NETRONIK-AS, PL",
+  "country": "pl",
+  "active": true,
+  "org": "NETRONIK sp. z o.o.",
+  "domain": "netronik.pl",
+  "abuse": "abuse@netronik.pl",
+  "type": "isp",
+  "created": "2013-06-04",
+  "updated": "2025-04-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60695",
+  "prefixes": [
+    "155.133.3.0/24",
+    "155.133.33.0/24",
+    "155.133.60.0/23",
+    "156.67.89.0/24",
+    "185.225.100.0/22",
+    "185.228.108.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a06:1e00::/48",
+    "2a06:1e00:5::/48",
+    "2a06:1e00:14::/48",
+    "2a06:1e00:18::/48",
+    "2a06:1e00:1e::/48",
+    "2a06:1e00:30::/48",
+    "2a06:1e00:40::/48",
+    "2a06:1e00:50::/48",
+    "2a06:1e00:60::/48",
+    "2a0d:a00::/29",
+    "2a0d:b400::/29",
+    "2a0e:4d00::/29"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

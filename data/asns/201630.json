@@ -1,0 +1,28 @@
+{
+  "asn": 201630,
+  "descr": "QHOSTER, BG",
+  "country": "bg",
+  "active": true,
+  "org": "QHOSTER LTD.",
+  "domain": "qhoster.com",
+  "abuse": "info@qhoster.com",
+  "type": "hosting",
+  "created": "2014-08-29",
+  "updated": "2020-11-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201630",
+  "prefixes": [
+    "93.113.45.0/24",
+    "185.77.128.0/24",
+    "185.77.129.0/24",
+    "185.77.130.0/24",
+    "185.77.131.0/24",
+    "188.241.68.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a05:6200::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0013",
+  "abuse_rank": "Low"
+}

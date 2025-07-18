@@ -1,0 +1,25 @@
+{
+  "asn": 47625,
+  "descr": "UKHOST4U, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Paul David Hughes trading as Hosting Systems",
+  "domain": "ukhost4u.com",
+  "abuse": "abuse@ukhost4u.com",
+  "type": "hosting",
+  "created": "2008-07-24",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS47625",
+  "prefixes": [
+    "91.206.182.0/23",
+    "188.64.184.0/23",
+    "188.64.186.0/23",
+    "188.64.188.0/23",
+    "188.64.190.0/23",
+    "195.216.196.0/23"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

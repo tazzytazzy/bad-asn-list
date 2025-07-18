@@ -1,0 +1,21 @@
+{
+  "asn": 39523,
+  "descr": "DV-LINK-AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Vasilyev Ivan Ivanovich",
+  "domain": "dv-link.ru",
+  "abuse": "support@dv-link.ru",
+  "type": "business",
+  "created": "2017-11-24",
+  "updated": "2020-11-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS39523",
+  "prefixes": [
+    "93.170.248.0/23",
+    "146.120.216.0/22"
+  ],
+  "fetched": "2025-07-18T09:14:08.290501Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,23 @@
+{
+  "asn": 57230,
+  "descr": "ARIAWEBCO-AS, IR",
+  "country": "ir",
+  "active": true,
+  "org": "Aria Web Development LLC",
+  "domain": "ariawebco.net",
+  "abuse": "abuse@ariawebco.net",
+  "type": "hosting",
+  "created": "2011-08-29",
+  "updated": "2023-08-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS57230",
+  "prefixes": [
+    "87.236.210.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a03:9383::/48"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0078",
+  "abuse_rank": "Low"
+}

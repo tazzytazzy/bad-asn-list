@@ -1,0 +1,28 @@
+{
+  "asn": 35295,
+  "descr": "PETERHOST-PITER, RU",
+  "country": "ru",
+  "active": true,
+  "org": "JSC RU-CENTER",
+  "domain": "nic.ru",
+  "abuse": "abuse@nic.ru",
+  "type": "hosting",
+  "created": "2005-07-11",
+  "updated": "2018-11-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS35295",
+  "prefixes": [
+    "77.222.45.0/24",
+    "80.93.48.0/21",
+    "80.93.48.0/23",
+    "80.93.50.0/23",
+    "80.93.52.0/23",
+    "80.93.54.0/23"
+  ],
+  "prefixesIPv6": [
+    "2a02:408:8093::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

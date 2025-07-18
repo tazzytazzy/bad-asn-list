@@ -1,0 +1,30 @@
+{
+  "asn": 36791,
+  "descr": "PDXHOSTING, US",
+  "country": "us",
+  "active": true,
+  "org": "Portland Internet Hosting LLC",
+  "domain": "pdxhosting.net",
+  "abuse": "support@pdxhosting.net",
+  "type": "hosting",
+  "created": "2011-04-08",
+  "updated": "2023-02-08",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS36791",
+  "prefixes": [
+    "91.221.94.0/23",
+    "91.227.72.0/23",
+    "193.25.104.0/23",
+    "193.34.180.0/23",
+    "195.66.142.0/23",
+    "208.72.116.0/22"
+  ],
+  "prefixesIPv6": [
+    "2001:470:50::/48",
+    "2602:faa6::/36",
+    "2a05:dfc1:1e00::/40"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

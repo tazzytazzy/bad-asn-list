@@ -1,0 +1,23 @@
+{
+  "asn": 205869,
+  "descr": "GASCA, DE",
+  "country": "de",
+  "active": true,
+  "org": "GASCADE Gastransport GmbH",
+  "domain": "gascade.de",
+  "abuse": "ripe@gascade.de",
+  "type": "business",
+  "created": "2020-04-02",
+  "updated": "2020-05-29",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205869",
+  "prefixes": [
+    "45.142.20.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0e:d3c0::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

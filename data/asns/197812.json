@@ -1,0 +1,20 @@
+{
+  "asn": 197812,
+  "descr": "GHELAMCO, PL",
+  "country": "pl",
+  "active": true,
+  "org": "Ghelamco Poland Sp. z o.o.",
+  "domain": "ghelamco.com",
+  "abuse": "pl.it@ghelamco.com",
+  "type": "business",
+  "created": "2023-07-13",
+  "updated": "2023-07-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197812",
+  "prefixes": [
+    "5.226.133.0/24"
+  ],
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

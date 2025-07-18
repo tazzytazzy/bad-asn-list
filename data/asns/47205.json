@@ -1,0 +1,20 @@
+{
+  "asn": 47205,
+  "descr": "TELIA-LIETUVA, LT",
+  "country": "lt",
+  "active": true,
+  "org": "Telia Lietuva, AB",
+  "domain": "telia.lt",
+  "abuse": "abuse@telia.lt",
+  "type": "isp",
+  "created": "2008-05-15",
+  "updated": "2019-06-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS47205",
+  "prefixes": [
+    "195.12.186.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

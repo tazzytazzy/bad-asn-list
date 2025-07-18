@@ -1,0 +1,30 @@
+{
+  "asn": 200454,
+  "descr": "Tomas Oliveira Valente Leite de Castro, PT",
+  "country": "pt",
+  "active": true,
+  "org": "Tomas Oliveira Valente Leite de Castro",
+  "domain": "leitecastro.com",
+  "abuse": "abuse@leitecastro.com",
+  "type": "business",
+  "created": "2022-12-19",
+  "updated": "2025-04-01",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS200454",
+  "prefixes": [
+    "23.147.168.0/24",
+    "44.31.36.0/24",
+    "44.32.92.0/24",
+    "199.16.242.0/23",
+    "208.85.8.0/22"
+  ],
+  "prefixesIPv6": [
+    "2602:faa5::/32",
+    "2602:faa5::/36",
+    "2a0a:6040:aa00::/40",
+    "2a0f:b241:10::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

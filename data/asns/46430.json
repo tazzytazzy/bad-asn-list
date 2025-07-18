@@ -1,0 +1,29 @@
+{
+  "asn": 46430,
+  "descr": "ASN-TELX, CA",
+  "country": "ca",
+  "active": true,
+  "org": "TELX INC.",
+  "domain": "telx.com",
+  "abuse": "alexgrad@telx-inc.com",
+  "type": "isp",
+  "created": "2008-09-17",
+  "updated": "2022-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS46430",
+  "prefixes": [
+    "38.64.144.0/23",
+    "38.64.144.0/24",
+    "38.64.145.0/24",
+    "38.117.100.0/23",
+    "38.117.100.0/24",
+    "38.117.101.0/24",
+    "38.117.110.0/24",
+    "208.71.116.0/23",
+    "208.71.116.0/24",
+    "208.71.117.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

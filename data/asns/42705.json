@@ -1,0 +1,33 @@
+{
+  "asn": 42705,
+  "descr": "TALIA Talia provides VSAT network and hosting services worldwide., GB",
+  "country": "gb",
+  "active": true,
+  "org": "Talia Limited",
+  "domain": "talia.net",
+  "abuse": "abuse@talia.net",
+  "type": "isp",
+  "created": "2007-04-03",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS42705",
+  "prefixes": [
+    "5.11.16.0/24",
+    "5.11.17.0/24",
+    "5.11.18.0/24",
+    "5.11.20.0/24",
+    "5.11.21.0/24",
+    "5.11.22.0/24",
+    "5.11.23.0/24",
+    "5.11.24.0/24",
+    "5.11.25.0/24",
+    "5.11.26.0/24",
+    "5.11.27.0/24",
+    "149.7.25.0/24",
+    "154.47.4.0/24",
+    "154.48.213.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0052",
+  "abuse_rank": "Low"
+}

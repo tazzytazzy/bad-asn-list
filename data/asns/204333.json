@@ -1,0 +1,30 @@
+{
+  "asn": 204333,
+  "descr": "REJECTY REJECTY.COM, CH",
+  "country": "ch",
+  "active": true,
+  "org": "Witalij Koweschnikow",
+  "domain": "rejecty.com",
+  "abuse": "abuse@rejecty.com",
+  "type": "business",
+  "created": "2022-06-29",
+  "updated": "2024-04-30",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS204333",
+  "prefixes": [
+    "185.255.121.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a13:5681:1::/48",
+    "2a13:5681:6::/48",
+    "2a13:5681:7::/48",
+    "2a13:5681:8::/48",
+    "2a13:5681:9::/48",
+    "2a13:5681:a::/48",
+    "2a13:5681:b::/48",
+    "2a13:5681:c::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

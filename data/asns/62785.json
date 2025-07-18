@@ -1,0 +1,27 @@
+{
+  "asn": 62785,
+  "descr": "AMAZON-FC, US",
+  "country": "us",
+  "active": true,
+  "org": "Amazon.com Services, LLC",
+  "domain": "amazon.com",
+  "abuse": "trustandsafety@support.aws.com",
+  "type": "hosting",
+  "created": "2015-05-28",
+  "updated": "2020-03-19",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS62785",
+  "prefixes": [
+    "172.96.96.0/24",
+    "172.96.97.0/24",
+    "172.96.98.0/24",
+    "172.96.99.0/24",
+    "172.96.100.0/24",
+    "172.96.101.0/24",
+    "172.96.110.0/24",
+    "173.83.0.0/17"
+  ],
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

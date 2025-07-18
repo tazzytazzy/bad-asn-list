@@ -1,0 +1,21 @@
+{
+  "asn": 137434,
+  "descr": "M691-AS-AP 69 Systems, BD",
+  "country": "bd",
+  "active": true,
+  "org": "69 Systems",
+  "domain": "69systems.com",
+  "abuse": "support@69systems.com",
+  "type": "isp",
+  "updated": "2021-11-23",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS137434",
+  "prefixes": [
+    "103.176.236.0/23",
+    "103.176.236.0/24",
+    "103.176.237.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

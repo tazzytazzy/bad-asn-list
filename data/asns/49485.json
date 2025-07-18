@@ -1,0 +1,37 @@
+{
+  "asn": 49485,
+  "descr": "HAHOSTING High Availability Hosting Limited, GB",
+  "country": "gb",
+  "active": true,
+  "org": "High Availability Hosting Limited",
+  "domain": "hahosting.com",
+  "abuse": "operations@hahosting.com",
+  "type": "hosting",
+  "created": "2009-06-17",
+  "updated": "2021-08-26",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49485",
+  "prefixes": [
+    "91.246.10.0/24",
+    "185.91.216.0/24",
+    "185.91.217.0/24",
+    "185.91.218.0/24",
+    "185.91.219.0/24",
+    "188.94.72.0/24",
+    "188.94.73.0/24",
+    "188.94.74.0/24",
+    "188.94.75.0/24",
+    "188.94.76.0/24",
+    "188.94.77.0/24",
+    "188.94.78.0/24",
+    "188.94.79.0/24",
+    "193.0.191.0/24",
+    "195.248.75.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a00:fba0::/32"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

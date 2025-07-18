@@ -1,0 +1,28 @@
+{
+  "asn": 32881,
+  "descr": "SERVERNORTH, CA",
+  "country": "ca",
+  "active": true,
+  "org": "Server North",
+  "domain": "servernorth.net",
+  "abuse": "Support@servernorth.net",
+  "type": "hosting",
+  "created": "2008-04-03",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS32881",
+  "prefixes": [
+    "65.75.217.0/24",
+    "98.124.60.0/22",
+    "204.138.33.0/24",
+    "205.233.48.0/23",
+    "205.233.50.0/23",
+    "205.233.52.0/23",
+    "205.233.54.0/23",
+    "205.233.56.0/22",
+    "205.233.56.0/23"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,27 @@
+{
+  "asn": 263740,
+  "descr": "Corporacion Laceibanetsociety, HN",
+  "country": "hn",
+  "active": true,
+  "org": "Corporacion Laceibanetsociety",
+  "domain": "laceibanetsociety.com",
+  "abuse": "admin1@laceibanetsociety.com",
+  "type": "isp",
+  "created": "20150316",
+  "updated": "20150316",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS263740",
+  "prefixes": [
+    "138.99.36.0/22",
+    "143.137.164.0/22",
+    "161.0.0.0/19",
+    "161.0.0.0/20",
+    "161.0.16.0/20",
+    "168.205.160.0/22",
+    "170.246.52.0/22",
+    "186.65.112.0/20"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0035",
+  "abuse_rank": "Low"
+}

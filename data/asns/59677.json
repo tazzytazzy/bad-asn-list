@@ -1,0 +1,20 @@
+{
+  "asn": 59677,
+  "descr": "SMART-AS, RO",
+  "country": "ro",
+  "active": true,
+  "org": "SMART TELECOM MEDIA SRL",
+  "domain": "smartconnect.ro",
+  "abuse": "office@smartconnect.ro",
+  "type": "isp",
+  "created": "2020-07-09",
+  "updated": "2021-11-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS59677",
+  "prefixes": [
+    "85.121.4.0/23"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

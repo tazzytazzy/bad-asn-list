@@ -1,0 +1,21 @@
+{
+  "asn": 262603,
+  "descr": "GX INTERNET E WEB HOSTING SERV DE INFORMATICA LTDA, BR",
+  "country": "br",
+  "active": true,
+  "org": "GX INTERNET E WEB HOSTING SERV DE INFORMATICA LTDA",
+  "domain": "homehost.com.br",
+  "type": "hosting",
+  "created": "20110930",
+  "updated": "20220629",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS262603",
+  "prefixes": [
+    "177.85.99.0/24",
+    "177.85.100.0/24",
+    "185.169.99.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low"
+}

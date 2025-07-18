@@ -1,0 +1,24 @@
+{
+  "asn": 48825,
+  "descr": "FAST2HOST Fast2host - Fast4networks Ltd, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Fast4networks Ltd",
+  "domain": "fast2host.com",
+  "abuse": "abuse@fast2host.com",
+  "type": "hosting",
+  "created": "2009-02-13",
+  "updated": "2025-02-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS48825",
+  "prefixes": [
+    "95.128.128.0/21",
+    "185.4.48.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a02:64c0::/32"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

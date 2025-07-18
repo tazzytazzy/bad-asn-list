@@ -1,0 +1,30 @@
+{
+  "asn": 54455,
+  "descr": "MADEIT, US",
+  "country": "us",
+  "active": true,
+  "org": "MadeIT inc.",
+  "domain": "madeit.com",
+  "abuse": "noc@madeit.com",
+  "type": "hosting",
+  "created": "2012-02-23",
+  "updated": "2012-02-23",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS54455",
+  "prefixes": [
+    "67.219.144.0/23",
+    "67.219.146.0/23",
+    "67.219.150.0/24",
+    "67.219.151.0/24",
+    "162.252.192.0/21",
+    "199.114.216.0/21",
+    "199.217.98.0/23",
+    "199.217.100.0/22"
+  ],
+  "prefixesIPv6": [
+    "2604:1580::/32"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

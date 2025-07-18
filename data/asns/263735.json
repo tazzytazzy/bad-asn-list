@@ -1,0 +1,27 @@
+{
+  "asn": 263735,
+  "descr": "SOCIEDAD BUENA HOSTING, S.A., HN",
+  "country": "hn",
+  "active": true,
+  "org": "SOCIEDAD BUENA HOSTING, S.A.",
+  "domain": "buenahosting.com",
+  "abuse": "noccenter@buenahosting.com",
+  "type": "hosting",
+  "created": "20150311",
+  "updated": "20150311",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS263735",
+  "prefixes": [
+    "138.59.204.0/22",
+    "138.219.172.0/22",
+    "168.227.140.0/22",
+    "170.83.232.0/22",
+    "181.177.64.0/18"
+  ],
+  "prefixesIPv6": [
+    "2803:9f80::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.004",
+  "abuse_rank": "Low"
+}

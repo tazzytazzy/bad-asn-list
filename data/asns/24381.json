@@ -1,0 +1,20 @@
+{
+  "asn": 24381,
+  "descr": "BGPE-AS BGP.Exchange, AU",
+  "country": "au",
+  "active": true,
+  "org": "Infininet Global Pty Ltd",
+  "domain": "infininet.com.au",
+  "abuse": "abuse@bgp.exchange",
+  "type": "isp",
+  "updated": "2025-06-03",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS24381",
+  "prefixesIPv6": [
+    "2401:2060:b000::/48",
+    "2401:2060:b001::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

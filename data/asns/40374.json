@@ -1,0 +1,20 @@
+{
+  "asn": 40374,
+  "descr": "HIDHO, US",
+  "country": "us",
+  "active": true,
+  "org": "High Density Hosting, Inc.",
+  "domain": "hidho.com",
+  "abuse": "netmgr@siuins.com",
+  "type": "hosting",
+  "created": "2007-02-06",
+  "updated": "2012-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS40374",
+  "prefixes": [
+    "170.55.171.0/24"
+  ],
+  "fetched": "2025-07-18T09:14:08.290501Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

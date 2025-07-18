@@ -1,0 +1,20 @@
+{
+  "asn": 197569,
+  "descr": "BASED-ON-WHAT-LLC, US",
+  "country": "us",
+  "active": true,
+  "org": "BASED ON WHAT LLC",
+  "domain": "as197569.net",
+  "abuse": "abuse@ceoofbased.com",
+  "type": "business",
+  "created": "2023-07-26",
+  "updated": "2024-07-25",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197569",
+  "prefixesIPv6": [
+    "2001:67c:2f8c::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

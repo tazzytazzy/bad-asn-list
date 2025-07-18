@@ -1,0 +1,17 @@
+{
+  "asn": 49006,
+  "descr": "SYSTEMS, MD",
+  "country": "md",
+  "active": false,
+  "org": "SC ITNS.NET SRL",
+  "domain": "itns.md",
+  "abuse": "abuse@itns.net",
+  "type": "isp",
+  "created": "2016-10-06",
+  "updated": "2025-03-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49006",
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

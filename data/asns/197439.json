@@ -1,0 +1,23 @@
+{
+  "asn": 197439,
+  "descr": "SYLON, CH",
+  "country": "ch",
+  "active": true,
+  "org": "Sylon Hosting GmbH",
+  "domain": "sylon.net",
+  "abuse": "abuse@init7.net",
+  "type": "hosting",
+  "created": "2010-12-01",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197439",
+  "prefixes": [
+    "194.88.212.0/23"
+  ],
+  "prefixesIPv6": [
+    "2001:4060:4052::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

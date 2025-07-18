@@ -1,0 +1,27 @@
+{
+  "asn": 29452,
+  "descr": "SECURA-AS www.securahosting.com, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Secura Hosting Ltd",
+  "domain": "securahosting.com",
+  "abuse": "abuse@secura.cloud",
+  "type": "hosting",
+  "created": "2003-09-15",
+  "updated": "2023-08-14",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS29452",
+  "prefixes": [
+    "82.196.224.0/19",
+    "82.196.224.0/20",
+    "82.196.236.0/24",
+    "82.196.240.0/23",
+    "82.196.242.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:4b08::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

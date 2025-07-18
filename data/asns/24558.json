@@ -1,0 +1,24 @@
+{
+  "asn": 24558,
+  "descr": "AVBIHNET-AS-IN Internet Hosting Service Provider to the Aditya, IN",
+  "country": "in",
+  "active": true,
+  "org": "Aditya Birla Management Corporation Limited",
+  "domain": "adityabirla.com",
+  "abuse": "Narendra.Varma@adityabirla.com",
+  "type": "business",
+  "updated": "2021-01-12",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS24558",
+  "prefixes": [
+    "103.68.199.0/24",
+    "103.140.163.0/24",
+    "203.77.177.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:df5:2800::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

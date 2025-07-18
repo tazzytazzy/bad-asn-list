@@ -1,0 +1,23 @@
+{
+  "asn": 201351,
+  "descr": "IKUUU-NETWORK, GB",
+  "country": "gb",
+  "active": true,
+  "org": "IKUUU NETWORK LTD",
+  "domain": "ikuuu.app",
+  "abuse": "admin@ikuuu.app",
+  "type": "hosting",
+  "created": "2022-11-17",
+  "updated": "2022-11-17",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201351",
+  "prefixes": [
+    "141.11.146.0/23"
+  ],
+  "prefixesIPv6": [
+    "2602:f803::/40"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0098",
+  "abuse_rank": "Elevated"
+}

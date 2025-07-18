@@ -1,0 +1,29 @@
+{
+  "asn": 197902,
+  "descr": "HOSTNET, NL",
+  "country": "nl",
+  "active": true,
+  "org": "Hostnet B.V.",
+  "domain": "hostnet.nl",
+  "abuse": "abuse@hostnet.nl",
+  "type": "hosting",
+  "created": "2011-06-21",
+  "updated": "2024-08-22",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197902",
+  "prefixes": [
+    "37.128.144.0/21",
+    "141.138.172.0/22",
+    "185.57.8.0/22",
+    "185.85.16.0/22",
+    "185.95.12.0/22",
+    "185.107.88.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a02:2268::/32",
+    "2a03:3c00:c000::/34"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0011",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,26 @@
+{
+  "asn": 28747,
+  "descr": "EASYHOST-COLO-AS, BE",
+  "country": "be",
+  "active": true,
+  "org": "Easyhost BVBA",
+  "domain": "easyhost.be",
+  "abuse": "noc@easyhost.be",
+  "type": "hosting",
+  "created": "2003-02-13",
+  "updated": "2019-12-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS28747",
+  "prefixes": [
+    "77.241.95.0/24",
+    "86.39.128.0/17",
+    "94.198.160.0/21",
+    "217.22.48.0/20"
+  ],
+  "prefixesIPv6": [
+    "2001:1598::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

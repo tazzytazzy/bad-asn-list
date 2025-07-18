@@ -1,0 +1,23 @@
+{
+  "asn": 135555,
+  "descr": "CITYCOMMS-AS-AP City Communications PTY LTD, AU",
+  "country": "au",
+  "active": true,
+  "org": "City Communications PTY LTD",
+  "domain": "citycomms.com.au",
+  "abuse": "support@citycomms.com.au",
+  "type": "isp",
+  "updated": "2020-12-03",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS135555",
+  "prefixes": [
+    "103.97.155.0/24",
+    "103.97.170.0/23"
+  ],
+  "prefixesIPv6": [
+    "2001:df3:7e00::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low"
+}

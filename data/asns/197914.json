@@ -1,0 +1,27 @@
+{
+  "asn": 197914,
+  "descr": "ECRITEL-FRANCE-DEFCON Ecritel France - DEFCON, FR",
+  "country": "fr",
+  "active": true,
+  "org": "Ecritel SASU",
+  "domain": "ecritel.com",
+  "abuse": "abuse@ecritel.net",
+  "type": "hosting",
+  "created": "2011-10-18",
+  "updated": "2018-10-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197914",
+  "prefixes": [
+    "130.0.192.0/24",
+    "130.0.193.0/24",
+    "130.0.194.0/24",
+    "194.50.60.0/24",
+    "195.66.112.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a03:a580::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

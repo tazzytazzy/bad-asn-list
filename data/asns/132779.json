@@ -1,0 +1,29 @@
+{
+  "asn": 132779,
+  "descr": "RACKBANK-AS RackBank Datacenters Private Ltd, IN",
+  "country": "in",
+  "active": true,
+  "org": "RackBank Datacenters Private Ltd",
+  "domain": "rackbank.com",
+  "abuse": "admin@rackbank.com",
+  "type": "hosting",
+  "updated": "2016-11-21",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS132779",
+  "prefixes": [
+    "43.254.28.0/24",
+    "43.254.29.0/24",
+    "43.254.30.0/24",
+    "43.254.31.0/24",
+    "103.27.232.0/24",
+    "103.27.233.0/24",
+    "103.27.234.0/24",
+    "103.27.235.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:df0:1a00::/48"
+  ],
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

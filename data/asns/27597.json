@@ -1,0 +1,24 @@
+{
+  "asn": 27597,
+  "descr": "SITESERVER-IDC1, US",
+  "country": "us",
+  "active": true,
+  "org": "Siteserver, Inc.",
+  "domain": "siteserver.com",
+  "abuse": "noc@siteserver.com",
+  "type": "hosting",
+  "created": "2003-04-07",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS27597",
+  "prefixes": [
+    "23.180.144.0/24",
+    "69.36.64.0/19"
+  ],
+  "prefixesIPv6": [
+    "2607:6e40::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

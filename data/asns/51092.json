@@ -1,0 +1,24 @@
+{
+  "asn": 51092,
+  "descr": "TVIPMEDIA, RU",
+  "country": "ru",
+  "active": true,
+  "org": "TVIP Media LLC",
+  "domain": "tvipmedia.net",
+  "abuse": "abuse@tvip-media.net",
+  "type": "isp",
+  "created": "2018-03-16",
+  "updated": "2024-05-29",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS51092",
+  "prefixes": [
+    "185.250.0.0/22",
+    "185.250.3.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0c:7bc0::/29"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

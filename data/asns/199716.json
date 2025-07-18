@@ -1,0 +1,20 @@
+{
+  "asn": 199716,
+  "descr": "BLETCHLEY-NETWORKS-LIMITED, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Bletchley Networks Limited",
+  "domain": "bletchley.co.uk",
+  "abuse": "abuse@bletchley.net",
+  "type": "isp",
+  "created": "2023-02-23",
+  "updated": "2023-02-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199716",
+  "prefixes": [
+    "194.6.234.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

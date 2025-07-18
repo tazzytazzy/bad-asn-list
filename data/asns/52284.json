@@ -1,0 +1,27 @@
+{
+  "asn": 52284,
+  "descr": "Panamaserver.com, PA",
+  "country": "pa",
+  "active": true,
+  "org": "Panamaserver.com",
+  "domain": "panamaserver.com",
+  "abuse": "abuse@panamaserver.com",
+  "type": "hosting",
+  "created": "20101013",
+  "updated": "20101013",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS52284",
+  "prefixes": [
+    "142.202.136.0/24",
+    "190.123.44.0/24",
+    "190.123.45.0/24",
+    "190.123.46.0/24",
+    "190.123.47.0/24"
+  ],
+  "prefixesIPv6": [
+    "2803:200::/32"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0059",
+  "abuse_rank": "Low"
+}

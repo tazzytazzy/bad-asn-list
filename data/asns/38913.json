@@ -1,0 +1,23 @@
+{
+  "asn": 38913,
+  "descr": "INFRABLOCKS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "The Infrastructure Group B.V.",
+  "domain": "liteserver.nl",
+  "abuse": "abuse@liteserver.nl",
+  "type": "hosting",
+  "created": "2018-11-20",
+  "updated": "2020-11-25",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS38913",
+  "prefixes": [
+    "88.214.28.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a09:8b00::/29"
+  ],
+  "fetched": "2025-07-18T09:14:04.534473Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

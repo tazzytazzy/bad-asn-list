@@ -1,0 +1,20 @@
+{
+  "asn": 53318,
+  "descr": "DPS-CL1, US",
+  "country": "us",
+  "active": true,
+  "org": "Deep Systems LLC",
+  "domain": "deepsystems.com",
+  "abuse": "eschmidt@deepsystems.com",
+  "type": "business",
+  "created": "2018-01-29",
+  "updated": "2018-01-29",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS53318",
+  "prefixes": [
+    "149.13.61.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

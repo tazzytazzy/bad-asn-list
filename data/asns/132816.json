@@ -1,0 +1,26 @@
+{
+  "asn": 132816,
+  "descr": "SIMPLERCLOUD-AS-AP SimplerCloud Pte Ltd, SG",
+  "country": "sg",
+  "active": true,
+  "org": "SimplerCloud Pte Ltd",
+  "domain": "simplercloud.com",
+  "abuse": "abuse@simplercloud.com",
+  "type": "hosting",
+  "updated": "2020-06-01",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS132816",
+  "prefixes": [
+    "103.25.200.0/22",
+    "150.107.152.0/22"
+  ],
+  "prefixesIPv6": [
+    "2400:c980::/40",
+    "2400:c980::/48",
+    "2400:c980:1::/48",
+    "2400:c980:2::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

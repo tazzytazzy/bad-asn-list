@@ -1,0 +1,22 @@
+{
+  "asn": 37170,
+  "descr": "UNILAG, NG",
+  "country": "ng",
+  "active": true,
+  "org": "University of Lagos",
+  "domain": "unilag.edu.ng",
+  "type": "education",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS37170",
+  "prefixes": [
+    "196.45.48.0/20",
+    "196.220.240.0/20",
+    "213.255.128.0/19"
+  ],
+  "prefixesIPv6": [
+    "2001:43f8:160::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

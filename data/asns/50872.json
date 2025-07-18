@@ -1,0 +1,22 @@
+{
+  "asn": 50872,
+  "descr": "LOCALHOST, RS",
+  "country": "rs",
+  "active": true,
+  "org": "LOCALHOST d.o.o.",
+  "domain": "localhost.rs",
+  "abuse": "abuse@localhost.rs",
+  "type": "hosting",
+  "created": "2010-04-13",
+  "updated": "2024-05-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50872",
+  "prefixes": [
+    "79.110.144.0/20",
+    "176.123.208.0/21",
+    "193.243.168.0/22"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

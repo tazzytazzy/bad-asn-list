@@ -1,0 +1,16 @@
+{
+  "asn": 64067,
+  "descr": "HCITS-AS-AP HostCircle IT Solutions PVT LTD Chennai, India, IN",
+  "country": "in",
+  "active": false,
+  "org": "HostCircle IT Solutions PVT LTD",
+  "domain": "hostcircle.in",
+  "abuse": "contact@hostcircle.in",
+  "type": "hosting",
+  "updated": "2020-06-02",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS64067",
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

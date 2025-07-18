@@ -1,0 +1,33 @@
+{
+  "asn": 15510,
+  "descr": "CWCS-PS CompuWeb Communications Services Ltd, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Compuweb Communications Services Limited",
+  "domain": "cwcs.co.uk",
+  "abuse": "abuse@cwcs.co.uk",
+  "type": "hosting",
+  "created": "1970-01-01",
+  "updated": "2019-08-08",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS15510",
+  "prefixes": [
+    "45.158.164.0/23",
+    "46.17.88.0/21",
+    "91.192.192.0/22",
+    "91.215.184.0/22",
+    "185.27.244.0/22",
+    "193.164.206.0/23",
+    "193.200.80.0/23",
+    "194.116.174.0/23",
+    "195.8.126.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a03:be80::/32",
+    "2a03:be80:1::/48",
+    "2a03:be80:c::/48"
+  ],
+  "fetched": "2025-07-18T08:17:32.165576Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

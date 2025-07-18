@@ -1,0 +1,17 @@
+{
+  "asn": 13909,
+  "descr": "TECHIEMEDIA, US",
+  "country": "us",
+  "active": true,
+  "whois": "https://api.ipapi.is/?whois=AS13909",
+  "prefixes": [
+    "108.60.64.0/19",
+    "173.0.176.0/20",
+    "199.80.56.0/21",
+    "208.71.128.0/22",
+    "208.90.152.0/22"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

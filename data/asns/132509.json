@@ -1,0 +1,22 @@
+{
+  "asn": 132509,
+  "descr": "SOLARIX-INTERNET-AS-AP Solarix Networks Limited, NZ",
+  "country": "nz",
+  "active": true,
+  "org": "Solarix Networks Limited",
+  "domain": "solarix.net.nz",
+  "abuse": "tickets@planb.co.nz",
+  "type": "isp",
+  "updated": "2023-10-31",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS132509",
+  "prefixes": [
+    "103.244.180.0/24",
+    "103.244.181.0/24",
+    "103.244.182.0/24",
+    "103.244.183.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

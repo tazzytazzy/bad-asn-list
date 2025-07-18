@@ -1,0 +1,25 @@
+{
+  "asn": 32740,
+  "descr": "SLIQUA, US",
+  "country": "us",
+  "active": true,
+  "org": "Sliqua Enterprise Hosting, Inc.",
+  "domain": "sliqua.com",
+  "abuse": "noc@sliqua.com",
+  "type": "hosting",
+  "created": "2010-03-31",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS32740",
+  "prefixes": [
+    "199.58.200.0/24",
+    "199.58.201.0/24",
+    "199.58.202.0/24",
+    "199.58.203.0/24",
+    "199.58.204.0/24",
+    "199.58.207.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

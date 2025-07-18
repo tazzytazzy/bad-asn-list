@@ -1,0 +1,23 @@
+{
+  "asn": 262990,
+  "descr": "VIRTUAL CENTER HOSTING TECNOLOGIA EIRELI, BR",
+  "country": "br",
+  "active": true,
+  "org": "VIRTUAL CENTER HOSTING TECNOLOGIA EIRELI",
+  "domain": "vcenter.com.br",
+  "abuse": "registro@vcenter.com.br",
+  "type": "hosting",
+  "created": "20120511",
+  "updated": "20140901",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS262990",
+  "prefixes": [
+    "186.251.24.0/24",
+    "186.251.25.0/24",
+    "186.251.26.0/24",
+    "186.251.27.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,36 @@
+{
+  "asn": 24875,
+  "descr": "NOVOSERVE-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "NovoServe B.V.",
+  "domain": "novoserve.com",
+  "abuse": "abuse@novoserve.com",
+  "type": "hosting",
+  "created": "2002-04-29",
+  "updated": "2021-08-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS24875",
+  "prefixes": [
+    "2.58.21.0/24",
+    "45.199.138.0/24",
+    "46.182.108.0/24",
+    "80.89.224.0/20",
+    "89.105.192.0/19",
+    "154.85.0.0/24",
+    "154.85.1.0/24",
+    "156.225.67.0/24",
+    "156.249.18.0/24",
+    "185.80.232.0/22",
+    "185.147.13.0/24",
+    "185.147.14.0/23"
+  ],
+  "prefixesIPv6": [
+    "2001:968::/29",
+    "2a00:11f8::/29",
+    "2a07:5440::/29"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

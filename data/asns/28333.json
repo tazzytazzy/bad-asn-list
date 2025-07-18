@@ -1,0 +1,23 @@
+{
+  "asn": 28333,
+  "descr": "Local Datacenter Solucoes em Comunicacao Ltda., BR",
+  "country": "br",
+  "active": true,
+  "org": "Local Datacenter Solu\u00e7\u00f5es em Comunica\u00e7\u00e3o Ltda.",
+  "abuse": "carlosallpcom@gmail.com",
+  "type": "business",
+  "created": "20070810",
+  "updated": "20130306",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS28333",
+  "prefixes": [
+    "186.226.224.0/20",
+    "189.50.192.0/20"
+  ],
+  "prefixesIPv6": [
+    "2804:4bbc::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

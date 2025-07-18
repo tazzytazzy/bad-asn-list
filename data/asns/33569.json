@@ -1,0 +1,28 @@
+{
+  "asn": 33569,
+  "descr": "ALLHOSTSHOP, US",
+  "country": "us",
+  "active": true,
+  "org": "ALLHOSTSHOP.COM",
+  "domain": "allhostshop.com",
+  "abuse": "abuse@allhostshop.com",
+  "type": "hosting",
+  "created": "2005-01-25",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS33569",
+  "prefixes": [
+    "204.14.120.0/24",
+    "204.14.121.0/24",
+    "216.18.226.0/24",
+    "216.18.227.0/24",
+    "216.18.228.0/24",
+    "216.18.231.0/24",
+    "216.18.232.0/24",
+    "216.18.237.0/24",
+    "216.18.238.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

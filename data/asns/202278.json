@@ -1,0 +1,23 @@
+{
+  "asn": 202278,
+  "descr": "XENONCLOUD, DE",
+  "country": "de",
+  "active": true,
+  "org": "XenonCloud Verwaltungs GmbH trading as XenonCloud GmbH & Co. KG",
+  "domain": "xenoncloud.net",
+  "abuse": "abuse@xenoncloud.net",
+  "type": "hosting",
+  "created": "2022-10-13",
+  "updated": "2025-02-10",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202278",
+  "prefixes": [
+    "80.75.214.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a13:5680::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

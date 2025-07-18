@@ -1,0 +1,26 @@
+{
+  "asn": 50968,
+  "descr": "HOSTMASTER-AS, MD",
+  "country": "md",
+  "active": true,
+  "org": "Hostmaster, Ltd.",
+  "domain": "ix-host.ru",
+  "abuse": "abuse@ix-host.ru",
+  "type": "business",
+  "created": "2010-05-04",
+  "updated": "2021-08-02",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50968",
+  "prefixes": [
+    "91.221.99.0/24",
+    "194.28.112.0/24",
+    "194.28.113.0/24",
+    "194.28.114.0/24",
+    "194.28.115.0/24",
+    "195.206.252.0/24",
+    "195.206.253.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0008",
+  "abuse_rank": "Low"
+}

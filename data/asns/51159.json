@@ -1,0 +1,24 @@
+{
+  "asn": 51159,
+  "descr": "THINKSYSTEMSUK-ASN, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Think BV Limited",
+  "domain": "cloudspaceuk.co.uk",
+  "abuse": "abuse@cloudspaceuk.co.uk",
+  "type": "hosting",
+  "created": "2010-06-10",
+  "updated": "2023-09-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS51159",
+  "prefixes": [
+    "91.142.134.0/24",
+    "91.228.115.0/24",
+    "91.239.124.0/23",
+    "185.62.84.0/22",
+    "194.187.252.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0011",
+  "abuse_rank": "Low"
+}

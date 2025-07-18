@@ -1,0 +1,30 @@
+{
+  "asn": 202693,
+  "descr": "MOSEL, DE",
+  "country": "de",
+  "active": true,
+  "org": "Erik Schneider",
+  "domain": "mosel.cloud",
+  "abuse": "abuse@mosel.cloud",
+  "type": "business",
+  "created": "2022-09-27",
+  "updated": "2025-03-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202693",
+  "prefixes": [
+    "80.75.220.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a06:c640::/32",
+    "2a06:c641::/32",
+    "2a06:c642::/32",
+    "2a06:c643::/32",
+    "2a06:c644::/32",
+    "2a06:c645::/32",
+    "2a06:c646::/32",
+    "2a06:c647::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

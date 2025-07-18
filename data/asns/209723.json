@@ -1,0 +1,29 @@
+{
+  "asn": 209723,
+  "descr": "AS_EXPERT, GB",
+  "country": "gb",
+  "active": true,
+  "org": "EXPERT NETCLOUD LLP",
+  "domain": "expertnetworkservice.com",
+  "abuse": "abuse@expertnetworkservice.com",
+  "type": "hosting",
+  "created": "2018-12-17",
+  "updated": "2022-02-17",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS209723",
+  "prefixes": [
+    "2.59.200.0/23",
+    "5.183.60.0/23",
+    "5.183.62.0/23",
+    "85.209.4.0/23",
+    "88.218.148.0/23",
+    "147.78.224.0/23",
+    "147.78.226.0/23"
+  ],
+  "prefixesIPv6": [
+    "2a09:ac80::/29"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,40 @@
+{
+  "asn": 35366,
+  "descr": "ISPPRO-AS ISPPRO-AS covers the networks of ISPpro, DE",
+  "country": "de",
+  "active": true,
+  "org": "ISPpro Internet KG",
+  "domain": "isppro.de",
+  "abuse": "abuse@isppro.de",
+  "type": "hosting",
+  "created": "2005-07-22",
+  "updated": "2023-04-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS35366",
+  "prefixes": [
+    "81.7.0.0/18",
+    "81.7.0.0/19",
+    "81.7.32.0/19",
+    "81.89.96.0/20",
+    "81.89.96.0/21",
+    "81.89.104.0/21",
+    "84.23.64.0/19",
+    "84.23.64.0/20",
+    "84.23.80.0/20",
+    "85.31.184.0/21",
+    "85.31.184.0/22",
+    "85.31.188.0/22",
+    "91.143.80.0/20",
+    "91.143.80.0/21",
+    "91.143.88.0/21",
+    "185.2.8.0/22",
+    "185.2.8.0/23",
+    "185.2.10.0/23"
+  ],
+  "prefixesIPv6": [
+    "2a02:180::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

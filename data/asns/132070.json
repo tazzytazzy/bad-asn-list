@@ -1,0 +1,19 @@
+{
+  "asn": 132070,
+  "descr": "INTERVOLVE-MANAGED-AS-AP Intervolve Pty Ltd, AU",
+  "country": "au",
+  "active": true,
+  "org": "Intervolve Pty Ltd",
+  "domain": "intervolve.com.au",
+  "abuse": "support@intervolve.com.au",
+  "type": "hosting",
+  "updated": "2021-02-10",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS132070",
+  "prefixes": [
+    "101.234.164.0/24"
+  ],
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

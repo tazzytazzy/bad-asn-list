@@ -1,0 +1,34 @@
+{
+  "asn": 6724,
+  "descr": "STRATO STRATO AG, DE",
+  "country": "de",
+  "active": true,
+  "org": "Strato GmbH",
+  "domain": "strato.com",
+  "abuse": "abuse@strato.de",
+  "type": "hosting",
+  "created": "2002-06-19",
+  "updated": "2023-02-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS6724",
+  "prefixes": [
+    "81.169.128.0/17",
+    "81.169.144.0/22",
+    "81.169.148.0/24",
+    "81.169.189.0/24",
+    "85.214.0.0/15",
+    "85.215.255.0/24",
+    "192.67.198.0/24",
+    "193.141.3.0/24",
+    "194.45.97.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a01:238::/29",
+    "2a01:238:a::/48",
+    "2a01:238:20a::/48",
+    "2a01:238:400::/40"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low"
+}

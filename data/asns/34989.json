@@ -1,0 +1,29 @@
+{
+  "asn": 34989,
+  "descr": "SERVETHEWORLD-AS, NO",
+  "country": "no",
+  "active": true,
+  "org": "ServeTheWorld AS",
+  "domain": "servetheworld.net",
+  "abuse": "abuse@servetheworld.net",
+  "type": "hosting",
+  "created": "2005-05-13",
+  "updated": "2019-12-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS34989",
+  "prefixes": [
+    "80.71.230.0/24",
+    "83.143.80.0/21",
+    "91.189.176.0/21",
+    "93.113.131.0/24",
+    "94.177.112.0/24",
+    "185.101.32.0/22",
+    "185.117.97.0/24",
+    "185.126.36.0/22",
+    "194.242.10.0/23",
+    "217.170.192.0/20"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0019",
+  "abuse_rank": "Low"
+}

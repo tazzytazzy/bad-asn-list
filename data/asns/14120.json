@@ -1,0 +1,26 @@
+{
+  "asn": 14120,
+  "descr": "ITHS-NY4-BLK-001, US",
+  "country": "us",
+  "active": true,
+  "org": "oneZero Financial Systems, LLC",
+  "domain": "onezero.com",
+  "abuse": "bkrauthamer@onezero.com",
+  "type": "business",
+  "created": "2011-06-06",
+  "updated": "2018-10-05",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS14120",
+  "prefixes": [
+    "38.76.4.0/24",
+    "147.160.248.0/23",
+    "147.160.250.0/24",
+    "147.160.252.0/23",
+    "147.160.254.0/23",
+    "168.245.178.0/23",
+    "192.149.48.0/22"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,21 @@
+{
+  "asn": 23273,
+  "descr": "HOSTP-LA, US",
+  "country": "us",
+  "active": true,
+  "org": "HostPapa",
+  "domain": "hostpapa.com",
+  "abuse": "net-abuse-global@hostpapa.com",
+  "type": "hosting",
+  "created": "2002-02-20",
+  "updated": "2021-05-19",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS23273",
+  "prefixes": [
+    "172.96.180.0/22",
+    "204.44.192.0/20"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low"
+}

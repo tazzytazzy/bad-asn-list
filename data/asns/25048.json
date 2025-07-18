@@ -1,0 +1,30 @@
+{
+  "asn": 25048,
+  "descr": "DSNET DSNet, GB",
+  "country": "gb",
+  "active": true,
+  "org": "DSNET Ltd",
+  "domain": "dsnethosting.com",
+  "abuse": "ripe-abuse@dsnethosting.com",
+  "type": "hosting",
+  "created": "2002-09-20",
+  "updated": "2024-10-14",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS25048",
+  "prefixes": [
+    "81.90.128.0/20",
+    "81.90.132.0/24",
+    "81.90.133.0/24",
+    "81.90.139.0/24",
+    "81.90.140.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a00:e20::/32",
+    "2a00:e20:150::/48",
+    "2a00:e21::/32",
+    "2a00:e26::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

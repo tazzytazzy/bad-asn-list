@@ -1,0 +1,20 @@
+{
+  "asn": 22119,
+  "descr": "LEE-EQ1, US",
+  "country": "us",
+  "active": true,
+  "org": "Lee Equity Partners LLC",
+  "domain": "leeequity.com",
+  "abuse": "pmurray@leequity.com",
+  "type": "banking",
+  "created": "2020-01-13",
+  "updated": "2020-01-13",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS22119",
+  "prefixes": [
+    "65.211.85.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

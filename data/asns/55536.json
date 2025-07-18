@@ -1,0 +1,31 @@
+{
+  "asn": 55536,
+  "descr": "PSWITCH-HK PACSWITCH IP NETWORK, HK",
+  "country": "hk",
+  "active": true,
+  "org": "Pacswitch Globe Telecom Limited",
+  "domain": "pacswitch.com",
+  "abuse": "abuse-asia@pacswitch.com",
+  "type": "hosting",
+  "updated": "2024-12-06",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS55536",
+  "prefixes": [
+    "27.122.12.0/22",
+    "27.122.13.0/24",
+    "27.122.14.0/24",
+    "27.122.15.0/24",
+    "103.10.197.0/24",
+    "103.10.199.0/24",
+    "116.193.159.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:df0:a6::/48",
+    "2001:df3:9c00::/48",
+    "2407:e300::/32",
+    "2407:e301::/32"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low"
+}

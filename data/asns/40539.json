@@ -1,0 +1,26 @@
+{
+  "asn": 40539,
+  "descr": "PROHCI, US",
+  "country": "us",
+  "active": true,
+  "org": "Hosting Consulting, Inc",
+  "domain": "hosting.com",
+  "abuse": "c2@nerd.com",
+  "type": "hosting",
+  "created": "2007-05-09",
+  "updated": "2012-03-20",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS40539",
+  "prefixes": [
+    "199.88.56.0/21",
+    "208.78.92.0/22",
+    "208.78.92.0/24",
+    "208.91.204.0/22",
+    "208.91.204.0/24",
+    "208.91.206.0/24",
+    "208.91.207.0/24"
+  ],
+  "fetched": "2025-07-18T09:14:52.868345Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

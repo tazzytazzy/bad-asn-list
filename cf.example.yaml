@@ -1,0 +1,9 @@
+# You'll ned a CloudFlare API token with these rights:
+# TODO: list the rights.
+api_token: "YOUR_CLOUDFLARE_API_TOKEN_HERE"
+
+# Below will be updated automatically when cf_accounts is ran.
+accounts:
+    - id: "YOUR_ACCOUNT_ID_HERE"
+      name: "Your Account Name"
+      rules: []

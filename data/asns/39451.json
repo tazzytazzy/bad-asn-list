@@ -1,0 +1,20 @@
+{
+  "asn": 39451,
+  "descr": "IOMART-AS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "IOMART MANAGED SERVICES LIMITED",
+  "domain": "iomart.com",
+  "abuse": "abuse@iomart.com",
+  "type": "hosting",
+  "created": "2006-02-24",
+  "updated": "2024-06-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS39451",
+  "prefixes": [
+    "193.254.210.0/23"
+  ],
+  "fetched": "2025-07-18T09:14:08.290501Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

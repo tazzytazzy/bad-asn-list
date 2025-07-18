@@ -1,0 +1,32 @@
+{
+  "asn": 135562,
+  "descr": "NGNHK-AS-AP Nevigate Global Network Hong Kong Limited, HK",
+  "country": "hk",
+  "active": true,
+  "org": "Nevigate Global Network (Hong Kong) Limited",
+  "domain": "nevigate.net",
+  "abuse": "nevigate-technical@nevigate.net",
+  "type": "isp",
+  "updated": "2024-08-29",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS135562",
+  "prefixes": [
+    "103.123.30.0/24",
+    "103.123.31.0/24"
+  ],
+  "prefixesIPv6": [
+    "2403:9bc0::/48",
+    "2403:9bc0:1::/48",
+    "2403:9bc0:2::/48",
+    "2403:9bc0:3::/48",
+    "2403:9bc0:4::/48",
+    "2403:9bc0:5::/48",
+    "2403:9bc0:6::/48",
+    "2403:9bc0:7::/48",
+    "2403:9bc0:8::/48",
+    "2403:9bc0:9::/48"
+  ],
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

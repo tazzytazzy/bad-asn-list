@@ -1,0 +1,36 @@
+{
+  "asn": 31472,
+  "descr": "VOICEHOST, GB",
+  "country": "gb",
+  "active": true,
+  "org": "VoiceHost Ltd",
+  "domain": "voicehost.co.uk",
+  "abuse": "abuse@voicehost.co.uk",
+  "type": "isp",
+  "created": "2012-03-12",
+  "updated": "2025-02-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS31472",
+  "prefixes": [
+    "37.157.48.0/21",
+    "84.247.32.0/22",
+    "89.35.164.0/22",
+    "149.19.176.0/22",
+    "185.2.76.0/22",
+    "185.2.76.0/23",
+    "185.34.80.0/22",
+    "185.60.4.0/22",
+    "185.61.88.0/22",
+    "185.86.20.0/22",
+    "185.91.40.0/22",
+    "185.91.41.0/24",
+    "195.206.184.0/21"
+  ],
+  "prefixesIPv6": [
+    "2a00:b840::/29",
+    "2a00:b840:1::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

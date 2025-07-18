@@ -1,0 +1,27 @@
+{
+  "asn": 5577,
+  "descr": "ROOT, LU",
+  "country": "lu",
+  "active": true,
+  "org": "root SA",
+  "domain": "root.lu",
+  "abuse": "abuse@as5577.net",
+  "type": "hosting",
+  "created": "2009-05-15",
+  "updated": "2018-11-30",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS5577",
+  "prefixes": [
+    "83.243.8.0/21",
+    "195.24.72.0/21",
+    "195.26.4.0/23",
+    "195.28.160.0/23"
+  ],
+  "prefixesIPv6": [
+    "2001:67c:15a3::/48",
+    "2a01:608::/32"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

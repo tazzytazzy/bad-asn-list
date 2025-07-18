@@ -1,0 +1,25 @@
+{
+  "asn": 53914,
+  "descr": "GENESIS-HOSTING-SOLUTIONS-LLC, US",
+  "country": "us",
+  "active": true,
+  "org": "Genesis Hosting Solutions, LLC",
+  "domain": "genesishosting.com",
+  "abuse": "arin@genesishosting.com",
+  "type": "hosting",
+  "created": "2011-08-05",
+  "updated": "2012-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS53914",
+  "prefixes": [
+    "45.33.198.0/23",
+    "104.36.108.0/24",
+    "104.36.109.0/24",
+    "104.36.110.0/24",
+    "104.36.111.0/24",
+    "199.38.216.0/21"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low"
+}

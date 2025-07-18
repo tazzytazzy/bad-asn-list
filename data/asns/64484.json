@@ -1,0 +1,24 @@
+{
+  "asn": 64484,
+  "descr": "HEXANODE, FR",
+  "country": "fr",
+  "active": true,
+  "org": "Hexanode SARL",
+  "domain": "hexanode.fr",
+  "abuse": "abuse@hexanode.fr",
+  "type": "hosting",
+  "created": "2019-07-01",
+  "updated": "2022-10-10",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS64484",
+  "prefixes": [
+    "62.3.33.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0e:1e40::/48",
+    "2a0e:1e40:1::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

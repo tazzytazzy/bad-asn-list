@@ -1,0 +1,26 @@
+{
+  "asn": 201597,
+  "descr": "ANYIT-CONNECTIONS-AS Any-iT Connections, NL",
+  "country": "nl",
+  "active": true,
+  "org": "2invision Managed Services B.V.",
+  "domain": "2invision.nl",
+  "abuse": "abuse@privatehost.nl",
+  "type": "hosting",
+  "created": "2014-09-18",
+  "updated": "2021-12-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201597",
+  "prefixes": [
+    "185.66.92.0/22",
+    "185.232.252.0/22",
+    "185.232.254.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a05:680::/29",
+    "2a05:687::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

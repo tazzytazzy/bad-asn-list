@@ -1,0 +1,22 @@
+{
+  "asn": 40728,
+  "descr": "GEARHOST, US",
+  "country": "us",
+  "active": true,
+  "org": "GearHost, Inc.",
+  "domain": "gearhost.com",
+  "abuse": "support@gearhost.com",
+  "type": "hosting",
+  "created": "2008-03-04",
+  "updated": "2012-03-20",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS40728",
+  "prefixes": [
+    "67.231.96.0/20",
+    "69.24.64.0/20",
+    "204.246.48.0/20"
+  ],
+  "fetched": "2025-07-18T09:16:03.028797Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

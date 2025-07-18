@@ -1,0 +1,24 @@
+{
+  "asn": 47549,
+  "descr": "HOSTINGSYSTEMS-AS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Hosting Systems Ltd",
+  "domain": "hostingsystems.co.uk",
+  "abuse": "abuse@hostingsystems.co.uk",
+  "type": "hosting",
+  "created": "2008-07-08",
+  "updated": "2017-11-15",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS47549",
+  "prefixes": [
+    "93.159.200.0/24",
+    "93.159.201.0/24",
+    "93.159.202.0/24",
+    "93.159.205.0/24",
+    "93.159.206.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

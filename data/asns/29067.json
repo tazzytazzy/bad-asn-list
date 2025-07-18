@@ -1,0 +1,36 @@
+{
+  "asn": 29067,
+  "descr": "UATLD-AS UA ccTLD Manager, UA",
+  "country": "ua",
+  "active": true,
+  "org": "LLC Hostmaster",
+  "domain": "hostmaster.ua",
+  "abuse": "abuse@hostmaster.ua",
+  "type": "business",
+  "created": "2003-05-23",
+  "updated": "2024-06-19",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS29067",
+  "prefixes": [
+    "109.70.108.0/24",
+    "109.70.109.0/24",
+    "109.70.111.0/24",
+    "185.159.140.0/24",
+    "185.159.141.0/24",
+    "193.29.220.0/24",
+    "195.47.253.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:67c:258::/48",
+    "2001:4130:20::/48",
+    "2001:4130:b0::/48",
+    "2001:4130:cd::/48",
+    "2001:4130:ce::/48",
+    "2001:4130:141::/48",
+    "2001:4130:50f1::/48",
+    "2001:4130:50f2::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low"
+}

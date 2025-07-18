@@ -1,0 +1,23 @@
+{
+  "asn": 202661,
+  "descr": "NETPLANS-CLOUD, DE",
+  "country": "de",
+  "active": true,
+  "org": "NetPlans GmbH",
+  "domain": "netplans.de",
+  "abuse": "abuse@cloud01-netplans.de",
+  "type": "business",
+  "created": "2022-09-28",
+  "updated": "2022-11-10",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202661",
+  "prefixes": [
+    "185.197.40.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a0e:d1c0::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

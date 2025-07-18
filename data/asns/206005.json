@@ -1,0 +1,17 @@
+{
+  "asn": 206005,
+  "descr": "HOSTING, MD",
+  "country": "md",
+  "active": false,
+  "org": "CONTRUST SOLUTIONS S.R.L.",
+  "domain": "contrust.md",
+  "abuse": "alex.kontrast.eu@gmail.com",
+  "type": "hosting",
+  "created": "2017-04-13",
+  "updated": "2025-05-28",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS206005",
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

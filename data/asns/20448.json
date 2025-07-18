@@ -1,0 +1,32 @@
+{
+  "asn": 20448,
+  "descr": "SCIPIO-TECH-20448, US",
+  "country": "us",
+  "active": true,
+  "org": "Peace Communications LLC",
+  "domain": "peacecom.net",
+  "abuse": "noc@peacecom.net",
+  "type": "isp",
+  "created": "2001-05-09",
+  "updated": "2025-01-29",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS20448",
+  "prefixes": [
+    "209.235.160.0/19",
+    "209.235.160.0/20",
+    "209.235.162.0/24",
+    "209.235.168.0/24",
+    "209.235.170.0/24",
+    "209.235.172.0/22",
+    "209.235.176.0/20",
+    "209.235.177.0/24",
+    "209.235.178.0/24",
+    "209.235.190.0/23"
+  ],
+  "prefixesIPv6": [
+    "2606:1000::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

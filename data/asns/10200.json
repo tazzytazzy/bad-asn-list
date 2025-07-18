@@ -1,0 +1,21 @@
+{
+  "asn": 10200,
+  "descr": "TDL2L-AS-AP The Digital Lab 2007 Limited, NZ",
+  "country": "nz",
+  "active": true,
+  "org": "The Digital Lab 2007 Limited",
+  "domain": "tdl.co.nz",
+  "abuse": "irteam@kci.net.nz",
+  "type": "business",
+  "updated": "2020-11-10",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS10200",
+  "prefixes": [
+    "103.238.84.0/22",
+    "202.27.83.0/24",
+    "202.36.154.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

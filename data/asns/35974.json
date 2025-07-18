@@ -1,0 +1,21 @@
+{
+  "asn": 35974,
+  "descr": "QTS-EEM, US",
+  "country": "us",
+  "active": true,
+  "org": "Quality Technology Services, LLC",
+  "domain": "qtsdatacenters.com",
+  "abuse": "abuse@qtsdatacenters.com",
+  "type": "hosting",
+  "created": "2009-03-16",
+  "updated": "2022-10-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS35974",
+  "prefixes": [
+    "173.245.120.0/24",
+    "173.245.121.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

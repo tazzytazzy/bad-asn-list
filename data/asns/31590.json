@@ -1,0 +1,34 @@
+{
+  "asn": 31590,
+  "descr": "RACKHOSTING-AS, DK",
+  "country": "dk",
+  "active": true,
+  "org": "Rackhosting.com ApS",
+  "domain": "rackhosting.com",
+  "abuse": "abuse@rackhosting.com",
+  "type": "hosting",
+  "created": "2004-06-18",
+  "updated": "2017-11-15",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS31590",
+  "prefixes": [
+    "77.247.64.0/22",
+    "77.247.68.0/22",
+    "77.247.72.0/22",
+    "77.247.76.0/22",
+    "185.110.80.0/23",
+    "185.110.82.0/23",
+    "185.121.60.0/22",
+    "185.121.60.0/23",
+    "185.121.62.0/23",
+    "194.150.108.0/23",
+    "194.150.110.0/23",
+    "194.242.40.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:4de0::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

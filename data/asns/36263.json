@@ -1,0 +1,27 @@
+{
+  "asn": 36263,
+  "descr": "AWS-EVENTS, US",
+  "country": "us",
+  "active": true,
+  "org": "Amazon.com, Inc.",
+  "domain": "amazon.com",
+  "abuse": "ipmanagement@amazon.com",
+  "type": "hosting",
+  "created": "2021-06-17",
+  "updated": "2021-06-17",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS36263",
+  "prefixes": [
+    "161.188.220.0/24",
+    "161.188.221.0/24",
+    "161.188.222.0/24",
+    "161.188.223.0/24"
+  ],
+  "prefixesIPv6": [
+    "2606:5cc0:1100::/40",
+    "2606:5cc0:1200::/40"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

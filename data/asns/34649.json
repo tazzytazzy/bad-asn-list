@@ -1,0 +1,17 @@
+{
+  "asn": 34649,
+  "descr": "HOST365, GB",
+  "country": "gb",
+  "active": false,
+  "org": "HOST365 LIMITED",
+  "domain": "host365.com",
+  "abuse": "support@host365.com",
+  "type": "hosting",
+  "created": "2005-03-08",
+  "updated": "2019-12-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS34649",
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

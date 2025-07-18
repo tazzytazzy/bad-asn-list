@@ -1,0 +1,22 @@
+{
+  "asn": 60974,
+  "descr": "NAICOMS, BG",
+  "country": "bg",
+  "active": true,
+  "org": "Naicoms EOOD",
+  "domain": "naicoms.com",
+  "abuse": "vdimitrov@naicoms.com",
+  "type": "business",
+  "created": "2013-03-27",
+  "updated": "2023-08-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60974",
+  "prefixes": [
+    "95.169.195.0/24",
+    "201.150.62.0/24",
+    "201.150.63.0/24"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

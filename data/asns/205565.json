@@ -1,0 +1,23 @@
+{
+  "asn": 205565,
+  "descr": "BASETELECOMMUNICATIONSLLP, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Base Telecommunications LLP",
+  "domain": "basetelecommunications.net",
+  "abuse": "abuse@basetelecommunications.net",
+  "type": "isp",
+  "created": "2017-07-20",
+  "updated": "2019-07-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205565",
+  "prefixes": [
+    "185.213.244.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a0b:90c0::/29"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0771",
+  "abuse_rank": "High"
+}

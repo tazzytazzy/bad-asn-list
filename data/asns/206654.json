@@ -1,0 +1,17 @@
+{
+  "asn": 206654,
+  "descr": "TEHNOINSTAL, MD",
+  "country": "md",
+  "active": false,
+  "org": "TEHNOINSTAL SRL",
+  "domain": "itns.md",
+  "abuse": "abuse@itns.md",
+  "type": "business",
+  "created": "2016-12-01",
+  "updated": "2020-11-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS206654",
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

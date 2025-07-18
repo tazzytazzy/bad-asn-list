@@ -1,0 +1,23 @@
+{
+  "asn": 54839,
+  "descr": "EMPIRE, US",
+  "country": "us",
+  "active": true,
+  "org": "Intelliracks Managed Hosting",
+  "domain": "intelliracks.com",
+  "abuse": "chad@intuitivereason.com",
+  "type": "hosting",
+  "created": "2012-09-05",
+  "updated": "2022-08-12",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS54839",
+  "prefixes": [
+    "198.102.28.0/24"
+  ],
+  "prefixesIPv6": [
+    "2602:fff9::/40"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

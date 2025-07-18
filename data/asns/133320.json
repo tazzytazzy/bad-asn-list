@@ -1,0 +1,19 @@
+{
+  "asn": 133320,
+  "descr": "ALPHA-AS-AP Alpha InfoLab Private limited, IN",
+  "country": "in",
+  "active": true,
+  "org": "Alpha InfoLab Private Limited",
+  "domain": "alphainfolab.com",
+  "abuse": "abuse@alphainfolab.com",
+  "type": "hosting",
+  "updated": "2023-08-23",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS133320",
+  "prefixes": [
+    "45.118.9.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,30 @@
+{
+  "asn": 11114,
+  "descr": "WINTEK-CORP, US",
+  "country": "us",
+  "active": true,
+  "org": "Wintek Corporation",
+  "domain": "wintek.com",
+  "abuse": "abuse@wintek.com",
+  "type": "isp",
+  "created": "1998-04-13",
+  "updated": "2020-09-22",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS11114",
+  "prefixes": [
+    "69.94.48.0/21",
+    "72.12.192.0/19",
+    "147.129.192.0/18",
+    "198.252.196.0/22",
+    "199.233.104.0/24",
+    "205.233.8.0/22",
+    "206.127.32.0/19"
+  ],
+  "prefixesIPv6": [
+    "2604:d7c0::/32",
+    "2605:ec80::/32"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,23 @@
+{
+  "asn": 9823,
+  "descr": "PEARSON-APAC Pearson Group, AU",
+  "country": "au",
+  "active": true,
+  "org": "Pearson Australia Group Pty Ltd",
+  "domain": "pearson.com.au",
+  "abuse": "routing@pearson.com",
+  "type": "business",
+  "updated": "2020-08-17",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS9823",
+  "prefixes": [
+    "159.182.52.0/23",
+    "159.182.64.0/22",
+    "159.182.67.0/24",
+    "168.146.111.0/24",
+    "168.146.112.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

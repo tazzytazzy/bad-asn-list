@@ -1,0 +1,16 @@
+{
+  "asn": 32987,
+  "descr": "AS080780, US",
+  "country": "us",
+  "active": true,
+  "whois": "https://api.ipapi.is/?whois=AS32987",
+  "prefixes": [
+    "74.114.148.0/24",
+    "74.114.149.0/24",
+    "74.114.150.0/24",
+    "74.114.151.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

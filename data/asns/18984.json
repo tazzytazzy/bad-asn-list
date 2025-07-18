@@ -1,0 +1,20 @@
+{
+  "asn": 18984,
+  "descr": "MOBOWARE, US",
+  "country": "us",
+  "active": true,
+  "org": "Moboware Inc.",
+  "domain": "moboware.com",
+  "abuse": "teddy@moboware.com",
+  "type": "business",
+  "created": "2023-02-22",
+  "updated": "2023-02-22",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS18984",
+  "prefixes": [
+    "38.79.97.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

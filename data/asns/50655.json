@@ -1,0 +1,25 @@
+{
+  "asn": 50655,
+  "descr": "ITSHOSTED-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "ITS HOSTED",
+  "domain": "itshosted.nl",
+  "abuse": "abuse@itshosted.nl",
+  "type": "hosting",
+  "created": "2010-03-04",
+  "updated": "2024-01-22",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50655",
+  "prefixes": [
+    "178.20.168.0/21"
+  ],
+  "prefixesIPv6": [
+    "2a00:1d38::/32",
+    "2a00:1d38:fa::/48",
+    "2a00:1d38:feed::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

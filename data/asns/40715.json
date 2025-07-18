@@ -1,0 +1,32 @@
+{
+  "asn": 40715,
+  "descr": "COLOGIX-COL, US",
+  "country": "us",
+  "active": true,
+  "org": "Cologix, Inc",
+  "domain": "cologix.com",
+  "abuse": "abuse@cologix.com",
+  "type": "hosting",
+  "created": "2008-03-03",
+  "updated": "2022-08-18",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS40715",
+  "prefixes": [
+    "67.154.188.0/22",
+    "74.121.64.0/22",
+    "74.121.64.0/24",
+    "74.121.65.0/24",
+    "74.121.66.0/24",
+    "74.219.154.0/24",
+    "96.11.188.0/24",
+    "199.188.168.0/22",
+    "199.254.141.0/24",
+    "216.69.192.0/19"
+  ],
+  "prefixesIPv6": [
+    "2605:4400::/32"
+  ],
+  "fetched": "2025-07-18T09:16:03.028797Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

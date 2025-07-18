@@ -1,0 +1,23 @@
+{
+  "asn": 49834,
+  "descr": "BESTHOSTING, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Best Hosting Company, LLC",
+  "domain": "best-hosting.ru",
+  "abuse": "abuse@best-hosting.ru",
+  "type": "hosting",
+  "created": "2009-09-28",
+  "updated": "2020-11-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49834",
+  "prefixes": [
+    "213.108.248.0/21",
+    "213.108.248.0/23",
+    "213.108.250.0/23",
+    "213.108.252.0/23"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

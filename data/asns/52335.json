@@ -1,0 +1,23 @@
+{
+  "asn": 52335,
+  "descr": "Colombia Hosting, CO",
+  "country": "co",
+  "active": true,
+  "org": "Colombia Hosting",
+  "domain": "colombiahosting.com.co",
+  "abuse": "ipadmin@colombiahosting.com.co",
+  "type": "hosting",
+  "created": "20110722",
+  "updated": "20110723",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS52335",
+  "prefixes": [
+    "185.74.16.0/23",
+    "185.74.18.0/24",
+    "185.74.19.0/24",
+    "190.8.176.0/22"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

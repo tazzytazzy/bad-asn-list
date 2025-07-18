@@ -1,0 +1,20 @@
+{
+  "asn": 51294,
+  "descr": "HUBARA, ES",
+  "country": "es",
+  "active": true,
+  "org": "HUBARA hosting solutions, S.L.",
+  "domain": "hubara.es",
+  "abuse": "alfredo.alonso@hubara.es",
+  "type": "hosting",
+  "created": "2010-07-15",
+  "updated": "2020-12-02",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS51294",
+  "prefixes": [
+    "178.23.56.0/21"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

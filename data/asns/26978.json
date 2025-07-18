@@ -1,0 +1,30 @@
+{
+  "asn": 26978,
+  "descr": "QTS-PHX, US",
+  "country": "us",
+  "active": true,
+  "org": "Quality Technology Services, LLC",
+  "domain": "qtsdatacenters.com",
+  "abuse": "abuse@qtsdatacenters.com",
+  "type": "hosting",
+  "created": "2003-01-07",
+  "updated": "2019-11-08",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS26978",
+  "prefixes": [
+    "66.235.224.0/19",
+    "69.5.71.0/24",
+    "206.83.192.0/19",
+    "216.36.32.0/21",
+    "216.36.33.0/24",
+    "216.36.40.0/23",
+    "216.36.43.0/24",
+    "216.36.44.0/22"
+  ],
+  "prefixesIPv6": [
+    "2607:f000::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

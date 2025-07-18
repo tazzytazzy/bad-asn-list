@@ -1,0 +1,16 @@
+{
+  "asn": 198310,
+  "descr": "OOO-MOLNIYA, RU",
+  "country": "ru",
+  "active": false,
+  "org": "OOO Molniya",
+  "abuse": "s.plakhotin@gmail.com",
+  "type": "business",
+  "created": "2023-06-01",
+  "updated": "2025-06-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS198310",
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,25 @@
+{
+  "asn": 210015,
+  "descr": "INTERFACEALL, US",
+  "country": "us",
+  "active": true,
+  "org": "Interface Services LLC",
+  "domain": "interfaceall.com",
+  "abuse": "abuse@interfaceall.com",
+  "type": "hosting",
+  "created": "2018-10-24",
+  "updated": "2022-04-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS210015",
+  "prefixes": [
+    "45.80.248.0/23",
+    "193.151.160.0/23",
+    "193.151.162.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0d:e7c7:ffff::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

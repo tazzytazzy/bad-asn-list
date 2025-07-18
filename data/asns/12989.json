@@ -1,0 +1,35 @@
+{
+  "asn": 12989,
+  "descr": "BLACKHOST AS12989.NET, CA",
+  "country": "ca",
+  "active": true,
+  "org": "Black HOST Ltd",
+  "domain": "black.host",
+  "abuse": "abuse@black.host",
+  "type": "hosting",
+  "created": "2003-05-12",
+  "updated": "2025-02-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS12989",
+  "prefixes": [
+    "86.54.28.0/24",
+    "86.54.29.0/24",
+    "86.54.31.0/24",
+    "185.142.236.0/24",
+    "185.142.238.0/23",
+    "194.54.180.0/24",
+    "194.54.181.0/24",
+    "194.54.182.0/24",
+    "212.104.140.0/24",
+    "212.104.141.0/24",
+    "213.254.179.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a01:e940::/48",
+    "2a01:e945::/48",
+    "2a01:e947::/48"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0.0044",
+  "abuse_rank": "Low"
+}

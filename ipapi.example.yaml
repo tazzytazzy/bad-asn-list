@@ -1,0 +1,15 @@
+# API key for the ipapi.is service.
+# You can get a free key from https://ipapi.is/
+api_key: "YOUR_IPAPI_IS_API_KEY_HERE"
+6e68811d6bb82c6735c9
+
+# The minimum abuse score (as a number) an ASN must have to be included
+# in the final blocklist. A higher number is more strict.
+# Default is 0, which includes all ASNs that have any score.
+# The highest abuser_score is 0.0586, you'll want to stick to something
+# around 0.0005 or so. Maybe up to 0.005. Test it out.
+minimum_abuse_score: 0
+
+# A list of recent API usage sessions.
+# This is managed automatically by the script to respect the API rate limit.
+run_history: []

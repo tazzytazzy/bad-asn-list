@@ -1,0 +1,37 @@
+{
+  "asn": 25780,
+  "descr": "HUGESERVER-NETWORKS, US",
+  "country": "us",
+  "active": true,
+  "org": "HugeServer Networks, LLC",
+  "domain": "hugeserver.com",
+  "abuse": "abuse@hugeserver.com",
+  "type": "hosting",
+  "created": "2012-07-20",
+  "updated": "2014-02-05",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS25780",
+  "prefixes": [
+    "23.186.176.0/24",
+    "107.161.48.0/24",
+    "107.167.244.0/22",
+    "185.206.168.0/22",
+    "198.203.28.0/24",
+    "198.203.29.0/24",
+    "199.241.144.0/22"
+  ],
+  "prefixesIPv6": [
+    "2604:34c0::/32",
+    "2605:8680::/48",
+    "2605:8680:12::/48",
+    "2605:8680:13::/48",
+    "2605:8680:fffe::/48",
+    "2605:8680:ffff::/48",
+    "2605:8681::/32",
+    "2605:b4c0:1234::/48",
+    "2606:6c40::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.004",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,30 @@
+{
+  "asn": 197395,
+  "descr": "HOSTGHOST-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "HostGhost B.V.",
+  "domain": "hostghost.nl",
+  "abuse": "abuse@hostghost.nl",
+  "type": "hosting",
+  "created": "2011-01-14",
+  "updated": "2023-09-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197395",
+  "prefixes": [
+    "45.10.132.0/22",
+    "46.243.96.0/21",
+    "46.243.96.0/22",
+    "46.243.100.0/23",
+    "46.243.102.0/23",
+    "91.208.62.0/24",
+    "91.239.186.0/24",
+    "185.119.188.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a04:e580::/29"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

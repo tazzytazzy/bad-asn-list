@@ -1,0 +1,28 @@
+{
+  "asn": 201553,
+  "descr": "VOLA, ES",
+  "country": "es",
+  "active": true,
+  "org": "Vola los del Internet S.L.",
+  "domain": "vola.cat",
+  "abuse": "sat@vola.cat",
+  "type": "isp",
+  "created": "2014-09-26",
+  "updated": "2020-04-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201553",
+  "prefixes": [
+    "185.103.180.0/22",
+    "185.103.180.0/24",
+    "185.103.181.0/24",
+    "185.103.182.0/24",
+    "185.103.183.0/24",
+    "185.208.64.0/24",
+    "185.208.65.0/24",
+    "185.208.66.0/24",
+    "185.208.67.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0016",
+  "abuse_rank": "Low"
+}

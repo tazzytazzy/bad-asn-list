@@ -1,0 +1,17 @@
+{
+  "asn": 202470,
+  "descr": "CLOUD Internet Service Provider, MD",
+  "country": "md",
+  "active": false,
+  "org": "Eurotelecom SRL",
+  "domain": "eurotelecom.info",
+  "abuse": "abuse@itns.net",
+  "type": "isp",
+  "created": "2018-05-09",
+  "updated": "2025-03-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202470",
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

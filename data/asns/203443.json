@@ -1,0 +1,31 @@
+{
+  "asn": 203443,
+  "descr": "INDERTCONNECTION, GB",
+  "country": "gb",
+  "active": true,
+  "org": "INDERT CONNECTION LP",
+  "domain": "indertconnection.com",
+  "abuse": "abuse@indertconnection.com",
+  "type": "business",
+  "created": "2016-01-19",
+  "updated": "2022-05-10",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS203443",
+  "prefixes": [
+    "185.126.164.0/23",
+    "185.126.166.0/23",
+    "185.127.68.0/23",
+    "185.127.70.0/23",
+    "185.127.76.0/23",
+    "185.127.78.0/23",
+    "185.132.12.0/23",
+    "185.132.14.0/23",
+    "185.134.48.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a07:6800::/29"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

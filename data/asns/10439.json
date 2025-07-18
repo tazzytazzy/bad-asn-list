@@ -1,0 +1,28 @@
+{
+  "asn": 10439,
+  "descr": "CARINET, US",
+  "country": "us",
+  "active": true,
+  "org": "CariNet, Inc.",
+  "domain": "cari.net",
+  "abuse": "complaints@cari.net",
+  "type": "hosting",
+  "created": "1997-08-05",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS10439",
+  "prefixes": [
+    "66.240.192.0/18",
+    "71.6.128.0/17",
+    "135.84.216.0/24",
+    "209.126.128.0/17",
+    "216.75.0.0/18",
+    "216.98.128.0/19"
+  ],
+  "prefixesIPv6": [
+    "2607:ff10::/32"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0.0016",
+  "abuse_rank": "Low"
+}

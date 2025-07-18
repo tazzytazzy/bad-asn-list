@@ -1,0 +1,22 @@
+{
+  "asn": 55229,
+  "descr": "WSHOSTING, US",
+  "country": "us",
+  "active": true,
+  "org": "White Sands Hosting",
+  "domain": "whitesandshosting.com",
+  "abuse": "noc@whitesandshosting.com",
+  "type": "hosting",
+  "created": "2013-04-25",
+  "updated": "2013-04-25",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS55229",
+  "prefixes": [
+    "66.11.127.0/24",
+    "199.193.14.0/24",
+    "199.193.15.0/24"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

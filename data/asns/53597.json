@@ -1,0 +1,36 @@
+{
+  "asn": 53597,
+  "descr": "HOYOS-CONSULTING-LLC, US",
+  "country": "us",
+  "active": true,
+  "org": "Hoyos Consulting LLC",
+  "domain": "hoyosconsulting.com",
+  "abuse": "noc@hoyosconsulting.com",
+  "type": "business",
+  "created": "2012-04-04",
+  "updated": "2012-04-04",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS53597",
+  "prefixes": [
+    "23.184.80.0/24",
+    "141.193.124.0/22",
+    "162.248.232.0/22",
+    "162.248.232.0/23",
+    "162.248.235.0/24",
+    "172.102.4.0/22",
+    "172.102.7.0/24",
+    "204.11.135.0/24",
+    "204.15.110.0/23"
+  ],
+  "prefixesIPv6": [
+    "2605:9180::/32",
+    "2605:9180:4000::/36",
+    "2605:9180:c000::/36",
+    "2605:9180:d000::/36",
+    "2605:9180:e100::/40",
+    "2605:9180:e200::/40"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,28 @@
+{
+  "asn": 32400,
+  "descr": "HWSERVICES-32400, US",
+  "country": "us",
+  "active": true,
+  "org": "Ntirety, Inc.",
+  "domain": "ntirety.com",
+  "abuse": "abuse@hostmysite.com",
+  "type": "hosting",
+  "created": "2004-04-27",
+  "updated": "2023-01-23",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS32400",
+  "prefixes": [
+    "64.70.192.0/19",
+    "207.150.192.0/20",
+    "216.139.208.0/20",
+    "216.139.224.0/19",
+    "216.185.144.0/20",
+    "216.185.147.0/24"
+  ],
+  "prefixesIPv6": [
+    "2606:8200::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

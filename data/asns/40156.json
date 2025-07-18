@@ -1,0 +1,30 @@
+{
+  "asn": 40156,
+  "descr": "THEOPT-HOU, US",
+  "country": "us",
+  "active": true,
+  "org": "The Optimal Link Corporation",
+  "domain": "oplink.net",
+  "abuse": "abuse@oplink.net",
+  "type": "isp",
+  "created": "2006-08-02",
+  "updated": "2013-02-06",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS40156",
+  "prefixes": [
+    "23.128.116.0/24",
+    "23.189.208.0/24",
+    "38.252.8.0/24",
+    "66.187.64.0/20",
+    "139.64.155.0/24",
+    "162.218.228.0/22",
+    "216.230.224.0/20"
+  ],
+  "prefixesIPv6": [
+    "2602:f7c4:1::/48",
+    "2604:e880::/32"
+  ],
+  "fetched": "2025-07-18T09:14:08.290501Z",
+  "abuser_score": "0.0011",
+  "abuse_rank": "Low"
+}

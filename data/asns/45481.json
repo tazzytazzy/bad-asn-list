@@ -1,0 +1,22 @@
+{
+  "asn": 45481,
+  "descr": "DIGITALSENSE-AS-AP Digital Sense Data Centre Hosting Brisbane, AU",
+  "country": "au",
+  "active": true,
+  "org": "Digital Sense Hosting Pty Ltd",
+  "domain": "digitalsense.com.au",
+  "abuse": "noc@overthewire.com.au",
+  "type": "hosting",
+  "updated": "2020-06-17",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS45481",
+  "prefixes": [
+    "103.242.32.0/22",
+    "113.52.0.0/20",
+    "113.52.14.0/24",
+    "203.30.33.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

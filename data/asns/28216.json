@@ -1,0 +1,25 @@
+{
+  "asn": 28216,
+  "descr": "Host One Servicos de Internet Ltda, BR",
+  "country": "br",
+  "active": true,
+  "org": "Host One Servicos de Internet Ltda",
+  "domain": "hostone.com.br",
+  "type": "hosting",
+  "created": "20080604",
+  "updated": "20130306",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS28216",
+  "prefixes": [
+    "177.38.224.0/23",
+    "177.38.226.0/24",
+    "177.38.227.0/24",
+    "177.38.228.0/24",
+    "177.38.229.0/24",
+    "177.38.230.0/23",
+    "189.113.160.0/20"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

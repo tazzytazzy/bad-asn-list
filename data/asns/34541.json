@@ -1,0 +1,21 @@
+{
+  "asn": 34541,
+  "descr": "ONLINESOLUTIONS-AS, FI",
+  "country": "fi",
+  "active": true,
+  "org": "Online Solutions Oy",
+  "domain": "solutions.fi",
+  "abuse": "abuse@solutions.fi",
+  "type": "hosting",
+  "created": "2005-02-09",
+  "updated": "2019-12-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS34541",
+  "prefixes": [
+    "185.193.77.0/24",
+    "217.112.192.0/20"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

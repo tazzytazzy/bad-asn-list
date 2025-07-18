@@ -1,0 +1,24 @@
+{
+  "asn": 42861,
+  "descr": "FOTONTELECOM-TRANSIT-AS FOTONTELECOM ISP, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Foton Telecom CJSC",
+  "domain": "fotontel.ru",
+  "abuse": "abuse@fotontel.ru",
+  "type": "isp",
+  "created": "2007-04-26",
+  "updated": "2023-04-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS42861",
+  "prefixesIPv6": [
+    "2a00:1e68::/32",
+    "2a00:1e68:100::/47",
+    "2a00:1e68:100::/48",
+    "2a00:1e68:101::/48",
+    "2a00:1e68:112::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

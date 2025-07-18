@@ -1,0 +1,29 @@
+{
+  "asn": 23535,
+  "descr": "HOSTROCKET, US",
+  "country": "us",
+  "active": true,
+  "org": "HostRocket.com, Inc.",
+  "domain": "hostrocket.com",
+  "abuse": "abusesupport@dotblock.com",
+  "type": "hosting",
+  "created": "2002-04-04",
+  "updated": "2012-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS23535",
+  "prefixes": [
+    "66.147.224.0/20",
+    "199.101.48.0/22",
+    "216.120.224.0/20",
+    "216.120.240.0/22",
+    "216.120.244.0/23",
+    "216.120.246.0/24",
+    "216.120.248.0/21"
+  ],
+  "prefixesIPv6": [
+    "2605:f080:500::/40"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

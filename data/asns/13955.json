@@ -1,0 +1,22 @@
+{
+  "asn": 13955,
+  "descr": "ECHO-UPLINKDATA-COM, US",
+  "country": "us",
+  "active": true,
+  "org": "Echostar Broadcasting Corporation",
+  "domain": "echostar.com",
+  "abuse": "ibrahim.abdullahi@dish.com",
+  "type": "business",
+  "created": "2011-01-24",
+  "updated": "2017-11-09",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS13955",
+  "prefixes": [
+    "8.19.78.0/24",
+    "64.125.135.0/24",
+    "208.30.75.0/24"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

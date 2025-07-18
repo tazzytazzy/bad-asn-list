@@ -1,0 +1,25 @@
+{
+  "asn": 62605,
+  "descr": "UNTANGLEDTECH, US",
+  "country": "us",
+  "active": true,
+  "org": "Untangled Technology, LLC",
+  "domain": "untangled.technology",
+  "abuse": "abuse@untangledtechnology.com",
+  "type": "business",
+  "created": "2016-09-21",
+  "updated": "2019-04-19",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS62605",
+  "prefixes": [
+    "66.219.167.0/24",
+    "66.219.169.0/24",
+    "192.64.176.0/20"
+  ],
+  "prefixesIPv6": [
+    "2607:c940::/32"
+  ],
+  "fetched": "2025-07-18T09:24:55.017628Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

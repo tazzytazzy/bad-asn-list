@@ -1,0 +1,22 @@
+{
+  "asn": 203405,
+  "descr": "DALUN-AS, TW",
+  "country": "tw",
+  "active": true,
+  "org": "Lin Kai-Lun",
+  "domain": "dalun.tw",
+  "abuse": "ripe@dalun.tw",
+  "type": "business",
+  "created": "2018-04-20",
+  "updated": "2025-06-01",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS203405",
+  "prefixesIPv6": [
+    "2a0a:b707:aaa1::/48",
+    "2a0a:b707:aaa2::/48",
+    "2a0a:b707:aaa3::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

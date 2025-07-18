@@ -1,0 +1,21 @@
+{
+  "asn": 41500,
+  "descr": "RUNET_AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "LLC RUNET",
+  "domain": "runet42.ru",
+  "abuse": "mail@runet42.ru",
+  "type": "business",
+  "created": "2017-07-26",
+  "updated": "2025-04-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS41500",
+  "prefixes": [
+    "109.248.63.0/24",
+    "185.17.67.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

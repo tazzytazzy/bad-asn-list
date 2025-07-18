@@ -1,0 +1,23 @@
+{
+  "asn": 206361,
+  "descr": "AS-TAMANET, HU",
+  "country": "hu",
+  "active": true,
+  "org": "Tamas Drinkal",
+  "domain": "tamanet.hu",
+  "abuse": "abuse@tamanet.hu",
+  "type": "business",
+  "created": "2022-04-06",
+  "updated": "2024-03-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS206361",
+  "prefixes": [
+    "88.209.193.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a09:ff00:300::/44"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

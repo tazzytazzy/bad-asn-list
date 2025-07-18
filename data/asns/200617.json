@@ -1,0 +1,23 @@
+{
+  "asn": 200617,
+  "descr": "CEBI-INTERNATIONAL, LU",
+  "country": "lu",
+  "active": true,
+  "org": "CEBI International SA",
+  "domain": "cebi.com",
+  "abuse": "abuse@luxnetwork.eu",
+  "type": "business",
+  "created": "2022-12-12",
+  "updated": "2023-03-17",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS200617",
+  "prefixes": [
+    "45.145.36.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a13:5840::/29"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

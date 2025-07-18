@@ -1,0 +1,17 @@
+{
+  "asn": 20150,
+  "descr": "ANYNODE, US",
+  "country": "us",
+  "active": false,
+  "org": "anyNode",
+  "domain": "servercrate.com",
+  "abuse": "noc@webhostingholdings.com",
+  "type": "hosting",
+  "created": "2014-05-28",
+  "updated": "2020-02-06",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS20150",
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

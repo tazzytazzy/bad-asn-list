@@ -1,0 +1,19 @@
+{
+  "asn": 135004,
+  "descr": "FY-AS-AP fy, Inc., US",
+  "country": "us",
+  "active": true,
+  "org": "fy, Inc.",
+  "domain": "fy.technology",
+  "abuse": "abuse@fy.technology",
+  "type": "business",
+  "updated": "2025-01-17",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS135004",
+  "prefixes": [
+    "202.165.124.0/24"
+  ],
+  "fetched": "2025-07-18T09:25:24.927704Z",
+  "abuser_score": "0.0039",
+  "abuse_rank": "Low"
+}

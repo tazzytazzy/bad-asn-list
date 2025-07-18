@@ -1,0 +1,20 @@
+{
+  "asn": 16312,
+  "descr": "SURFSAFE-AS, SE",
+  "country": "se",
+  "active": true,
+  "org": "Internet Vikings International AB",
+  "domain": "internetvikings.com",
+  "abuse": "abuse@internetvikings.com",
+  "type": "hosting",
+  "created": "2015-09-10",
+  "updated": "2022-06-01",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS16312",
+  "prefixes": [
+    "185.116.240.0/22"
+  ],
+  "fetched": "2025-07-18T08:22:39.236137Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

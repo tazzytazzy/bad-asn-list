@@ -1,0 +1,29 @@
+{
+  "asn": 198432,
+  "descr": "IPCORE-AS, ES",
+  "country": "es",
+  "active": true,
+  "org": "Ipcore Datacenters S.L",
+  "domain": "ipcore.com",
+  "abuse": "alvaro.montero@ipcore.com",
+  "type": "hosting",
+  "created": "2012-05-01",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS198432",
+  "prefixes": [
+    "5.2.88.0/24",
+    "5.2.89.0/24",
+    "5.2.90.0/24",
+    "5.2.91.0/24",
+    "5.2.95.0/24",
+    "185.75.179.0/24",
+    "185.164.184.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a00:e9c0::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low"
+}

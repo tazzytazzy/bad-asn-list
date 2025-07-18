@@ -1,0 +1,23 @@
+{
+  "asn": 29869,
+  "descr": "DOTBLOCK-3, US",
+  "country": "us",
+  "active": true,
+  "org": "HostRocket.com, Inc.",
+  "domain": "hostrocket.com",
+  "abuse": "abusesupport@dotblock.com",
+  "type": "hosting",
+  "created": "2013-10-10",
+  "updated": "2013-10-10",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS29869",
+  "prefixes": [
+    "216.120.247.0/24"
+  ],
+  "prefixesIPv6": [
+    "2605:f080::/40"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

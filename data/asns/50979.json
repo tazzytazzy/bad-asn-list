@@ -1,0 +1,30 @@
+{
+  "asn": 50979,
+  "descr": "ITL-LV, US",
+  "country": "us",
+  "active": true,
+  "org": "GREEN FLOID LLC",
+  "domain": "itldc.com",
+  "abuse": "abuse@greenfloid.com",
+  "type": "hosting",
+  "created": "2016-01-08",
+  "updated": "2024-06-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50979",
+  "prefixes": [
+    "45.128.151.0/24",
+    "92.118.148.0/24",
+    "176.126.162.0/24",
+    "185.237.218.0/23",
+    "195.20.208.0/24",
+    "195.123.208.0/21"
+  ],
+  "prefixesIPv6": [
+    "2a02:27ac::/32",
+    "2a0a:8c40::/32",
+    "2a0e:40c0:4::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

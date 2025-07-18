@@ -1,0 +1,21 @@
+{
+  "asn": 395105,
+  "descr": "JDAWI2, US",
+  "country": "us",
+  "active": true,
+  "org": "Blue Yonder, Inc",
+  "domain": "blueyonder.com",
+  "abuse": "asset.admin@blueyonder.com",
+  "type": "business",
+  "created": "2019-02-22",
+  "updated": "2021-09-03",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS395105",
+  "prefixes": [
+    "8.48.137.0/24",
+    "63.160.92.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

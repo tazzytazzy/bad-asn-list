@@ -1,0 +1,23 @@
+{
+  "asn": 199481,
+  "descr": "K3-RIPE-AS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Node4 Hosting Limited",
+  "domain": "node4.co.uk",
+  "abuse": "starcom-noc@node4.co.uk",
+  "type": "hosting",
+  "created": "2013-01-08",
+  "updated": "2018-04-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199481",
+  "prefixes": [
+    "185.10.88.0/24",
+    "185.10.89.0/24",
+    "185.10.90.0/23",
+    "185.113.16.0/22"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

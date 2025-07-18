@@ -1,0 +1,21 @@
+{
+  "asn": 5541,
+  "descr": "ADNET-TELECOM, RO",
+  "country": "ro",
+  "active": true,
+  "org": "INVITE Systems SRL",
+  "domain": "invitesys.ro",
+  "abuse": "abuse@invitesys.ro",
+  "type": "business",
+  "created": "2009-08-25",
+  "updated": "2020-06-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS5541",
+  "prefixes": [
+    "84.239.0.0/22",
+    "93.120.10.0/23"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

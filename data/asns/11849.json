@@ -1,0 +1,20 @@
+{
+  "asn": 11849,
+  "descr": "CAMPLINK-3, US",
+  "country": "us",
+  "active": true,
+  "org": "Camplink",
+  "domain": "nationwideinc.com",
+  "abuse": "mburns@nationwideinc.com",
+  "type": "business",
+  "created": "2009-01-29",
+  "updated": "2018-08-10",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS11849",
+  "prefixes": [
+    "145.223.66.0/24"
+  ],
+  "fetched": "2025-07-18T08:10:16.650792Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

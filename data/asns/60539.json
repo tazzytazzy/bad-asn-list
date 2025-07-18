@@ -1,0 +1,30 @@
+{
+  "asn": 60539,
+  "descr": "HUICAST_TELECOM, HK",
+  "country": "hk",
+  "active": true,
+  "org": "Huicast Telecom Limited",
+  "domain": "huicast.com",
+  "abuse": "abuse@huicast.com",
+  "type": "isp",
+  "created": "2023-08-14",
+  "updated": "2025-01-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60539",
+  "prefixes": [
+    "5.160.111.0/24",
+    "161.248.29.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a13:aac0::/29",
+    "2a13:aac6:c300::/40",
+    "2a13:aac7:60::/44",
+    "2a13:aac7:100::/40",
+    "2a13:aac7:100::/46",
+    "2a13:aac7:300::/40",
+    "2a13:aac7:400::/40"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

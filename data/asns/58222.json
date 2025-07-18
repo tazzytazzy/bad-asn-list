@@ -1,0 +1,31 @@
+{
+  "asn": 58222,
+  "descr": "SERVERBASE, CH",
+  "country": "ch",
+  "active": true,
+  "org": "ServerBase AG",
+  "domain": "serverbase.ch",
+  "abuse": "abuse@serverbase.ch",
+  "type": "hosting",
+  "created": "2021-02-03",
+  "updated": "2021-02-03",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS58222",
+  "prefixes": [
+    "45.80.16.0/22",
+    "89.43.116.0/22",
+    "91.210.70.0/24",
+    "156.67.8.0/22",
+    "185.2.200.0/22",
+    "185.16.172.0/22",
+    "185.234.16.0/22",
+    "212.237.208.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a03:da40::/32",
+    "2a03:da41::/32"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

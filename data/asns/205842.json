@@ -1,0 +1,22 @@
+{
+  "asn": 205842,
+  "descr": "LINKWEBSOLUTIONS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Link Web Solutions LLP",
+  "domain": "linkwebsolutions.com",
+  "abuse": "abuse@linkwebsolutions.com",
+  "type": "hosting",
+  "created": "2017-05-19",
+  "updated": "2019-12-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205842",
+  "prefixes": [
+    "185.202.72.0/23",
+    "185.202.74.0/23",
+    "185.239.188.0/23"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

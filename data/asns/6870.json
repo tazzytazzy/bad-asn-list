@@ -1,0 +1,20 @@
+{
+  "asn": 6870,
+  "descr": "SPACE-IX, RU",
+  "country": "ru",
+  "active": true,
+  "org": "RECONN LLC",
+  "domain": "reconn.ru",
+  "abuse": "abuse@reconn.ru",
+  "type": "isp",
+  "created": "2009-07-27",
+  "updated": "2020-03-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS6870",
+  "prefixes": [
+    "195.209.51.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

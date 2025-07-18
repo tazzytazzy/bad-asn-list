@@ -1,0 +1,23 @@
+{
+  "asn": 62756,
+  "descr": "DOTBLOCK-2, US",
+  "country": "us",
+  "active": true,
+  "org": "HostRocket.com, Inc.",
+  "domain": "hostrocket.com",
+  "abuse": "abusesupport@dotblock.com",
+  "type": "hosting",
+  "created": "2013-09-06",
+  "updated": "2013-09-06",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS62756",
+  "prefixes": [
+    "198.8.62.0/23"
+  ],
+  "prefixesIPv6": [
+    "2605:f080:700::/40"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

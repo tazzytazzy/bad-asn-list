@@ -1,0 +1,30 @@
+{
+  "asn": 263744,
+  "descr": "Udasha S.A., HN",
+  "country": "hn",
+  "active": true,
+  "org": "Udasha S.A.",
+  "domain": "udasha.com",
+  "abuse": "admin1@udasha.com",
+  "type": "business",
+  "created": "20150320",
+  "updated": "20150320",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS263744",
+  "prefixes": [
+    "131.108.16.0/22",
+    "138.94.216.0/22",
+    "143.137.168.0/22",
+    "168.196.240.0/22",
+    "168.196.241.0/24",
+    "168.228.45.0/24",
+    "168.228.46.0/23",
+    "170.81.196.0/22"
+  ],
+  "prefixesIPv6": [
+    "2803:5380::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0082",
+  "abuse_rank": "Low"
+}

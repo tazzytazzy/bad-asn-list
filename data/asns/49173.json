@@ -1,0 +1,23 @@
+{
+  "asn": 49173,
+  "descr": "ASN-TELECABLE, ES",
+  "country": "es",
+  "active": true,
+  "org": "Telecable Almonte, S.L.",
+  "domain": "telecablealmonte.com",
+  "abuse": "abuse@telecablealmonte.com",
+  "type": "isp",
+  "created": "2016-09-28",
+  "updated": "2024-06-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49173",
+  "prefixes": [
+    "37.26.252.0/22",
+    "185.6.32.0/22",
+    "185.141.240.0/22",
+    "194.146.28.0/22"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0012",
+  "abuse_rank": "Low"
+}

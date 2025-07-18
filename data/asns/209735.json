@@ -1,0 +1,25 @@
+{
+  "asn": 209735,
+  "descr": "LAGRANGE, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Lagrange Cloud Technologies Limited",
+  "domain": "lagrange.cloud",
+  "abuse": "abuse@lagrange.cloud",
+  "type": "hosting",
+  "created": "2022-02-01",
+  "updated": "2025-01-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS209735",
+  "prefixes": [
+    "103.146.103.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0a:6044:b343::/48",
+    "2a0f:85c1:80::/48",
+    "2a0f:85c1:81::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

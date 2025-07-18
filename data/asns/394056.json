@@ -1,0 +1,30 @@
+{
+  "asn": 394056,
+  "descr": "BIFIV, US",
+  "country": "us",
+  "active": true,
+  "org": "BIF IV",
+  "domain": "intrepidfiber.com",
+  "abuse": "admin@intrepidfiber.com",
+  "type": "isp",
+  "created": "2022-10-21",
+  "updated": "2022-10-21",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS394056",
+  "prefixes": [
+    "66.33.8.0/21",
+    "66.33.8.0/24",
+    "66.33.9.0/24",
+    "66.33.10.0/24",
+    "66.33.11.0/24",
+    "66.33.12.0/24",
+    "66.33.13.0/24"
+  ],
+  "prefixesIPv6": [
+    "2607:3640::/32",
+    "2607:3640:1000::/36"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0011",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,20 @@
+{
+  "asn": 201963,
+  "descr": "SCALEIT-AS, DE",
+  "country": "de",
+  "active": true,
+  "org": "SCALE IT Service GmbH",
+  "domain": "scale-it.de",
+  "abuse": "ripe@scale-it.de",
+  "type": "hosting",
+  "created": "2014-05-19",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201963",
+  "prefixesIPv6": [
+    "2a0e:fcc0::/29"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

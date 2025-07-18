@@ -1,0 +1,20 @@
+{
+  "asn": 61412,
+  "descr": "ALTA-LINGUA-AS Alta Lingua SRL, RO",
+  "country": "ro",
+  "active": true,
+  "org": "Alta Lingua SRL",
+  "domain": "alta-lingua.com",
+  "abuse": "it@alta-lingua.com",
+  "type": "business",
+  "created": "2021-05-19",
+  "updated": "2021-11-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS61412",
+  "prefixes": [
+    "91.233.106.0/24"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

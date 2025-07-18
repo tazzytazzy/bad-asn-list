@@ -1,0 +1,20 @@
+{
+  "asn": 203320,
+  "descr": "TURIEN-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "Turien en Co. Assuradeuren B.V.",
+  "domain": "turien.nl",
+  "abuse": "abuse@turien.nl",
+  "type": "business",
+  "created": "2022-08-16",
+  "updated": "2022-08-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS203320",
+  "prefixes": [
+    "45.133.1.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0371",
+  "abuse_rank": "High"
+}

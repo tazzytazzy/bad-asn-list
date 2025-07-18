@@ -1,0 +1,29 @@
+{
+  "asn": 13916,
+  "descr": "PROOFPOINT-UT7, US",
+  "country": "us",
+  "active": true,
+  "org": "Proofpoint, Inc.",
+  "domain": "proofpoint.com",
+  "abuse": "abuse@proofpoint.com",
+  "type": "business",
+  "created": "2014-05-20",
+  "updated": "2014-05-20",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS13916",
+  "prefixes": [
+    "148.163.128.0/24",
+    "148.163.129.0/24",
+    "148.163.130.0/24",
+    "208.83.136.0/24",
+    "208.83.138.0/24"
+  ],
+  "prefixesIPv6": [
+    "2620:0:2900::/48",
+    "2620:0:2901::/48",
+    "2620:100:9008::/47"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

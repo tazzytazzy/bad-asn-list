@@ -1,0 +1,25 @@
+{
+  "asn": 39458,
+  "descr": "REALHOSTS-AS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Real Hosts Limited",
+  "domain": "real-hosts.com",
+  "abuse": "abuse@real-hosts.com",
+  "type": "hosting",
+  "created": "2007-10-12",
+  "updated": "2023-10-29",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS39458",
+  "prefixes": [
+    "93.189.0.0/21",
+    "185.85.84.0/22",
+    "193.34.78.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a03:8c00::/32"
+  ],
+  "fetched": "2025-07-18T09:14:08.290501Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

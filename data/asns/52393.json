@@ -1,0 +1,25 @@
+{
+  "asn": 52393,
+  "descr": "Corporacion Dana S.A., HN",
+  "country": "hn",
+  "active": true,
+  "org": "Corporaci\u00f3n Dana S.A.",
+  "domain": "fxdana.com",
+  "abuse": "ipadmin@fxdana-dns.com",
+  "type": "business",
+  "created": "20120829",
+  "updated": "20120829",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS52393",
+  "prefixes": [
+    "168.0.212.0/22",
+    "186.179.0.0/18",
+    "190.185.108.0/22"
+  ],
+  "prefixesIPv6": [
+    "2803:8200::/32"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0065",
+  "abuse_rank": "Low"
+}

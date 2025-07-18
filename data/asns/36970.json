@@ -1,0 +1,21 @@
+{
+  "asn": 36970,
+  "descr": "interswitch, NG",
+  "country": "ng",
+  "active": true,
+  "org": "IPARTNERS LIMITED",
+  "domain": "interswitchgroup.com",
+  "type": "banking",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS36970",
+  "prefixes": [
+    "41.203.117.0/24",
+    "41.203.120.0/23",
+    "41.203.120.0/24",
+    "41.223.145.0/24",
+    "154.72.33.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

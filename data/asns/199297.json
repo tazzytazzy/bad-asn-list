@@ -1,0 +1,23 @@
+{
+  "asn": 199297,
+  "descr": "VYME Vyme, FR",
+  "country": "fr",
+  "active": true,
+  "org": "Savinien Petitjean",
+  "domain": "mercurycloud.fr",
+  "abuse": "abuse@as199297.net",
+  "type": "hosting",
+  "created": "2023-03-21",
+  "updated": "2025-01-28",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199297",
+  "prefixes": [
+    "45.88.180.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a10:4646:430::/44"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

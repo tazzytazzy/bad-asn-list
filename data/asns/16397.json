@@ -1,0 +1,21 @@
+{
+  "asn": 16397,
+  "descr": "EQUINIX BRASIL, BR",
+  "country": "br",
+  "active": true,
+  "org": "EQUINIX BRASIL",
+  "domain": "equinix.com.br",
+  "type": "hosting",
+  "created": "20000503",
+  "updated": "20211018",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS16397",
+  "prefixes": [
+    "5.62.51.0/24",
+    "142.215.101.0/24",
+    "155.204.192.0/24"
+  ],
+  "fetched": "2025-07-18T08:22:39.236137Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,31 @@
+{
+  "asn": 39756,
+  "descr": "ROHOSTWAY-AS, RO",
+  "country": "ro",
+  "active": true,
+  "org": "EASYHOST SRL",
+  "domain": "easyhost.com",
+  "abuse": "abuse@easyhost.com",
+  "type": "hosting",
+  "created": "2006-04-20",
+  "updated": "2020-11-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS39756",
+  "prefixes": [
+    "46.102.248.0/24",
+    "89.33.207.0/24",
+    "89.36.24.0/21",
+    "89.36.30.0/24",
+    "89.41.60.0/23",
+    "89.47.247.0/24",
+    "91.209.102.0/24",
+    "176.223.192.0/19",
+    "176.223.224.0/20",
+    "176.223.240.0/21",
+    "193.223.101.0/24",
+    "194.126.253.0/24"
+  ],
+  "fetched": "2025-07-18T09:14:08.290501Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

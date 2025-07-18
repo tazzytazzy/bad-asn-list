@@ -1,0 +1,10 @@
+{
+  "asn": 42400,
+  "descr": "MULTIHOST, NO",
+  "country": "no",
+  "active": false,
+  "whois": "https://api.ipapi.is/?whois=AS42400",
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

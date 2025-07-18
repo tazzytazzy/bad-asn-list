@@ -1,0 +1,24 @@
+{
+  "asn": 37280,
+  "descr": "BCL, NG",
+  "country": "ng",
+  "active": true,
+  "org": "Broad Based Communications Limited",
+  "domain": "ibroadbased.com",
+  "type": "isp",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS37280",
+  "prefixes": [
+    "41.76.192.0/21",
+    "41.76.192.0/24",
+    "41.76.193.0/24",
+    "41.76.195.0/24",
+    "41.76.196.0/24",
+    "41.76.197.0/24",
+    "41.76.198.0/24",
+    "41.76.199.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

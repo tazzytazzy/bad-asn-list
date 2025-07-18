@@ -1,0 +1,22 @@
+{
+  "asn": 205944,
+  "descr": "ISAM1, GB",
+  "country": "gb",
+  "active": true,
+  "org": "ISAM FUNDS (UK) LIMITED",
+  "domain": "isam.com",
+  "abuse": "infrastructure@isam.com",
+  "type": "banking",
+  "created": "2020-04-01",
+  "updated": "2020-08-14",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205944",
+  "prefixes": [
+    "185.250.96.0/24",
+    "185.250.97.0/24",
+    "185.250.98.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

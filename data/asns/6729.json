@@ -1,0 +1,23 @@
+{
+  "asn": 6729,
+  "descr": "DEMENIN-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "DEMENIN B.V.",
+  "domain": "deminin.net",
+  "abuse": "abuse@demenin.net",
+  "type": "hosting",
+  "created": "2015-10-23",
+  "updated": "2025-03-15",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS6729",
+  "prefixes": [
+    "213.134.29.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a10:a480::/29"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

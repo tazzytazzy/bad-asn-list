@@ -1,0 +1,22 @@
+{
+  "asn": 33611,
+  "descr": "NUVO2, US",
+  "country": "us",
+  "active": true,
+  "org": "Nuvodia, LLC",
+  "domain": "nuvodia.com",
+  "abuse": "engineering-support@nuvodia.com",
+  "type": "business",
+  "created": "2017-12-04",
+  "updated": "2017-12-04",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS33611",
+  "prefixes": [
+    "162.245.32.0/24",
+    "162.245.33.0/24",
+    "162.245.34.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

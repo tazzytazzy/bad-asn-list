@@ -1,0 +1,23 @@
+{
+  "asn": 207155,
+  "descr": "STORMNET-HOSTING-LTD, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Stormnet Hosting LTD",
+  "domain": "stormnethosting.com",
+  "abuse": "abuse@stormnethosting.com",
+  "type": "business",
+  "created": "2025-06-06",
+  "updated": "2025-06-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS207155",
+  "prefixes": [
+    "31.59.214.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a13:9500:98::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

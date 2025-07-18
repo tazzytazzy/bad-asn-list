@@ -1,0 +1,20 @@
+{
+  "asn": 53918,
+  "descr": "HHRL-ASN, US",
+  "country": "us",
+  "active": true,
+  "org": "Host Hotels and Resorts, L.P.",
+  "domain": "hosthotels.com",
+  "abuse": "charles.sterling@hosthotels.com",
+  "type": "business",
+  "created": "2011-08-08",
+  "updated": "2012-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS53918",
+  "prefixes": [
+    "199.38.172.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

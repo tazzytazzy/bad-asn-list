@@ -1,0 +1,37 @@
+{
+  "asn": 28099,
+  "descr": "iHosting Servicios Internet Ltda., CL",
+  "country": "cl",
+  "active": true,
+  "org": "iHosting Servicios Internet Ltda.",
+  "domain": "ihosting.cl",
+  "abuse": "lacnic-contact@ihosting.cl",
+  "type": "hosting",
+  "created": "20091124",
+  "updated": "20091125",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS28099",
+  "prefixes": [
+    "37.235.52.0/24",
+    "168.194.196.0/24",
+    "168.194.197.0/24",
+    "168.194.198.0/24",
+    "168.194.199.0/24",
+    "190.3.168.0/24",
+    "190.3.169.0/24",
+    "190.3.170.0/24",
+    "190.3.171.0/24",
+    "190.3.172.0/24",
+    "190.3.173.0/24",
+    "190.3.174.0/24",
+    "190.3.175.0/24",
+    "193.235.146.0/24"
+  ],
+  "prefixesIPv6": [
+    "2803:b480::/48",
+    "2a03:f80:56::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0013",
+  "abuse_rank": "Low"
+}

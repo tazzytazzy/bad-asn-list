@@ -1,0 +1,28 @@
+{
+  "asn": 207108,
+  "descr": "AHCLOUD, GB",
+  "country": "gb",
+  "active": true,
+  "org": "AH CLOUD LTD",
+  "domain": "allhost.co.uk",
+  "abuse": "abuse@allhost.co.uk",
+  "type": "hosting",
+  "created": "2022-03-18",
+  "updated": "2023-06-19",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS207108",
+  "prefixes": [
+    "45.154.197.0/24",
+    "185.139.7.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0f:2f40::/29",
+    "2a12:ab46:5341::/48",
+    "2a12:ab46:5342::/48",
+    "2a12:ab46:5343::/48",
+    "2a12:ab46:5344::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.001",
+  "abuse_rank": "Low"
+}

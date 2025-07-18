@@ -1,0 +1,24 @@
+{
+  "asn": 57129,
+  "descr": "GIDPRO, NL",
+  "country": "nl",
+  "active": true,
+  "org": "GidPro BV",
+  "domain": "gidpro.nl",
+  "abuse": "abuse@gidpro.nl",
+  "type": "hosting",
+  "created": "2022-02-03",
+  "updated": "2022-02-03",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS57129",
+  "prefixes": [
+    "185.128.32.0/22",
+    "185.202.200.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a0d:5900::/29"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

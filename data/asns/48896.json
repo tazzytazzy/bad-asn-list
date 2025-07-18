@@ -1,0 +1,25 @@
+{
+  "asn": 48896,
+  "descr": "DHOSTING-AS Warsaw, Poland, PL",
+  "country": "pl",
+  "active": true,
+  "org": "dhosting.pl Sp. z o.o.",
+  "domain": "dhosting.pl",
+  "abuse": "abuse@dhosting.pl",
+  "type": "hosting",
+  "created": "2009-02-25",
+  "updated": "2018-10-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS48896",
+  "prefixes": [
+    "109.95.152.0/21",
+    "195.88.50.0/23",
+    "195.191.232.0/23"
+  ],
+  "prefixesIPv6": [
+    "2001:67c:1c8::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

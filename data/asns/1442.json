@@ -1,0 +1,24 @@
+{
+  "asn": 1442,
+  "descr": "ASNSISL, US",
+  "country": "us",
+  "active": true,
+  "org": "SureHosting Internet Solutions, Inc.",
+  "domain": "surehosting.com",
+  "abuse": "support@securedlogics.com",
+  "type": "hosting",
+  "created": "2009-08-05",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS1442",
+  "prefixes": [
+    "74.116.124.0/22",
+    "199.168.64.0/22"
+  ],
+  "prefixesIPv6": [
+    "2606:800::/32"
+  ],
+  "fetched": "2025-07-18T07:32:46.358798Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

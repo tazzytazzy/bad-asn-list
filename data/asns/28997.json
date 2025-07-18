@@ -1,0 +1,24 @@
+{
+  "asn": 28997,
+  "descr": "NEDCOMP-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "Micros B.V.",
+  "domain": "micros.nl",
+  "abuse": "beheer@nedcomp.nl",
+  "type": "business",
+  "created": "2003-05-05",
+  "updated": "2025-01-10",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS28997",
+  "prefixes": [
+    "83.136.16.0/21",
+    "193.29.248.0/23"
+  ],
+  "prefixesIPv6": [
+    "2a03:7000::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

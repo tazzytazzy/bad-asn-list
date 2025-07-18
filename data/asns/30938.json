@@ -1,0 +1,26 @@
+{
+  "asn": 30938,
+  "descr": "ABSTATION www.abstation.net, GB",
+  "country": "gb",
+  "active": true,
+  "org": "ahbr company limited",
+  "domain": "abstation.net",
+  "abuse": "info@abstation.net",
+  "type": "business",
+  "created": "2015-05-20",
+  "updated": "2019-08-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS30938",
+  "prefixes": [
+    "5.39.248.0/24",
+    "5.39.250.0/24",
+    "5.178.97.0/24",
+    "5.178.109.0/24",
+    "31.192.240.0/21",
+    "45.12.216.0/24",
+    "185.5.36.0/22"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

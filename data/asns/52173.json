@@ -1,0 +1,29 @@
+{
+  "asn": 52173,
+  "descr": "MAKONIX, LV",
+  "country": "lv",
+  "active": true,
+  "org": "Sia Nano IT",
+  "domain": "nano.lv",
+  "abuse": "abuse@nano.lv",
+  "type": "hosting",
+  "created": "2011-01-19",
+  "updated": "2022-03-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS52173",
+  "prefixes": [
+    "94.140.124.0/22",
+    "95.215.44.0/22",
+    "185.82.126.0/23",
+    "185.86.148.0/23",
+    "185.86.150.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:7aa0:1619::/48",
+    "2a02:7aa0:5000::/48",
+    "2a02:7aa0:5100::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0059",
+  "abuse_rank": "Low"
+}

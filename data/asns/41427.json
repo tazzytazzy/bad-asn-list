@@ -1,0 +1,28 @@
+{
+  "asn": 41427,
+  "descr": "MARC-NET_AS, SI",
+  "country": "si",
+  "active": true,
+  "org": "Datacenter d.o.o.",
+  "domain": "datacenter.si",
+  "abuse": "abuse@datacenter.si",
+  "type": "hosting",
+  "created": "2006-08-18",
+  "updated": "2024-08-10",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS41427",
+  "prefixes": [
+    "193.105.127.0/24",
+    "193.164.137.0/24",
+    "193.164.138.0/24",
+    "193.164.139.0/24",
+    "193.164.140.0/24",
+    "193.164.141.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:678:cc8::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

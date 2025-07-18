@@ -1,0 +1,23 @@
+{
+  "asn": 209574,
+  "descr": "HEXNET-AS, CN",
+  "country": "cn",
+  "active": true,
+  "org": "Xiao Tan",
+  "domain": "hex.ac.cn",
+  "abuse": "abuse.net@hex.ac.cn",
+  "type": "business",
+  "created": "2023-07-26",
+  "updated": "2023-08-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS209574",
+  "prefixes": [
+    "44.31.234.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a05:dfc1:7110::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

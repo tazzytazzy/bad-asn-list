@@ -1,0 +1,31 @@
+{
+  "asn": 199883,
+  "descr": "ARUBACLOUDLTD-ASN, GB",
+  "country": "gb",
+  "active": true,
+  "org": "ArubaCloud Limited",
+  "domain": "arubacloud.com",
+  "abuse": "abuse@staff.aruba.it",
+  "type": "hosting",
+  "created": "2013-12-19",
+  "updated": "2022-02-01",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199883",
+  "prefixes": [
+    "89.36.220.0/22",
+    "89.38.144.0/22",
+    "89.40.120.0/22",
+    "94.177.248.0/22",
+    "94.177.252.0/22",
+    "185.43.208.0/22",
+    "185.58.224.0/22",
+    "217.61.16.0/21",
+    "217.61.112.0/21"
+  ],
+  "prefixesIPv6": [
+    "2a01:6e60::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low"
+}

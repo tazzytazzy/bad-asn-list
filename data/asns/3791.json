@@ -1,0 +1,24 @@
+{
+  "asn": 3791,
+  "descr": "ASCENSION-KSWIC, US",
+  "country": "us",
+  "active": true,
+  "org": "Ascension Technologies",
+  "domain": "ascension.org",
+  "abuse": "NationalWAN@ascension.org",
+  "type": "business",
+  "created": "2009-09-09",
+  "updated": "2020-02-21",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS3791",
+  "prefixes": [
+    "192.206.56.0/24",
+    "199.47.16.0/24",
+    "199.47.18.0/24",
+    "199.47.28.0/24",
+    "199.47.30.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

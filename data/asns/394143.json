@@ -1,0 +1,20 @@
+{
+  "asn": 394143,
+  "descr": "LTX-DC, US",
+  "country": "us",
+  "active": true,
+  "org": "C.O.P.S. Monitoring",
+  "domain": "copsmonitoring.com",
+  "abuse": "jballerini@copsmonitoring.com",
+  "type": "business",
+  "created": "2022-11-01",
+  "updated": "2022-11-01",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS394143",
+  "prefixes": [
+    "12.181.214.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

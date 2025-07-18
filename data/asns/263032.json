@@ -1,0 +1,28 @@
+{
+  "asn": 263032,
+  "descr": "VERO S.A, BR",
+  "country": "br",
+  "active": true,
+  "org": "VERO S.A",
+  "domain": "verointernet.com.br",
+  "abuse": "eng.numeracao@verointernet.com.br",
+  "type": "isp",
+  "created": "20120606",
+  "updated": "20240429",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS263032",
+  "prefixes": [
+    "168.90.44.0/22",
+    "170.238.192.0/22",
+    "177.137.56.0/21",
+    "177.137.56.0/22",
+    "177.137.60.0/22",
+    "186.250.36.0/22"
+  ],
+  "prefixesIPv6": [
+    "2804:2d24::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low"
+}

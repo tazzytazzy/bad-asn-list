@@ -1,0 +1,23 @@
+{
+  "asn": 62093,
+  "descr": "CICORELLA, IT",
+  "country": "it",
+  "active": true,
+  "org": "Cicorella srl",
+  "domain": "cicorella.it",
+  "abuse": "abuse@extnet.it",
+  "type": "business",
+  "created": "2022-06-13",
+  "updated": "2023-12-29",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS62093",
+  "prefixes": [
+    "185.110.20.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a02:c540::/29"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low"
+}

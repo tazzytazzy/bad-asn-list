@@ -1,0 +1,20 @@
+{
+  "asn": 210239,
+  "descr": "ZNIIS-AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "The M.I. Krivosheev Radio Research & Development Institute",
+  "domain": "zniis.ru",
+  "abuse": "i.bukharev@zniis.ru",
+  "type": "government",
+  "created": "2021-12-28",
+  "updated": "2022-02-28",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS210239",
+  "prefixes": [
+    "45.129.152.0/23"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

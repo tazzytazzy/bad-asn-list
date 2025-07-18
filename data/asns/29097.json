@@ -1,0 +1,25 @@
+{
+  "asn": 29097,
+  "descr": "HOSTPOINT-AS, CH",
+  "country": "ch",
+  "active": true,
+  "org": "Hostpoint AG",
+  "domain": "hostpoint.ch",
+  "abuse": "abuse@hostpoint.ch",
+  "type": "hosting",
+  "created": "2003-06-04",
+  "updated": "2024-08-12",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS29097",
+  "prefixes": [
+    "185.206.0.0/22",
+    "185.208.28.0/22",
+    "217.26.48.0/20"
+  ],
+  "prefixesIPv6": [
+    "2a00:d70::/32"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

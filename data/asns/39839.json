@@ -1,0 +1,25 @@
+{
+  "asn": 39839,
+  "descr": "DK-PUNKTUM The .DK TLD Registry, DK",
+  "country": "dk",
+  "active": true,
+  "org": "Punktum dk A/S",
+  "domain": "punktum.dk",
+  "abuse": "abuse@punktum.dk",
+  "type": "business",
+  "created": "2006-05-03",
+  "updated": "2024-11-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS39839",
+  "prefixes": [
+    "95.130.208.0/21",
+    "185.153.252.0/22",
+    "193.163.102.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a01:630::/32"
+  ],
+  "fetched": "2025-07-18T09:14:08.290501Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,23 @@
+{
+  "asn": 328035,
+  "descr": "Zeta-Web-Nigeria-AS, NG",
+  "country": "ng",
+  "active": true,
+  "org": "Zeta-web Nigeria Limited",
+  "domain": "zeta-web.com",
+  "type": "isp",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS328035",
+  "prefixes": [
+    "45.222.96.0/22",
+    "45.222.96.0/23",
+    "45.222.98.0/23",
+    "45.222.100.0/23"
+  ],
+  "prefixesIPv6": [
+    "2c0f:f270::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

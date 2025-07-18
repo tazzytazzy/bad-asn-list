@@ -1,0 +1,20 @@
+{
+  "asn": 47893,
+  "descr": "R-TEL-AS, UA",
+  "country": "ua",
+  "active": true,
+  "org": "R-TEL LLC",
+  "domain": "r-tel.ua",
+  "abuse": "abuse@r-tel.ua",
+  "type": "isp",
+  "created": "2016-03-17",
+  "updated": "2024-11-25",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS47893",
+  "prefixesIPv6": [
+    "2a14:6300:2::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

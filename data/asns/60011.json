@@ -1,0 +1,27 @@
+{
+  "asn": 60011,
+  "descr": "MYTHIC-BEASTS-USA, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Mythic Beasts Ltd",
+  "domain": "mythic-beasts.com",
+  "abuse": "support@mythic-beasts.com",
+  "type": "hosting",
+  "created": "2014-07-01",
+  "updated": "2024-02-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60011",
+  "prefixes": [
+    "185.101.97.0/24",
+    "185.101.98.0/24",
+    "185.101.99.0/24",
+    "198.199.155.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a04:ad80:2::/48",
+    "2a06:1c80::/31"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

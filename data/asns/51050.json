@@ -1,0 +1,30 @@
+{
+  "asn": 51050,
+  "descr": "H4HOSTING-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "H4Hosting BV",
+  "domain": "h4hosting.eu",
+  "abuse": "abuse@h4hosting.eu",
+  "type": "hosting",
+  "created": "2010-05-25",
+  "updated": "2024-09-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS51050",
+  "prefixes": [
+    "5.83.0.0/21",
+    "178.217.80.0/21",
+    "185.98.144.0/22",
+    "193.38.140.0/23",
+    "193.39.6.0/23",
+    "193.53.10.0/23",
+    "193.53.90.0/23"
+  ],
+  "prefixesIPv6": [
+    "2a01:5cc0::/32",
+    "2a0f:b580::/29"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0013",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,20 @@
+{
+  "asn": 29331,
+  "descr": "FDC-NETWORK, DK",
+  "country": "dk",
+  "active": true,
+  "org": "Forsikringens Datacenter A/S",
+  "domain": "fdc.dk",
+  "abuse": "abuse@globalconnect.dk",
+  "type": "business",
+  "created": "2003-08-04",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS29331",
+  "prefixes": [
+    "195.149.78.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

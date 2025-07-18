@@ -1,0 +1,19 @@
+{
+  "asn": 210138,
+  "descr": "MINATO-VIRTUAL-NETWORK, KR",
+  "country": "kr",
+  "active": true,
+  "org": "Yang Hyeokjun",
+  "abuse": "embeddeds1212@gmail.com",
+  "type": "business",
+  "created": "2025-04-22",
+  "updated": "2025-04-22",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS210138",
+  "prefixesIPv6": [
+    "2a14:7581:9ff0::/44"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

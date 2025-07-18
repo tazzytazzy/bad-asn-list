@@ -1,0 +1,29 @@
+{
+  "asn": 393960,
+  "descr": "HOST4GEEKS-LLC, US",
+  "country": "us",
+  "active": true,
+  "org": "Host4Geeks LLC",
+  "domain": "host4geeks.com",
+  "abuse": "abuse.support@h4g.co",
+  "type": "hosting",
+  "created": "2015-05-06",
+  "updated": "2016-08-09",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS393960",
+  "prefixes": [
+    "66.85.46.0/24",
+    "66.85.47.0/24",
+    "103.83.194.0/24",
+    "139.60.232.0/22",
+    "139.60.236.0/22",
+    "172.93.120.0/24",
+    "172.93.121.0/24",
+    "172.93.123.0/24",
+    "185.177.230.0/24",
+    "185.221.216.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0009",
+  "abuse_rank": "Low"
+}

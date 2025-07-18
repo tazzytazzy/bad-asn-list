@@ -1,0 +1,29 @@
+{
+  "asn": 206087,
+  "descr": "INTERNEZZO, CH",
+  "country": "ch",
+  "active": true,
+  "org": "Ops One AG",
+  "domain": "opsone.ch",
+  "abuse": "abuse@opsone.ch",
+  "type": "hosting",
+  "created": "2022-04-11",
+  "updated": "2025-03-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS206087",
+  "prefixes": [
+    "185.221.40.0/24",
+    "185.221.42.0/24",
+    "185.221.43.0/24",
+    "195.234.43.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:67c:690::/48",
+    "2a09:f00:a::/48",
+    "2a09:f00:b::/48",
+    "2a09:f00:ff::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

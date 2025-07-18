@@ -1,0 +1,31 @@
+{
+  "asn": 50297,
+  "descr": "INFIUM, LT",
+  "country": "lt",
+  "active": true,
+  "org": "Infium, UAB",
+  "domain": "infiumhost.com",
+  "abuse": "abusemail@infiumhost.com",
+  "type": "hosting",
+  "created": "2009-12-15",
+  "updated": "2017-11-15",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50297",
+  "prefixes": [
+    "46.148.16.0/24",
+    "46.148.17.0/24",
+    "46.148.20.0/24",
+    "46.148.21.0/24",
+    "46.148.22.0/24",
+    "46.148.26.0/24",
+    "46.148.28.0/24",
+    "193.106.28.0/22",
+    "193.200.209.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a06:5600:28f8::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0016",
+  "abuse_rank": "Low"
+}

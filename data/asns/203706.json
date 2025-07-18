@@ -1,0 +1,19 @@
+{
+  "asn": 203706,
+  "descr": "LIVADA-AS, UA",
+  "country": "ua",
+  "active": true,
+  "org": "PE Livada Gennady Olexandrovich",
+  "abuse": "lgenrix9@gmail.com",
+  "type": "business",
+  "created": "2018-04-17",
+  "updated": "2020-11-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS203706",
+  "prefixes": [
+    "188.191.146.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

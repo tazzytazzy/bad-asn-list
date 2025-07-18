@@ -1,0 +1,20 @@
+{
+  "asn": 41562,
+  "descr": "HOST4ALL-AS Montreux, Switzerland, CH",
+  "country": "ch",
+  "active": true,
+  "org": "Host4all Sarl",
+  "domain": "host4all.net",
+  "abuse": "abuse@host4all.net",
+  "type": "hosting",
+  "created": "2006-09-14",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS41562",
+  "prefixes": [
+    "195.34.72.0/23"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

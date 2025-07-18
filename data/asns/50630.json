@@ -1,0 +1,28 @@
+{
+  "asn": 50630,
+  "descr": "AIP-AS, DK",
+  "country": "dk",
+  "active": true,
+  "org": "Advanced Industries Packaging A/S",
+  "domain": "segezha-group.com",
+  "abuse": "vitaly.glotov@advanced-industries-packaging.com",
+  "type": "business",
+  "created": "2018-06-13",
+  "updated": "2024-09-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50630",
+  "prefixes": [
+    "2.56.5.0/24",
+    "109.95.57.0/24",
+    "109.95.58.0/24",
+    "195.8.194.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0d:4d40::/44",
+    "2a0d:4d40:12::/48",
+    "2a0d:4d40:13::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

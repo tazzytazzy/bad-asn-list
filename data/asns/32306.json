@@ -1,0 +1,21 @@
+{
+  "asn": 32306,
+  "descr": "FALCK-MOBILE-HEALTH-CORP, US",
+  "country": "us",
+  "active": true,
+  "org": "Falck USA, Inc.",
+  "domain": "falck.com",
+  "abuse": "peter.jorna@falck.com",
+  "type": "business",
+  "created": "2022-05-09",
+  "updated": "2022-05-09",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS32306",
+  "prefixes": [
+    "8.46.80.0/24",
+    "91.198.252.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

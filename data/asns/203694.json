@@ -1,0 +1,20 @@
+{
+  "asn": 203694,
+  "descr": "OYUNCEVHERI, IR",
+  "country": "ir",
+  "active": true,
+  "org": "Beh Pardakht Melat Co PJS",
+  "domain": "behpardakht.com",
+  "abuse": "alirezakarimizahedi1992@gmail.com",
+  "type": "banking",
+  "created": "2022-07-25",
+  "updated": "2024-01-12",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS203694",
+  "prefixes": [
+    "185.132.124.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

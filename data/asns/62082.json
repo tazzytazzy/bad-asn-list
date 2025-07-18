@@ -1,0 +1,31 @@
+{
+  "asn": 62082,
+  "descr": "HOSTLAND, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Hostland LTD",
+  "domain": "hostland.ru",
+  "abuse": "abuse-c@hostland.ru",
+  "type": "hosting",
+  "created": "2014-02-20",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS62082",
+  "prefixes": [
+    "31.207.78.0/23",
+    "185.26.120.0/22",
+    "185.26.120.0/24",
+    "185.26.121.0/24",
+    "185.26.122.0/24",
+    "185.26.123.0/24",
+    "185.37.62.0/24",
+    "185.221.212.0/22",
+    "185.221.212.0/24",
+    "185.221.213.0/24",
+    "185.221.214.0/24",
+    "185.221.215.0/24"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0021",
+  "abuse_rank": "Low"
+}

@@ -1,0 +1,31 @@
+{
+  "asn": 54489,
+  "descr": "CORESPACE-DAL, US",
+  "country": "us",
+  "active": true,
+  "org": "CoreSpace, Inc.",
+  "domain": "corespace.com",
+  "abuse": "abuse@corespace.com",
+  "type": "hosting",
+  "created": "2012-02-29",
+  "updated": "2012-02-29",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS54489",
+  "prefixes": [
+    "44.110.0.0/24",
+    "64.182.0.0/16",
+    "64.182.114.0/24",
+    "64.182.115.0/24",
+    "64.182.230.0/24",
+    "69.13.0.0/16",
+    "198.73.50.0/24",
+    "198.73.51.0/24",
+    "198.232.139.0/24"
+  ],
+  "prefixesIPv6": [
+    "2604:7780::/32"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,30 @@
+{
+  "asn": 25335,
+  "descr": "NGS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "NEXT GLOBAL SERVICES L.P.",
+  "domain": "nextglobalservices.com",
+  "abuse": "abuse@nextglobalservices.com",
+  "type": "hosting",
+  "created": "2015-06-19",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS25335",
+  "prefixes": [
+    "185.105.56.0/23",
+    "185.105.59.0/24",
+    "185.116.172.0/23",
+    "185.116.175.0/24",
+    "185.122.130.0/23",
+    "185.127.56.0/23",
+    "185.127.58.0/23",
+    "185.129.8.0/23",
+    "185.129.10.0/23",
+    "185.130.36.0/23",
+    "185.130.38.0/23"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,31 @@
+{
+  "asn": 134451,
+  "descr": "NME-INDONESIA-AS-AP NewMedia Express Pte Ltd, ID",
+  "country": "id",
+  "active": true,
+  "org": "NewMedia Express Pte Ltd",
+  "domain": "newmediaexpress.com",
+  "abuse": "support@newmediaexpress.com",
+  "type": "hosting",
+  "updated": "2020-06-10",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS134451",
+  "prefixes": [
+    "45.114.118.0/24",
+    "103.60.9.0/24",
+    "103.200.7.0/24",
+    "104.250.105.0/24",
+    "196.18.172.0/23",
+    "203.114.72.0/24",
+    "203.114.74.0/24"
+  ],
+  "prefixesIPv6": [
+    "2402:2f80:5::/48",
+    "2402:2f80:6::/48",
+    "2402:2f80:7::/48",
+    "2406:f400:120::/44"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

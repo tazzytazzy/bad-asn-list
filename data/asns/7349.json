@@ -1,0 +1,20 @@
+{
+  "asn": 7349,
+  "descr": "AS-TIERP-7349, US",
+  "country": "us",
+  "active": true,
+  "org": "TierPoint, LLC",
+  "domain": "tierpoint.com",
+  "abuse": "abuse@tierpoint.com",
+  "type": "hosting",
+  "created": "1996-11-15",
+  "updated": "2017-07-06",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS7349",
+  "prefixes": [
+    "75.141.75.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

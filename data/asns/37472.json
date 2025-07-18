@@ -1,0 +1,21 @@
+{
+  "asn": 37472,
+  "descr": "NIGCOMSAT, NG",
+  "country": "ng",
+  "active": true,
+  "org": "Nigerian Communications Satellite Ltd",
+  "domain": "nigcomsat.gov.ng",
+  "type": "government",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS37472",
+  "prefixes": [
+    "41.57.120.0/22",
+    "160.226.0.0/19",
+    "160.226.1.0/24",
+    "160.226.32.0/19",
+    "160.226.64.0/19"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

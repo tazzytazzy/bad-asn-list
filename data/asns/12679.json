@@ -1,0 +1,19 @@
+{
+  "asn": 12679,
+  "descr": "ASN-MOL Moscow, Russia, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Sokolov Dmitry Nikolaevich",
+  "abuse": "dimsok1@hotmail.com",
+  "type": "business",
+  "created": "1970-01-01",
+  "updated": "2021-05-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS12679",
+  "prefixes": [
+    "212.8.224.0/23"
+  ],
+  "fetched": "2025-07-18T08:12:03.842442Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

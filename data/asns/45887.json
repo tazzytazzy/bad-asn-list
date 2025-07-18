@@ -1,0 +1,30 @@
+{
+  "asn": 45887,
+  "descr": "GPLHOST-AS-AP GPLHost LLC, AU",
+  "country": "au",
+  "active": true,
+  "org": "GPLHost LLC",
+  "domain": "gplhost.com",
+  "abuse": "abuse@gplhost.com",
+  "type": "hosting",
+  "updated": "2021-01-15",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS45887",
+  "prefixes": [
+    "103.68.121.0/24",
+    "103.68.122.0/24",
+    "103.68.123.0/24",
+    "103.230.71.0/24",
+    "117.121.240.0/24",
+    "117.121.242.0/24",
+    "117.121.244.0/24",
+    "182.54.232.0/24",
+    "182.54.234.0/24"
+  ],
+  "prefixesIPv6": [
+    "2404:bf40:8580::/46"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low"
+}

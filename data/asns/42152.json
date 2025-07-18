@@ -1,0 +1,21 @@
+{
+  "asn": 42152,
+  "descr": "NL-AXIANS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "VCD Infra Solutions B.V.",
+  "domain": "axians.nl",
+  "abuse": "security.infra.nl@axians.com",
+  "type": "business",
+  "created": "2017-10-09",
+  "updated": "2024-04-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS42152",
+  "prefixes": [
+    "185.223.48.0/24",
+    "185.223.49.0/24"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

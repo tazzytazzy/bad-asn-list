@@ -1,0 +1,26 @@
+{
+  "asn": 33322,
+  "descr": "NDCHOST, US",
+  "country": "us",
+  "active": true,
+  "org": "Network Data Center Host, Inc.",
+  "domain": "ndchost.com",
+  "abuse": "abuse@ndchost.com",
+  "type": "hosting",
+  "created": "2004-11-19",
+  "updated": "2022-03-30",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS33322",
+  "prefixes": [
+    "72.1.240.0/20",
+    "204.10.36.0/22",
+    "204.15.132.0/22",
+    "204.16.212.0/22",
+    "208.67.180.0/22",
+    "208.71.168.0/21",
+    "208.82.112.0/21"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

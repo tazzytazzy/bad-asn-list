@@ -1,0 +1,23 @@
+{
+  "asn": 203120,
+  "descr": "GTGL, US",
+  "country": "us",
+  "active": true,
+  "org": "Global Telecom Group LLC",
+  "domain": "globtelgroup.com",
+  "abuse": "abuse@globtelgroup.com",
+  "type": "isp",
+  "created": "2016-03-29",
+  "updated": "2019-06-24",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS203120",
+  "prefixes": [
+    "103.210.244.0/23",
+    "103.210.246.0/23",
+    "185.144.180.0/23",
+    "185.144.182.0/23"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

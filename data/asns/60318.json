@@ -1,0 +1,23 @@
+{
+  "asn": 60318,
+  "descr": "VSELINK-LLC, UA",
+  "country": "ua",
+  "active": true,
+  "org": "VSELINK LLC",
+  "domain": "vselink.com",
+  "abuse": "abuse@vselink.com",
+  "type": "isp",
+  "created": "2023-05-09",
+  "updated": "2025-05-21",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60318",
+  "prefixes": [
+    "193.104.157.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a06:b300::/48"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

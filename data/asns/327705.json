@@ -1,0 +1,13 @@
+{
+  "asn": 327705,
+  "descr": "FUTA, NG",
+  "country": "ng",
+  "active": true,
+  "whois": "https://api.ipapi.is/?whois=AS327705",
+  "prefixes": [
+    "196.220.128.0/19"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

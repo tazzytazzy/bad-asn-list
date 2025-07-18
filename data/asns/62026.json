@@ -1,0 +1,20 @@
+{
+  "asn": 62026,
+  "descr": "FTS-TURKEY, TR",
+  "country": "tr",
+  "active": true,
+  "org": "FINK TELEKOMUNIKASYON HIZMETLERI TICARET LIMITED SIRKETI",
+  "domain": "fink-telecom.com.tr",
+  "abuse": "abuse@fink-telecom.com.tr",
+  "type": "isp",
+  "created": "2021-12-06",
+  "updated": "2021-12-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS62026",
+  "prefixes": [
+    "178.211.156.0/24"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

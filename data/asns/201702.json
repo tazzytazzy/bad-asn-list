@@ -1,0 +1,26 @@
+{
+  "asn": 201702,
+  "descr": "SKHOSTING-EU, SK",
+  "country": "sk",
+  "active": true,
+  "org": "skHosting.eu s.r.o.",
+  "domain": "skhosting.eu",
+  "abuse": "abuse@skhosting.eu",
+  "type": "hosting",
+  "created": "2014-08-08",
+  "updated": "2025-03-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201702",
+  "prefixes": [
+    "185.66.200.0/23",
+    "185.66.200.0/24",
+    "185.66.201.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a05:980::/29",
+    "2a05:980::/30"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

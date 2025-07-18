@@ -1,0 +1,20 @@
+{
+  "asn": 207088,
+  "descr": "ADOARD, US",
+  "country": "us",
+  "active": true,
+  "org": "ADOARD GLOBAL REACH LLC",
+  "domain": "adoard.com",
+  "abuse": "abuse@adoard.com",
+  "type": "business",
+  "created": "2016-09-02",
+  "updated": "2019-06-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS207088",
+  "prefixes": [
+    "195.210.96.0/22"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

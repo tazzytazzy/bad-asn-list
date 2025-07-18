@@ -1,0 +1,25 @@
+{
+  "asn": 49447,
+  "descr": "NICEIT, DM",
+  "country": "dm",
+  "active": true,
+  "org": "Nice IT Services Group Inc.",
+  "domain": "niceitservicesgroupinc.com",
+  "abuse": "abuse@as49447.net",
+  "type": "hosting",
+  "created": "2019-04-23",
+  "updated": "2020-11-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS49447",
+  "prefixes": [
+    "45.9.148.0/24",
+    "45.9.149.0/24",
+    "45.9.150.0/23"
+  ],
+  "prefixesIPv6": [
+    "2a0e:fa00::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0156",
+  "abuse_rank": "Elevated"
+}

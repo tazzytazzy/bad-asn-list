@@ -1,0 +1,35 @@
+{
+  "asn": 48882,
+  "descr": "OPTIMA-SHID-AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Optima-Shid LLC",
+  "domain": "ipcom.info",
+  "abuse": "abuse@ipcom.info",
+  "type": "business",
+  "created": "2009-02-23",
+  "updated": "2025-06-06",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS48882",
+  "prefixes": [
+    "31.40.156.0/24",
+    "31.133.64.0/20",
+    "91.218.16.0/22",
+    "91.224.113.0/24",
+    "91.242.208.0/24",
+    "91.242.209.0/24",
+    "91.242.210.0/24",
+    "91.242.211.0/24",
+    "95.215.48.0/24",
+    "95.215.49.0/24",
+    "95.215.50.0/24",
+    "95.215.51.0/24",
+    "193.203.105.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:678:2b4::/48"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0.0026",
+  "abuse_rank": "Low"
+}

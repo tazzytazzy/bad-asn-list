@@ -1,0 +1,33 @@
+{
+  "asn": 58073,
+  "descr": "YISP-AS, NL",
+  "country": "nl",
+  "active": true,
+  "org": "YISP B.V.",
+  "domain": "yisp.nl",
+  "abuse": "abuse@novoserve.com",
+  "type": "hosting",
+  "created": "2012-04-13",
+  "updated": "2025-05-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS58073",
+  "prefixes": [
+    "37.220.34.0/24",
+    "37.220.35.0/24",
+    "37.220.36.0/24",
+    "45.145.252.0/22",
+    "46.182.106.0/24",
+    "46.182.107.0/24",
+    "46.182.110.0/24",
+    "154.84.1.0/24",
+    "185.38.12.0/24",
+    "185.38.13.0/24",
+    "185.38.15.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:2a38::/32"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,29 @@
+{
+  "asn": 25486,
+  "descr": "LUN-AS Lightup Network Solutions GmbH & Co. KG, DE",
+  "country": "de",
+  "active": true,
+  "org": "AirAccess GmbH trading as Lightup Network Solutions GmbH & Co. KG",
+  "domain": "lightupnet.de",
+  "abuse": "abuse@lightupnet.de",
+  "type": "hosting",
+  "created": "2002-12-09",
+  "updated": "2020-09-01",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS25486",
+  "prefixes": [
+    "185.15.92.0/23",
+    "185.15.95.0/24",
+    "185.198.216.0/22",
+    "193.189.78.0/23",
+    "193.254.236.0/23",
+    "195.10.203.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:b08::/29",
+    "2a09:a040::/29"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low"
+}

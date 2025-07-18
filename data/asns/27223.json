@@ -1,0 +1,21 @@
+{
+  "asn": 27223,
+  "descr": "LOATHING, US",
+  "country": "us",
+  "active": true,
+  "org": "Bare Metal Hosting",
+  "domain": "ravanallc.com",
+  "abuse": "b-arin@ravanallc.com",
+  "type": "hosting",
+  "created": "2013-05-21",
+  "updated": "2013-05-21",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS27223",
+  "prefixes": [
+    "199.182.184.0/22",
+    "204.14.177.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

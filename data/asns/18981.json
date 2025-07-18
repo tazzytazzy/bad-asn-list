@@ -1,0 +1,20 @@
+{
+  "asn": 18981,
+  "descr": "SUPERNET-II, US",
+  "country": "us",
+  "active": true,
+  "org": "SUPERNet II",
+  "domain": "woisd.net",
+  "abuse": "supernet2@woisd.net",
+  "type": "education",
+  "created": "2022-07-08",
+  "updated": "2022-07-08",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS18981",
+  "prefixes": [
+    "204.154.22.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,20 @@
+{
+  "asn": 209843,
+  "descr": "LEONIX-EVENTS, FR",
+  "country": "fr",
+  "active": true,
+  "org": "LEONIX EVENTS SAS",
+  "domain": "leonix.fr",
+  "abuse": "abuse@leonix.fr",
+  "type": "business",
+  "created": "2020-02-03",
+  "updated": "2020-02-03",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS209843",
+  "prefixesIPv6": [
+    "2a0d:6f80:2302::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

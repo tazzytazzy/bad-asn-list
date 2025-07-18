@@ -1,0 +1,20 @@
+{
+  "asn": 51983,
+  "descr": "SARGASSO-DE-AS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Sargasso N1 Limited",
+  "domain": "sargasso.net",
+  "abuse": "abuse@sargasso.net",
+  "type": "isp",
+  "created": "2022-08-23",
+  "updated": "2022-08-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS51983",
+  "prefixes": [
+    "194.88.6.0/23"
+  ],
+  "fetched": "2025-07-18T09:16:13.366429Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

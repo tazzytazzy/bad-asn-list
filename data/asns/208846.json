@@ -1,0 +1,22 @@
+{
+  "asn": 208846,
+  "descr": "ATOM3-AS, UA",
+  "country": "ua",
+  "active": true,
+  "org": "LLC ATOM3",
+  "domain": "atom3.com.ua",
+  "abuse": "vadim.b@atom3.com.ua",
+  "type": "isp",
+  "created": "2019-05-27",
+  "updated": "2024-12-31",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS208846",
+  "prefixes": [
+    "80.68.147.0/24",
+    "146.19.5.0/24",
+    "193.3.164.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,26 @@
+{
+  "asn": 54334,
+  "descr": "SWIFTNODE-LLC, US",
+  "country": "us",
+  "active": true,
+  "org": "Swiftnode LLC",
+  "domain": "swiftnode.net",
+  "abuse": "abuse@swiftnode.net",
+  "type": "hosting",
+  "created": "2024-01-29",
+  "updated": "2025-02-23",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS54334",
+  "prefixes": [
+    "52.119.1.0/24",
+    "216.114.75.0/24"
+  ],
+  "prefixesIPv6": [
+    "2602:fa02:1::/48",
+    "2602:fa02:3::/48",
+    "2602:fa02:6::/48"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.002",
+  "abuse_rank": "Low"
+}

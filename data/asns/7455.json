@@ -1,0 +1,21 @@
+{
+  "asn": 7455,
+  "descr": "MOTO-INT1-AS, US",
+  "country": "us",
+  "active": true,
+  "org": "Motorists Mutual Insurance Company",
+  "domain": "motoristsmutual.com",
+  "abuse": "fasih.ahmed@motoristsgroup.com",
+  "type": "banking",
+  "created": "2014-02-10",
+  "updated": "2014-02-10",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS7455",
+  "prefixes": [
+    "198.105.158.0/24",
+    "198.105.159.0/24"
+  ],
+  "fetched": "2025-07-18T08:00:28.091053Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

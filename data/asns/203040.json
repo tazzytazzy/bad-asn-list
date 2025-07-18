@@ -1,0 +1,20 @@
+{
+  "asn": 203040,
+  "descr": "AS203040, KR",
+  "country": "kr",
+  "active": true,
+  "org": "Sangmyoung Lee",
+  "domain": "anonaddy.me",
+  "abuse": "0b6cb846-800e-4541-88fb-99e5d222fa24@anonaddy.me",
+  "type": "business",
+  "created": "2022-09-02",
+  "updated": "2025-04-09",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS203040",
+  "prefixesIPv6": [
+    "2a0f:9400:6114::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

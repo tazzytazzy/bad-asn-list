@@ -1,0 +1,29 @@
+{
+  "asn": 201862,
+  "descr": "VMHOSTS-LONDON-AS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "VMhosts Ltd",
+  "domain": "vmhosts.co.uk",
+  "abuse": "michael@vmhosts.co.uk",
+  "type": "hosting",
+  "created": "2014-06-23",
+  "updated": "2021-07-22",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201862",
+  "prefixes": [
+    "185.61.132.0/22",
+    "185.61.132.0/24",
+    "185.61.133.0/24",
+    "185.61.134.0/24",
+    "185.61.135.0/24",
+    "185.214.48.0/24",
+    "185.214.50.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:7a20::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,21 @@
+{
+  "asn": 31659,
+  "descr": "BELOW-ZERO, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Below Zero Hosting Ltd.",
+  "domain": "belowzero.co.uk",
+  "abuse": "alex@belowzero.biz",
+  "type": "hosting",
+  "created": "2004-07-05",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS31659",
+  "prefixes": [
+    "91.212.212.0/24",
+    "194.36.163.0/24"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

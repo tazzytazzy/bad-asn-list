@@ -1,0 +1,19 @@
+{
+  "asn": 36114,
+  "descr": "VERSAWEB-ASN, US",
+  "country": "us",
+  "active": true,
+  "whois": "https://api.ipapi.is/?whois=AS36114",
+  "prefixes": [
+    "72.46.128.0/22",
+    "76.164.192.0/22",
+    "76.164.206.0/23",
+    "104.143.10.0/23"
+  ],
+  "prefixesIPv6": [
+    "2605:6f80::/40"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0042",
+  "abuse_rank": "Low"
+}

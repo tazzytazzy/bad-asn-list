@@ -1,0 +1,25 @@
+{
+  "asn": 201634,
+  "descr": "SHETABAN, IR",
+  "country": "ir",
+  "active": true,
+  "org": "Mizban Dade Shetaban Co. (Ltd)",
+  "domain": "shetabanhost.com",
+  "abuse": "reza5430@gmail.com",
+  "type": "hosting",
+  "created": "2022-11-04",
+  "updated": "2022-11-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201634",
+  "prefixes": [
+    "87.107.190.0/24",
+    "185.130.50.0/24",
+    "193.228.90.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a05:c180::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0033",
+  "abuse_rank": "Low"
+}

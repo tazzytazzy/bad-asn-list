@@ -1,0 +1,23 @@
+{
+  "asn": 204105,
+  "descr": "PAYABASTAR-AS, IR",
+  "country": "ir",
+  "active": true,
+  "org": "Paya Bastar Arina Co. Private J.S.",
+  "domain": "xvps.ir",
+  "abuse": "abuse@xvps.ir",
+  "type": "hosting",
+  "created": "2022-07-05",
+  "updated": "2024-01-22",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS204105",
+  "prefixes": [
+    "95.215.59.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a13:c640::/32"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0039",
+  "abuse_rank": "Low"
+}

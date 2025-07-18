@@ -1,0 +1,20 @@
+{
+  "asn": 199267,
+  "descr": "NET-STYLE-DEVELOPMENT-LTD, IL",
+  "country": "il",
+  "active": true,
+  "org": "NETSTYLE A. LTD",
+  "domain": "netstyle.io",
+  "abuse": "abuse@netstyle.io",
+  "type": "hosting",
+  "created": "2013-04-04",
+  "updated": "2017-11-15",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199267",
+  "prefixes": [
+    "185.21.8.0/22"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

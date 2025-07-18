@@ -1,0 +1,23 @@
+{
+  "asn": 209272,
+  "descr": "AS-ALVIVA, SC",
+  "country": "sc",
+  "active": true,
+  "org": "Alviva Holding Limited",
+  "domain": "digi-cloud.net",
+  "abuse": "abuse@digi-cloud.net",
+  "type": "hosting",
+  "created": "2019-03-07",
+  "updated": "2025-02-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS209272",
+  "prefixes": [
+    "45.227.253.0/24",
+    "88.214.27.0/24",
+    "91.199.163.0/24",
+    "185.55.242.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0117",
+  "abuse_rank": "Elevated"
+}

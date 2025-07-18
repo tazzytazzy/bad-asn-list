@@ -1,0 +1,21 @@
+{
+  "asn": 198153,
+  "descr": "DCSTD-SEIDOR AS SEIDOR DATACENTER SANTANDER, ES",
+  "country": "es",
+  "active": true,
+  "org": "SOCIETAT D'ESTUDIS INFORMATICS I D'ORGANITZACIO, SOCIETAT ANONIMA (SEIDOR)",
+  "domain": "seidor.com",
+  "abuse": "wpaul@seidor.es",
+  "type": "business",
+  "created": "2011-10-20",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS198153",
+  "prefixes": [
+    "79.98.64.0/21",
+    "185.197.0.0/22"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

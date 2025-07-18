@@ -1,0 +1,17 @@
+{
+  "asn": 20360,
+  "descr": "CENTRALO-NETWORKS-01, US",
+  "country": "us",
+  "active": false,
+  "org": "Centralo Corporation, LLC",
+  "domain": "centralocorp.com",
+  "abuse": "noc@centralocorp.com",
+  "type": "business",
+  "created": "2023-06-22",
+  "updated": "2024-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS20360",
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

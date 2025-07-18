@@ -1,0 +1,31 @@
+{
+  "asn": 202678,
+  "descr": "PINABI-ASN, TR",
+  "country": "tr",
+  "active": true,
+  "org": "CUZDAN ELEKTRONIK PARA VE ODEME HIZMETLERI ANONIM SIRKETI",
+  "domain": "cuzdan.com",
+  "abuse": "network@cuzdan.com",
+  "type": "business",
+  "created": "2022-09-27",
+  "updated": "2025-04-30",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202678",
+  "prefixes": [
+    "38.210.196.0/22",
+    "45.8.21.0/24",
+    "154.52.108.0/24",
+    "188.132.213.0/24",
+    "188.132.214.0/24",
+    "188.132.215.0/24",
+    "188.132.216.0/24",
+    "188.132.217.0/24",
+    "188.132.218.0/24",
+    "188.132.228.0/24",
+    "195.85.201.0/24",
+    "195.85.205.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0.0046",
+  "abuse_rank": "Low"
+}

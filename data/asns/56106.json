@@ -1,0 +1,26 @@
+{
+  "asn": 56106,
+  "descr": "ZONENETWORKS-AU ZONENETWORKS.COM.AU - Hosting Provider AUSTRALIA, AU",
+  "country": "au",
+  "active": true,
+  "org": "Zone Networks Pty Ltd",
+  "domain": "zonenetworks.com.au",
+  "abuse": "abuse@zonenetworks.com.au",
+  "type": "hosting",
+  "updated": "2020-06-22",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS56106",
+  "prefixes": [
+    "38.226.247.0/24",
+    "45.124.212.0/22",
+    "103.193.80.0/22",
+    "119.82.146.0/24",
+    "119.252.189.0/24",
+    "119.252.190.0/24",
+    "119.252.191.0/24",
+    "203.98.81.0/24"
+  ],
+  "fetched": "2025-07-18T09:20:40.874730Z",
+  "abuser_score": "0.0028",
+  "abuse_rank": "Low"
+}

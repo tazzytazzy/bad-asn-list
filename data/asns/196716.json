@@ -1,0 +1,20 @@
+{
+  "asn": 196716,
+  "descr": "CHNG-AS CHNG-AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "CRELCOM LLC",
+  "domain": "crelcom.ru",
+  "abuse": "abuse@crelcom.ru",
+  "type": "isp",
+  "created": "2009-08-18",
+  "updated": "2020-12-01",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS196716",
+  "prefixes": [
+    "91.213.125.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

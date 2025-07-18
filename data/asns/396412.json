@@ -1,0 +1,19 @@
+{
+  "asn": 396412,
+  "descr": "SRSBIZ, US",
+  "country": "us",
+  "active": true,
+  "org": "SRS BIZ",
+  "abuse": "ericnelson@gmail.com",
+  "type": "business",
+  "created": "2020-02-24",
+  "updated": "2020-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS396412",
+  "prefixes": [
+    "64.32.44.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

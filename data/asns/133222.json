@@ -1,0 +1,19 @@
+{
+  "asn": 133222,
+  "descr": "TELSPIEL-AS-IN Telspiel Communications Private Limited, IN",
+  "country": "in",
+  "active": true,
+  "org": "Telspiel Communications Private Limited",
+  "domain": "telspiel.com",
+  "abuse": "aadil@telspiel.com",
+  "type": "isp",
+  "updated": "2022-06-02",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS133222",
+  "prefixes": [
+    "103.188.78.0/24"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

@@ -1,0 +1,33 @@
+{
+  "asn": 28639,
+  "descr": "LocalNet Network, BR",
+  "country": "br",
+  "active": true,
+  "org": "LocalNet Network",
+  "domain": "localnetpoa.com.br",
+  "type": "isp",
+  "created": "20130513",
+  "updated": "20231128",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS28639",
+  "prefixes": [
+    "177.129.68.0/22",
+    "177.129.68.0/23",
+    "177.129.70.0/23",
+    "191.6.232.0/21",
+    "191.6.232.0/23",
+    "191.6.234.0/23",
+    "191.6.236.0/23",
+    "191.6.238.0/23"
+  ],
+  "prefixesIPv6": [
+    "2804:dd0::/32",
+    "2804:dd0::/33",
+    "2804:dd0::/40",
+    "2804:dd0:1000::/40",
+    "2804:dd0:2000::/40"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low"
+}

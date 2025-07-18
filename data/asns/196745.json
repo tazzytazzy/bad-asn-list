@@ -1,0 +1,37 @@
+{
+  "asn": 196745,
+  "descr": "DATACENTA-AS, GB",
+  "country": "gb",
+  "active": true,
+  "org": "Datacenta Hosting Ltd",
+  "domain": "datacenta.net",
+  "abuse": "abuse@datacenta.net",
+  "type": "hosting",
+  "created": "2009-12-22",
+  "updated": "2024-02-08",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS196745",
+  "prefixes": [
+    "37.143.138.0/24",
+    "37.143.139.0/24",
+    "37.143.140.0/24",
+    "37.143.141.0/24",
+    "37.143.142.0/24",
+    "37.143.143.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a00:b340:10::/48",
+    "2a00:b340:30::/48",
+    "2a00:b340:31::/48",
+    "2a00:b340:32::/48",
+    "2a00:b340:33::/48",
+    "2a00:b340:34::/48",
+    "2a00:b340:35::/48",
+    "2a00:b340:37::/48",
+    "2a00:b340:38::/48",
+    "2a00:b340:39::/48"
+  ],
+  "fetched": "2025-07-18T09:27:20.001816Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}

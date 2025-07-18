@@ -1,0 +1,35 @@
+{
+  "asn": 29713,
+  "descr": "ELIA-60, US",
+  "country": "us",
+  "active": true,
+  "org": "Reliable Hosting Services",
+  "domain": "reliablehostingservices.net",
+  "abuse": "support@reliablehostingservices.net",
+  "type": "hosting",
+  "created": "2010-05-11",
+  "updated": "2012-02-24",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS29713",
+  "prefixes": [
+    "80.76.44.0/24",
+    "144.172.77.0/24",
+    "144.172.121.0/24",
+    "154.16.219.0/24",
+    "185.240.87.0/24",
+    "192.82.109.0/24",
+    "193.42.246.0/24",
+    "194.62.165.0/24",
+    "199.15.248.0/21",
+    "199.15.251.0/24",
+    "208.73.20.0/22"
+  ],
+  "prefixesIPv6": [
+    "2604:4100::/36",
+    "2606:6680:37::/48",
+    "2606:6680:38::/48"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low"
+}

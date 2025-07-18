@@ -1,0 +1,21 @@
+{
+  "asn": 26272,
+  "descr": "AMDS-COSMOS, US",
+  "country": "us",
+  "active": true,
+  "org": "AM Data Service, Inc.",
+  "domain": "amdataservice.com",
+  "abuse": "abuse@amdataservice.com",
+  "type": "business",
+  "created": "2018-11-20",
+  "updated": "2018-11-20",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS26272",
+  "prefixes": [
+    "23.166.160.0/24",
+    "204.144.120.0/22"
+  ],
+  "fetched": "2025-07-18T08:28:10.294159Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low"
+}
