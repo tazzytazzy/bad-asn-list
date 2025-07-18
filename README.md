@@ -5,7 +5,7 @@ Brian Hamachek built a list of ASNs that seemed to be a good start at tackling t
 is located at: https://github.com/brianhama/bad-asn-list
 
 This repo is a fork of that. None of the original tooling exists and all program files have been replaced
-with updated versions. This version 
+with updated versions.
 
 # The Problem
 

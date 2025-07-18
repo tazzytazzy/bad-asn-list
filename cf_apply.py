@@ -1,82 +1,48 @@
 #!/usr/bin/env python3
 """
-Manages Cloudflare configuration with different operational modes.
+Manages Cloudflare firewall rules with different operational modes.
 
-- Default (no args): Synchronizes rules for managed zones (creates, updates, reorders).
-- update-only:      Only updates expressions of existing managed rules.
-- setup:            Rebuilds the configuration file from live Cloudflare data.
+- Default (no args):  Synchronizes rules for managed zones. Updates existing rules
+                      in-place, creates new rules after the last 'skip' rule, and
+                      removes obsolete rules.
+- update-only:        Only updates expressions of existing managed rules. Does not
+                      create, delete, or reorder.
+- setup:              Rebuilds the configuration file from live Cloudflare data.
+
 """
 
 import sys
-import subprocess
 import re
 import argparse
 from typing import Dict, Any, List, Tuple, Optional
-import yaml
-from cloudflare import Cloudflare, APIError
+
+# --- Local/Project Imports ---
+try:
+    # Attempt to import from the helpers package
+    from helpers.utils import run_script, load_yaml_config, save_yaml_config
+except ImportError:
+    print("Error: The 'helpers' module is not found.", file=sys.stderr)
+    print("Please ensure you are running this from the repository's root directory", file=sys.stderr)
+    print("and that the 'helpers' directory with its '__init__.py' and 'utils.py' files exist.", file=sys.stderr)
+    sys.exit(1)
+
+try:
+    from cloudflare import Cloudflare, APIError
+except ImportError:
+    print("Error: The 'cloudflare' library is not installed.", file=sys.stderr)
+    print("Please install it by running: pip install cloudflare", file=sys.stderr)
+    sys.exit(1)
+
 
 # --- Constants ---
 CONFIG_FILE = "cf.yaml"
 CLOUDFLARE_RULES_FILE = "data/cloudflare_rules.txt"
 PLACEHOLDER_TOKEN = "YOUR_CLOUDFLARE_API_TOKEN_HERE"
+MANAGED_RULE_PREFIX = "Block-Bad-ASNs-Part-"
 
 # --- Type Aliases ---
 Config = Dict[str, Any]
 Rule = Dict[str, Any]
-
-def run_script(script_name):
-    """
-    Executes a given Python script using the system's python3 interpreter.
-    Checks for errors and streams the script's output live.
-    Returns True on success, False on failure.
-    """
-    print("----- Running {script_name} -----")
-    try:
-        # Use sys.executable to ensure the same Python interpreter is used
-        subprocess.run(
-            [sys.executable, script_name],
-            check=True,
-            text=True,
-            encoding='utf-8'
-        )
-        print(f"----- Finished {script_name} successfully -----\n")
-        return True
-    except FileNotFoundError:
-        print(f"Error: Script '{script_name}' not found.", file=sys.stderr)
-        print("Please ensure you are running this from the repository root directory.", file=sys.stderr)
-        return False
-    except subprocess.CalledProcessError as e:
-        # The output from the script is streamed live, so we don't need to print it here.
-        print(f"\nError: {script_name} failed with exit code {e.returncode}", file=sys.stderr)
-        print(f"----- {script_name} failed -----", file=sys.stderr)
-        return False
-    except Exception as e:
-        print(f"An unexpected error occurred while running {script_name}: {e}", file=sys.stderr)
-        return False
-
-def load_config(filepath: str) -> Config:
-    """Loads the YAML configuration from a file."""
-    try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            return yaml.safe_load(f) or {}
-    except FileNotFoundError:
-        print(f"Info: '{filepath}' not found. Run with 'setup' command line argument first.")
-        return {}
-    except yaml.YAMLError as e:
-        print(f"Error parsing '{filepath}': {e}", file=sys.stderr)
-        sys.exit(1)
-
-
-def save_config(filepath: str, config_data: Config) -> None:
-    """Saves the configuration data to a YAML file."""
-    print(f"\nWriting updated configuration to '{filepath}'...")
-    try:
-        with open(filepath, 'w', encoding='utf-8') as f:
-            yaml.dump(config_data, f, default_flow_style=False, sort_keys=False, indent=2)
-        print("Configuration updated successfully.")
-    except IOError as e:
-        print(f"Error writing to '{filepath}': {e}", file=sys.stderr)
-        sys.exit(1)
 
 
 def load_rule_expressions(filepath: str) -> List[str]:
@@ -129,42 +95,120 @@ def fetch_formatted_rules_for_zone(client: Cloudflare, zone_id: str, zone_name: 
         return [], None
 
 
-def synchronize_rules_full(
-    client: Cloudflare, zone_id: str, zone_name: str, ruleset_id: str,
-    existing_rules: List[Rule], new_expressions: List[str]
+def synchronize_rules(
+    client: Cloudflare,
+    zone_id: str,
+    zone_name: str,
+    ruleset_id: str,
+    existing_rules: List[Rule],
+    new_expressions: List[str],
+    update_only: bool,
 ) -> bool:
-    """Synchronizes rules: creates, updates, and reorders rules as needed."""
-    print(f"    -> Synchronizing rules for managed zone '{zone_name}' (full sync mode)...")
-    unmanaged_rules, existing_managed_map = [], {}
+    """
+    Synchronizes firewall rules with surgical precision.
+
+    - In 'update-only' mode: Only updates expressions of existing managed rules.
+    - In 'full sync' mode:
+        - Updates expressions of existing managed rules in-place.
+        - Deletes managed rules that are no longer needed.
+        - Creates new managed rules, inserting them after the last 'skip' rule.
+
+    This function preserves the relative order of all other rules.
+    """
+    mode_name = "update-only" if update_only else "full sync"
+    print(f"    -> Synchronizing rules for '{zone_name}' ({mode_name} mode)...")
+
+    # --- 1. Prepare and Classify ---
+    new_expressions_map = {i + 1: expr for i, expr in enumerate(new_expressions)}
+    managed_rules_on_cf = {}
     for rule in existing_rules:
-        match = re.match(r"Block-Bad-ASNs-Part-(\d+)", rule.get('description', ''))
+        match = re.match(rf"{MANAGED_RULE_PREFIX}(\d+)", rule.get('description', ''))
         if match:
-            existing_managed_map[int(match.group(1))] = rule
-        else:
-            unmanaged_rules.append(rule)
+            part_number = int(match.group(1))
+            managed_rules_on_cf[part_number] = rule
 
-    desired_managed_rules = []
-    for i, expression in enumerate(new_expressions):
-        part_number = i + 1
-        description = f"Block-Bad-ASNs-Part-{part_number}"
-        if part_number in existing_managed_map:
-            print(f"      - Verifying rule: '{description}'")
-            updated_rule = existing_managed_map[part_number].copy()
-            updated_rule['expression'] = expression
-            desired_managed_rules.append(updated_rule)
-        else:
-            print(f"      + Rule not found, preparing to CREATE: '{description}'")
-            desired_managed_rules.append({
-                'description': description, 'expression': expression,
-                'action': 'block', 'enabled': True,
-            })
+    # --- 2. Calculate the difference ---
+    existing_parts = set(managed_rules_on_cf.keys())
+    desired_parts = set(new_expressions_map.keys())
 
-    final_rules_payload = desired_managed_rules + unmanaged_rules
-    if final_rules_payload == existing_rules:
-        print("    -> All managed rules are correctly ordered and up-to-date.")
+    parts_to_update = {}
+    for part in existing_parts.intersection(desired_parts):
+        if managed_rules_on_cf[part]['expression'] != new_expressions_map[part]:
+            parts_to_update[part] = new_expressions_map[part]
+
+    parts_to_create = desired_parts - existing_parts
+    parts_to_delete = existing_parts - desired_parts
+
+    if update_only:
+        if not parts_to_update:
+            print("    -> All managed rules are already up-to-date.")
+            return False
+        # In update-only mode, we ignore creations and deletions.
+        parts_to_create.clear()
+        parts_to_delete.clear()
+        for part in parts_to_update:
+            print(f"      * QUEUED FOR UPDATE: '{MANAGED_RULE_PREFIX}{part}'")
+    else:
+        # In full sync mode, log all changes
+        for part in sorted(list(parts_to_update)):
+            print(f"      * QUEUED FOR UPDATE: '{MANAGED_RULE_PREFIX}{part}'")
+        for part in sorted(list(parts_to_create)):
+            print(f"      + QUEUED FOR CREATE: '{MANAGED_RULE_PREFIX}{part}'")
+        for part in sorted(list(parts_to_delete)):
+            print(f"      - QUEUED FOR DELETE: '{MANAGED_RULE_PREFIX}{part}'")
+
+    if not parts_to_create and not parts_to_delete and not parts_to_update:
+        print("    -> All managed rules are already synchronized.")
         return False
 
-    print("    -> Ruleset requires synchronization. Applying changes in a single batch...")
+    # --- 3. Build the new rule list payload ---
+    final_rules_payload = []
+    last_skip_index = -1
+
+    # First pass: Handle updates and deletions by iterating through existing rules
+    # This preserves the order of unmanaged rules and existing managed rules.
+    for rule in existing_rules:
+        match = re.match(rf"{MANAGED_RULE_PREFIX}(\d+)", rule.get('description', ''))
+
+        if match:
+            part_num = int(match.group(1))
+            if part_num in parts_to_delete:
+                continue  # Skip this rule, effectively deleting it
+
+            if part_num in parts_to_update:
+                updated_rule = rule.copy()
+                updated_rule['expression'] = parts_to_update[part_num]
+                final_rules_payload.append(updated_rule)
+            else:
+                final_rules_payload.append(rule.copy())  # Keep as is
+        else:
+            final_rules_payload.append(rule.copy()) # Keep unmanaged rule
+
+        # Track the last 'skip' rule's position in the *new* list
+        if final_rules_payload and final_rules_payload[-1].get('action') == 'skip':
+            last_skip_index = len(final_rules_payload) - 1
+
+    # Second pass: Handle creations by inserting new rules
+    if parts_to_create:
+        newly_created_rules = []
+        for part in sorted(list(parts_to_create)):
+            newly_created_rules.append({
+                'description': f"{MANAGED_RULE_PREFIX}{part}",
+                'expression': new_expressions_map[part],
+                'action': 'block',
+                'enabled': True,
+            })
+
+        # Insert after the last 'skip' rule, or at the top if no skip rules exist.
+        insertion_point = last_skip_index + 1 if last_skip_index != -1 else 0
+        print(f"      -> Inserting {len(newly_created_rules)} new rule(s) at index {insertion_point} (after last skip rule).")
+
+        # Insert the new rules into the payload
+        final_rules_payload[insertion_point:insertion_point] = newly_created_rules
+
+    # --- 4. Apply the changes to Cloudflare ---
+    total_changes = len(parts_to_update) + len(parts_to_create) + len(parts_to_delete)
+    print(f"    -> Applying {total_changes} change(s) in a single batch...")
     try:
         client.rulesets.update(ruleset_id=ruleset_id, zone_id=zone_id, rules=final_rules_payload)
         print("      - Success: Ruleset synchronized on Cloudflare.")
@@ -174,51 +218,10 @@ def synchronize_rules_full(
         return False
 
 
-def update_existing_rules_only(
-    client: Cloudflare, zone_id: str, zone_name: str, ruleset_id: str,
-    existing_rules: List[Rule], new_expressions: List[str]
-) -> bool:
-    """Only updates expressions of existing managed rules."""
-    print(f"    -> Checking for updates in managed zone '{zone_name}' (update-only mode)...")
-    rules_to_update = {}
-    for rule in existing_rules:
-        match = re.match(r"Block-Bad-ASNs-Part-(\d+)", rule.get('description', ''))
-        if not match:
-            continue
-        part_number = int(match.group(1))
-        rule_index = part_number - 1
-        if not (0 <= rule_index < len(new_expressions)):
-            continue
-        new_expression = new_expressions[rule_index]
-        if new_expression != rule['expression']:
-            print(f"      * QUEUED FOR UPDATE: Rule '{rule['description']}'")
-            rules_to_update[rule['id']] = new_expression
-        else:
-            print(f"      - OK: Rule '{rule['description']}' is already up-to-date.")
-
-    if not rules_to_update:
-        print("    -> All managed rules are already synchronized.")
-        return False
-
-    final_rules_payload = [
-        (rule.copy(), setattr(rule, 'expression', rules_to_update[rule['id']]))[0]
-        if rule['id'] in rules_to_update else rule
-        for rule in existing_rules
-    ]
-    print(f"    -> Applying {len(rules_to_update)} rule update(s) in a single batch...")
-    try:
-        client.rulesets.update(ruleset_id=ruleset_id, zone_id=zone_id, rules=final_rules_payload)
-        print("      - Success: Ruleset updated on Cloudflare.")
-        return True
-    except APIError as e:
-        print(f"      - FAILED to update ruleset: {e}", file=sys.stderr)
-        return False
-
-
 def run_setup_mode():
     """Fetches all accounts and zones to create/rebuild the cf.yaml file."""
     print("--- Running in Setup Mode ---")
-    config = load_config(CONFIG_FILE)
+    config = load_yaml_config(CONFIG_FILE)
     api_token = config.get("api_token")
 
     if not api_token or api_token == PLACEHOLDER_TOKEN:
@@ -228,7 +231,7 @@ def run_setup_mode():
         config['api_token'] = PLACEHOLDER_TOKEN
         config.setdefault('managed_zones', [])
         config.setdefault('accounts', [])
-        save_config(CONFIG_FILE, config)
+        save_yaml_config(CONFIG_FILE, config)
         sys.exit(0)
 
     print("API token found. Fetching all accounts and zones to build configuration...")
@@ -259,7 +262,8 @@ def run_setup_mode():
         'managed_zones': sorted(new_managed_zones_data, key=lambda z: z['name']),
         'accounts': sorted(new_accounts_data, key=lambda a: a['name'])
     }
-    save_config(CONFIG_FILE, final_config)
+    print("\nWriting updated configuration to 'cf.yaml'...")
+    save_yaml_config(CONFIG_FILE, final_config)
     print("\nSetup complete. Your cf.yaml file has been populated.")
 
 
@@ -273,7 +277,7 @@ def run_apply_mode(update_only: bool):
     mode_name = "Update-Only" if update_only else "Full Sync"
     print(f"--- Running in Apply Mode ({mode_name}) ---")
 
-    config = load_config(CONFIG_FILE)
+    config = load_yaml_config(CONFIG_FILE)
     api_token = config.get("api_token")
     if not api_token or api_token == PLACEHOLDER_TOKEN:
         print(f"Error: API token not configured in '{CONFIG_FILE}'.", file=sys.stderr)
@@ -321,10 +325,9 @@ def run_apply_mode(update_only: bool):
             rules, ruleset_id = fetch_formatted_rules_for_zone(client, zone.id, zone.name)
 
             if ruleset_id:
-                # A ruleset exists, so we proceed with updating or syncing.
-                update_function = update_existing_rules_only if update_only else synchronize_rules_full
-                updates_were_made = update_function(
-                    client, zone.id, zone.name, ruleset_id, rules, new_rule_expressions
+                # A ruleset exists, so we proceed with syncing.
+                updates_were_made = synchronize_rules(
+                    client, zone.id, zone.name, ruleset_id, rules, new_rule_expressions, update_only
                 )
                 if updates_were_made:
                     config_needs_saving = True
@@ -334,20 +337,16 @@ def run_apply_mode(update_only: bool):
             elif not update_only:
                 # No ruleset exists, and we are in 'full sync' mode, so create one.
                 print(f"    -> No ruleset found. Attempting to create one for zone '{zone.name}'...")
-
-                # Build the initial list of rules from the expressions file.
                 initial_rules = [
                     {
-                        'description': f"Block-Bad-ASNs-Part-{i+1}",
+                        'description': f"{MANAGED_RULE_PREFIX}{i+1}",
                         'expression': expression,
                         'action': 'block',
                         'enabled': True,
                     }
                     for i, expression in enumerate(new_rule_expressions)
                 ]
-
                 try:
-                    # The 'update' method on a phase creates the ruleset if it doesn't exist.
                     client.rulesets.phases.update(
                         ruleset_phase="http_request_firewall_custom",
                         zone_id=zone.id,
@@ -355,8 +354,6 @@ def run_apply_mode(update_only: bool):
                     )
                     print("      - Success: New ruleset created and rules applied.")
                     config_needs_saving = True
-
-                    # Refetch the rules and ruleset_id to get the latest state.
                     print("    -> Refetching rules after creation to ensure config is accurate.")
                     rules, ruleset_id = fetch_formatted_rules_for_zone(client, zone.id, zone.name)
                 except APIError as e:
@@ -364,8 +361,6 @@ def run_apply_mode(update_only: bool):
             else:
                 # No ruleset exists, and we are in 'update-only' mode.
                 print(f"    -> No ruleset found. Skipping zone in update-only mode.")
-
-
 
             new_managed_zones_data.append({'id': zone.id, 'name': zone.name, 'account': [{'id': account.id, 'name': account.name}]})
             zones_for_account.append({'id': zone.id, 'name': zone.name, 'rules': rules})
@@ -382,7 +377,7 @@ def run_apply_mode(update_only: bool):
         print("\nConfiguration has changed. The local cf.yaml file will be updated.")
         config['managed_zones'] = sorted_new_managed_zones
         config['accounts'] = sorted_new_accounts
-        save_config(CONFIG_FILE, config)
+        save_yaml_config(CONFIG_FILE, config)
     else:
         print("\n\nOverall: Local cf.yaml configuration is already up-to-date.")
 
@@ -390,10 +385,11 @@ def run_apply_mode(update_only: bool):
 def main():
     """Main function to parse arguments and dispatch to the correct mode."""
     parser = argparse.ArgumentParser(
-        description="A tool to manage and apply Cloudflare firewall rules.\nDefault action (no command) is a full sync.",
+        description="A tool to manage and apply Cloudflare firewall rules.\n"
+                    "Default action (no command) is a full sync, which respects rule ordering.\n"
+                    "New rules are placed after the last 'skip' rule.",
         formatter_class=argparse.RawTextHelpFormatter
     )
-    # Use subparsers for commands like 'setup' and 'update-only'
     subparsers = parser.add_subparsers(dest='command', help='Available commands')
 
     # Create the parser for the "setup" command
@@ -405,7 +401,7 @@ def main():
     # Create the parser for the "update-only" command
     subparsers.add_parser(
         'update-only',
-        help="Run in update-only mode. Only updates existing managed rules; does not create or reorder."
+        help="Run in update-only mode. Only updates existing managed rules; does not create, delete, or reorder."
     )
 
     args = parser.parse_args()
