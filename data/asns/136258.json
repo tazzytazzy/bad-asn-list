@@ -7,7 +7,7 @@
   "domain": "oneprovider.com",
   "abuse": "info@oneprovider.com",
   "type": "hosting",
-  "updated": "2024-11-18",
+  "updated_at": "2025-07-18T09:25:24.927704Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS136258",
   "prefixes": [
@@ -147,7 +147,7 @@
     "2a11:840:75::/48",
     "2a11:840:76::/48"
   ],
-  "fetched": "2025-07-18T09:25:24.927704Z",
   "abuser_score": "0.007",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:25:24.927704Z"
 }

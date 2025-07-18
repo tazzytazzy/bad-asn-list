@@ -8,7 +8,7 @@
   "abuse": "noc@datum.net",
   "type": "hosting",
   "created": "2024-11-27",
-  "updated": "2025-01-21",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS33438",
   "prefixes": [
@@ -36,7 +36,7 @@
     "2607:ed40:ff04::/48",
     "2607:ed40:ff05::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "network@cuzdan.com",
   "type": "business",
   "created": "2022-09-27",
-  "updated": "2025-04-30",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS202678",
   "prefixes": [
@@ -25,7 +25,7 @@
     "195.85.201.0/24",
     "195.85.205.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0046",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

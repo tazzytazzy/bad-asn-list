@@ -8,7 +8,7 @@
   "abuse": "abuse@merlin.ua",
   "type": "isp",
   "created": "2002-06-26",
-  "updated": "2023-11-13",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS20714",
   "prefixes": [
@@ -20,7 +20,7 @@
     "195.177.124.0/22",
     "195.214.196.0/22"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0005",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuse@panamaserver.com",
   "type": "hosting",
   "created": "20101013",
-  "updated": "20101013",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52284",
   "prefixes": [
@@ -21,7 +21,7 @@
   "prefixesIPv6": [
     "2803:200::/32"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0059",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

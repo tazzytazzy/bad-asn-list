@@ -8,7 +8,7 @@
   "abuse": "abuse@ptisp.pt",
   "type": "hosting",
   "created": "2009-11-12",
-  "updated": "2021-08-03",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS24768",
   "prefixes": [
@@ -75,7 +75,7 @@
     "2a00:1650::/33",
     "2a00:1650:8000::/33"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0004",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

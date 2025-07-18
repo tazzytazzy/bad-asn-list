@@ -8,7 +8,7 @@
   "abuse": "hostmaster@sprious.com",
   "type": "hosting",
   "created": "2021-04-13",
-  "updated": "2021-04-19",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS54252",
   "prefixes": [
@@ -65,7 +65,7 @@
     "202.134.231.0/24",
     "212.87.203.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.002",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

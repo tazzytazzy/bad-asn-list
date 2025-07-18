@@ -8,7 +8,7 @@
   "abuse": "abuse@ipvolume.net",
   "type": "hosting",
   "created": "2018-05-17",
-  "updated": "2024-01-25",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS202425",
   "prefixes": [
@@ -70,7 +70,7 @@
   "prefixesIPv6": [
     "2a02:6c8:8000::/33"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0431",
-  "abuse_rank": "High"
+  "abuse_rank": "High",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

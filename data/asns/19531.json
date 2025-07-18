@@ -8,7 +8,7 @@
   "abuse": "abuse@nodesdirect.com",
   "type": "hosting",
   "created": "2011-01-12",
-  "updated": "2014-04-20",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS19531",
   "prefixes": [
@@ -31,7 +31,7 @@
   "prefixesIPv6": [
     "2604:4600::/28"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

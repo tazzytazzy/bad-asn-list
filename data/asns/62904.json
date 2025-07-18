@@ -8,7 +8,7 @@
   "abuse": "net-admin@eonix.net",
   "type": "hosting",
   "created": "2013-11-13",
-  "updated": "2021-11-24",
+  "updated_at": "2025-07-18T09:24:13.282432Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS62904",
   "prefixes": [
@@ -683,7 +683,7 @@
     "2607:ff28:e000::/36",
     "2a0b:7140:8::/48"
   ],
-  "fetched": "2025-07-18T09:24:13.282432Z",
   "abuser_score": "0.0005",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:24:13.282432Z"
 }

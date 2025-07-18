@@ -8,7 +8,7 @@
   "abuse": "abuse@greenhost.nl",
   "type": "hosting",
   "created": "2008-05-09",
-  "updated": "2024-03-27",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS47172",
   "prefixes": [
@@ -36,7 +36,7 @@
   "prefixesIPv6": [
     "2a00:c6c0::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0033",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

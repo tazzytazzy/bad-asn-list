@@ -8,7 +8,7 @@
   "abuse": "abuse@fiberxpress.net",
   "type": "isp",
   "created": "2016-10-20",
-  "updated": "2020-06-15",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS57717",
   "prefixes": [
@@ -23,7 +23,7 @@
     "2a0b:b7c0::/30",
     "2a0b:b7c4::/30"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0.005",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

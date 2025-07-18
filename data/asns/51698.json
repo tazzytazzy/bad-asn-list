@@ -8,7 +8,7 @@
   "abuse": "abuse@activecloud.com",
   "type": "hosting",
   "created": "2010-10-21",
-  "updated": "2022-03-21",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS51698",
   "prefixes": [
@@ -34,7 +34,7 @@
   "prefixesIPv6": [
     "2a01:9160::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

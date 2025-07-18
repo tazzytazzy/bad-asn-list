@@ -8,7 +8,7 @@
   "abuse": "abuse@serverbase.ch",
   "type": "hosting",
   "created": "2021-02-03",
-  "updated": "2021-02-03",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS58222",
   "prefixes": [
@@ -25,7 +25,7 @@
     "2a03:da40::/32",
     "2a03:da41::/32"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

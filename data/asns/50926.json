@@ -8,7 +8,7 @@
   "abuse": "abuse@axarnet.es",
   "type": "hosting",
   "created": "2010-04-22",
-  "updated": "2022-06-29",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS50926",
   "prefixes": [
@@ -55,7 +55,7 @@
     "2a01:4b80::/32",
     "2a0b:8f80:202::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0009",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

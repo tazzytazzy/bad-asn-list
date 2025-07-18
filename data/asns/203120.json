@@ -8,7 +8,7 @@
   "abuse": "abuse@globtelgroup.com",
   "type": "isp",
   "created": "2016-03-29",
-  "updated": "2019-06-24",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS203120",
   "prefixes": [
@@ -17,7 +17,7 @@
     "185.144.180.0/23",
     "185.144.182.0/23"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

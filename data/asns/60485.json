@@ -8,7 +8,7 @@
   "abuse": "noc1@interconnects.us",
   "type": "isp",
   "created": "2013-07-11",
-  "updated": "2023-12-08",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS60485",
   "prefixes": [
@@ -34,7 +34,7 @@
     "196.196.243.0/24",
     "196.196.244.0/24"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

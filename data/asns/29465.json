@@ -8,7 +8,7 @@
   "abuse": "hostmaster@vgccl.net",
   "type": "isp",
   "created": "2003-09-17",
-  "updated": "2018-09-04",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS29465",
   "prefixes": [
@@ -415,7 +415,7 @@
     "2c0f:f5c0:b20::/44",
     "2c0f:f5c0:b30::/44"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0014",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

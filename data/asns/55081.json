@@ -8,7 +8,7 @@
   "abuse": "abuse@24shells.net",
   "type": "hosting",
   "created": "2013-03-01",
-  "updated": "2013-10-14",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS55081",
   "prefixes": [
@@ -176,7 +176,7 @@
     "2a0c:5c86::/32",
     "2a0c:5c87::/32"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0.0025",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

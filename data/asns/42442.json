@@ -8,7 +8,7 @@
   "abuse": "abuse@adacor.com",
   "type": "hosting",
   "created": "2007-02-21",
-  "updated": "2024-03-11",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS42442",
   "prefixes": [
@@ -37,7 +37,7 @@
     "2a03:9480:200::/40",
     "2a03:9480:300::/40"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

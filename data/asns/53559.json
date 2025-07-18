@@ -8,7 +8,7 @@
   "abuse": "domain_info@anonymizerinc.com",
   "type": "business",
   "created": "2010-06-14",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS53559",
   "prefixes": [
@@ -29,7 +29,7 @@
     "216.41.140.0/24",
     "216.41.141.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

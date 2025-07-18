@@ -8,7 +8,7 @@
   "abuse": "abuse@i3d.net",
   "type": "hosting",
   "created": "2009-06-29",
-  "updated": "2023-10-04",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS49544",
   "prefixes": [
@@ -186,7 +186,7 @@
     "2a13:3ec0::/29",
     "2a13:d780::/29"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0017",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

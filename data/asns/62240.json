@@ -8,7 +8,7 @@
   "abuse": "abuse@clouvider.net",
   "type": "hosting",
   "created": "2013-12-12",
-  "updated": "2023-10-10",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS62240",
   "prefixes": [
@@ -2517,7 +2517,7 @@
     "2a11:b687::/32",
     "2a14:100::/32"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0.0052",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

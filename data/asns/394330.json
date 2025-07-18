@@ -8,7 +8,7 @@
   "abuse": "corey.hauer@ltdbroadband.com",
   "type": "isp",
   "created": "2015-08-11",
-  "updated": "2024-02-02",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS394330",
   "prefixes": [
@@ -32,7 +32,7 @@
     "2605:44c0::/36",
     "2605:44c0:ff00::/40"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

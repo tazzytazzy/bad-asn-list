@@ -8,7 +8,7 @@
   "abuse": "admin1@solucionesfavorables.com",
   "type": "business",
   "created": "20150814",
-  "updated": "20150814",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS263821",
   "prefixes": [
@@ -25,7 +25,7 @@
   "prefixesIPv6": [
     "2803:e680::/32"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0116",
-  "abuse_rank": "Elevated"
+  "abuse_rank": "Elevated",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -7,7 +7,7 @@
   "abuse": "abuse@gmail.com",
   "type": "business",
   "created": "2021-12-27",
-  "updated": "2023-06-28",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS210273",
   "prefixes": [
@@ -15,7 +15,7 @@
     "88.151.9.0/24",
     "94.125.99.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0007",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

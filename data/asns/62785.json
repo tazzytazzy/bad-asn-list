@@ -8,7 +8,7 @@
   "abuse": "trustandsafety@support.aws.com",
   "type": "hosting",
   "created": "2015-05-28",
-  "updated": "2020-03-19",
+  "updated_at": "2025-07-18T09:25:24.927704Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS62785",
   "prefixes": [
@@ -21,7 +21,7 @@
     "172.96.110.0/24",
     "173.83.0.0/17"
   ],
-  "fetched": "2025-07-18T09:25:24.927704Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:25:24.927704Z"
 }

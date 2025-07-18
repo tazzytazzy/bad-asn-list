@@ -8,7 +8,7 @@
   "abuse": "info@finegroupservers.com",
   "type": "hosting",
   "created": "2018-10-19",
-  "updated": "2024-12-17",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS43444",
   "prefixes": [
@@ -34,7 +34,7 @@
     "194.99.27.0/24",
     "217.145.225.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0014",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

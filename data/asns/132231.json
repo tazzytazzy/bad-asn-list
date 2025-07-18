@@ -7,7 +7,7 @@
   "domain": "n4l.co.nz",
   "abuse": "support@n4l.co.nz",
   "type": "isp",
-  "updated": "2024-12-05",
+  "updated_at": "2025-07-18T09:25:24.927704Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS132231",
   "prefixes": [
@@ -16,7 +16,7 @@
     "202.189.174.0/24",
     "202.189.175.0/24"
   ],
-  "fetched": "2025-07-18T09:25:24.927704Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:25:24.927704Z"
 }

@@ -8,14 +8,14 @@
   "abuse": "noc@host2.bg",
   "type": "hosting",
   "created": "2009-09-16",
-  "updated": "2021-10-30",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS49815",
   "prefixes": [
     "87.121.166.0/24",
     "185.230.247.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

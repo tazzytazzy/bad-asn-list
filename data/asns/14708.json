@@ -12,7 +12,8 @@
   "prefixes": [
     "200.29.224.0/21"
   ],
-  "fetched": "2025-07-18T08:12:03.842442Z",
+  "updated_at": "2025-07-18T08:12:03.842442Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:12:03.842442Z"
 }

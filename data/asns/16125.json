@@ -8,7 +8,7 @@
   "abuse": "abuse@cherryservers.com",
   "type": "hosting",
   "created": "2011-03-29",
-  "updated": "2024-02-08",
+  "updated_at": "2025-07-18T08:22:39.236137Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS16125",
   "prefixes": [
@@ -60,7 +60,7 @@
   "prefixesIPv6": [
     "2a02:ae00::/36"
   ],
-  "fetched": "2025-07-18T08:22:39.236137Z",
   "abuser_score": "0.0035",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:22:39.236137Z"
 }

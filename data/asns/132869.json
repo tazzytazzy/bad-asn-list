@@ -7,14 +7,14 @@
   "domain": "manetworkservice.com",
   "abuse": "operation@manetbd.com",
   "type": "isp",
-  "updated": "2021-01-14",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS132869",
   "prefixes": [
     "103.97.204.0/24",
     "103.97.205.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

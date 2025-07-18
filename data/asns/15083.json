@@ -8,7 +8,7 @@
   "abuse": "abuse@serverpronto.net",
   "type": "hosting",
   "created": "2000-03-16",
-  "updated": "2014-08-19",
+  "updated_at": "2025-07-18T08:17:32.165576Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS15083",
   "prefixes": [
@@ -69,7 +69,7 @@
     "2607:feb8::/32",
     "2a06:8e40::/29"
   ],
-  "fetched": "2025-07-18T08:17:32.165576Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:17:32.165576Z"
 }

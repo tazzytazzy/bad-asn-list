@@ -8,7 +8,7 @@
   "abuse": "noc@eserver.sk",
   "type": "hosting",
   "created": "2007-01-23",
-  "updated": "2024-10-29",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS42244",
   "prefixes": [
@@ -34,7 +34,7 @@
     "2a04:b540:2000::/36",
     "2a0a:2540::/29"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

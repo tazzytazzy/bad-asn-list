@@ -7,7 +7,7 @@
   "domain": "wintech-com.net",
   "type": "isp",
   "created": "2001/06/05",
-  "updated": "2011/02/16",
+  "updated_at": "2025-07-18T08:27:46.797146Z",
   "rir": "JPNIC",
   "whois": "https://api.ipapi.is/?whois=AS17683",
   "prefixes": [
@@ -19,7 +19,7 @@
   "prefixesIPv6": [
     "2001:f98::/32"
   ],
-  "fetched": "2025-07-18T08:27:46.797146Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:27:46.797146Z"
 }

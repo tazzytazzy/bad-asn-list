@@ -7,7 +7,7 @@
   "domain": "cyberspace.net.ng",
   "type": "isp",
   "created": "1970-01-01",
-  "updated": "2024-06-05",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS20598",
   "prefixes": [
@@ -82,7 +82,7 @@
     "212.100.94.0/24",
     "212.100.95.0/24"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

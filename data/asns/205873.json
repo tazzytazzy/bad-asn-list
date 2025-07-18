@@ -8,13 +8,13 @@
   "abuse": "noc@skynetmedia.pl",
   "type": "isp",
   "created": "2020-04-02",
-  "updated": "2021-11-30",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS205873",
   "prefixes": [
     "193.35.61.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

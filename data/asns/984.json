@@ -612,7 +612,8 @@
     "2606:fb40:ffe0::/44",
     "2606:fb40:fff0::/45"
   ],
-  "fetched": "2025-07-18T08:26:59.817135Z",
+  "updated_at": "2025-07-18T20:18:20.919591+00:00",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T20:18:20.919505+00:00"
 }

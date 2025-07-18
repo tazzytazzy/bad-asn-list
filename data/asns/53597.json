@@ -8,7 +8,7 @@
   "abuse": "noc@hoyosconsulting.com",
   "type": "business",
   "created": "2012-04-04",
-  "updated": "2012-04-04",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS53597",
   "prefixes": [
@@ -30,7 +30,7 @@
     "2605:9180:e100::/40",
     "2605:9180:e200::/40"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

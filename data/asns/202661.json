@@ -8,7 +8,7 @@
   "abuse": "abuse@cloud01-netplans.de",
   "type": "business",
   "created": "2022-09-28",
-  "updated": "2022-11-10",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS202661",
   "prefixes": [
@@ -17,7 +17,7 @@
   "prefixesIPv6": [
     "2a0e:d1c0::/32"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

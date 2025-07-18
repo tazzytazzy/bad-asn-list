@@ -7,7 +7,7 @@
   "domain": "sitehost.nz",
   "abuse": "noc@sitehost.co.nz",
   "type": "hosting",
-  "updated": "2020-05-26",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS45179",
   "prefixes": [
@@ -32,7 +32,7 @@
     "2403:7000:8000::/34",
     "2403:7000:c000::/34"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0008",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

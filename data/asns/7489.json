@@ -7,7 +7,7 @@
   "domain": "hostus.us",
   "abuse": "abuse@hostus.us",
   "type": "hosting",
-  "updated": "2023-09-05",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS7489",
   "prefixes": [
@@ -113,7 +113,7 @@
     "2a0e:fd45:40fa::/48",
     "2a0f:5707:ab2b::/48"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0.0007",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuse@ariawebco.net",
   "type": "hosting",
   "created": "2011-08-29",
-  "updated": "2023-08-24",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS57230",
   "prefixes": [
@@ -17,7 +17,7 @@
   "prefixesIPv6": [
     "2a03:9383::/48"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0.0078",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

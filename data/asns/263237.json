@@ -8,7 +8,7 @@
   "abuse": "ricardo@powerhost.cl",
   "type": "hosting",
   "created": "20140522",
-  "updated": "20140522",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS263237",
   "prefixes": [
@@ -33,7 +33,7 @@
     "2803:8180:2::/48",
     "2803:8180:3::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

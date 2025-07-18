@@ -8,7 +8,7 @@
   "abuse": "abuse@hextet.net",
   "type": "hosting",
   "created": "2016-04-12",
-  "updated": "2016-04-12",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS395089",
   "prefixes": [
@@ -18,7 +18,7 @@
     "2602:fd53:200::/40",
     "2620:132:3000::/40"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0117",
-  "abuse_rank": "Elevated"
+  "abuse_rank": "Elevated",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

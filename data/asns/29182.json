@@ -8,7 +8,7 @@
   "abuse": "abuse@aoiot.ru",
   "type": "isp",
   "created": "2003-06-23",
-  "updated": "2025-01-20",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS29182",
   "prefixes": [
@@ -196,7 +196,7 @@
     "2a11:7687::/32",
     "2a11:8303::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0026",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

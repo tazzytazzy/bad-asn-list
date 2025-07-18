@@ -8,7 +8,7 @@
   "abuse": "abuse@datacenterunited.com",
   "type": "hosting",
   "created": "2006-12-29",
-  "updated": "2025-02-28",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS42160",
   "prefixes": [
@@ -39,7 +39,7 @@
     "2a02:5940:4000::/34",
     "2a04:b80:1::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

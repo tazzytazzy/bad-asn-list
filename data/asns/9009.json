@@ -8,7 +8,7 @@
   "abuse": "abuse@m247.ro",
   "type": "isp",
   "created": "2011-04-11",
-  "updated": "2023-03-15",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS9009",
   "prefixes": [
@@ -4335,7 +4335,7 @@
     "2a13:9500:59::/48",
     "2a13:9500:5a::/48"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0.0024",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

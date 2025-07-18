@@ -8,13 +8,13 @@
   "abuse": "mark@nqgrg.com",
   "type": "hosting",
   "created": "2005-11-21",
-  "updated": "2012-02-24",
+  "updated_at": "2025-07-18T08:12:03.842442Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS14384",
   "prefixes": [
     "66.170.134.0/24"
   ],
-  "fetched": "2025-07-18T08:12:03.842442Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:12:03.842442Z"
 }

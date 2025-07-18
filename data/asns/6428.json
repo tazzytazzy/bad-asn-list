@@ -8,7 +8,7 @@
   "abuse": "clmalone@primary.net",
   "type": "business",
   "created": "1996-04-12",
-  "updated": "1996-04-12",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS6428",
   "prefixes": [
@@ -136,7 +136,7 @@
     "216.114.74.0/24",
     "216.114.78.0/24"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

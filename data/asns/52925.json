@@ -8,7 +8,7 @@
   "abuse": "lista_governanca_ti@ascenty.com",
   "type": "hosting",
   "created": "20120808",
-  "updated": "20130815",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52925",
   "prefixes": [
@@ -44,7 +44,7 @@
     "2804:ad4:d000::/40",
     "2804:ad4:d300::/40"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

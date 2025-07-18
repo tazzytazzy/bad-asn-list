@@ -8,7 +8,7 @@
   "abuse": "abuse@starlab.eu.org",
   "type": "business",
   "created": "2018-04-10",
-  "updated": "2021-08-18",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS204185",
   "prefixesIPv6": [
@@ -30,7 +30,7 @@
     "2a0b:4340:406::/48",
     "2a0b:4340:434::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "admin@frantech.ca",
   "type": "hosting",
   "created": "2010-11-19",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS53667",
   "prefixes": [
@@ -115,7 +115,7 @@
     "2a14:7581:d103::/48",
     "2a14:7581:d104::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0419",
-  "abuse_rank": "High"
+  "abuse_rank": "High",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

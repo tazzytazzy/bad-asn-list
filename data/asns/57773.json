@@ -8,7 +8,7 @@
   "abuse": "abuse@1o.se",
   "type": "isp",
   "created": "2017-05-26",
-  "updated": "2023-04-11",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS57773",
   "prefixes": [
@@ -28,7 +28,7 @@
     "2a09:3b40::/29",
     "2a0b:140::/29"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

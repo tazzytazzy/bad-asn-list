@@ -7,7 +7,7 @@
   "domain": "newmediaexpress.com",
   "abuse": "support@newmediaexpress.com",
   "type": "hosting",
-  "updated": "2020-06-10",
+  "updated_at": "2025-07-18T09:14:04.534473Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS38001",
   "prefixes": [
@@ -96,7 +96,7 @@
     "2406:f400:161::/48",
     "2407:2f00:103::/48"
   ],
-  "fetched": "2025-07-18T09:14:04.534473Z",
   "abuser_score": "0.0027",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:14:04.534473Z"
 }

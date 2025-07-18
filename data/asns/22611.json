@@ -8,7 +8,7 @@
   "abuse": "abuse@inmotionhosting.com",
   "type": "hosting",
   "created": "2012-11-02",
-  "updated": "2020-10-28",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS22611",
   "prefixes": [
@@ -107,7 +107,7 @@
     "2607:f298:7::/48",
     "2a04:c5c0::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0006",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

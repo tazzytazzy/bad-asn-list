@@ -8,7 +8,7 @@
   "abuse": "rackaloha@gmail.com",
   "type": "hosting",
   "created": "2018-08-09",
-  "updated": "2018-08-09",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS31807",
   "prefixes": [
@@ -17,7 +17,7 @@
   "prefixesIPv6": [
     "2620:139:a000::/44"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

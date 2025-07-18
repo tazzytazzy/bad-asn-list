@@ -8,7 +8,7 @@
   "abuse": "abuse.support@h4g.co",
   "type": "hosting",
   "created": "2015-05-06",
-  "updated": "2016-08-09",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS393960",
   "prefixes": [
@@ -23,7 +23,7 @@
     "185.177.230.0/24",
     "185.221.216.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0009",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

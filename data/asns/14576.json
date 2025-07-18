@@ -8,7 +8,7 @@
   "abuse": "abuse@king-servers.com",
   "type": "hosting",
   "created": "2013-10-17",
-  "updated": "2013-10-17",
+  "updated_at": "2025-07-18T08:12:03.842442Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS14576",
   "prefixes": [
@@ -90,7 +90,7 @@
     "2a10:7d00::/29",
     "2a11:7440::/29"
   ],
-  "fetched": "2025-07-18T08:12:03.842442Z",
   "abuser_score": "0.0038",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:12:03.842442Z"
 }

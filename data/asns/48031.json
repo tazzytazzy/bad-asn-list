@@ -8,7 +8,7 @@
   "abuse": "abuse@xserver.cloud",
   "type": "hosting",
   "created": "2008-10-02",
-  "updated": "2025-05-15",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS48031",
   "prefixes": [
@@ -292,7 +292,7 @@
     "2a13:f580:2::/48",
     "2a13:f580:4::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0006",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

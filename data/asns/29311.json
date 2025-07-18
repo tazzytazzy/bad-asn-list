@@ -8,7 +8,7 @@
   "abuse": "abuse@solvinity.com",
   "type": "hosting",
   "created": "2003-07-29",
-  "updated": "2025-03-04",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS29311",
   "prefixes": [
@@ -40,7 +40,7 @@
     "2a04:9a04::/32",
     "2a07:3506:4c::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

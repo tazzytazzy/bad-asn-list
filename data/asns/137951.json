@@ -7,7 +7,7 @@
   "domain": "asline.net",
   "abuse": "abuse@asline.net",
   "type": "isp",
-  "updated": "2023-12-19",
+  "updated_at": "2025-07-18T09:25:24.927704Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS137951",
   "prefixes": [
@@ -51,7 +51,7 @@
     "168.76.254.0/24",
     "168.76.255.0/24"
   ],
-  "fetched": "2025-07-18T09:25:24.927704Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:25:24.927704Z"
 }

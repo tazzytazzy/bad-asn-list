@@ -7,7 +7,7 @@
   "domain": "serversaustralia.com.au",
   "abuse": "abuse@as45671.net.au",
   "type": "hosting",
-  "updated": "2020-06-22",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS45671",
   "prefixes": [
@@ -248,7 +248,7 @@
     "2406:c500:fff3::/48",
     "2a0f:11c0::/29"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0004",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

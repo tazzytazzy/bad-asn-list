@@ -7,13 +7,13 @@
   "domain": "nexon.com.au",
   "abuse": "abuse@nexon.com.au",
   "type": "business",
-  "updated": "2020-07-22",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS45201",
   "prefixes": [
     "203.56.225.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

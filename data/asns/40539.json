@@ -8,7 +8,7 @@
   "abuse": "c2@nerd.com",
   "type": "hosting",
   "created": "2007-05-09",
-  "updated": "2012-03-20",
+  "updated_at": "2025-07-18T09:14:52.868345Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS40539",
   "prefixes": [
@@ -20,7 +20,7 @@
     "208.91.206.0/24",
     "208.91.207.0/24"
   ],
-  "fetched": "2025-07-18T09:14:52.868345Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:14:52.868345Z"
 }

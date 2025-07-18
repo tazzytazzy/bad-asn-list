@@ -7,7 +7,7 @@
   "domain": "vantage-dc.com",
   "abuse": "hkg.isp@vantage-dc.com",
   "type": "hosting",
-  "updated": "2024-04-19",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS9925",
   "prefixes": [
@@ -44,7 +44,7 @@
     "203.215.240.0/20",
     "203.215.248.0/24"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "contact@rackdog.com",
   "type": "hosting",
   "created": "2020-06-15",
-  "updated": "2020-06-15",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS398465",
   "prefixes": [
@@ -163,7 +163,7 @@
     "2a0e:1a85::/32",
     "2a0e:f500::/29"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0008",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

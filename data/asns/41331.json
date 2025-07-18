@@ -8,13 +8,13 @@
   "abuse": "abuse@curenet.pl",
   "type": "isp",
   "created": "2018-01-18",
-  "updated": "2020-07-16",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS41331",
   "prefixes": [
     "185.242.124.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

@@ -7,7 +7,7 @@
   "domain": "nakihost.nz",
   "abuse": "abuse@nakicloud.co.nz",
   "type": "hosting",
-  "updated": "2020-06-17",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS133393",
   "prefixes": [
@@ -20,7 +20,7 @@
     "139.5.122.0/24",
     "139.5.123.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

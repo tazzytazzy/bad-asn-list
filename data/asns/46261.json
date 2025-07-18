@@ -8,7 +8,7 @@
   "abuse": "abuse@quickpacket.com",
   "type": "hosting",
   "created": "2008-07-28",
-  "updated": "2024-02-07",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS46261",
   "prefixes": [
@@ -353,7 +353,7 @@
     "2a07:4580::/32",
     "2a07:4580:b0d::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0008",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

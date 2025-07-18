@@ -8,7 +8,7 @@
   "abuse": "jeff.cronstrom@cloudfloordns.com",
   "type": "hosting",
   "created": "2011-03-14",
-  "updated": "2015-06-22",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS10908",
   "prefixes": [
@@ -23,7 +23,7 @@
     "2620:1f:8004::/48",
     "2620:1f:8006::/48"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

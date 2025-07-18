@@ -8,7 +8,7 @@
   "abuse": "AdministrativeDNS@us.loreal.com",
   "type": "business",
   "created": "2018-01-24",
-  "updated": "2018-01-24",
+  "updated_at": "2025-07-18T08:12:03.842442Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS13798",
   "prefixes": [
@@ -20,7 +20,7 @@
     "161.241.28.0/23",
     "161.241.30.0/23"
   ],
-  "fetched": "2025-07-18T08:12:03.842442Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:12:03.842442Z"
 }

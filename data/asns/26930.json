@@ -8,7 +8,7 @@
   "abuse": "abuse@purevoltage.com",
   "type": "hosting",
   "created": "2023-01-19",
-  "updated": "2025-03-26",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS26930",
   "prefixes": [
@@ -21,7 +21,7 @@
     "2602:fa7c:10::/44",
     "2602:fa7c:100::/40"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0015",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

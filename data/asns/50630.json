@@ -8,7 +8,7 @@
   "abuse": "vitaly.glotov@advanced-industries-packaging.com",
   "type": "business",
   "created": "2018-06-13",
-  "updated": "2024-09-05",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS50630",
   "prefixes": [
@@ -22,7 +22,7 @@
     "2a0d:4d40:12::/48",
     "2a0d:4d40:13::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

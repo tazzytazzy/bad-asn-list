@@ -7,7 +7,7 @@
   "domain": "geminisoftware.com",
   "abuse": "abuse@geminisoftware.com",
   "type": "business",
-  "updated": "2021-06-12",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS18120",
   "prefixes": [
@@ -16,7 +16,7 @@
     "202.72.248.0/22",
     "202.72.248.0/23"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

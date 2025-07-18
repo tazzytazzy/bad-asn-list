@@ -8,7 +8,7 @@
   "abuse": "admin@dedicated.com",
   "type": "hosting",
   "created": "2013-12-30",
-  "updated": "2019-09-16",
+  "updated_at": "2025-07-18T09:24:55.017628Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS63018",
   "prefixes": [
@@ -132,7 +132,7 @@
     "2a09:bfc6::/32",
     "2a09:ff00:101::/48"
   ],
-  "fetched": "2025-07-18T09:24:55.017628Z",
   "abuser_score": "0.0022",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:24:55.017628Z"
 }

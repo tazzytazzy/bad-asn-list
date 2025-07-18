@@ -8,7 +8,7 @@
   "abuse": "abuse@bulgartel.bg",
   "type": "isp",
   "created": "2008-03-14",
-  "updated": "2024-12-06",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS44814",
   "prefixes": [
@@ -29,7 +29,7 @@
   "prefixesIPv6": [
     "2a01:4a40::/29"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

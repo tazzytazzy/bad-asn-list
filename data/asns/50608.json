@@ -8,13 +8,13 @@
   "abuse": "info@lantech.ru",
   "type": "isp",
   "created": "2022-04-20",
-  "updated": "2022-04-20",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS50608",
   "prefixes": [
     "83.220.167.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

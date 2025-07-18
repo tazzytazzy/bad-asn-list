@@ -7,14 +7,14 @@
   "domain": "bt.bt",
   "abuse": "systems@bt.bt",
   "type": "isp",
-  "updated": "2021-01-14",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS18025",
   "prefixes": [
     "45.64.248.0/23",
     "45.64.250.0/24"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.002",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

@@ -8,14 +8,14 @@
   "abuse": "report@pebblehost.com",
   "type": "business",
   "created": "2024-02-27",
-  "updated": "2025-05-02",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS215413",
   "prefixes": [
     "185.206.151.0/24",
     "188.64.33.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0029",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

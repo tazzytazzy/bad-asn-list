@@ -8,7 +8,7 @@
   "abuse": "info@qhoster.com",
   "type": "hosting",
   "created": "2014-08-29",
-  "updated": "2020-11-16",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS201630",
   "prefixes": [
@@ -22,7 +22,7 @@
   "prefixesIPv6": [
     "2a05:6200::/32"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0013",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

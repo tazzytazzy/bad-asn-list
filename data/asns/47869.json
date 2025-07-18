@@ -8,7 +8,7 @@
   "abuse": "abuse@hivelocity.net",
   "type": "hosting",
   "created": "2024-07-08",
-  "updated": "2024-07-08",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS47869",
   "prefixes": [
@@ -42,7 +42,7 @@
     "2607:f128:400::/38",
     "2803:8080::/32"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

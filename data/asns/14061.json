@@ -8,7 +8,7 @@
   "abuse": "abuse@digitalocean.com",
   "type": "hosting",
   "created": "2012-09-25",
-  "updated": "2025-03-04",
+  "updated_at": "2025-07-18T08:17:32.165576Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS14061",
   "prefixes": [
@@ -848,7 +848,7 @@
     "2a03:b0c0:fffc::/48",
     "2a03:b0c0:ffff::/48"
   ],
-  "fetched": "2025-07-18T08:17:32.165576Z",
   "abuser_score": "0.0202",
-  "abuse_rank": "Elevated"
+  "abuse_rank": "Elevated",
+  "created_at": "2025-07-18T08:17:32.165576Z"
 }

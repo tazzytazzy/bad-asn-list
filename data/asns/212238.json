@@ -8,7 +8,7 @@
   "abuse": "abuse@datacamp.co.uk",
   "type": "hosting",
   "created": "2020-12-02",
-  "updated": "2023-12-12",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS212238",
   "prefixes": [
@@ -2449,7 +2449,7 @@
     "2a12:d6c0::/29",
     "2a13:6cc7::/32"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0055",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

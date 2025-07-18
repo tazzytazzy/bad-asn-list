@@ -8,7 +8,7 @@
   "abuse": "abuse@webair.com",
   "type": "hosting",
   "created": "2003-02-03",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS27257",
   "prefixes": [
@@ -97,7 +97,7 @@
     "2604:9e00:b::/48",
     "2604:9e00:c::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

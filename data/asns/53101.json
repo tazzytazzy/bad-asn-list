@@ -7,14 +7,14 @@
   "domain": "sianet.com.br",
   "type": "isp",
   "created": "20091124",
-  "updated": "20130306",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS53101",
   "prefixes": [
     "177.107.208.0/21",
     "187.103.144.0/20"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

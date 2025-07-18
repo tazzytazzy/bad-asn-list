@@ -8,7 +8,7 @@
   "abuse": "abuse@ansluten.net",
   "type": "hosting",
   "created": "2014-05-13",
-  "updated": "2025-02-21",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS201983",
   "prefixes": [
@@ -42,7 +42,7 @@
     "2a04:dcc0:1::/48",
     "2a04:dcc0:2::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

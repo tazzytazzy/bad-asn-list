@@ -8,7 +8,7 @@
   "abuse": "abuse@dataclub.eu",
   "type": "hosting",
   "created": "2013-06-24",
-  "updated": "2025-01-03",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS60567",
   "prefixes": [
@@ -22,7 +22,7 @@
     "2a02:4840:200::/48",
     "2a02:4840:201::/48"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0.0117",
-  "abuse_rank": "Elevated"
+  "abuse_rank": "Elevated",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

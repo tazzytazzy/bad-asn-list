@@ -7,7 +7,7 @@
   "domain": "netstartech.sg",
   "abuse": "net@netstartech.sg",
   "type": "hosting",
-  "updated": "2024-04-29",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS10122",
   "prefixes": [
@@ -243,7 +243,7 @@
     "2404:efc0:235::/48",
     "2404:efc0:236::/48"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuse@databank.com",
   "type": "hosting",
   "created": "2001-12-11",
-  "updated": "2018-07-17",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS22903",
   "prefixes": [
@@ -55,7 +55,7 @@
     "212.69.159.0/24",
     "216.120.184.0/24"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

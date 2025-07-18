@@ -8,7 +8,7 @@
   "abuse": "abuse@atlantic.net",
   "type": "hosting",
   "created": "1996-03-20",
-  "updated": "2022-05-09",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS6364",
   "prefixes": [
@@ -105,7 +105,7 @@
     "2607:f170:8000::/44",
     "2a03:41a0:100::/44"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

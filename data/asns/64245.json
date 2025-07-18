@@ -8,7 +8,7 @@
   "abuse": "abuse@digitalfyre.com",
   "type": "hosting",
   "created": "2016-03-29",
-  "updated": "2017-01-09",
+  "updated_at": "2025-07-18T09:25:24.927704Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS64245",
   "prefixes": [
@@ -40,7 +40,7 @@
     "2a07:4843::/48",
     "2a07:4844::/48"
   ],
-  "fetched": "2025-07-18T09:25:24.927704Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:25:24.927704Z"
 }

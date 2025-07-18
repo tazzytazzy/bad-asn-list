@@ -8,7 +8,7 @@
   "abuse": "abuse@ghostnet.de",
   "type": "hosting",
   "created": "2002-06-04",
-  "updated": "2025-02-17",
+  "updated_at": "2025-07-18T08:10:26.676616Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS12586",
   "prefixes": [
@@ -262,7 +262,7 @@
     "2a0f:3000::/29",
     "2a14:4040::/32"
   ],
-  "fetched": "2025-07-18T08:10:26.676616Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:10:26.676616Z"
 }

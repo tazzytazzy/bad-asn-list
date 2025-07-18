@@ -8,7 +8,7 @@
   "abuse": "abuse@comvive.com",
   "type": "hosting",
   "created": "2005-11-29",
-  "updated": "2024-07-26",
+  "updated_at": "2025-07-18T09:14:04.534473Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS39020",
   "prefixes": [
@@ -79,7 +79,7 @@
     "2a00:1d70:8000::/33",
     "2a07:f7c7:ffff::/48"
   ],
-  "fetched": "2025-07-18T09:14:04.534473Z",
   "abuser_score": "0.0005",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:14:04.534473Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "info@datacheap.ru",
   "type": "hosting",
   "created": "2009-10-08",
-  "updated": "2024-09-16",
+  "updated_at": "2025-07-18T08:22:39.236137Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS16262",
   "prefixes": [
@@ -26,7 +26,7 @@
     "192.162.240.0/21",
     "195.211.100.0/22"
   ],
-  "fetched": "2025-07-18T08:22:39.236137Z",
   "abuser_score": "0.001",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:22:39.236137Z"
 }

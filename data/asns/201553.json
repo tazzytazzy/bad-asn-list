@@ -8,7 +8,7 @@
   "abuse": "sat@vola.cat",
   "type": "isp",
   "created": "2014-09-26",
-  "updated": "2020-04-27",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS201553",
   "prefixes": [
@@ -22,7 +22,7 @@
     "185.208.66.0/24",
     "185.208.67.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0016",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

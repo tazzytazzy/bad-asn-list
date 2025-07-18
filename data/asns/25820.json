@@ -8,7 +8,7 @@
   "abuse": "abuse@sioru.com",
   "type": "isp",
   "created": "2013-01-15",
-  "updated": "2013-01-15",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS25820",
   "prefixes": [
@@ -270,7 +270,7 @@
     "2607:8700:5500::/48",
     "2607:8700:9300::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0018",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

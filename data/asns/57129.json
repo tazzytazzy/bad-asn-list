@@ -8,7 +8,7 @@
   "abuse": "abuse@gidpro.nl",
   "type": "hosting",
   "created": "2022-02-03",
-  "updated": "2022-02-03",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS57129",
   "prefixes": [
@@ -18,7 +18,7 @@
   "prefixesIPv6": [
     "2a0d:5900::/29"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

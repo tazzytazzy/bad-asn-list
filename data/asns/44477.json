@@ -8,7 +8,7 @@
   "abuse": "abuse@pq.hosting",
   "type": "business",
   "created": "2020-03-17",
-  "updated": "2025-05-22",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS44477",
   "prefixes": [
@@ -1072,7 +1072,7 @@
     "2a14:3087::/32",
     "2a14:3883:1::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0032",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

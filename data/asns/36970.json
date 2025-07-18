@@ -15,7 +15,8 @@
     "41.223.145.0/24",
     "154.72.33.0/24"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

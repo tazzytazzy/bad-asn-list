@@ -8,7 +8,7 @@
   "abuse": "abuse@globaltelehost.com",
   "type": "hosting",
   "created": "2013-07-10",
-  "updated": "2013-07-10",
+  "updated_at": "2025-07-18T09:24:55.017628Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS62563",
   "prefixes": [
@@ -46,7 +46,7 @@
     "2607:a140:a00::/40",
     "2a11:840:58::/48"
   ],
-  "fetched": "2025-07-18T09:24:55.017628Z",
   "abuser_score": "0.0041",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:24:55.017628Z"
 }

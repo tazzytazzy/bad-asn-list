@@ -8,7 +8,7 @@
   "abuse": "abuse@rejecty.com",
   "type": "business",
   "created": "2022-06-29",
-  "updated": "2024-04-30",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS204333",
   "prefixes": [
@@ -24,7 +24,7 @@
     "2a13:5681:b::/48",
     "2a13:5681:c::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

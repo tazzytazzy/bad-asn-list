@@ -8,7 +8,7 @@
   "abuse": "abuse@gigenet.com",
   "type": "hosting",
   "created": "2004-03-16",
-  "updated": "2019-03-01",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS32181",
   "prefixes": [
@@ -74,7 +74,7 @@
     "2604:2700:100::/40",
     "2607:adc0::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0004",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

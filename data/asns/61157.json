@@ -8,7 +8,7 @@
   "abuse": "abuse@plusserver.com",
   "type": "hosting",
   "created": "2013-01-28",
-  "updated": "2024-06-26",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS61157",
   "prefixes": [
@@ -240,7 +240,7 @@
     "2a02:cbf7:100::/48",
     "2a05:c340::/29"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

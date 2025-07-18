@@ -8,13 +8,13 @@
   "abuse": "abuse@nic.ru",
   "type": "hosting",
   "created": "2007-02-15",
-  "updated": "2018-11-16",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS42399",
   "prefixes": [
     "91.189.112.0/23"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

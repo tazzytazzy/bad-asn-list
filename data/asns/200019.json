@@ -8,7 +8,7 @@
   "abuse": "abuse@alexhost.com",
   "type": "hosting",
   "created": "2013-10-30",
-  "updated": "2022-12-06",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS200019",
   "prefixes": [
@@ -120,7 +120,7 @@
     "2a12:2c45::/32",
     "2a12:4143::/32"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0068",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

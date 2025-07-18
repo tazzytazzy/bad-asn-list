@@ -8,7 +8,7 @@
   "abuse": "abuse@planethoster.net",
   "type": "hosting",
   "created": "2010-06-30",
-  "updated": "2012-02-24",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS53589",
   "prefixes": [
@@ -35,7 +35,7 @@
     "204.154.174.0/23",
     "209.16.158.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

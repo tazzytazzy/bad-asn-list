@@ -8,7 +8,7 @@
   "abuse": "abuse@prioritycolo.com",
   "type": "hosting",
   "created": "2003-08-04",
-  "updated": "2012-02-24",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS30176",
   "prefixes": [
@@ -22,7 +22,7 @@
     "2607:f698::/31",
     "2607:f698::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

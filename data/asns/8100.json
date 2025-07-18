@@ -8,7 +8,7 @@
   "abuse": "abuse@quadranet.com",
   "type": "hosting",
   "created": "2009-10-22",
-  "updated": "2018-08-30",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS8100",
   "prefixes": [
@@ -63,7 +63,7 @@
     "2607:fcd0:ccc0::/42",
     "2607:ff48::/32"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

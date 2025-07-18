@@ -8,7 +8,7 @@
   "abuse": "abuse@netronik.pl",
   "type": "isp",
   "created": "2013-06-04",
-  "updated": "2025-04-04",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS60695",
   "prefixes": [
@@ -33,7 +33,7 @@
     "2a0d:b400::/29",
     "2a0e:4d00::/29"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

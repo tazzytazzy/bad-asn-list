@@ -8,7 +8,7 @@
   "abuse": "abuse@g2khosting.com",
   "type": "hosting",
   "created": "20100412",
-  "updated": "20100412",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52236",
   "prefixes": [
@@ -27,7 +27,7 @@
     "190.106.152.0/24",
     "190.106.157.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

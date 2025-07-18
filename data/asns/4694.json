@@ -6,7 +6,7 @@
   "org": "IDC Frontier Inc.",
   "domain": "idc-frontier.com",
   "type": "hosting",
-  "updated": "2019-03-19",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "JPNIC",
   "whois": "https://api.ipapi.is/?whois=AS4694",
   "prefixes": [
@@ -199,7 +199,7 @@
     "2406:600::/32",
     "2406:a00::/32"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

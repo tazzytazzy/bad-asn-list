@@ -8,7 +8,7 @@
   "abuse": "hostmaster@cloud9.net",
   "type": "isp",
   "created": "1994-07-02",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS3700",
   "prefixes": [
@@ -20,7 +20,7 @@
   "prefixesIPv6": [
     "2604:8d00::/32"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

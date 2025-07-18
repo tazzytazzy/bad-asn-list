@@ -8,7 +8,7 @@
   "abuse": "abuse@expertnetworkservice.com",
   "type": "hosting",
   "created": "2018-12-17",
-  "updated": "2022-02-17",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS209723",
   "prefixes": [
@@ -23,7 +23,7 @@
   "prefixesIPv6": [
     "2a09:ac80::/29"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

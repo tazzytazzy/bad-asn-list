@@ -7,7 +7,7 @@
   "domain": "pearson.com.au",
   "abuse": "routing@pearson.com",
   "type": "business",
-  "updated": "2020-08-17",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS9823",
   "prefixes": [
@@ -17,7 +17,7 @@
     "168.146.111.0/24",
     "168.146.112.0/24"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

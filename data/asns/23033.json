@@ -8,7 +8,7 @@
   "abuse": "abuse@wowrack.com",
   "type": "hosting",
   "created": "2002-01-07",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS23033",
   "prefixes": [
@@ -54,7 +54,7 @@
   "prefixesIPv6": [
     "2607:f8f8::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0004",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

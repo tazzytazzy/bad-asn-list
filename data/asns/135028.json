@@ -6,7 +6,7 @@
   "org": "GEMSTAR CABLE TV",
   "abuse": "gemstarcatv@yahoo.com",
   "type": "isp",
-  "updated": "2024-12-07",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS135028",
   "prefixes": [
@@ -17,7 +17,7 @@
   "prefixesIPv6": [
     "2401:e960::/32"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.001",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -8,13 +8,13 @@
   "abuse": "mburns@nationwideinc.com",
   "type": "business",
   "created": "2009-01-29",
-  "updated": "2018-08-10",
+  "updated_at": "2025-07-18T08:10:16.650792Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS11849",
   "prefixes": [
     "145.223.66.0/24"
   ],
-  "fetched": "2025-07-18T08:10:16.650792Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:10:16.650792Z"
 }

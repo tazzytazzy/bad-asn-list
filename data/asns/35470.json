@@ -8,7 +8,7 @@
   "abuse": "abuse@signet.nl",
   "type": "isp",
   "created": "2006-11-29",
-  "updated": "2020-01-27",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS35470",
   "prefixes": [
@@ -112,7 +112,7 @@
     "2a02:348:1800::/40",
     "2a02:348:f000::/36"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

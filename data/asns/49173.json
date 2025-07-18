@@ -8,7 +8,7 @@
   "abuse": "abuse@telecablealmonte.com",
   "type": "isp",
   "created": "2016-09-28",
-  "updated": "2024-06-24",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS49173",
   "prefixes": [
@@ -17,7 +17,7 @@
     "185.141.240.0/22",
     "194.146.28.0/22"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0012",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

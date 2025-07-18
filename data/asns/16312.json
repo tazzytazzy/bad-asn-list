@@ -8,13 +8,13 @@
   "abuse": "abuse@internetvikings.com",
   "type": "hosting",
   "created": "2015-09-10",
-  "updated": "2022-06-01",
+  "updated_at": "2025-07-18T08:22:39.236137Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS16312",
   "prefixes": [
     "185.116.240.0/22"
   ],
-  "fetched": "2025-07-18T08:22:39.236137Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:22:39.236137Z"
 }

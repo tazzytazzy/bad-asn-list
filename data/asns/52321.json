@@ -8,7 +8,7 @@
   "abuse": "soporte@capitalinasdc.com",
   "type": "hosting",
   "created": "20110418",
-  "updated": "20211001",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52321",
   "prefixes": [
@@ -17,7 +17,7 @@
     "190.123.122.0/24",
     "190.123.123.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

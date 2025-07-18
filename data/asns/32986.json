@@ -8,14 +8,14 @@
   "abuse": "abuse@key-development.com",
   "type": "hosting",
   "created": "2009-06-05",
-  "updated": "2013-11-21",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS32986",
   "prefixes": [
     "68.69.96.0/21",
     "68.69.104.0/21"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

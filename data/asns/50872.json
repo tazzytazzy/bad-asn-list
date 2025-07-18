@@ -8,7 +8,7 @@
   "abuse": "abuse@localhost.rs",
   "type": "hosting",
   "created": "2010-04-13",
-  "updated": "2024-05-27",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS50872",
   "prefixes": [
@@ -16,7 +16,7 @@
     "176.123.208.0/21",
     "193.243.168.0/22"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

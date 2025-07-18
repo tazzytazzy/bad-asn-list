@@ -8,7 +8,7 @@
   "abuse": "abuse@strongtechnology.net",
   "type": "business",
   "created": "2001-11-21",
-  "updated": "2022-12-12",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS22781",
   "prefixes": [
@@ -53,7 +53,7 @@
     "2607:fb50:8800::/40",
     "2607:fb50:8c00::/40"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0025",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

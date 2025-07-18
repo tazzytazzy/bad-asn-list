@@ -7,7 +7,7 @@
   "domain": "hostnetworks.com.au",
   "abuse": "abuse@hostnetworks.com.au",
   "type": "hosting",
-  "updated": "2020-05-26",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS4851",
   "prefixes": [
@@ -31,7 +31,7 @@
     "202.174.96.0/21",
     "202.174.104.0/21"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

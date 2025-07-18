@@ -8,7 +8,7 @@
   "abuse": "friedrich.kraeft@3xktech.cloud",
   "type": "hosting",
   "created": "2022-12-20",
-  "updated": "2022-12-20",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS200373",
   "prefixes": [
@@ -188,7 +188,7 @@
     "2a13:3f87::/32",
     "2a14:6380::/29"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.107",
-  "abuse_rank": "High"
+  "abuse_rank": "High",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

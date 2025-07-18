@@ -8,7 +8,7 @@
   "abuse": "abuse@hypecreation.com",
   "type": "business",
   "created": "2005-06-17",
-  "updated": "2018-01-22",
+  "updated_at": "2025-07-18T08:12:03.842442Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS13332",
   "prefixes": [
@@ -48,7 +48,7 @@
     "216.74.114.0/23",
     "216.74.117.0/24"
   ],
-  "fetched": "2025-07-18T08:12:03.842442Z",
   "abuser_score": "0.0149",
-  "abuse_rank": "Elevated"
+  "abuse_rank": "Elevated",
+  "created_at": "2025-07-18T08:12:03.842442Z"
 }

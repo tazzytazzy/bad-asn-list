@@ -8,14 +8,14 @@
   "abuse": "syseng@albemarle.org",
   "type": "government",
   "created": "2020-06-03",
-  "updated": "2020-06-03",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS53369",
   "prefixes": [
     "76.3.238.0/24",
     "76.3.239.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

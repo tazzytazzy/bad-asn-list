@@ -8,7 +8,7 @@
   "abuse": "abuse@avast.com",
   "type": "business",
   "created": "2012-03-21",
-  "updated": "2023-05-31",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS198605",
   "prefixes": [
@@ -82,7 +82,7 @@
     "2a0b:e181:605::/48",
     "2a0b:e182:100::/40"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.017",
-  "abuse_rank": "Elevated"
+  "abuse_rank": "Elevated",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

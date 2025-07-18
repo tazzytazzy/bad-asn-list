@@ -8,7 +8,7 @@
   "abuse": "abuse@mdc.hu",
   "type": "business",
   "created": "2015-01-02",
-  "updated": "2025-02-13",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS42120",
   "prefixes": [
@@ -17,7 +17,7 @@
   "prefixesIPv6": [
     "2a05:9580::/29"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0005",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

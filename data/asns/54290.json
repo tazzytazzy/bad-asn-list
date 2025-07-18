@@ -8,7 +8,7 @@
   "abuse": "abuse@hostwinds.com",
   "type": "hosting",
   "created": "2011-12-05",
-  "updated": "2018-06-29",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS54290",
   "prefixes": [
@@ -93,7 +93,7 @@
     "2607:5501::/32",
     "2a0d:7c40::/32"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0006",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

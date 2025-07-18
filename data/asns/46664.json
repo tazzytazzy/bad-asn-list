@@ -8,7 +8,7 @@
   "abuse": "noc@vdinetwork.com",
   "type": "hosting",
   "created": "2008-11-07",
-  "updated": "2018-08-08",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS46664",
   "prefixes": [
@@ -32,7 +32,7 @@
     "156.96.151.0/24",
     "199.254.168.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0082",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

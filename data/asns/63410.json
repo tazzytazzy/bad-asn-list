@@ -8,7 +8,7 @@
   "abuse": "abuse@privatesystems.net",
   "type": "hosting",
   "created": "2015-02-26",
-  "updated": "2015-02-26",
+  "updated_at": "2025-07-18T09:24:55.017628Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS63410",
   "prefixes": [
@@ -60,7 +60,7 @@
     "2600:4c00:500::/40",
     "2a07:ab00::/40"
   ],
-  "fetched": "2025-07-18T09:24:55.017628Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:24:55.017628Z"
 }

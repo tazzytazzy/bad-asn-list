@@ -8,7 +8,7 @@
   "abuse": "net-abuse-global@hostpapa.com",
   "type": "hosting",
   "created": "2005-12-12",
-  "updated": "2024-01-04",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS36352",
   "prefixes": [
@@ -2861,7 +2861,7 @@
     "2a04:6ac7::/32",
     "2a0a:2d04:f::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0042",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

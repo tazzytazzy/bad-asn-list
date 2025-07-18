@@ -8,7 +8,7 @@
   "abuse": "abuse@edis.at",
   "type": "hosting",
   "created": "2011-08-11",
-  "updated": "2021-11-25",
+  "updated_at": "2025-07-18T09:20:40.874730Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS57169",
   "prefixes": [
@@ -111,7 +111,7 @@
     "2a03:f80:ed31::/48",
     "2a03:f82:abcd::/48"
   ],
-  "fetched": "2025-07-18T09:20:40.874730Z",
   "abuser_score": "0.0024",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:20:40.874730Z"
 }

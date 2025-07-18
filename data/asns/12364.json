@@ -8,7 +8,7 @@
   "abuse": "noc@uom.gr",
   "type": "education",
   "created": "1970-01-01",
-  "updated": "2017-11-15",
+  "updated_at": "2025-07-18T08:10:16.650792Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS12364",
   "prefixes": [
@@ -18,7 +18,7 @@
   "prefixesIPv6": [
     "2001:648:2810::/48"
   ],
-  "fetched": "2025-07-18T08:10:16.650792Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:10:16.650792Z"
 }

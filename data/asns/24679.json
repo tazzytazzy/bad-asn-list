@@ -8,7 +8,7 @@
   "abuse": "abuse@kyberio.com",
   "type": "hosting",
   "created": "2002-04-09",
-  "updated": "2024-07-31",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS24679",
   "prefixes": [
@@ -37,7 +37,7 @@
     "2a02:790::/32",
     "2a07:60c0::/29"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

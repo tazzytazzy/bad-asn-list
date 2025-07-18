@@ -21,7 +21,8 @@
   "prefixesIPv6": [
     "2c0f:eae0::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0032",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

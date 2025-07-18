@@ -8,7 +8,7 @@
   "abuse": "abuse@secura.cloud",
   "type": "hosting",
   "created": "2003-09-15",
-  "updated": "2023-08-14",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS29452",
   "prefixes": [
@@ -21,7 +21,7 @@
   "prefixesIPv6": [
     "2001:4b08::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

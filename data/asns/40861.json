@@ -8,7 +8,7 @@
   "abuse": "bluemoon@texas.net",
   "type": "hosting",
   "created": "2008-05-05",
-  "updated": "2013-05-24",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS40861",
   "prefixes": [
@@ -104,7 +104,7 @@
     "216.168.16.0/24",
     "216.168.17.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0014",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

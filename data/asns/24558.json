@@ -7,7 +7,7 @@
   "domain": "adityabirla.com",
   "abuse": "Narendra.Varma@adityabirla.com",
   "type": "business",
-  "updated": "2021-01-12",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS24558",
   "prefixes": [
@@ -18,7 +18,7 @@
   "prefixesIPv6": [
     "2001:df5:2800::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

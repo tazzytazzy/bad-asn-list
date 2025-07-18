@@ -8,14 +8,14 @@
   "abuse": "abuse@kinescope.io",
   "type": "business",
   "created": "2022-09-28",
-  "updated": "2022-12-20",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS202614",
   "prefixes": [
     "46.102.104.0/24",
     "193.238.45.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

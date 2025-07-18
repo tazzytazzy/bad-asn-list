@@ -7,7 +7,7 @@
   "domain": "chinatelecom.com.cn",
   "abuse": "anti-spam@chinatelecom.cn",
   "type": "isp",
-  "updated": "2020-06-03",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS132225",
   "prefixes": [
@@ -220,7 +220,7 @@
     "240e:423:dc20::/44",
     "240e:423:dc30::/44"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuse@selectel.ru",
   "type": "hosting",
   "created": "2017-10-16",
-  "updated": "2025-04-01",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS50340",
   "prefixes": [
@@ -416,7 +416,7 @@
     "2a11:9887::/32",
     "2a13:d207::/32"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0007",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

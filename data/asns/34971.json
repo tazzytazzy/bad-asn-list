@@ -8,7 +8,7 @@
   "abuse": "lirabuse@cdlan.it",
   "type": "isp",
   "created": "2009-01-22",
-  "updated": "2023-02-15",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS34971",
   "prefixes": [
@@ -38,7 +38,7 @@
     "2a00:dcc7:d000::/38",
     "2a06:fdc0::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0004",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

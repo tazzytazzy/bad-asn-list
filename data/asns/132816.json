@@ -7,7 +7,7 @@
   "domain": "simplercloud.com",
   "abuse": "abuse@simplercloud.com",
   "type": "hosting",
-  "updated": "2020-06-01",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS132816",
   "prefixes": [
@@ -20,7 +20,7 @@
     "2400:c980:1::/48",
     "2400:c980:2::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

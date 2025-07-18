@@ -8,7 +8,7 @@
   "abuse": "abuse@belnet.be",
   "type": "education",
   "created": "2002-02-01",
-  "updated": "2021-09-03",
+  "updated_at": "2025-07-18T07:32:46.358798Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS2611",
   "prefixes": [
@@ -61,7 +61,7 @@
     "2a07:9880::/29",
     "2a14:b980::/32"
   ],
-  "fetched": "2025-07-18T07:32:46.358798Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T07:32:46.358798Z"
 }

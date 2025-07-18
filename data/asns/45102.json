@@ -7,7 +7,7 @@
   "domain": "alibaba.com",
   "abuse": "didong.jc@alibaba-inc.com",
   "type": "hosting",
-  "updated": "2021-10-27",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS45102",
   "prefixes": [
@@ -845,7 +845,7 @@
     "240b:4014::/33",
     "240b:4014:8000::/33"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0015",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

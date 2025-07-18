@@ -8,7 +8,7 @@
   "abuse": "abuse@pindc.ru",
   "type": "isp",
   "created": "2007-11-09",
-  "updated": "2025-03-10",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS44050",
   "prefixes": [
@@ -50,7 +50,7 @@
     "2a0c:8700::/29",
     "2a0d:8fc0::/29"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuse@aquaray.com",
   "type": "hosting",
   "created": "2006-09-28",
-  "updated": "2021-09-15",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS41653",
   "prefixes": [
@@ -35,7 +35,7 @@
     "2a02:ec0:215::/48",
     "2a0e:cec0::/29"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "proveedores@latincloud.com",
   "type": "hosting",
   "created": "20100803",
-  "updated": "20170112",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52270",
   "prefixes": [
@@ -47,7 +47,7 @@
     "200.85.158.0/24",
     "200.85.159.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuse@punktum.dk",
   "type": "business",
   "created": "2006-05-03",
-  "updated": "2024-11-07",
+  "updated_at": "2025-07-18T09:14:08.290501Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS39839",
   "prefixes": [
@@ -19,7 +19,7 @@
   "prefixesIPv6": [
     "2a01:630::/32"
   ],
-  "fetched": "2025-07-18T09:14:08.290501Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:14:08.290501Z"
 }

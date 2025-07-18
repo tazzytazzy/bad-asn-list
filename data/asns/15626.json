@@ -8,7 +8,7 @@
   "abuse": "abuse@greenfloid.com",
   "type": "hosting",
   "created": "2002-09-05",
-  "updated": "2025-01-21",
+  "updated_at": "2025-07-18T08:17:32.165576Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS15626",
   "prefixes": [
@@ -52,7 +52,7 @@
     "2a0a:8c46::/32",
     "2a0e:40c0:1::/48"
   ],
-  "fetched": "2025-07-18T08:17:32.165576Z",
   "abuser_score": "0.0014",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:17:32.165576Z"
 }

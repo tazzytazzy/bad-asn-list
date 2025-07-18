@@ -8,7 +8,7 @@
   "abuse": "abuse@vpls.net",
   "type": "hosting",
   "created": "2005-04-06",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS35908",
   "prefixes": [
@@ -471,7 +471,7 @@
     "2607:f180:9100::/40",
     "2607:f180:9200::/40"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

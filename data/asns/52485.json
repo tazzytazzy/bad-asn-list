@@ -8,7 +8,7 @@
   "abuse": "admin1@networksdelmanana.com",
   "type": "business",
   "created": "20130610",
-  "updated": "20130611",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52485",
   "prefixes": [
@@ -18,7 +18,7 @@
     "168.196.236.0/22",
     "190.123.208.0/20"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0073",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

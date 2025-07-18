@@ -8,7 +8,7 @@
   "abuse": "info@abstation.net",
   "type": "business",
   "created": "2015-05-20",
-  "updated": "2019-08-27",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS30938",
   "prefixes": [
@@ -20,7 +20,7 @@
     "45.12.216.0/24",
     "185.5.36.0/22"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

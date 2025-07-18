@@ -8,14 +8,14 @@
   "abuse": "rndata.abuse@altnet.lv",
   "type": "business",
   "created": "2006-08-08",
-  "updated": "2024-02-08",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS41390",
   "prefixes": [
     "195.3.144.0/22",
     "195.3.147.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0023",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

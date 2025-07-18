@@ -8,7 +8,7 @@
   "abuse": "abuse@nocix.net",
   "type": "hosting",
   "created": "2004-02-26",
-  "updated": "2019-07-22",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS32097",
   "prefixes": [
@@ -49,7 +49,7 @@
     "2602:fed3:8::/48",
     "2602:fed3:9::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0007",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

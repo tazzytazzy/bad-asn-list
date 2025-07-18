@@ -7,7 +7,7 @@
   "domain": "udomain.hk",
   "abuse": "report_abuse@udomain.hk",
   "type": "hosting",
-  "updated": "2020-06-15",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS23881",
   "prefixes": [
@@ -88,7 +88,7 @@
     "2400:c300::/48",
     "2400:c300:1::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

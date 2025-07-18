@@ -8,7 +8,7 @@
   "abuse": "abuse@scalabledns.com",
   "type": "hosting",
   "created": "2011-01-04",
-  "updated": "2016-05-24",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS18978",
   "prefixes": [
@@ -120,7 +120,7 @@
     "2605:f700:880::/42",
     "2605:f700:8c0::/42"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

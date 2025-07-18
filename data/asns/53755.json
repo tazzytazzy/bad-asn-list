@@ -8,7 +8,7 @@
   "abuse": "abuse@ioflood.com",
   "type": "hosting",
   "created": "2011-05-10",
-  "updated": "2012-02-24",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS53755",
   "prefixes": [
@@ -185,7 +185,7 @@
     "2604:6280::/32",
     "2a0d:da07::/32"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

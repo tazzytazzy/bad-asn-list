@@ -8,7 +8,7 @@
   "abuse": "abuse@psychz.net",
   "type": "hosting",
   "created": "2008-02-26",
-  "updated": "2013-04-26",
+  "updated_at": "2025-07-18T09:16:03.028797Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS40676",
   "prefixes": [
@@ -620,7 +620,7 @@
     "2a10:17c7:ff85::/48",
     "2a12:bec0:161::/48"
   ],
-  "fetched": "2025-07-18T09:16:03.028797Z",
   "abuser_score": "0.0016",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:03.028797Z"
 }

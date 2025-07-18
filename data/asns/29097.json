@@ -8,7 +8,7 @@
   "abuse": "abuse@hostpoint.ch",
   "type": "hosting",
   "created": "2003-06-04",
-  "updated": "2024-08-12",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS29097",
   "prefixes": [
@@ -19,7 +19,7 @@
   "prefixesIPv6": [
     "2a00:d70::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

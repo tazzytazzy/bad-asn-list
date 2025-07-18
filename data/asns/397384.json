@@ -8,7 +8,7 @@
   "abuse": "abuse@launchvps.com",
   "type": "hosting",
   "created": "2019-03-12",
-  "updated": "2019-03-12",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS397384",
   "prefixes": [
@@ -23,7 +23,7 @@
     "2604:bf00:210::/48",
     "2a10:9903:401::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0024",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

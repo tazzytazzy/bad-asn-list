@@ -8,7 +8,7 @@
   "abuse": "networkadvisory@phmgmt.com",
   "type": "business",
   "created": "2010-10-28",
-  "updated": "2012-02-24",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS22363",
   "prefixes": [
@@ -223,7 +223,7 @@
     "2607:bc40:2::/48",
     "2607:d040:100::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0012",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

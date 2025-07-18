@@ -8,7 +8,7 @@
   "abuse": "abuse@isppro.de",
   "type": "hosting",
   "created": "2005-07-22",
-  "updated": "2023-04-13",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS35366",
   "prefixes": [
@@ -34,7 +34,7 @@
   "prefixesIPv6": [
     "2a02:180::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

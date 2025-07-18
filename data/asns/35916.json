@@ -8,7 +8,7 @@
   "abuse": "abuse@multacom.com",
   "type": "isp",
   "created": "2005-04-08",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS35916",
   "prefixes": [
@@ -122,7 +122,7 @@
     "2a0d:6900::/29",
     "2a0d:d480::/29"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuse@hostmaster.ua",
   "type": "business",
   "created": "2003-05-23",
-  "updated": "2024-06-19",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS29067",
   "prefixes": [
@@ -30,7 +30,7 @@
     "2001:4130:50f1::/48",
     "2001:4130:50f2::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0006",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

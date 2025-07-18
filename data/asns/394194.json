@@ -8,7 +8,7 @@
   "abuse": "nova.mtunga@gaylordhotels.com",
   "type": "business",
   "created": "2020-01-29",
-  "updated": "2020-01-29",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS394194",
   "prefixes": [
@@ -20,7 +20,7 @@
     "130.44.32.0/19",
     "130.44.40.0/21"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

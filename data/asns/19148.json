@@ -8,7 +8,7 @@
   "abuse": "abuse@us.leaseweb.com",
   "type": "hosting",
   "created": "2018-03-07",
-  "updated": "2021-08-03",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS19148",
   "prefixes": [
@@ -58,7 +58,7 @@
     "2a14:9e00:4::/48",
     "2a14:9e00:8::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0025",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

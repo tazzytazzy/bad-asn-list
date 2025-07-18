@@ -8,7 +8,7 @@
   "abuse": "abusesupport@dotblock.com",
   "type": "hosting",
   "created": "2013-09-06",
-  "updated": "2013-09-06",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS62756",
   "prefixes": [
@@ -17,7 +17,7 @@
   "prefixesIPv6": [
     "2605:f080:700::/40"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -8,13 +8,13 @@
   "abuse": "m.popov.yu@gmail.com",
   "type": "business",
   "created": "2022-10-03",
-  "updated": "2024-11-21",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS202527",
   "prefixes": [
     "193.111.47.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

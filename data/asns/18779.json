@@ -8,7 +8,7 @@
   "abuse": "abuse@egihosting.com",
   "type": "hosting",
   "created": "2007-08-02",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS18779",
   "prefixes": [
@@ -1053,7 +1053,7 @@
     "2a11:73c0::/29",
     "2a11:bd40::/29"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0006",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

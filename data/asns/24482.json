@@ -7,7 +7,7 @@
   "domain": "sg.gs",
   "abuse": "abuse@sg.gs",
   "type": "hosting",
-  "updated": "2020-05-19",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS24482",
   "prefixes": [
@@ -63,7 +63,7 @@
     "2405:4200:f001::/48",
     "2405:4200:ffee::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0001",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

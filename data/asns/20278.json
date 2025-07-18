@@ -8,7 +8,7 @@
   "abuse": "abuse@nexeontech.com",
   "type": "hosting",
   "created": "2014-08-12",
-  "updated": "2014-08-12",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS20278",
   "prefixes": [
@@ -288,7 +288,7 @@
     "2602:ffc8:3d40::/44",
     "2602:ffc8:b000::/36"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0004",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

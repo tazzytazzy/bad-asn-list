@@ -8,7 +8,7 @@
   "abuse": "abuse@aup.lumen.com",
   "type": "isp",
   "created": "1998-10-07",
-  "updated": "2018-11-15",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS3561",
   "prefixes": [
@@ -638,7 +638,7 @@
     "2001:460:78::/46",
     "2001:460:100::/46"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

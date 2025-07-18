@@ -8,7 +8,7 @@
   "abuse": "abuse@cloudsingularity.netconnect: Connection refused",
   "type": "hosting",
   "created": "2015-07-21",
-  "updated": "2015-07-21",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS394256",
   "prefixes": [
@@ -42,7 +42,7 @@
     "2606:9580:ff03::/48",
     "2606:9580:fffa::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0015",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -8,13 +8,13 @@
   "abuse": "ITNetworkServices@dswinc.com",
   "type": "business",
   "created": "2020-09-17",
-  "updated": "2020-09-17",
+  "updated_at": "2025-07-18T09:25:24.927704Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS63157",
   "prefixes": [
     "74.118.98.0/23"
   ],
-  "fetched": "2025-07-18T09:25:24.927704Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:25:24.927704Z"
 }

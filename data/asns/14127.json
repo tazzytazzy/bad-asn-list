@@ -8,7 +8,7 @@
   "abuse": "jgiardina@iland.com",
   "type": "hosting",
   "created": "1999-10-25",
-  "updated": "2022-06-24",
+  "updated_at": "2025-07-18T08:12:03.842442Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS14127",
   "prefixes": [
@@ -227,7 +227,7 @@
     "216.243.172.0/24",
     "216.243.173.0/24"
   ],
-  "fetched": "2025-07-18T08:12:03.842442Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:12:03.842442Z"
 }

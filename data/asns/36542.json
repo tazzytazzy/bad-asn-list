@@ -8,13 +8,13 @@
   "abuse": "GC-NetworkTeam@gwinnettcounty.com",
   "type": "government",
   "created": "2013-05-31",
-  "updated": "2013-05-31",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS36542",
   "prefixes": [
     "74.174.32.0/24"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

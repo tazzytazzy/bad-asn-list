@@ -8,7 +8,7 @@
   "abuse": "abuse@fxtrading.net",
   "type": "isp",
   "created": "2016-07-29",
-  "updated": "2024-10-30",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS135402",
   "prefixes": [
@@ -52,7 +52,7 @@
     "199.182.169.0/24",
     "213.145.67.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

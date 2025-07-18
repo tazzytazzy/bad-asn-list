@@ -8,7 +8,7 @@
   "abuse": "abuse@tzulo.com",
   "type": "hosting",
   "created": "2007-04-02",
-  "updated": "2012-02-24",
+  "updated_at": "2025-07-18T08:10:16.650792Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS11878",
   "prefixes": [
@@ -202,7 +202,7 @@
     "2607:9000:e000::/36",
     "2607:9000:f000::/36"
   ],
-  "fetched": "2025-07-18T08:10:16.650792Z",
   "abuser_score": "0.0021",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:10:16.650792Z"
 }

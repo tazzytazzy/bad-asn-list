@@ -8,7 +8,7 @@
   "abuse": "ops@crucialwebhost.com",
   "type": "hosting",
   "created": "2013-04-09",
-  "updated": "2016-04-25",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS32647",
   "prefixes": [
@@ -23,7 +23,7 @@
   "prefixesIPv6": [
     "2604:4340::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0004",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

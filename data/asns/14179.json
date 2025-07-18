@@ -4,7 +4,8 @@
   "country": "cw",
   "active": false,
   "whois": "https://api.ipapi.is/?whois=AS14179",
-  "fetched": "2025-07-18T08:12:03.842442Z",
+  "updated_at": "2025-07-18T08:12:03.842442Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:12:03.842442Z"
 }

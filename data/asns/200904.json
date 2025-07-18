@@ -8,7 +8,7 @@
   "abuse": "abuse@foxcloud.net",
   "type": "hosting",
   "created": "2015-03-16",
-  "updated": "2021-08-02",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS200904",
   "prefixes": [
@@ -29,7 +29,7 @@
     "194.156.65.0/24",
     "194.156.66.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0015",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

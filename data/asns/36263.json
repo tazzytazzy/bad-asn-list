@@ -8,7 +8,7 @@
   "abuse": "ipmanagement@amazon.com",
   "type": "hosting",
   "created": "2021-06-17",
-  "updated": "2021-06-17",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS36263",
   "prefixes": [
@@ -21,7 +21,7 @@
     "2606:5cc0:1100::/40",
     "2606:5cc0:1200::/40"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

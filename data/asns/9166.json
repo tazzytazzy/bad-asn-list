@@ -8,7 +8,7 @@
   "abuse": "abuse@cegeka.com",
   "type": "business",
   "created": "2002-09-16",
-  "updated": "2022-07-19",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS9166",
   "prefixes": [
@@ -36,7 +36,7 @@
     "2a02:2398:200::/40",
     "2a02:239c::/48"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

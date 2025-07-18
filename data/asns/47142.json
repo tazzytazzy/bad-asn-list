@@ -8,13 +8,13 @@
   "abuse": "cristian.gal@metaminds.com",
   "type": "business",
   "created": "2021-02-09",
-  "updated": "2021-11-23",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS47142",
   "prefixes": [
     "193.169.137.0/24"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

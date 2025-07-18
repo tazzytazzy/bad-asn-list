@@ -8,10 +8,10 @@
   "abuse": "alex.kontrast.eu@gmail.com",
   "type": "hosting",
   "created": "2016-12-05",
-  "updated": "2025-05-28",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS206644",
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

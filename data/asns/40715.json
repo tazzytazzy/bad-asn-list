@@ -8,7 +8,7 @@
   "abuse": "abuse@cologix.com",
   "type": "hosting",
   "created": "2008-03-03",
-  "updated": "2022-08-18",
+  "updated_at": "2025-07-18T09:16:03.028797Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS40715",
   "prefixes": [
@@ -26,7 +26,7 @@
   "prefixesIPv6": [
     "2605:4400::/32"
   ],
-  "fetched": "2025-07-18T09:16:03.028797Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:16:03.028797Z"
 }

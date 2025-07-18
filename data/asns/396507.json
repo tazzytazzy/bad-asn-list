@@ -8,7 +8,7 @@
   "abuse": "abuse@emeraldonion.org",
   "type": "business",
   "created": "2017-06-30",
-  "updated": "2017-06-30",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS396507",
   "prefixes": [
@@ -22,7 +22,7 @@
     "2620:18c:1::/48",
     "2620:18c:f1::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0679",
-  "abuse_rank": "High"
+  "abuse_rank": "High",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

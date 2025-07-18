@@ -8,7 +8,7 @@
   "abuse": "abuse@nodisto.com",
   "type": "hosting",
   "created": "2015-12-04",
-  "updated": "2015-12-04",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS394727",
   "prefixes": [
@@ -57,7 +57,7 @@
     "2604:880:6e::/48",
     "2606:cd80::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0007",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

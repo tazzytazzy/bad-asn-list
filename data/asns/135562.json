@@ -7,7 +7,7 @@
   "domain": "nevigate.net",
   "abuse": "nevigate-technical@nevigate.net",
   "type": "isp",
-  "updated": "2024-08-29",
+  "updated_at": "2025-07-18T09:25:24.927704Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS135562",
   "prefixes": [
@@ -26,7 +26,7 @@
     "2403:9bc0:8::/48",
     "2403:9bc0:9::/48"
   ],
-  "fetched": "2025-07-18T09:25:24.927704Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:25:24.927704Z"
 }

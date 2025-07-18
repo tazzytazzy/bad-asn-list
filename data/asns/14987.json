@@ -8,7 +8,7 @@
   "abuse": "noc@rethemhosting.net",
   "type": "hosting",
   "created": "2011-03-21",
-  "updated": "2012-02-24",
+  "updated_at": "2025-07-18T08:12:03.842442Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS14987",
   "prefixes": [
@@ -21,7 +21,7 @@
   "prefixesIPv6": [
     "2607:8500::/32"
   ],
-  "fetched": "2025-07-18T08:12:03.842442Z",
   "abuser_score": "0.0586",
-  "abuse_rank": "High"
+  "abuse_rank": "High",
+  "created_at": "2025-07-18T08:12:03.842442Z"
 }

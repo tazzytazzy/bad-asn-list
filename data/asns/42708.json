@@ -8,7 +8,7 @@
   "abuse": "abuse@glesys.com",
   "type": "hosting",
   "created": "2007-04-04",
-  "updated": "2024-12-19",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS42708",
   "prefixes": [
@@ -217,7 +217,7 @@
     "2a0b:64c3::/32",
     "2a0b:7140:3::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0027",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

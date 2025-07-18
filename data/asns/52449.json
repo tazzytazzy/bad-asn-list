@@ -8,7 +8,7 @@
   "abuse": "admin1@my-tec.bz",
   "type": "isp",
   "created": "20130307",
-  "updated": "20130307",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52449",
   "prefixes": [
@@ -17,7 +17,7 @@
     "168.195.76.0/22",
     "170.247.220.0/22"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.0093",
-  "abuse_rank": "Elevated"
+  "abuse_rank": "Elevated",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

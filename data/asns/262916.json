@@ -8,7 +8,7 @@
   "abuse": "nic_tech@megacable.com.mx",
   "type": "isp",
   "created": "20100317",
-  "updated": "20190925",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS262916",
   "prefixes": [
@@ -344,7 +344,7 @@
     "2806:203:a003::/48",
     "2806:203:f003::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0023",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

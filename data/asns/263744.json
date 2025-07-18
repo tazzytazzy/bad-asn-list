@@ -8,7 +8,7 @@
   "abuse": "admin1@udasha.com",
   "type": "business",
   "created": "20150320",
-  "updated": "20150320",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS263744",
   "prefixes": [
@@ -24,7 +24,7 @@
   "prefixesIPv6": [
     "2803:5380::/32"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0082",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuses@host.ag",
   "type": "hosting",
   "created": "2016-04-18",
-  "updated": "2025-06-04",
+  "updated_at": "2025-07-18T09:16:13.366429Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS44901",
   "prefixes": [
@@ -98,7 +98,7 @@
     "2a09:be80::/32",
     "2a14:640::/48"
   ],
-  "fetched": "2025-07-18T09:16:13.366429Z",
   "abuser_score": "0.003",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:16:13.366429Z"
 }

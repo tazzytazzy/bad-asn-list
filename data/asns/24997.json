@@ -8,7 +8,7 @@
   "abuse": "cdn@cdn.ge",
   "type": "isp",
   "created": "2002-06-19",
-  "updated": "2019-12-04",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS24997",
   "prefixes": [
@@ -18,7 +18,7 @@
     "217.11.162.0/24",
     "217.11.163.0/24"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

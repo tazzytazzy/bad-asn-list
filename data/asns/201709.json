@@ -8,7 +8,7 @@
   "abuse": "abuse@han-ds.de",
   "type": "hosting",
   "created": "2014-08-06",
-  "updated": "2024-06-03",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS201709",
   "prefixes": [
@@ -20,7 +20,7 @@
     "2a01:55e4::/30",
     "2a12:c380::/29"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0003",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

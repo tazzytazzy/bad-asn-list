@@ -8,7 +8,7 @@
   "abuse": "abuse@datacenta.net",
   "type": "hosting",
   "created": "2009-12-22",
-  "updated": "2024-02-08",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS196745",
   "prefixes": [
@@ -31,7 +31,7 @@
     "2a00:b340:38::/48",
     "2a00:b340:39::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "Ibrahim.Abdullahi@dish.com",
   "type": "isp",
   "created": "2009-01-16",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS18570",
   "prefixes": [
@@ -22,7 +22,7 @@
     "204.76.132.0/24",
     "205.172.147.0/24"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

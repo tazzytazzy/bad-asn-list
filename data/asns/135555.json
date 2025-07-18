@@ -7,7 +7,7 @@
   "domain": "citycomms.com.au",
   "abuse": "support@citycomms.com.au",
   "type": "isp",
-  "updated": "2020-12-03",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS135555",
   "prefixes": [
@@ -17,7 +17,7 @@
   "prefixesIPv6": [
     "2001:df3:7e00::/48"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0.0007",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

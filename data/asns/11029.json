@@ -8,7 +8,7 @@
   "abuse": "abuse@netvata.com",
   "type": "business",
   "created": "2024-02-01",
-  "updated": "2024-02-01",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS11029",
   "prefixes": [
@@ -18,7 +18,7 @@
   "prefixesIPv6": [
     "2607:91c0::/32"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

@@ -7,7 +7,7 @@
   "domain": "gohosting.com.au",
   "abuse": "support@gohosting.com.au",
   "type": "hosting",
-  "updated": "2020-07-22",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS9290",
   "prefixes": [
@@ -17,7 +17,7 @@
     "202.47.95.0/24",
     "203.83.219.0/24"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0.0002",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

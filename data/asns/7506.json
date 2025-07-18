@@ -6,7 +6,7 @@
   "org": "GMO Internet Group, Inc.",
   "domain": "gmo.jp",
   "type": "hosting",
-  "updated": "2024-11-30",
+  "updated_at": "2025-07-18T08:00:28.091053Z",
   "rir": "JPNIC",
   "whois": "https://api.ipapi.is/?whois=AS7506",
   "prefixes": [
@@ -48,7 +48,7 @@
     "2400:8500:d29d::/48",
     "2400:8500:d37d::/48"
   ],
-  "fetched": "2025-07-18T08:00:28.091053Z",
   "abuser_score": "0.0009",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:00:28.091053Z"
 }

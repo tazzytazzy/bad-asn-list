@@ -8,7 +8,7 @@
   "abuse": "abuse@oracleemaildelivery.com",
   "type": "business",
   "created": "2011-03-21",
-  "updated": "2017-05-18",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS31898",
   "prefixes": [
@@ -2308,7 +2308,7 @@
     "2a14:7581:f00::/44",
     "2a14:7581:9811::/48"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0.0006",
-  "abuse_rank": "Low"
+  "abuse_rank": "Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "malakmadzeweb@gmail.com",
   "type": "hosting",
   "created": "2012-10-02",
-  "updated": "2024-07-26",
+  "updated_at": "2025-07-18T09:27:20.001816Z",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS197328",
   "prefixes": [
@@ -38,7 +38,7 @@
     "213.128.80.0/24",
     "213.128.81.0/24"
   ],
-  "fetched": "2025-07-18T09:27:20.001816Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T09:27:20.001816Z"
 }

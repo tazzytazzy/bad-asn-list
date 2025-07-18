@@ -8,7 +8,7 @@
   "abuse": "abuse@qtsdatacenters.com",
   "type": "hosting",
   "created": "2003-04-28",
-  "updated": "2019-11-08",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS29748",
   "prefixes": [
@@ -43,7 +43,7 @@
     "2001:4838::/32",
     "2610:60::/32"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }

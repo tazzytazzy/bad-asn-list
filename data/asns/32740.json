@@ -8,7 +8,7 @@
   "abuse": "noc@sliqua.com",
   "type": "hosting",
   "created": "2010-03-31",
-  "updated": "2012-03-02",
+  "updated_at": "2025-07-18T08:28:10.294159Z",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS32740",
   "prefixes": [
@@ -19,7 +19,7 @@
     "199.58.204.0/24",
     "199.58.207.0/24"
   ],
-  "fetched": "2025-07-18T08:28:10.294159Z",
   "abuser_score": "0",
-  "abuse_rank": "Very Low"
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-18T08:28:10.294159Z"
 }
