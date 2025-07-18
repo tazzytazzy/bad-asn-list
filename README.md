@@ -1,3 +1,7 @@
+
+<!-- badges: start -->
+![](https://img.shields.io/badge/python-%3E%3D3.11.8%2C%3C%3D3.13.5-blue)
+<!-- badges: end -->
 # bad-asn-list
 An open source list of ASNs known to belong to cloud, managed hosting, and colo facilities.
 

@@ -16,15 +16,6 @@ import urllib.request
 import urllib.error
 from datetime import datetime, timedelta, timezone
 
-# Use the third-party PyYAML library for cleaner config management,
-# consistent with other scripts in the project.
-try:
-    import yaml
-except ImportError:
-    print("Error: PyYAML library not found.", file=sys.stderr)
-    print("Please install it by running: pip install pyyaml", file=sys.stderr)
-    sys.exit(1)
-
 # --- Local/Project Imports ---
 try:
     from helpers.utils import (
@@ -69,6 +60,9 @@ logging.basicConfig(
     ]
 )
 
+def get_time_now() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')
+
 def signal_handler(sig, frame):
     """Handles Ctrl+C by saving progress before exiting."""
     print("\nCtrl+C detected. Saving progress before exiting...")
@@ -78,9 +72,11 @@ def signal_handler(sig, frame):
 
 def save_progress():
     """Saves the current state of asn_checked_data to the YAML file."""
+    global asn_checked_data
+
     if asn_checked_data["asns"]:
         print(f"Saving checked ASN data to '{ASN_CHECKED_YAML}'...")
-        asn_checked_data["script_last_ran_at"] = datetime.now(timezone.utc).isoformat()
+        asn_checked_data["script_last_ran_at"] = get_time_now()
         save_yaml_config(ASN_CHECKED_YAML, asn_checked_data)
     else:
         print("No data to save.")
@@ -128,7 +124,7 @@ def main():
     cutoff_time = now_utc - timedelta(days=1)
     recent_runs = [
         run for run in run_history
-        if datetime.fromisoformat(run['timestamp'].replace('Z', '+00:00')) > cutoff_time
+        if datetime.fromisoformat(run['timestamp']) > cutoff_time
     ]
 
     # Sum requests from the last 24 hours
@@ -136,7 +132,7 @@ def main():
     requests_available = API_REQUEST_LIMIT_PER_24H - requests_in_last_24h
 
     if requests_available <= 0:
-        oldest_run_ts = min(datetime.fromisoformat(r['timestamp'].replace('Z', '+00:00')) for r in recent_runs)
+        oldest_run_ts = min(datetime.fromisoformat(r['timestamp']) for r in recent_runs)
         next_available_time = oldest_run_ts + timedelta(days=1)
         wait_delta = next_available_time - now_utc
         total_seconds = wait_delta.total_seconds()
@@ -211,11 +207,7 @@ def main():
         if asn in asn_checked_data["asns"]:
             try:
                 last_fetched_at_str = asn_checked_data["asns"][asn]
-                # fromisoformat doesn't like 'Z', so we handle it manually
-                if last_fetched_at_str.endswith('Z'):
-                    last_fetched_at = datetime.fromisoformat(last_fetched_at_str[:-1]).replace(tzinfo=timezone.utc)
-                else:
-                    last_fetched_at = datetime.fromisoformat(last_fetched_at_str).replace(tzinfo=timezone.utc)
+                last_fetched_at = datetime.fromisoformat(last_fetched_at_str)
 
                 if (now - last_fetched_at) > update_delta:
                     asns_to_fetch.add(asn)
@@ -253,7 +245,7 @@ def main():
 
             if new_data and 'asn' in new_data:
                 new_data.pop('elapsed_ms', None)
-                new_data['updated_at'] = now_utc.isoformat().replace('+00:00', 'Z')
+                new_data['updated_at'] = get_time_now()
 
                 if 'abuser_score' in new_data and isinstance(new_data['abuser_score'], str):
                     score_string = new_data.pop('abuser_score')
@@ -268,7 +260,7 @@ def main():
             # Fields to ignore when comparing for changes
             fields_to_ignore = {"elapsed_ms", "created_at", "updated_at"}
             json_path = os.path.join(ASN_DATA_DIR, f"{asn}.json")
-            created_at = datetime.now(timezone.utc).isoformat()  # Default for new files
+            created_at = get_time_now()
 
             if os.path.exists(json_path):
                 try:
@@ -284,15 +276,16 @@ def main():
 
                     if new_data_cmp == existing_data_cmp:
                         print(f"ASN {asn}: No changes detected. Updating timestamp only.")
-                        asn_checked_data["asns"][asn] = datetime.now(timezone.utc).isoformat()
+                        asn_checked_data["asns"][asn] = get_time_now()
                         continue  # Skip to the next ASN
                 except (json.JSONDecodeError, IOError) as e:
-                    print(f"Warning: Could not read existing file {json_path}. It will be overwritten. Error: {e}", file=sys.stderr)
+                    print(f"Warning: Could not read existing file {json_path}. It will be overwritten. Error: {e}",
+                          file=sys.stderr)
 
             # 6. Save new/changed data to its JSON file
             print(f"ASN {asn}: Changes detected or new file. Saving updated data.")
             new_data["created_at"] = created_at
-            new_data["updated_at"] = datetime.now(timezone.utc).isoformat()
+            new_data["updated_at"] = get_time_now()
 
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(new_data, f, indent=2)

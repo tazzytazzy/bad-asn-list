@@ -61,4 +61,4 @@ Desktop.ini
 /ipapi.yaml
 
 fetch_asn_details.log
-data/asn_json_last_checked.yaml
+.python-version
