@@ -137,4 +137,10 @@ Download the ASN details right now using a public API without the need for an AP
 Create the blocklist_json.netset from using the ASN JSON files.
 
 # `sort_list.py`
-Simply resorts the bad-asn-list.csv file.
+Simply resorts the bad-asn-list.csv file by column name, not case-sensitive. Uses the new helper library to
+read the ASN file.
+
+```bash
+./sort_list.py asn
+```
+
