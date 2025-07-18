@@ -6,15 +6,12 @@ updates them if the data is stale or has changed, to minimize API usage.
 """
 
 import copy
-import csv
 import json
 import logging
 import os
 import re
 import signal
-import subprocess
 import sys
-import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timedelta, timezone
@@ -304,7 +301,7 @@ def main():
             # Update the timestamp in our tracking dictionary
             asn_checked_data["asns"][asn] = new_data["updated_at"]
 
-        except requests.RequestException as e:
+        except (urllib.error.URLError, urllib.error.HTTPError) as e:
             print(f"Error fetching data for ASN {asn}: {e}", file=sys.stderr)
         except Exception as e:
             print(f"An unexpected error occurred while processing ASN {asn}: {e}", file=sys.stderr)
@@ -312,6 +309,20 @@ def main():
     # 7. Save the final ASN_CHECKED_YAML file
     print("\n--- All processing complete ---")
     save_progress()
+
+    scripts_to_run = [
+        "update_csv_from_json.py",
+        "sort_list.py",
+        "build_cloudflare.py",
+        "netset_from_json.py",
+    ]
+
+    print("Starting the build process for all artifacts...")
+
+    for script in scripts_to_run:
+        if not run_script(script):
+            print(f"\nBuild process failed during execution of {script}.")
+            sys.exit(1)
 
 
 if __name__ == "__main__":
