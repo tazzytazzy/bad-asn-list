@@ -1,0 +1,21 @@
+{
+  "asn": 211590,
+  "descr": "BUCKLOG, FR",
+  "country": "fr",
+  "active": true,
+  "org": "Bucklog SARL",
+  "abuse": "bucklog@proton.me",
+  "type": "business",
+  "created": "2025-03-13",
+  "updated": "2025-03-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS211590",
+  "prefixes": [
+    "170.39.217.0/24",
+    "185.177.72.0/24"
+  ],
+  "updated_at": "2025-07-19T06:00:00Z",
+  "abuser_score": "0.0645",
+  "abuse_rank": "High",
+  "created_at": "2025-07-19T06:00:00Z"
+}

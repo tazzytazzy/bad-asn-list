@@ -1,0 +1,26 @@
+{
+  "asn": 210743,
+  "descr": "BABBAR-AS, FR",
+  "country": "fr",
+  "active": true,
+  "org": "Babbar SAS",
+  "domain": "babbar.tech",
+  "abuse": "abuse@babbar.tech",
+  "type": "business",
+  "created": "2021-09-17",
+  "updated": "2021-09-17",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS210743",
+  "prefixes": [
+    "154.54.249.0/24",
+    "217.113.194.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:978:1b04::/48",
+    "2001:978:1b05::/48"
+  ],
+  "updated_at": "2025-07-19T06:00:00Z",
+  "abuser_score": "0.2852",
+  "abuse_rank": "Very High",
+  "created_at": "2025-07-19T06:00:00Z"
+}

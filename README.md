@@ -21,51 +21,24 @@ to help cut down a major portion of bad actors.
 
 There's 2 ways to implement this solution:
 
-1) Cloudflare rules to block requests - Using `cf_apply.py`.
-2) List ip networks to block - Using `fetch_asn_details.py`.
+1) Using Cloudflare rules to block ASNs. Use: `build_cloudflare.py` then `cf_apply.py`.
+2) There's 2 sources of IP address - ipapi.is & ipinfo.app.
+   - ipapi.is requires a free API key, but limits to 1000 requests a day.
+   - ipinfo.app is free
 
 ## CloudFlare
-You can use the `cf_apply.py` to read through all the ASN's, generate the rules to block them, and apply the
-rules to cloudflare. This will also update existing rules. If you only want to create the rulesets, use the
+You can use the `build_cloudflare.py` to build the cloudflare rulesets, and then use `cf_apply.py`
+to use CloudFlare's API to apply the results automatically.
+
+If you're on the free account, you're limited to 5 free WAF Security Rules. The script is smart that it will apply as
+many rules as it can, and starting with the worst offenders, working it's way down.
+
+. This will also update existing rules. If you only want to create the rulesets, use the
 `build_cloudclare.py` script to generate the `data/cloudflare_rules.txt`, which can be used to manuly create
 or update the rulesets within cloudflare.
 
-## Generate IP blocks
-First, you'll need to copy the configuration file `ipapi.example.yaml` to `ipai.yaml` and edit the
-API key.
-
-Use the `fetch_asn_details.py` to fetch all the details of each ASN. This will be stored inside the
-`data/asns` directory. This contains all the IP address ranges for each ASN, along with additional details
-about the ASN such as abuser_scores and location.  This will also build the `data/blocklist_json.netset`
-file which can be used by various firewalls and network tools to block acess by IP address.
-
-**If you don't want to get an API key for https://ipapi.is/**, you can still use this. Just run the
-`netset_from_json.py` script, which will build the blocklist_json.netset file using existing data. This
-still allows you to select the abuse level you'll accept. You'll set this value in the yaml file.
-
-Abuse Level: The JSON files have a field for `abuser_score`, which is provided through the API. You
-can filter on this value as a setting in side the yaml file. See the example yaml for details.
-
-### Alternative Method
-The previous method of requesting the IP networks from ipinfo still exists, just run `netset_from_ipinfo.py`. This
-will download the IP info from a public API and generate the `data/blocklest_ipinfo.netset` file.
-
-# Contributing New ASNs - `merge_lists.py`
-
-If you have ASNs you'd like to contribute, the preferred method is:
-1.  Add your new entries to the `to_merge.csv` file. See the `to_merge.example.csv` file formatting.
-2.  Run the merge script: `python3 merge_lists.py`
-3.  This will add your unique entries to `bad-asn-list.csv` and sort the file.
-4.  Commit the changes to `bad-asn-list.csv` and create a pull request.
-
-
-# Other Scripts
-
-## `build_all.py`
-Sorts the asn file, builds cloudflare rules, builds the list of numbers, and netset from json files.
-
-## `build_cloudflare.py`
-Uses the bad-asn-list.csv to build the cloudflare ruleset to `cloudflare_rules.txt`.
+### `build_cloudflare.py`
+Uses the `data/bad-asn-list.csv` to build the cloudflare ruleset to `data/cloudflare_rules.txt`.
 
 To run with default files:
 ```bash
@@ -77,30 +50,30 @@ To specify both input and output files:
 python3 build_cloudflare.py my_custom_asns.csv my_cloudflare_rules.txt
 ```
 
-## `build_numbers.py`
-Uses the bad-asn-list.csv to build the cloudflare ruleset to `only_numbers.txt`.
+### `cf_apply.py`
+Creates and updates the rules at CloudFlare using their API. Uses the `data/bad-asn-list.csv` to build the
+cloudflare ruleset to `data/cloudflare_rules.txt`.
 
-## `cf_apply.py`
-Uses the `cloudflare_rules.txt` to apply the cloudflare rules directly to your account, using the
-CloudFlare API. This script will automatically call `build_cloudflare.py` for you.
+This script will automatically call `build_cloudflare.py` for you.
 
-**Please note:** if a zone (domain) is on the free account, you can only have 5 rules. The
-automated process currently create 2 new rules as the ASNs don't fit in the 4096 size limit of a rule. You
-will need 2 slots available for this to work.
+**Please note:** if a zone (domain) is on the free account, you can only have 5 rules. The script will create
+as many rules as it can.
 
-This will read `bad-asn-list.csv` and create `generated_rules.txt`. See cf.example.yaml for details on
-setting up your API key.
+**Do Not Rename Rules:** The rule names are important. Do not rename them. You can re-order them, and they will
+always remain in that position.
 
-### Push using API
+See cf.example.yaml for details on setting up your API key.
+
+**Create your configuration file:**
 Run the setup step:
 ```bash
 ./cf_apply.py setup
 ```
 
-If the cf.yaml file is missing, it will create it. Then run it again. Afterwards, edit the cf.yaml. Add your
-CloudFlare API token.
+If the cf.yaml file is missing, it will create it. Now, edit the file and insert your CloudFlare API key, and run the
+setup command again.
 
-Remove any zones you do not want auto-managed. If you change your mind at a later time, just re-run the
+You can remove any zones you do not want auto-managed. If you change your mind at a later time, just re-run the
 setup and it'll add all the zones back.
 
 **Do NOT edit the accounts section.** This is used by the script to tracking changes. The script uses this to
@@ -111,7 +84,7 @@ Now, you're ready! Running the command below will also regenerate the cloudflare
 ./cf_apply.py
 ```
 
-If you don't want any rules created for a zone, simply run the script with:
+If you don't want any rules created for a zone, run the script with:
 ```bash
 ./cf_apply.py update-only
 ```
@@ -134,17 +107,58 @@ Once you have generated the rules file, follow these steps to apply them to your
 7.  Click **Deploy** to save and activate the rule.
 8.  **Repeat if necessary**: If the `build_cloudflare.py` script generated more than one rule, you will need to repeat steps 5-7 for each additional rule, incrementing the name (e.g., `Block Bad ASNs - Part 2`).
 
-# `netset_from_ipinfo.py`
-Download the ASN details right now using a public API without the need for an API key. This is slow.
+## Generate IP blocks
+First, you'll need to copy the configuration file `ipapi.example.yaml` to `ipai.yaml` and edit the
+API key. You can create a free API key from ipapi's webset. See the `ipapi.example.yaml` for details.
 
-# `netset_from_json.py`
-Create the blocklist_json.netset from using the ASN JSON files.
+Use the `fetch_asn_json.py` to fetch all the details of each ASN. This will be stored inside the
+`data/asns` directory. This contains all the IP address ranges for each ASN, along with additional details
+about the ASN such as abuser_scores and location.  This will also build the `data/blocklist_json.netset`
+file which can be used by various firewalls and network tools to block acess by IP address.
+
+**If you don't want to get an API key for https://ipapi.is/**, you can still use this. Just run the
+`tools/netset_from_json.py` script, which will build the blocklist_json.netset file using existing data. This
+still allows you to select the abuse level you'll accept. You'll set this value in the yaml file. The
+`fetch_asn_json.py` will call the `netset_from_json.py` when it's complete.
+
+Abuse Level: The JSON files have a field for `abuser_score`, which is provided through the API. You
+can filter on this value as a setting in side the yaml file. See the example yaml for details. The abuser_score
+is also used when creating the CloudFlare rules to prioritze the rules.
+
+You can also run the `netset_from_ipinfo.py` with no API key. You'll see the data in `data/blocklest_ipinfo.netset`.
+
+When you have completed both scripts (`netset_from_json.py` and `netset_from_ipinfo.py`), you can now run the
+`merge_netsets.py` to create a combined netset list. This will be in `blocklist_combined.netset`.
+
+# Contributing New ASNs - `merge_lists.py`
+
+If you have ASNs you'd like to contribute, the preferred method is:
+1. Check to make sure the ASN isn't list in `data/good-asn-list.csv`. This list is used to make sure crawlers and
+   can still access the site.
+2. Add your new entries to the `to_merge.csv` file. See the `to_merge.example.csv` file formatting.
+3. Run the merge script: `python3 merge_lists.py`
+4. This will add your unique entries to `bad-asn-list.csv`.
+5. Run `fetch_asn_json.py` to download the JSON file.
+6. Commit the changes to `bad-asn-list.csv` and create a pull request.
+
+# Other Scripts
+
+## `build_numbers.py`
+Uses the bad-asn-list.csv to build the cloudflare ruleset to `only_numbers.txt`.
 
 # `sort_list.py`
 Simply resorts the bad-asn-list.csv file by column name, not case-sensitive. Uses the new helper library to
 read the ASN file.
 
 ```bash
-./sort_list.py asn
+./sort_list.py abuser_score --direction desc
 ```
 
+# `tools/netset_from_json.py`
+Create the blocklist_json.netset from using the ASN JSON files. This is called automatically from `fetch_asn_json.py`.
+
+# `tools/remove_inactive.py`
+Checks all the JSON files, if an ASN is marked inactive, it moves it to the dead CSV.
+
+# `tools/update_csv_from_json.py`
+Updates various attributes in the `bad-asn-list.csv`. This is called automatically after `fetch_asn_json.py` runs.

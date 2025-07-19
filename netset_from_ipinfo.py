@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """
+This shouldn't be called directly. Use the 'fetch_asn_json.py' script. That
+will fetch updated JSON files, update the bad-asn-list.csv list, and more.
+
 This script reads a list of Autonomous System Numbers (ASNs) from an
 input file, fetches all associated IP CIDR blocks for each ASN using the
 ipinfo.app API, and writes the unique, sorted CIDRs to an output file.

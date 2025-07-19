@@ -51,10 +51,10 @@ def main():
     Main function to run all build scripts in sequence.
     """
     scripts_to_run = [
-        "sort_list.py",
-        "build_cloudflare.py",
+        "build_cloudflare.py", # Sorts the list in here.
         "build_numbers.py",
-        "netset_from_json.py",
+        "tools/netset_from_json.py",
+        "netset_from_ipinfo.py"
     ]
 
     print("Starting the build process for all artifacts...")

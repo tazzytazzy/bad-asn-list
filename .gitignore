@@ -60,5 +60,5 @@ Desktop.ini
 # ipapi config file
 /ipapi.yaml
 
-fetch_asn_details.log
+fetch_asn_json.log
 .python-version
