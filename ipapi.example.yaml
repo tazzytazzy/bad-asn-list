@@ -1,7 +1,6 @@
 # API key for the ipapi.is service.
 # You can get a free key from https://ipapi.is/
 api_key: "YOUR_IPAPI_IS_API_KEY_HERE"
-6e68811d6bb82c6735c9
 
 # The minimum abuse score (as a number) an ASN must have to be included
 # in the final blocklist. A higher number is more strict.
