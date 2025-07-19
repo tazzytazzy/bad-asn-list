@@ -1,0 +1,36 @@
+{
+  "asn": 57513,
+  "descr": "MIC1-ALFA-AS, LB",
+  "country": "lb",
+  "active": true,
+  "org": "Mobile interim company 1 S.A.L.",
+  "domain": "touch.com.lb",
+  "abuse": "ni@alfamobile.com.lb",
+  "type": "isp",
+  "created": "2011-11-18",
+  "updated": "2020-07-09",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS57513",
+  "prefixes": [
+    "91.197.46.0/24",
+    "91.197.47.0/24",
+    "91.232.100.0/24",
+    "91.232.101.0/24",
+    "185.81.140.0/24",
+    "185.81.141.0/24",
+    "185.81.142.0/24",
+    "185.81.143.0/24",
+    "185.132.148.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a05:8800::/32",
+    "2a05:8801::/32",
+    "2a05:8802::/32",
+    "2a05:8803::/32",
+    "2a05:8804::/32"
+  ],
+  "updated_at": "2025-07-19T00:22:12Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:22:12Z"
+}

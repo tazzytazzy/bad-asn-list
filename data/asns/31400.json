@@ -1,0 +1,26 @@
+{
+  "asn": 31400,
+  "descr": "ACCELERATED-IT, DE",
+  "country": "de",
+  "active": true,
+  "org": "firstcolo GmbH",
+  "domain": "first-colo.net",
+  "abuse": "abuse@first-colo.net",
+  "type": "hosting",
+  "created": "2004-05-06",
+  "updated": "2024-05-03",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS31400",
+  "prefixes": [
+    "77.37.0.0/17",
+    "194.126.196.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a01:4d0::/32",
+    "2a03:2902::/32"
+  ],
+  "updated_at": "2025-07-19T00:20:22Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:22Z"
+}

@@ -1,0 +1,18 @@
+{
+  "asn": 22822,
+  "descr": "LLNW, US",
+  "country": "us",
+  "active": false,
+  "org": "Limelight Networks, Inc.",
+  "domain": "llnw.com",
+  "abuse": "sajari@llnw.com",
+  "type": "hosting",
+  "created": "2001-11-28",
+  "updated": "2022-10-18",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS22822",
+  "updated_at": "2025-07-19T00:17:26Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:17:26Z"
+}

@@ -1,0 +1,25 @@
+{
+  "asn": 63760,
+  "descr": "AZDIGI-AS-VN AZDIGI Corporation, VN",
+  "country": "vn",
+  "active": true,
+  "org": "AZDIGI AS VN",
+  "domain": "azdigi.com",
+  "abuse": "hm-changed@vnnic.vn",
+  "type": "hosting",
+  "updated": "2017-06-14",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS63760",
+  "prefixes": [
+    "45.252.248.0/22",
+    "103.110.84.0/22",
+    "103.221.220.0/22",
+    "116.118.48.0/22",
+    "116.118.84.0/22",
+    "157.10.200.0/23"
+  ],
+  "updated_at": "2025-07-19T00:22:28Z",
+  "abuser_score": "0.0084",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:28Z"
+}

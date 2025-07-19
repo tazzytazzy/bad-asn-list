@@ -1,0 +1,25 @@
+{
+  "asn": 136899,
+  "descr": "PHOENIXNAP-AS-SG3 PhoenixNAP, US",
+  "country": "us",
+  "active": true,
+  "org": "PhoenixNAP",
+  "domain": "phoenixnap.com",
+  "abuse": "abuseteam@phoenixnap.com",
+  "type": "hosting",
+  "updated": "2020-08-11",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS136899",
+  "prefixes": [
+    "131.153.92.0/24",
+    "131.153.113.0/24"
+  ],
+  "prefixesIPv6": [
+    "2401:bc40:a300::/40",
+    "2401:bc40:e303::/48"
+  ],
+  "updated_at": "2025-07-19T00:23:08Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:08Z"
+}

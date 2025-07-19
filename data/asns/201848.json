@@ -1,0 +1,28 @@
+{
+  "asn": 201848,
+  "descr": "TRADERSOFT, RU",
+  "country": "ru",
+  "active": true,
+  "org": "Trader soft LLC",
+  "domain": "simplecloud.ru",
+  "abuse": "abuse@simplecloud.ru",
+  "type": "hosting",
+  "created": "2014-06-26",
+  "updated": "2020-11-16",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS201848",
+  "prefixes": [
+    "85.143.172.0/22",
+    "85.143.208.0/20",
+    "212.193.48.0/21",
+    "212.193.56.0/21"
+  ],
+  "prefixesIPv6": [
+    "2a04:ac00:1::/48",
+    "2a04:ac00:4::/48"
+  ],
+  "updated_at": "2025-07-19T00:23:31Z",
+  "abuser_score": "0.0025",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:31Z"
+}

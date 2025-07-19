@@ -1,0 +1,26 @@
+{
+  "asn": 200805,
+  "descr": "MELITACABLE, MT",
+  "country": "mt",
+  "active": true,
+  "org": "Melita Limited",
+  "domain": "melitacable.com",
+  "abuse": "abuse@melitacable.com",
+  "type": "isp",
+  "created": "2015-04-10",
+  "updated": "2019-12-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS200805",
+  "prefixes": [
+    "85.119.120.0/21",
+    "85.119.121.0/24",
+    "130.185.255.0/24",
+    "145.14.133.0/24",
+    "171.22.254.0/24",
+    "185.89.236.0/22"
+  ],
+  "updated_at": "2025-07-19T00:23:28Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:28Z"
+}

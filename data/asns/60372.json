@@ -1,0 +1,31 @@
+{
+  "asn": 60372,
+  "descr": "EAGLENET, LB",
+  "country": "lb",
+  "active": true,
+  "org": "EagleNet s.a.r.l.",
+  "domain": "eaglenet.net.lb",
+  "abuse": "info@eaglenet.net.lb",
+  "type": "isp",
+  "created": "2013-07-31",
+  "updated": "2020-05-18",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60372",
+  "prefixes": [
+    "185.4.252.0/24",
+    "185.4.253.0/24",
+    "185.4.254.0/24",
+    "185.4.255.0/24",
+    "185.156.212.0/24",
+    "185.156.213.0/24",
+    "185.156.214.0/24",
+    "185.156.215.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:7740::/32"
+  ],
+  "updated_at": "2025-07-19T00:22:23Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:23Z"
+}

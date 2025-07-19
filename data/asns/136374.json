@@ -1,0 +1,37 @@
+{
+  "asn": 136374,
+  "descr": "MICR-AS Microtalk Communications Pvt Ltd, IN",
+  "country": "in",
+  "active": true,
+  "org": "Microtalk Communications Pvt Ltd",
+  "domain": "microtalk.in",
+  "abuse": "noc@microtalk.in",
+  "type": "isp",
+  "updated": "2017-06-02",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS136374",
+  "prefixes": [
+    "103.27.2.0/24",
+    "103.52.220.0/24",
+    "103.52.221.0/24",
+    "103.52.222.0/24",
+    "103.52.223.0/24",
+    "103.66.54.0/24",
+    "103.94.84.0/24",
+    "103.94.85.0/24",
+    "103.94.86.0/24",
+    "103.94.87.0/24",
+    "103.228.250.0/24"
+  ],
+  "prefixesIPv6": [
+    "2404:8c40::/48",
+    "2404:8c40:1::/48",
+    "2404:8c40:2::/48",
+    "2404:8c40:3::/48",
+    "2404:8c40:4::/48"
+  ],
+  "updated_at": "2025-07-19T00:23:06Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:06Z"
+}

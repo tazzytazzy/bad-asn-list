@@ -1,0 +1,23 @@
+{
+  "asn": 26337,
+  "descr": "OIS1, US",
+  "country": "us",
+  "active": true,
+  "org": "Oso Grande IP Services, LLC",
+  "domain": "osogrande.com",
+  "abuse": "abuse@asmallorange.com",
+  "type": "hosting",
+  "created": "2013-10-09",
+  "updated": "2013-10-09",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS26337",
+  "prefixes": [
+    "162.215.243.0/24",
+    "206.188.193.0/24",
+    "209.17.114.0/24"
+  ],
+  "updated_at": "2025-07-19T00:17:38Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:17:38Z"
+}

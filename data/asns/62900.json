@@ -1,0 +1,22 @@
+{
+  "asn": 62900,
+  "descr": "KERFUFFLE-62900, US",
+  "country": "us",
+  "active": true,
+  "org": "Kerfuffle, LLC",
+  "domain": "kerfuffle.net",
+  "abuse": "abuse@kerfuffle.net",
+  "type": "business",
+  "created": "2024-02-14",
+  "updated": "2024-02-14",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS62900",
+  "prefixesIPv6": [
+    "2602:2d5:f0::/48",
+    "2602:2d5:f1::/48"
+  ],
+  "updated_at": "2025-07-19T00:22:27Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:22:27Z"
+}

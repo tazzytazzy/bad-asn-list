@@ -1,0 +1,22 @@
+{
+  "asn": 37907,
+  "descr": "DIGIROCK DigiRock, Inc., JP",
+  "country": "jp",
+  "active": true,
+  "org": "DigiRock, Inc.",
+  "domain": "digirock.co.jp",
+  "type": "hosting",
+  "created": "2006/12/11",
+  "updated": "2006/12/11",
+  "rir": "JPNIC",
+  "whois": "https://api.ipapi.is/?whois=AS37907",
+  "prefixes": [
+    "103.242.28.0/22",
+    "183.90.176.0/21",
+    "202.172.24.0/21"
+  ],
+  "updated_at": "2025-07-19T00:20:47Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:47Z"
+}

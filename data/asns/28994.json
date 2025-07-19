@@ -1,0 +1,25 @@
+{
+  "asn": 28994,
+  "descr": "SITEL-AS, UA",
+  "country": "ua",
+  "active": true,
+  "org": "Sitel Ltd",
+  "domain": "sitel.com.ua",
+  "abuse": "abuse@sitel.com.ua",
+  "type": "isp",
+  "created": "2003-05-02",
+  "updated": "2022-06-09",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS28994",
+  "prefixes": [
+    "91.142.160.0/20",
+    "91.142.160.0/21",
+    "217.27.144.0/20",
+    "217.27.144.0/21",
+    "217.27.152.0/21"
+  ],
+  "updated_at": "2025-07-19T00:20:09Z",
+  "abuser_score": "0.0009",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:20:09Z"
+}

@@ -1,0 +1,38 @@
+{
+  "asn": 28907,
+  "descr": "MIROHOST Web hosting, datacenter and domain names registration in Ukraine, US",
+  "country": "us",
+  "active": true,
+  "org": "Internet Invest, Ltd.",
+  "domain": "mirohost.net",
+  "abuse": "noc@mirohost.net",
+  "type": "hosting",
+  "created": "2003-04-02",
+  "updated": "2023-03-22",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS28907",
+  "prefixes": [
+    "5.149.124.0/22",
+    "78.27.192.0/19",
+    "89.184.64.0/22",
+    "89.184.80.0/21",
+    "91.228.146.0/23",
+    "193.107.200.0/22",
+    "193.107.203.0/24",
+    "193.178.146.0/23",
+    "195.39.196.0/24",
+    "195.39.197.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a02:2278::/32",
+    "2a02:2278::/40",
+    "2a02:2278:101::/48",
+    "2a02:2278:200::/40",
+    "2a02:2278:800::/40",
+    "2a02:2278:7000::/40"
+  ],
+  "updated_at": "2025-07-19T00:20:09Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:09Z"
+}

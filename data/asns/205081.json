@@ -1,0 +1,30 @@
+{
+  "asn": 205081,
+  "descr": "EDH, ES",
+  "country": "es",
+  "active": true,
+  "org": "EasyDataHost S.L.",
+  "domain": "easydatahost.com",
+  "abuse": "abuse@easydatahost.com",
+  "type": "hosting",
+  "created": "2017-11-09",
+  "updated": "2022-07-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205081",
+  "prefixes": [
+    "153.92.27.0/24",
+    "155.133.192.0/23",
+    "185.136.216.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a0c:5500::/48",
+    "2a0c:5500:1::/48",
+    "2a0c:5500:2::/48",
+    "2a0c:5500:3::/48",
+    "2a0c:5500:4::/48"
+  ],
+  "updated_at": "2025-07-19T00:23:38Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:38Z"
+}

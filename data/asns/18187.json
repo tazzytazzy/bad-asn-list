@@ -1,0 +1,27 @@
+{
+  "asn": 18187,
+  "descr": "SOURCETELECOMS-AS-AP Source Telecoms Inc., PH",
+  "country": "ph",
+  "active": true,
+  "org": "WifiCity, Inc",
+  "domain": "sourcetelecoms.com.ph",
+  "abuse": "jdiamante@sourcetelecoms.com.ph",
+  "type": "isp",
+  "updated": "2020-11-06",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS18187",
+  "prefixes": [
+    "103.73.68.0/22",
+    "122.49.208.0/20",
+    "122.49.223.0/24",
+    "203.82.32.0/20",
+    "216.250.100.0/22"
+  ],
+  "prefixesIPv6": [
+    "2401:8e80::/32"
+  ],
+  "updated_at": "2025-07-19T00:17:17Z",
+  "abuser_score": "0.0013",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:17:17Z"
+}

@@ -1,0 +1,28 @@
+{
+  "asn": 25108,
+  "descr": "IOMART-APAC-AS APAC and Middle East, GB",
+  "country": "gb",
+  "active": true,
+  "org": "IOMART MANAGED SERVICES LIMITED",
+  "domain": "iomart.com",
+  "abuse": "abuse@rapidswitch.com",
+  "type": "hosting",
+  "created": "2002-09-22",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS25108",
+  "prefixes": [
+    "109.169.63.0/24",
+    "109.169.72.0/24",
+    "185.34.254.0/23",
+    "185.92.252.0/23",
+    "185.92.254.0/23"
+  ],
+  "prefixesIPv6": [
+    "2a00:42a0::/32"
+  ],
+  "updated_at": "2025-07-19T00:17:37Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:17:37Z"
+}

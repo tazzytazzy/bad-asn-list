@@ -1,0 +1,31 @@
+{
+  "asn": 198785,
+  "descr": "SEDMIODJEL-AS, HR",
+  "country": "hr",
+  "active": true,
+  "org": "Sedmi Odjel d.o.o.",
+  "domain": "sedmiodjel.com",
+  "abuse": "abuse@sedmiodjel.com",
+  "type": "hosting",
+  "created": "2012-05-15",
+  "updated": "2023-05-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS198785",
+  "prefixes": [
+    "44.9.0.0/20",
+    "141.138.12.0/24",
+    "141.138.14.0/24",
+    "178.218.169.0/24",
+    "185.46.32.0/22",
+    "185.98.14.0/24",
+    "185.155.226.0/23",
+    "195.130.192.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a04:a7c0::/32"
+  ],
+  "updated_at": "2025-07-19T00:23:23Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:23Z"
+}

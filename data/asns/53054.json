@@ -1,0 +1,22 @@
+{
+  "asn": 53054,
+  "descr": "RESERVED, ZZ",
+  "country": "zz",
+  "active": true,
+  "org": "WEBBY TELECOM LTDA",
+  "domain": "webbytelecom.com.br",
+  "abuse": "decio.feijo@alaresinternet.com.br",
+  "type": "isp",
+  "created": "20090730",
+  "updated": "20240925",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS53054",
+  "prefixes": [
+    "187.73.192.0/20",
+    "187.73.208.0/20"
+  ],
+  "updated_at": "2025-07-19T00:21:52Z",
+  "abuser_score": "0.0016",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:21:52Z"
+}

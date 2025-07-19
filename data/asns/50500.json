@@ -1,0 +1,24 @@
+{
+  "asn": 50500,
+  "descr": "BITARISP2016, LB",
+  "country": "lb",
+  "active": true,
+  "org": "BITAR NET SARL",
+  "abuse": "bitarco@hotmail.com",
+  "type": "isp",
+  "created": "2016-01-19",
+  "updated": "2021-11-13",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50500",
+  "prefixes": [
+    "185.114.88.0/24",
+    "185.114.89.0/24",
+    "185.114.90.0/24",
+    "185.114.91.0/24",
+    "185.134.177.0/24"
+  ],
+  "updated_at": "2025-07-19T00:21:45Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:21:45Z"
+}

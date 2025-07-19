@@ -1,0 +1,31 @@
+{
+  "asn": 53824,
+  "descr": "LIQUIDWEB, US",
+  "country": "us",
+  "active": true,
+  "org": "Liquid Web, L.L.C",
+  "domain": "liquidweb.com",
+  "abuse": "abuse@liquidweb.com",
+  "type": "hosting",
+  "created": "2011-07-05",
+  "updated": "2016-12-19",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS53824",
+  "prefixes": [
+    "50.28.96.0/19",
+    "50.56.148.0/22",
+    "98.129.229.0/24",
+    "159.135.0.0/19",
+    "159.135.32.0/20",
+    "207.246.240.0/21"
+  ],
+  "prefixesIPv6": [
+    "2604:d700::/32",
+    "2607:fad0:40::/44",
+    "2607:fad0:4000::/36"
+  ],
+  "updated_at": "2025-07-19T00:21:54Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:21:54Z"
+}

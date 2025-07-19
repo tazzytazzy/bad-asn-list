@@ -1,0 +1,32 @@
+{
+  "asn": 45276,
+  "descr": "NREACH-AS-AP NReach Net Pvt. Ltd, BD",
+  "country": "bd",
+  "active": true,
+  "org": "NReach Net (Pvt.) Ltd",
+  "domain": "nreach.net.bd",
+  "abuse": "abuse@nreach.net.bd",
+  "type": "isp",
+  "updated": "2020-05-26",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS45276",
+  "prefixes": [
+    "115.69.208.0/22",
+    "115.69.208.0/23",
+    "115.69.208.0/24",
+    "115.69.209.0/24",
+    "115.69.210.0/24",
+    "115.69.211.0/24",
+    "115.69.212.0/23",
+    "115.69.212.0/24",
+    "115.69.213.0/24",
+    "115.69.214.0/24"
+  ],
+  "prefixesIPv6": [
+    "2400:1020::/32"
+  ],
+  "updated_at": "2025-07-19T00:21:17Z",
+  "abuser_score": "0.0016",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:21:17Z"
+}

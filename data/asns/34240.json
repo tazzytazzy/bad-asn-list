@@ -1,0 +1,28 @@
+{
+  "asn": 34240,
+  "descr": "MANITU, DE",
+  "country": "de",
+  "active": true,
+  "org": "manitu GmbH",
+  "domain": "manitu.de",
+  "abuse": "abuse@manitu.net",
+  "type": "hosting",
+  "created": "2004-11-25",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS34240",
+  "prefixes": [
+    "2.59.84.0/22",
+    "89.238.64.0/18",
+    "89.238.80.0/24",
+    "89.238.85.0/24",
+    "217.11.48.0/20"
+  ],
+  "prefixesIPv6": [
+    "2a00:1828::/32"
+  ],
+  "updated_at": "2025-07-19T00:20:34Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:34Z"
+}

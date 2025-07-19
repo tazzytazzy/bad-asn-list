@@ -1,0 +1,33 @@
+{
+  "asn": 45235,
+  "descr": "GEONET GEOCITY NETWORK SOLUTIONS PVT LTD, IN",
+  "country": "in",
+  "active": true,
+  "org": "GEOCITY NETWORK SOLUTIONS PVT LTD",
+  "domain": "geocity.co.in",
+  "abuse": "noc@geocity.co.in",
+  "type": "isp",
+  "updated": "2019-10-28",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS45235",
+  "prefixes": [
+    "43.227.244.0/22",
+    "45.250.212.0/22",
+    "103.8.40.0/22",
+    "103.48.64.0/22",
+    "103.50.144.0/22",
+    "103.98.38.0/23",
+    "103.199.124.0/22",
+    "103.219.132.0/22",
+    "103.230.20.0/22",
+    "119.42.152.0/21"
+  ],
+  "prefixesIPv6": [
+    "2400:8460::/32",
+    "2402:d500::/32"
+  ],
+  "updated_at": "2025-07-19T00:21:16Z",
+  "abuser_score": "0.0297",
+  "abuse_rank": "Elevated",
+  "created_at": "2025-07-19T00:21:16Z"
+}

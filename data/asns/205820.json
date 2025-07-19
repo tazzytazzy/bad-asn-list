@@ -1,0 +1,32 @@
+{
+  "asn": 205820,
+  "descr": "VDCBY-AS, BY",
+  "country": "by",
+  "active": true,
+  "org": "Unitary enterprise A1",
+  "domain": "a1.by",
+  "abuse": "abuse@a1.by",
+  "type": "isp",
+  "created": "2017-05-26",
+  "updated": "2024-03-28",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205820",
+  "prefixes": [
+    "46.53.196.0/24",
+    "128.140.254.0/24",
+    "178.163.224.0/19",
+    "178.163.230.0/23",
+    "185.183.120.0/22",
+    "185.183.120.0/24",
+    "185.183.121.0/24",
+    "185.204.116.0/22"
+  ],
+  "prefixesIPv6": [
+    "2a0a:f240::/29",
+    "2a0a:f241::/32"
+  ],
+  "updated_at": "2025-07-19T00:23:39Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:39Z"
+}

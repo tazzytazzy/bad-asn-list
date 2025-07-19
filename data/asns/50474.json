@@ -1,0 +1,31 @@
+{
+  "asn": 50474,
+  "descr": "O2SWITCH, FR",
+  "country": "fr",
+  "active": true,
+  "org": "O2SWITCH SAS",
+  "domain": "o2switch.fr",
+  "abuse": "abuse@o2switch.fr",
+  "type": "hosting",
+  "created": "2010-01-22",
+  "updated": "2023-04-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50474",
+  "prefixes": [
+    "45.143.168.0/24",
+    "45.143.169.0/24",
+    "45.143.170.0/23",
+    "78.40.8.0/22",
+    "109.234.160.0/24",
+    "109.234.161.0/24",
+    "109.234.162.0/24",
+    "109.234.163.0/24",
+    "109.234.164.0/22",
+    "185.154.136.0/22",
+    "185.246.44.0/22"
+  ],
+  "updated_at": "2025-07-19T00:21:45Z",
+  "abuser_score": "0.0037",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:21:45Z"
+}

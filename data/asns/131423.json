@@ -1,0 +1,26 @@
+{
+  "asn": 131423,
+  "descr": "LVHN-AS-VN Branch of Long Van System Solution JSC - Hanoi, VN",
+  "country": "vn",
+  "active": true,
+  "org": "Branch of Long Van System Solution JSC - Hanoi",
+  "domain": "longvan.net",
+  "abuse": "hm-changed@vnnic.vn",
+  "type": "hosting",
+  "updated": "2017-11-18",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS131423",
+  "prefixes": [
+    "42.96.16.0/22",
+    "42.96.20.0/23",
+    "42.96.22.0/23",
+    "45.119.212.0/22",
+    "103.2.224.0/22",
+    "103.48.84.0/22",
+    "103.48.192.0/22"
+  ],
+  "updated_at": "2025-07-19T00:22:34Z",
+  "abuser_score": "0.005",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:34Z"
+}

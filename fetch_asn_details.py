@@ -12,6 +12,7 @@ import os
 import re
 import signal
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timedelta, timezone
@@ -190,7 +191,7 @@ def main():
     skipped_files = 0
     failed_files = 0
     remaining_api = copy.copy(requests_available)
-    delay_seconds = 0.2  # 200 ms - Much faster and start getting 403 errors :(
+    delay_seconds = 0.4  # 200 ms - Much faster and start getting 403 errors :(
 
     asns_to_fetch = set()
     now = datetime.now(timezone.utc)
@@ -201,7 +202,7 @@ def main():
         json_path = os.path.join(ASN_DATA_DIR, f"{asn}.json")
         if not os.path.exists(json_path):
             asns_to_fetch.add(asn)
-            print(f"  - ASN {asn}: Marked for fetch (JSON file missing).")
+            # print(f"  - ASN {asn}: Marked for fetch (JSON file missing).")
             continue
 
         if asn in asn_checked_data["asns"]:
@@ -239,6 +240,7 @@ def main():
         print(f"\n--- Processing ASN {asn} ({i + 1}/{len(sorted_asns_to_fetch)}) ---")
         try:
             # Fetch new data from the API
+            time.sleep(delay_seconds)
             new_data = fetch_asn_data(asn, api_key)
             remaining_api -= 1
             requests_made += 1

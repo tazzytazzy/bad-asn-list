@@ -1,0 +1,24 @@
+{
+  "asn": 38700,
+  "descr": "SMILESERV-AS-KR SMILESERV, KR",
+  "country": "kr",
+  "active": true,
+  "org": "SMILESERV",
+  "domain": "smileserv.com",
+  "abuse": "netmaster@smileserv.com",
+  "type": "hosting",
+  "rir": "KRNIC",
+  "whois": "https://api.ipapi.is/?whois=AS38700",
+  "prefixes": [
+    "49.247.0.0/16",
+    "49.247.0.0/17",
+    "49.247.128.0/17",
+    "115.68.0.0/16",
+    "115.68.0.0/17",
+    "115.68.128.0/17"
+  ],
+  "updated_at": "2025-07-19T00:20:54Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:54Z"
+}

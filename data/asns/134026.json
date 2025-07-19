@@ -1,0 +1,38 @@
+{
+  "asn": 134026,
+  "descr": "ULTRANET-AS Ultranet services private limited, IN",
+  "country": "in",
+  "active": true,
+  "org": "Ultranet services private limited",
+  "domain": "ultranet.co.in",
+  "abuse": "query@ultranet.co.in",
+  "type": "isp",
+  "updated": "2015-04-17",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS134026",
+  "prefixes": [
+    "45.115.104.0/22",
+    "45.115.104.0/23",
+    "45.115.106.0/23",
+    "103.55.88.0/22",
+    "103.55.88.0/23",
+    "103.55.90.0/23",
+    "103.70.200.0/22",
+    "103.70.200.0/23",
+    "103.70.202.0/23",
+    "103.131.27.0/24",
+    "103.139.91.0/24",
+    "103.140.219.0/24",
+    "103.179.223.0/24",
+    "103.184.70.0/23"
+  ],
+  "prefixesIPv6": [
+    "2001:df2:d00::/48",
+    "2405:80c0::/32",
+    "2407:c8c0::/32"
+  ],
+  "updated_at": "2025-07-19T00:22:53Z",
+  "abuser_score": "0.0042",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:53Z"
+}

@@ -1,0 +1,25 @@
+{
+  "asn": 58042,
+  "descr": "BONCH, RU",
+  "country": "ru",
+  "active": true,
+  "org": "State Educational Institution of Higher Vocational Education The Bonch-Bruevich Saint-Petersburg State University of Telecommunications",
+  "domain": "sut.ru",
+  "abuse": "noc@sut.ru",
+  "type": "education",
+  "created": "2012-04-05",
+  "updated": "2023-10-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS58042",
+  "prefixes": [
+    "91.238.228.0/24",
+    "91.238.229.0/24",
+    "91.238.230.0/24",
+    "91.238.231.0/24",
+    "94.140.222.0/24"
+  ],
+  "updated_at": "2025-07-19T00:22:14Z",
+  "abuser_score": "0.0008",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:14Z"
+}

@@ -1,0 +1,30 @@
+{
+  "asn": 132447,
+  "descr": "HUTCHISON-LK 234, Galle Road, Colombo 4, LK",
+  "country": "lk",
+  "active": true,
+  "org": "Hutchison Telecommunications Lanka (Private) Limited",
+  "domain": "hutch.lk",
+  "abuse": "abuse@hutchison.lk",
+  "type": "isp",
+  "updated": "2020-08-19",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS132447",
+  "prefixes": [
+    "45.121.88.0/24",
+    "45.121.89.0/24",
+    "45.121.90.0/24",
+    "45.121.91.0/24",
+    "103.21.164.0/24",
+    "103.21.165.0/24",
+    "103.21.166.0/24",
+    "103.21.167.0/24"
+  ],
+  "prefixesIPv6": [
+    "2405:6b00::/48"
+  ],
+  "updated_at": "2025-07-19T00:22:40Z",
+  "abuser_score": "0.0007",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:40Z"
+}

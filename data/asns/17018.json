@@ -1,0 +1,34 @@
+{
+  "asn": 17018,
+  "descr": "QTS-SAC, US",
+  "country": "us",
+  "active": true,
+  "org": "Quality Technology Services, LLC",
+  "domain": "qtsdatacenters.com",
+  "abuse": "abuse@qtsdatacenters.com",
+  "type": "hosting",
+  "created": "2002-01-23",
+  "updated": "2019-11-08",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS17018",
+  "prefixes": [
+    "65.74.128.0/18",
+    "66.197.123.0/24",
+    "69.5.70.0/24",
+    "74.85.152.0/24",
+    "91.221.233.0/24",
+    "128.191.136.0/24",
+    "139.177.136.0/24",
+    "139.177.138.0/24",
+    "139.177.166.0/24",
+    "173.225.160.0/20",
+    "204.156.179.0/24"
+  ],
+  "prefixesIPv6": [
+    "2606:9600::/32"
+  ],
+  "updated_at": "2025-07-19T00:17:10Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:17:10Z"
+}

@@ -1,0 +1,18 @@
+{
+  "asn": 264668,
+  "descr": "NEGOCIOS Y TELEFONIA NEDETEL S.A., EC",
+  "country": "ec",
+  "active": false,
+  "org": "NEGOCIOS Y TELEFONIA NEDETEL S.A.",
+  "domain": "nedetel.com",
+  "abuse": "dparral@ufinet.com",
+  "type": "isp",
+  "created": "20160115",
+  "updated": "20190116",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS264668",
+  "updated_at": "2025-07-19T00:23:52Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:52Z"
+}

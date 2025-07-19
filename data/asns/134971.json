@@ -1,0 +1,30 @@
+{
+  "asn": 134971,
+  "descr": "DOLYITCORNER-AS-AP Md. Maniruzzaman Manir ta Doly IT Corner, BD",
+  "country": "bd",
+  "active": true,
+  "org": "Doly IT Corner",
+  "domain": "dolyitcorner.net",
+  "abuse": "dolyitcorner@gmail.com",
+  "type": "business",
+  "updated": "2021-01-10",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS134971",
+  "prefixes": [
+    "103.252.224.0/22",
+    "103.252.224.0/24",
+    "103.252.225.0/24",
+    "103.252.226.0/24",
+    "103.252.227.0/24",
+    "123.253.220.0/23",
+    "123.253.220.0/24",
+    "123.253.221.0/24",
+    "123.253.222.0/23",
+    "123.253.222.0/24",
+    "123.253.223.0/24"
+  ],
+  "updated_at": "2025-07-19T00:22:59Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:22:59Z"
+}

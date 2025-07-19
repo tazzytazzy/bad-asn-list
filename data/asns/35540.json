@@ -1,0 +1,25 @@
+{
+  "asn": 35540,
+  "descr": "OVH-TELECOM, FR",
+  "country": "fr",
+  "active": true,
+  "org": "OVH SAS",
+  "domain": "ovhcloud.com",
+  "abuse": "abuse@ovh.net",
+  "type": "hosting",
+  "created": "2005-08-31",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS35540",
+  "prefixes": [
+    "109.190.0.0/16",
+    "151.127.0.0/16"
+  ],
+  "prefixesIPv6": [
+    "2001:41d0:fc00::/38"
+  ],
+  "updated_at": "2025-07-19T00:20:42Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:42Z"
+}

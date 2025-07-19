@@ -1,0 +1,25 @@
+{
+  "asn": 131414,
+  "descr": "LVSOFT-AS-VN Long Van Soft Solution JSC, VN",
+  "country": "vn",
+  "active": true,
+  "org": "Long Van Soft Solution JSC",
+  "domain": "longvan.net",
+  "abuse": "hm-changed@vnnic.vn",
+  "type": "hosting",
+  "updated": "2014-07-31",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS131414",
+  "prefixes": [
+    "45.118.144.0/22",
+    "103.97.132.0/22",
+    "103.237.144.0/22"
+  ],
+  "prefixesIPv6": [
+    "2403:bf40:3::/48"
+  ],
+  "updated_at": "2025-07-19T00:22:33Z",
+  "abuser_score": "0.0085",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:33Z"
+}

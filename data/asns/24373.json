@@ -1,0 +1,28 @@
+{
+  "asn": 24373,
+  "descr": "ADC-AS-AP ADC GROUP CO.,LIMITED, HK",
+  "country": "hk",
+  "active": true,
+  "org": "ADC GROUP CO.,LIMITED",
+  "domain": "adcstack.com",
+  "abuse": "noc@adcstack.com",
+  "type": "hosting",
+  "updated": "2021-11-11",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS24373",
+  "prefixes": [
+    "103.59.48.0/24",
+    "103.59.50.0/24",
+    "103.127.248.0/23",
+    "103.127.248.0/24",
+    "103.127.249.0/24",
+    "116.204.211.0/24"
+  ],
+  "prefixesIPv6": [
+    "2404:2b40::/32"
+  ],
+  "updated_at": "2025-07-19T00:17:29Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:17:29Z"
+}

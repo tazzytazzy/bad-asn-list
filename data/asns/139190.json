@@ -1,0 +1,23 @@
+{
+  "asn": 139190,
+  "descr": "GOOGLE-AS-AP Google Asia Pacific Pte. Ltd., SG",
+  "country": "sg",
+  "active": true,
+  "org": "Google Asia Pacific Pte. Ltd.",
+  "domain": "google.com",
+  "abuse": "network-abuse@google.com",
+  "type": "hosting",
+  "updated": "2020-09-01",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS139190",
+  "prefixes": [
+    "34.101.0.0/16"
+  ],
+  "prefixesIPv6": [
+    "2404:f340:4000::/34"
+  ],
+  "updated_at": "2025-07-19T00:23:14Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:14Z"
+}

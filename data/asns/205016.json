@@ -1,0 +1,29 @@
+{
+  "asn": 205016,
+  "descr": "HERNLABS, SE",
+  "country": "se",
+  "active": true,
+  "org": "HERN Labs AB",
+  "domain": "hernlabs.se",
+  "abuse": "abuse@hernlabs.se",
+  "type": "business",
+  "created": "2017-11-20",
+  "updated": "2022-06-27",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS205016",
+  "prefixes": [
+    "77.111.244.0/24",
+    "77.111.245.0/24",
+    "77.111.246.0/24",
+    "77.111.247.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:67c:198c::/48",
+    "2001:67c:2628::/48",
+    "2001:67c:2660::/48"
+  ],
+  "updated_at": "2025-07-19T00:23:37Z",
+  "abuser_score": "0.063",
+  "abuse_rank": "High",
+  "created_at": "2025-07-19T00:23:37Z"
+}

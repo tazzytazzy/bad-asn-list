@@ -1,0 +1,24 @@
+{
+  "asn": 60904,
+  "descr": "ATSTEL-AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "ATC Telecom LTD.",
+  "domain": "atscom.net",
+  "abuse": "abuse-c@atscom.net",
+  "type": "isp",
+  "created": "2013-04-16",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS60904",
+  "prefixes": [
+    "158.255.80.0/24",
+    "158.255.81.0/24",
+    "158.255.82.0/24",
+    "158.255.83.0/24"
+  ],
+  "updated_at": "2025-07-19T00:22:25Z",
+  "abuser_score": "0.0361",
+  "abuse_rank": "High",
+  "created_at": "2025-07-19T00:22:25Z"
+}

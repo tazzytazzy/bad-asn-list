@@ -1,0 +1,30 @@
+{
+  "asn": 57256,
+  "descr": "PROS, LB",
+  "country": "lb",
+  "active": true,
+  "org": "Pros-Services S.A.R.L.",
+  "domain": "pros-services.net",
+  "abuse": "m.hassan@pros-services.net",
+  "type": "business",
+  "created": "2011-09-07",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS57256",
+  "prefixes": [
+    "89.187.216.0/24",
+    "89.187.217.0/24",
+    "89.187.219.0/24",
+    "89.187.220.0/24",
+    "89.187.221.0/24",
+    "89.187.222.0/24",
+    "89.187.223.0/24",
+    "185.176.144.0/24",
+    "185.176.145.0/24",
+    "185.176.146.0/24"
+  ],
+  "updated_at": "2025-07-19T00:22:11Z",
+  "abuser_score": "0.0012",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:11Z"
+}

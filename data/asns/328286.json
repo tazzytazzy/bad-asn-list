@@ -1,0 +1,22 @@
+{
+  "asn": 328286,
+  "descr": "Libyana-Mobile-AS, LY",
+  "country": "ly",
+  "active": true,
+  "org": "Libyana Mobile Phone Company JSC",
+  "domain": "libyana.ly",
+  "type": "isp",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS328286",
+  "prefixes": [
+    "102.164.96.0/24",
+    "102.164.97.0/24",
+    "102.164.100.0/24",
+    "102.164.101.0/24",
+    "102.164.103.0/24"
+  ],
+  "updated_at": "2025-07-19T00:23:55Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:55Z"
+}

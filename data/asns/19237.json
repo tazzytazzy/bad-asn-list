@@ -1,0 +1,36 @@
+{
+  "asn": 19237,
+  "descr": "OMNIS, US",
+  "country": "us",
+  "active": true,
+  "org": "Omnis Network, LLC",
+  "domain": "omnis.com",
+  "abuse": "abuse@omnis.com",
+  "type": "hosting",
+  "created": "2000-12-06",
+  "updated": "2012-03-02",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS19237",
+  "prefixes": [
+    "64.6.96.0/20",
+    "64.57.64.0/19",
+    "64.255.0.0/18",
+    "66.37.0.0/19",
+    "68.67.202.0/24",
+    "204.10.137.0/24",
+    "204.10.138.0/23",
+    "204.10.140.0/22",
+    "216.17.96.0/20",
+    "216.239.129.0/24",
+    "216.239.130.0/23",
+    "216.239.132.0/22",
+    "216.239.136.0/21"
+  ],
+  "prefixesIPv6": [
+    "2607:fe90::/33"
+  ],
+  "updated_at": "2025-07-19T00:17:19Z",
+  "abuser_score": "0.0001",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:17:19Z"
+}

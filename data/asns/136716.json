@@ -1,0 +1,28 @@
+{
+  "asn": 136716,
+  "descr": "APPLEBB-AS APPLE BROADBAND SERVICES PVT. LTD, IN",
+  "country": "in",
+  "active": true,
+  "org": "APPLE BROADBAND SERVICES PVT. LTD",
+  "domain": "lsbroadband.com",
+  "abuse": "ip.admin@lsbroadband.com",
+  "type": "isp",
+  "updated": "2017-09-12",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS136716",
+  "prefixes": [
+    "43.227.128.0/22",
+    "103.46.232.0/22",
+    "103.49.52.0/22",
+    "103.80.12.0/22",
+    "103.80.12.0/23",
+    "103.80.14.0/23"
+  ],
+  "prefixesIPv6": [
+    "2403:75c0::/32"
+  ],
+  "updated_at": "2025-07-19T00:23:07Z",
+  "abuser_score": "0.0021",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:07Z"
+}

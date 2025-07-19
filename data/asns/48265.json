@@ -1,0 +1,30 @@
+{
+  "asn": 48265,
+  "descr": "ITIRANA-AL-AS Import from Abissnet, AL",
+  "country": "al",
+  "active": true,
+  "org": "NSolution sh.p.k",
+  "domain": "itirana.al",
+  "abuse": "contact@nsolution.al",
+  "type": "isp",
+  "created": "2008-10-31",
+  "updated": "2024-02-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS48265",
+  "prefixes": [
+    "91.210.136.0/24",
+    "91.210.137.0/24",
+    "91.210.138.0/24",
+    "91.210.139.0/24",
+    "109.104.128.0/24",
+    "109.104.129.0/24",
+    "109.104.130.0/24",
+    "109.104.131.0/24",
+    "109.104.144.0/24",
+    "109.104.145.0/24"
+  ],
+  "updated_at": "2025-07-19T00:21:35Z",
+  "abuser_score": "0.0076",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:21:35Z"
+}

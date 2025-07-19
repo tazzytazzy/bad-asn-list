@@ -1,0 +1,37 @@
+{
+  "asn": 28666,
+  "descr": "HOSTLOCATION LTDA, BR",
+  "country": "br",
+  "active": true,
+  "org": "HOSTLOCATION LTDA",
+  "domain": "hostfiber.com.br",
+  "abuse": "bgp@hostfiber.com.br",
+  "type": "hosting",
+  "created": "20061005",
+  "updated": "20130306",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS28666",
+  "prefixes": [
+    "189.1.160.0/20",
+    "189.1.160.0/21",
+    "189.1.160.0/22",
+    "189.1.160.0/23",
+    "189.1.160.0/24",
+    "189.1.161.0/24",
+    "189.1.162.0/23",
+    "189.1.162.0/24",
+    "189.1.163.0/24",
+    "189.1.165.0/24",
+    "189.1.166.0/23",
+    "189.1.166.0/24",
+    "189.1.167.0/24",
+    "189.1.175.0/24"
+  ],
+  "prefixesIPv6": [
+    "2804:3414::/32"
+  ],
+  "updated_at": "2025-07-19T00:20:08Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:08Z"
+}

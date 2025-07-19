@@ -1,0 +1,18 @@
+{
+  "asn": 207566,
+  "descr": "LD007-AS, HK",
+  "country": "hk",
+  "active": false,
+  "org": "Chang Way Technologies Co. Limited",
+  "domain": "changway.hk",
+  "abuse": "abuse@changway.hk",
+  "type": "isp",
+  "created": "2020-01-13",
+  "updated": "2022-11-23",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS207566",
+  "updated_at": "2025-07-19T00:23:44Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:44Z"
+}

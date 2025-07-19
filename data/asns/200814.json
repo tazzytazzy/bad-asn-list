@@ -1,0 +1,25 @@
+{
+  "asn": 200814,
+  "descr": "GAZIKNET, UA",
+  "country": "ua",
+  "active": true,
+  "org": "LIMNET , LLC",
+  "domain": "limnet.com.ua",
+  "abuse": "abuse@limnet.com.ua",
+  "type": "isp",
+  "created": "2018-07-17",
+  "updated": "2021-12-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS200814",
+  "prefixes": [
+    "46.174.127.0/24",
+    "193.56.148.0/24",
+    "193.56.149.0/24",
+    "193.56.150.0/24",
+    "193.56.151.0/24"
+  ],
+  "updated_at": "2025-07-19T00:23:29Z",
+  "abuser_score": "0.0016",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:29Z"
+}

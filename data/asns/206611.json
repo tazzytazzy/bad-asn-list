@@ -1,0 +1,23 @@
+{
+  "asn": 206611,
+  "descr": "ISPGROUP, IQ",
+  "country": "iq",
+  "active": true,
+  "org": "Provider for General Trading and Internet Services, LLC",
+  "domain": "ispgroups.com",
+  "abuse": "abuse@provider.iq",
+  "type": "isp",
+  "created": "2016-12-12",
+  "updated": "2021-01-02",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS206611",
+  "prefixes": [
+    "185.98.157.0/24",
+    "192.161.6.0/24",
+    "192.161.7.0/24"
+  ],
+  "updated_at": "2025-07-19T00:23:41Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:41Z"
+}

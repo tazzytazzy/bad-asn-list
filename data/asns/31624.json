@@ -1,0 +1,21 @@
+{
+  "asn": 31624,
+  "descr": "VFMNL-AS Amsterdam Yoursafe Radio BGP setup, NL",
+  "country": "nl",
+  "active": true,
+  "org": "Yoursafe Holding B.V.",
+  "domain": "verotel.com",
+  "abuse": "joost.zuurbier@verotel.com",
+  "type": "business",
+  "created": "2004-06-25",
+  "updated": "2024-04-25",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS31624",
+  "prefixes": [
+    "195.20.48.0/23"
+  ],
+  "updated_at": "2025-07-19T00:20:23Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:23Z"
+}

@@ -1,0 +1,28 @@
+{
+  "asn": 39845,
+  "descr": "LV-2CLOUD-ASN16, LV",
+  "country": "lv",
+  "active": true,
+  "org": "2 Cloud Ltd.",
+  "domain": "2cloud.eu",
+  "abuse": "abuse@2cloud.eu",
+  "type": "hosting",
+  "created": "2017-10-19",
+  "updated": "2023-02-20",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS39845",
+  "prefixes": [
+    "185.176.220.0/22",
+    "185.176.220.0/24",
+    "185.176.221.0/24",
+    "185.176.222.0/24",
+    "185.176.223.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a0a:2380::/48"
+  ],
+  "updated_at": "2025-07-19T00:21:00Z",
+  "abuser_score": "0.0056",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:21:00Z"
+}

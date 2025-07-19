@@ -1,0 +1,26 @@
+{
+  "asn": 21624,
+  "descr": "CYBERLYNK-PHX, US",
+  "country": "us",
+  "active": true,
+  "org": "Wisconsin CyberLynk Network, Inc.",
+  "domain": "cyberlynk.net",
+  "abuse": "abuse@cyberlynk.net",
+  "type": "hosting",
+  "created": "2014-02-14",
+  "updated": "2014-02-14",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS21624",
+  "prefixes": [
+    "38.22.0.0/21",
+    "162.253.132.0/22",
+    "162.255.20.0/22"
+  ],
+  "prefixesIPv6": [
+    "2605:4480::/32"
+  ],
+  "updated_at": "2025-07-19T00:17:24Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:17:24Z"
+}

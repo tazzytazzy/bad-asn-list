@@ -1,0 +1,31 @@
+{
+  "asn": 12200,
+  "descr": "RACKSPACE, US",
+  "country": "us",
+  "active": true,
+  "org": "Rackspace Hosting",
+  "domain": "rackspace.com",
+  "abuse": "abuse@rackspace.com",
+  "type": "hosting",
+  "created": "2007-05-16",
+  "updated": "2013-04-09",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS12200",
+  "prefixes": [
+    "146.20.220.0/22",
+    "146.177.20.0/24",
+    "146.177.21.0/24",
+    "146.177.56.0/24",
+    "146.177.74.0/24",
+    "166.86.0.0/22",
+    "171.33.145.0/24",
+    "199.253.202.0/23",
+    "199.253.204.0/23",
+    "204.9.96.0/24",
+    "208.95.152.0/22"
+  ],
+  "updated_at": "2025-07-19T00:07:46Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:07:46Z"
+}

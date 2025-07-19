@@ -18,6 +18,16 @@ import csv
 import re
 import sys
 
+# --- Local/Project Imports ---
+try:
+    # Attempt to import from the helpers package
+    from helpers.utils import run_script, load_yaml_config
+except ImportError:
+    print("Error: The 'helpers' module is not found.", file=sys.stderr)
+    print("Please ensure you are running this from the repository's root directory", file=sys.stderr)
+    print("and that the 'helpers' directory with its '__init__.py' and 'utils.py' files exist.", file=sys.stderr)
+    sys.exit(1)
+
 
 def parse_asn(value):
     """
@@ -39,6 +49,10 @@ def create_cloudflare_rules(input_file_path, max_length=4096):
     Cloudflare has a limit of 4096 character per rule. We shoot to get close
     to that, but not over.
     """
+    if not run_script("sort_list.py", "abuser_score", "--direction", "desc"):
+        print(f"\nBuild process failed during execution of 'sort_list.py abuser_score --direction desc'.")
+        sys.exit(1)
+
     asns = []
     try:
         with open(input_file_path, 'r', encoding='utf-8') as file:
@@ -59,14 +73,11 @@ def create_cloudflare_rules(input_file_path, max_length=4096):
     if not asns:
         return []
 
-    # Remove duplicates and sort for consistency and optimal packing
-    unique_asns = sorted(list(set(asns)))
-
     all_rules = []
     current_asns_for_rule = []
     base_format = "(ip.geoip.asnum in {{{}}})"
 
-    for asn in unique_asns:
+    for asn in asns:
         # Test if adding the new ASN exceeds the max length
         test_list = current_asns_for_rule + [asn]
         asns_str = " ".join(map(str, test_list))

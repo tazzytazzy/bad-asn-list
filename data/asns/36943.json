@@ -1,0 +1,25 @@
+{
+  "asn": 36943,
+  "descr": "ZA-1-Grid, ZA",
+  "country": "za",
+  "active": true,
+  "org": "1 GRID (PTY) LTD",
+  "domain": "1-grid.com",
+  "type": "hosting",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS36943",
+  "prefixes": [
+    "41.61.0.0/16",
+    "41.185.0.0/16",
+    "41.185.56.0/24",
+    "196.43.195.0/24",
+    "196.220.32.0/19"
+  ],
+  "prefixesIPv6": [
+    "2c0f:fe90::/32"
+  ],
+  "updated_at": "2025-07-19T00:20:45Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:45Z"
+}

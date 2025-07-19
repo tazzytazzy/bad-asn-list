@@ -1,0 +1,32 @@
+{
+  "asn": 197226,
+  "descr": "SPRINT-SDC, PL",
+  "country": "pl",
+  "active": true,
+  "org": "SPRINT S.A.",
+  "domain": "sprint.pl",
+  "abuse": "abuse@sprintdatacenter.pl",
+  "type": "isp",
+  "created": "2010-08-17",
+  "updated": "2025-01-07",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197226",
+  "prefixes": [
+    "46.29.16.0/21",
+    "86.107.112.0/22",
+    "89.42.172.0/24",
+    "91.194.177.0/24",
+    "91.220.130.0/24",
+    "91.234.217.0/24",
+    "185.38.248.0/22",
+    "188.68.224.0/20",
+    "188.68.240.0/20"
+  ],
+  "prefixesIPv6": [
+    "2a03:7940::/32"
+  ],
+  "updated_at": "2025-07-19T00:23:17Z",
+  "abuser_score": "0.0009",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:17Z"
+}

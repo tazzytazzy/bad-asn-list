@@ -23,19 +23,24 @@ Config = Dict[str, Any]
 
 
 # --- Script Execution ---
-
-def run_script(script_name: str) -> bool:
+def run_script(script_name: str, *args: str) -> bool:
     """
-    Executes a given Python script using the system's python3 interpreter.
+    Executes a given Python script with arguments using the system's python3 interpreter.
     Checks for errors and streams the script's output live.
     Returns True on success, False on failure.
+
+    Args:
+        script_name: The name of the script to run.
+        *args: A variable number of string arguments for the script.
     """
-    print(f"----- Running {script_name} -----")
+    command = [script_name] + list(args)
+    command_str = ' '.join(command)
+    print(f"----- Running: '{command_str}' -----")
     try:
         # Use sys.executable to ensure the same Python interpreter is used.
         # Popen is used to stream stdout in real-time.
         process = subprocess.Popen(
-            [sys.executable, script_name],
+            [sys.executable] + command,
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
@@ -49,9 +54,9 @@ def run_script(script_name: str) -> bool:
 
         process.wait()
         if process.returncode != 0:
-            raise subprocess.CalledProcessError(process.returncode, script_name)
+            raise subprocess.CalledProcessError(process.returncode, command_str)
 
-        print(f"----- Finished {script_name} successfully -----\n")
+        print(f"----- Finished '{command_str}' successfully -----\n")
         return True
 
     except FileNotFoundError:
@@ -60,11 +65,11 @@ def run_script(script_name: str) -> bool:
         return False
     except subprocess.CalledProcessError as e:
         # Error message is already streamed, so we just print the failure notice.
-        print(f"\nError: {script_name} failed with exit code {e.returncode}", file=sys.stderr)
-        print(f"----- {script_name} failed -----", file=sys.stderr)
+        print(f"\nError: {command_str} failed with exit code {e.returncode}", file=sys.stderr)
+        print(f"----- {command_str} failed -----", file=sys.stderr)
         return False
     except Exception as e:
-        print(f"An unexpected error occurred while running {script_name}: {e}", file=sys.stderr)
+        print(f"An unexpected error occurred while running {command_str}: {e}", file=sys.stderr)
         return False
 
 

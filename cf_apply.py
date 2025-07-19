@@ -102,6 +102,7 @@ def synchronize_rules(
     ruleset_id: str,
     existing_rules: List[Rule],
     new_expressions: List[str],
+    max_rules: int,
     update_only: bool,
 ) -> bool:
     """
@@ -164,6 +165,7 @@ def synchronize_rules(
     # --- 3. Build the new rule list payload ---
     final_rules_payload = []
     last_skip_index = -1
+    last_managed_rule_index = -1  # Correctly track the last managed rule's index in the new payload
 
     # First pass: Handle updates and deletions by iterating through existing rules
     # This preserves the order of unmanaged rules and existing managed rules.
@@ -181,17 +183,27 @@ def synchronize_rules(
                 final_rules_payload.append(updated_rule)
             else:
                 final_rules_payload.append(rule.copy())  # Keep as is
+
+            # A managed rule was added, so update its last known position.
+            last_managed_rule_index = len(final_rules_payload) - 1
         else:
-            final_rules_payload.append(rule.copy()) # Keep unmanaged rule
+            final_rules_payload.append(rule.copy())  # Keep unmanaged rule
 
         # Track the last 'skip' rule's position in the *new* list
         if final_rules_payload and final_rules_payload[-1].get('action') == 'skip':
             last_skip_index = len(final_rules_payload) - 1
 
+    # Determine the base for insertion. New rules will be placed after the last
+    # 'skip' rule or the last managed rule, whichever comes later in the list.
+    insertion_base_index = max(last_skip_index, last_managed_rule_index)
+
     # Second pass: Handle creations by inserting new rules
     if parts_to_create:
         newly_created_rules = []
         for part in sorted(list(parts_to_create)):
+            if(len(final_rules_payload) + len(newly_created_rules) >= max_rules):
+                print(f"      ! WARNING: Skipping creation of '{MANAGED_RULE_PREFIX}{part}' due to max_rules limit ({max_rules}).")
+                continue
             newly_created_rules.append({
                 'description': f"{MANAGED_RULE_PREFIX}{part}",
                 'expression': new_expressions_map[part],
@@ -199,9 +211,9 @@ def synchronize_rules(
                 'enabled': True,
             })
 
-        # Insert after the last 'skip' rule, or at the top if no skip rules exist.
-        insertion_point = last_skip_index + 1 if last_skip_index != -1 else 0
-        print(f"      -> Inserting {len(newly_created_rules)} new rule(s) at index {insertion_point} (after last skip rule).")
+        # Insert after the determined base index.
+        insertion_point = insertion_base_index + 1
+        print(f"      -> Inserting {len(newly_created_rules)} new rule(s) at index {insertion_point}.")
 
         # Insert the new rules into the payload
         final_rules_payload[insertion_point:insertion_point] = newly_created_rules
@@ -229,10 +241,13 @@ def run_setup_mode():
         print("Creating/updating file with a placeholder token.")
         print("Please edit the file, add your token, then run 'setup' again.")
         config['api_token'] = PLACEHOLDER_TOKEN
+        config.setdefault('global_max_rules', 5)
         config.setdefault('managed_zones', [])
         config.setdefault('accounts', [])
         save_yaml_config(CONFIG_FILE, config)
         sys.exit(0)
+
+    global_max_rules = config.get('global_max_rules', 5)
 
     print("API token found. Fetching all accounts and zones to build configuration...")
     try:
@@ -252,6 +267,7 @@ def run_setup_mode():
                 print(f"  - Discovered zone: '{zone.name}'")
                 rules, _ = fetch_formatted_rules_for_zone(client, zone.id, zone.name)
                 new_managed_zones_data.append({'id': zone.id, 'name': zone.name, 'account': [{'id': account.id, 'name': account.name}]})
+                # new_managed_zones_data.append({zone.id: {'name': zone.name, 'account': [{'id': account.id, 'name': account.name}]}})
                 account_entry['zones'].append({'id': zone.id, 'name': zone.name, 'rules': rules})
         except APIError as e:
             print(f"  ! Could not fetch zones for account {account.id}: {e}", file=sys.stderr)
@@ -259,6 +275,8 @@ def run_setup_mode():
 
     final_config = {
         'api_token': api_token,
+        'global_max_rules': global_max_rules,
+        # 'managed_zones': sorted(new_managed_zones_data, key=lambda z: list(z.values())[0]['name']),
         'managed_zones': sorted(new_managed_zones_data, key=lambda z: z['name']),
         'accounts': sorted(new_accounts_data, key=lambda a: a['name'])
     }
@@ -269,6 +287,30 @@ def run_setup_mode():
 
 def run_apply_mode(update_only: bool):
     """Runs the main rule application logic (default or update-only)."""
+    config = load_yaml_config(CONFIG_FILE)
+    api_token = config.get("api_token")
+    if not api_token or api_token == PLACEHOLDER_TOKEN:
+        print(f"Error: API token not configured in '{CONFIG_FILE}'.", file=sys.stderr)
+        print("Please run this script with './cf_apply setup' first.", file=sys.stderr)
+        sys.exit(1)
+
+    managed_zones = config.get("managed_zones")
+    if not managed_zones:
+        print(f"Error: 'managed_zones' not found in {CONFIG_FILE}'.", file=sys.stderr)
+        print("Please run this script with './cf_apply setup' first.", file=sys.stderr)
+        sys.exit(1)
+
+    accounts = config.get("accounts")
+    if not accounts:
+        print(f"Error: 'accounts' not found in {CONFIG_FILE}'. Rerun this script with './cf_apply setup' first.", file=sys.stderr)
+        print("Please run this script with './cf_apply setup' first.", file=sys.stderr)
+        sys.exit(1)
+
+    global_max_rules = config.get('global_max_rules', 5)
+
+    new_rule_expressions = load_rule_expressions(CLOUDFLARE_RULES_FILE)
+    managed_zones_list = config.get('managed_zones', [])
+    managed_zone_ids = {zone.get('id') for zone in managed_zones_list if zone.get('id')}
 
     if not run_script("build_cloudflare.py"):
         print(f"\nBuild process failed during execution of 'build_cloudflare.py'.")
@@ -277,21 +319,11 @@ def run_apply_mode(update_only: bool):
     mode_name = "Update-Only" if update_only else "Full Sync"
     print(f"--- Running in Apply Mode ({mode_name}) ---")
 
-    config = load_yaml_config(CONFIG_FILE)
-    api_token = config.get("api_token")
-    if not api_token or api_token == PLACEHOLDER_TOKEN:
-        print(f"Error: API token not configured in '{CONFIG_FILE}'.", file=sys.stderr)
-        print("Please run with the 'setup' flag first.", file=sys.stderr)
-        sys.exit(1)
-
-    new_rule_expressions = load_rule_expressions(CLOUDFLARE_RULES_FILE)
-    managed_zones_list = config.get('managed_zones', [])
-    managed_zone_ids = {zone.get('id') for zone in managed_zones_list if zone.get('id')}
-
     if not managed_zone_ids:
         print(f"Info: No 'managed_zones' found in '{CONFIG_FILE}'. Nothing to apply.")
         return
 
+    # This loop is now only for providing user feedback.
     print(f"Found {len(managed_zone_ids)} managed zone(s) specified in '{CONFIG_FILE}'.")
     for managed_zone in managed_zones_list:
         print(f"  - {managed_zone.get('name', 'Unnamed Zone')}")
@@ -321,13 +353,23 @@ def run_apply_mode(update_only: bool):
             if zone.id not in managed_zone_ids:
                 continue
 
+            # Find the original config for this zone to get its 'max_rules' value.
+            # This ensures that user-defined values are preserved.
+            # zone_config = next((z for z in managed_zones_list if z.get('id') == zone.id), {})
+            zone_config = next((z for z in managed_zones_list if z.get('id') == zone.id), {})
+            max_rules = zone_config.get('max_rules')
+
+            # If 'max_rules' is not set in the config (is None), default to 15.
+            if max_rules is None:
+                max_rules = global_max_rules
+
             print(f"  - Processing managed zone: '{zone.name}' (ID: {zone.id})")
             rules, ruleset_id = fetch_formatted_rules_for_zone(client, zone.id, zone.name)
 
             if ruleset_id:
                 # A ruleset exists, so we proceed with syncing.
                 updates_were_made = synchronize_rules(
-                    client, zone.id, zone.name, ruleset_id, rules, new_rule_expressions, update_only
+                    client, zone.id, zone.name, ruleset_id, rules, new_rule_expressions, max_rules, update_only
                 )
                 if updates_were_made:
                     config_needs_saving = True
@@ -362,7 +404,11 @@ def run_apply_mode(update_only: bool):
                 # No ruleset exists, and we are in 'update-only' mode.
                 print(f"    -> No ruleset found. Skipping zone in update-only mode.")
 
-            new_managed_zones_data.append({'id': zone.id, 'name': zone.name, 'account': [{'id': account.id, 'name': account.name}]})
+            new_managed_zones_data.append({
+                'id': zone.id,
+                'name': zone.name,
+                'account': [{'id': account.id, 'name': account.name}]
+            })
             zones_for_account.append({'id': zone.id, 'name': zone.name, 'rules': rules})
 
         account_entry['zones'] = sorted(zones_for_account, key=lambda z: z['name'])

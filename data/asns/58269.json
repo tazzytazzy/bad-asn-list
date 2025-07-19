@@ -1,0 +1,24 @@
+{
+  "asn": 58269,
+  "descr": "AS-CLOUDHOSTING, LV",
+  "country": "lv",
+  "active": true,
+  "org": "CloudHosting SIA",
+  "domain": "cloudhosting.lv",
+  "abuse": "abuse@cloudhosting.lv",
+  "type": "hosting",
+  "created": "2012-06-12",
+  "updated": "2025-02-26",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS58269",
+  "prefixes": [
+    "37.148.174.0/24",
+    "87.246.183.0/24",
+    "91.220.43.0/24",
+    "185.8.60.0/22"
+  ],
+  "updated_at": "2025-07-19T00:22:16Z",
+  "abuser_score": "0.0017",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:16Z"
+}

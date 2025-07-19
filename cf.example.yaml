@@ -2,6 +2,10 @@
 # TODO: list the rights.
 api_token: "YOUR_CLOUDFLARE_API_TOKEN_HERE"
 
+# global_max_rules - How many rules each zone is allowed. The free accounts have a default of 5 max.
+# This script will fill up to this many slots, after your other rules.
+global_max_rules = 5
+
 # Below will be updated automatically when cf_accounts is ran.
 accounts:
     - id: "YOUR_ACCOUNT_ID_HERE"

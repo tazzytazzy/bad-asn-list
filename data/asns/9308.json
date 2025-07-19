@@ -1,0 +1,30 @@
+{
+  "asn": 9308,
+  "descr": "CHINA-ABITCOOL AbitcoolChina Inc., CN",
+  "country": "cn",
+  "active": true,
+  "org": "Abitcool(China) Inc.",
+  "domain": "abitcool.com",
+  "abuse": "hwming@gdvnet.com",
+  "type": "business",
+  "updated": "2023-11-28",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS9308",
+  "prefixes": [
+    "120.132.240.0/23",
+    "120.133.0.0/17",
+    "120.133.64.0/18",
+    "120.134.0.0/16",
+    "124.250.0.0/16",
+    "124.251.0.0/16",
+    "124.251.230.0/24",
+    "124.251.244.0/24",
+    "124.251.245.0/24",
+    "203.196.0.0/22",
+    "211.99.160.0/22"
+  ],
+  "updated_at": "2025-07-19T00:07:42Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:07:42Z"
+}

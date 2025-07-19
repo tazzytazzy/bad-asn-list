@@ -1,0 +1,31 @@
+{
+  "asn": 202279,
+  "descr": "KOMTEL-DPR-AS, RU",
+  "country": "ru",
+  "active": true,
+  "org": "STATE UNITARY ENTERPRISE OF THE DONETSK PEOPLE'S REPUBLIC REPUBLICAN TELECOMMUNICATIONS OPERATOR",
+  "domain": "phoenix-dnr.ru",
+  "abuse": "noc@phoenix-dnr.ru",
+  "type": "isp",
+  "created": "2018-06-12",
+  "updated": "2024-12-02",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202279",
+  "prefixes": [
+    "31.133.48.0/21",
+    "31.133.48.0/22",
+    "31.133.52.0/24",
+    "31.133.53.0/24",
+    "31.133.54.0/24",
+    "31.133.55.0/24",
+    "128.0.80.0/22",
+    "128.0.80.0/24",
+    "128.0.81.0/24",
+    "128.0.82.0/24",
+    "128.0.83.0/24"
+  ],
+  "updated_at": "2025-07-19T00:23:32Z",
+  "abuser_score": "0.0006",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:32Z"
+}

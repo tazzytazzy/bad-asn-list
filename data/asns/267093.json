@@ -1,0 +1,30 @@
+{
+  "asn": 267093,
+  "descr": "BDCNET TELECOM, BR",
+  "country": "br",
+  "active": true,
+  "org": "BDCNET TELECOM",
+  "domain": "bdcnet.com.br",
+  "abuse": "marciliobodoco@yahoo.com.br",
+  "type": "isp",
+  "created": "20171219",
+  "updated": "20240717",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS267093",
+  "prefixes": [
+    "45.228.192.0/23",
+    "45.228.192.0/24",
+    "45.228.193.0/24",
+    "45.228.194.0/23",
+    "45.228.194.0/24",
+    "45.228.195.0/24"
+  ],
+  "prefixesIPv6": [
+    "2804:4808::/33",
+    "2804:4808:8000::/33"
+  ],
+  "updated_at": "2025-07-19T00:23:53Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:53Z"
+}

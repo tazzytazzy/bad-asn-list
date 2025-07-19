@@ -1,0 +1,18 @@
+{
+  "asn": 21391,
+  "descr": "TDA-AS, DZ",
+  "country": "dz",
+  "active": true,
+  "org": "Algerian Broadcasting (Tele Diffusion d'Algerie TDA)",
+  "domain": "tda.dz",
+  "type": "government",
+  "rir": "AFRINIC",
+  "whois": "https://api.ipapi.is/?whois=AS21391",
+  "prefixes": [
+    "80.246.0.0/20"
+  ],
+  "updated_at": "2025-07-19T00:17:23Z",
+  "abuser_score": "0.0002",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:17:23Z"
+}

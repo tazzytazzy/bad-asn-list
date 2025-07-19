@@ -1,0 +1,30 @@
+{
+  "asn": 269853,
+  "descr": "CBVISION S.A., EC",
+  "country": "ec",
+  "active": true,
+  "org": "CBVISION S.A.",
+  "domain": "cbvision.net.ec",
+  "abuse": "noc@cbvision.net.ec",
+  "type": "isp",
+  "created": "20191126",
+  "updated": "20231102",
+  "rir": "LACNIC",
+  "whois": "https://api.ipapi.is/?whois=AS269853",
+  "prefixes": [
+    "45.171.120.0/24",
+    "45.171.121.0/24",
+    "45.189.56.0/24",
+    "45.189.57.0/24",
+    "45.189.58.0/24",
+    "45.189.59.0/24"
+  ],
+  "prefixesIPv6": [
+    "2803:10e0::/32",
+    "2803:10e0:ced0::/48"
+  ],
+  "updated_at": "2025-07-19T00:23:53Z",
+  "abuser_score": "0.0013",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:53Z"
+}

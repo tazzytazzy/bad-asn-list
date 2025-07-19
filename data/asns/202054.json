@@ -1,0 +1,30 @@
+{
+  "asn": 202054,
+  "descr": "S4N-AS, ES",
+  "country": "es",
+  "active": true,
+  "org": "GRUPO SYS4NET, S.L.",
+  "domain": "gruposys4net.com",
+  "abuse": "abuse@gruposys4net.com",
+  "type": "hosting",
+  "created": "2014-04-24",
+  "updated": "2020-09-25",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS202054",
+  "prefixes": [
+    "46.16.132.0/22",
+    "46.16.132.0/24",
+    "46.16.133.0/24",
+    "46.16.134.0/24",
+    "46.16.135.0/24",
+    "185.14.56.0/22",
+    "185.14.56.0/24",
+    "185.14.57.0/24",
+    "185.14.58.0/24",
+    "185.14.59.0/24"
+  ],
+  "updated_at": "2025-07-19T00:23:31Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:31Z"
+}

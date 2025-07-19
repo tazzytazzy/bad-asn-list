@@ -1,0 +1,27 @@
+{
+  "asn": 197019,
+  "descr": "WEDOS, CZ",
+  "country": "cz",
+  "active": true,
+  "org": "WEDOS Internet, a.s.",
+  "domain": "wedos.com",
+  "abuse": "abuse@wedos.com",
+  "type": "hosting",
+  "created": "2010-07-22",
+  "updated": "2023-07-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197019",
+  "prefixes": [
+    "31.31.72.0/21",
+    "37.157.192.0/21",
+    "46.28.104.0/21",
+    "89.221.208.0/20"
+  ],
+  "prefixesIPv6": [
+    "2a02:2b88::/32"
+  ],
+  "updated_at": "2025-07-19T00:23:16Z",
+  "abuser_score": "0.0027",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:16Z"
+}

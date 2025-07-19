@@ -1,0 +1,23 @@
+{
+  "asn": 136288,
+  "descr": "SPISPL-AS-IN Sai Prasad Intenet Services Pvt Ltd, IN",
+  "country": "in",
+  "active": true,
+  "org": "Sai Prasad Intenet Services Pvt Ltd",
+  "abuse": "anilgaikwad458@gmail.com",
+  "type": "business",
+  "updated": "2017-03-03",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS136288",
+  "prefixes": [
+    "103.87.28.0/24",
+    "103.87.29.0/24",
+    "103.87.30.0/24",
+    "103.87.31.0/24",
+    "103.154.26.0/24"
+  ],
+  "updated_at": "2025-07-19T00:23:05Z",
+  "abuser_score": "0.0016",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:05Z"
+}

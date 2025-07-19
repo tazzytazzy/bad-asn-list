@@ -1,0 +1,23 @@
+{
+  "asn": 133201,
+  "descr": "COMING-AS ABCDE GROUP, HK",
+  "country": "hk",
+  "active": true,
+  "org": "ABCDE GROUP COMPANY LIMITED",
+  "abuse": "rebootyes@gmail.com",
+  "type": "business",
+  "updated": "2025-01-21",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS133201",
+  "prefixes": [
+    "103.233.8.0/22",
+    "103.255.44.0/22",
+    "202.61.84.0/22",
+    "202.61.84.0/23",
+    "202.61.87.0/24"
+  ],
+  "updated_at": "2025-07-19T00:22:48Z",
+  "abuser_score": "0.0034",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:48Z"
+}

@@ -1,0 +1,27 @@
+{
+  "asn": 51177,
+  "descr": "THCPROJECTS, RO",
+  "country": "ro",
+  "active": true,
+  "org": "TIPZOR MEDIA SRL",
+  "domain": "tipzor-media.com",
+  "abuse": "abuse@tipzor-media.com",
+  "type": "business",
+  "created": "2016-04-14",
+  "updated": "2022-05-09",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS51177",
+  "prefixes": [
+    "45.128.116.0/22",
+    "84.234.96.0/22",
+    "91.235.116.0/24",
+    "188.214.30.0/24",
+    "188.241.58.0/24",
+    "193.29.187.0/24",
+    "193.201.82.0/24"
+  ],
+  "updated_at": "2025-07-19T00:21:48Z",
+  "abuser_score": "0.0014",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:21:48Z"
+}

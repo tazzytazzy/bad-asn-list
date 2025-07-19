@@ -1,0 +1,33 @@
+{
+  "asn": 135760,
+  "descr": "SPEDNT-AS Speednet Unique Network Pvt Ltd, IN",
+  "country": "in",
+  "active": true,
+  "org": "Speednet Unique Network Pvt Ltd",
+  "domain": "speednetkolkata.com",
+  "abuse": "abuse.speednetunique@gmail.com",
+  "type": "isp",
+  "updated": "2019-02-11",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS135760",
+  "prefixes": [
+    "103.67.96.0/24",
+    "103.67.97.0/24",
+    "103.75.160.0/24",
+    "103.75.161.0/24",
+    "103.75.162.0/24",
+    "103.75.163.0/24",
+    "103.155.194.0/24",
+    "103.189.130.0/24",
+    "103.189.131.0/24",
+    "160.22.131.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:df0:d040::/48",
+    "2404:9740::/32"
+  ],
+  "updated_at": "2025-07-19T00:23:02Z",
+  "abuser_score": "0.0055",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:02Z"
+}

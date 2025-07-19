@@ -1,0 +1,29 @@
+{
+  "asn": 2818,
+  "descr": "BBC BBC Internet Services, UK, GB",
+  "country": "gb",
+  "active": true,
+  "org": "BBC",
+  "domain": "bbc.co.uk",
+  "abuse": "abuse@bbc.co.uk",
+  "type": "business",
+  "created": "2002-09-19",
+  "updated": "2025-05-09",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS2818",
+  "prefixes": [
+    "132.185.0.0/16",
+    "132.185.112.0/20",
+    "132.185.128.0/20",
+    "212.58.224.0/19"
+  ],
+  "prefixesIPv6": [
+    "2001:41c0::/32",
+    "2001:41c1::/32",
+    "2001:41c2::/32"
+  ],
+  "updated_at": "2025-07-19T00:07:25Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:07:25Z"
+}

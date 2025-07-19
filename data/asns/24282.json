@@ -1,0 +1,29 @@
+{
+  "asn": 24282,
+  "descr": "KIR KAGOYA JAPAN Inc., JP",
+  "country": "jp",
+  "active": true,
+  "org": "KAGOYA JAPAN Inc.",
+  "domain": "kagoya.jp",
+  "type": "hosting",
+  "created": "2005/11/11",
+  "updated": "2013/09/06",
+  "rir": "JPNIC",
+  "whois": "https://api.ipapi.is/?whois=AS24282",
+  "prefixes": [
+    "103.3.48.0/22",
+    "124.248.144.0/20",
+    "133.18.0.0/16",
+    "153.127.224.0/19",
+    "203.142.192.0/20",
+    "203.142.208.0/21",
+    "210.134.48.0/20"
+  ],
+  "prefixesIPv6": [
+    "2406:8c00::/32"
+  ],
+  "updated_at": "2025-07-19T00:17:28Z",
+  "abuser_score": "0.0004",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:17:28Z"
+}

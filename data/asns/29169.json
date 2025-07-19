@@ -1,0 +1,32 @@
+{
+  "asn": 29169,
+  "descr": "GANDI-AS Domain name registrar - www.gandi.net, FR",
+  "country": "fr",
+  "active": true,
+  "org": "GANDI SAS",
+  "domain": "gandi.net",
+  "abuse": "abuse@gandi.net",
+  "type": "hosting",
+  "created": "2003-06-20",
+  "updated": "2024-10-17",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS29169",
+  "prefixes": [
+    "46.226.108.0/22",
+    "155.133.128.0/18",
+    "173.246.96.0/20",
+    "185.26.124.0/22",
+    "213.167.228.0/22",
+    "213.167.240.0/20",
+    "217.70.176.0/20",
+    "217.70.184.0/24"
+  ],
+  "prefixesIPv6": [
+    "2001:4b98::/32",
+    "2001:4b98:e01::/48"
+  ],
+  "updated_at": "2025-07-19T00:20:12Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:20:12Z"
+}

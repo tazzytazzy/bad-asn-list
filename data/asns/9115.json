@@ -1,0 +1,28 @@
+{
+  "asn": 9115,
+  "descr": "INFB-AS9115, CA",
+  "country": "ca",
+  "active": true,
+  "org": "Internet Names for Business Inc",
+  "domain": "web.com",
+  "abuse": "abuse@meganameservers.eu",
+  "type": "hosting",
+  "created": "2006-09-07",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS9115",
+  "prefixes": [
+    "91.136.0.0/17",
+    "91.136.0.0/24",
+    "91.136.125.0/24",
+    "207.55.255.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a01:7f60::/32",
+    "2a01:7f60:20::/44"
+  ],
+  "updated_at": "2025-07-19T00:07:40Z",
+  "abuser_score": "0.0003",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:07:40Z"
+}

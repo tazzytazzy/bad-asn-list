@@ -1,0 +1,30 @@
+{
+  "asn": 197492,
+  "descr": "INEONET-AS, FR",
+  "country": "fr",
+  "active": true,
+  "org": "ALSATIS SERVICES SAS",
+  "domain": "alsatis.com",
+  "abuse": "abuse@ineonet.com",
+  "type": "isp",
+  "created": "2010-12-23",
+  "updated": "2024-03-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS197492",
+  "prefixes": [
+    "31.169.40.0/21",
+    "91.220.248.0/24",
+    "185.49.20.0/24",
+    "185.49.21.0/24",
+    "185.49.22.0/24",
+    "185.49.23.0/24",
+    "185.217.152.0/24",
+    "185.217.153.0/24",
+    "185.217.154.0/24",
+    "185.217.155.0/24"
+  ],
+  "updated_at": "2025-07-19T00:23:18Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:23:18Z"
+}

@@ -1,0 +1,30 @@
+{
+  "asn": 8622,
+  "descr": "ISIONUK Team Blue Internet Services UK Ltd, GB",
+  "country": "gb",
+  "active": true,
+  "org": "TEAM BLUE INTERNET SERVICES UK LIMITED",
+  "domain": "names.co.uk",
+  "abuse": "abuse@names.co.uk",
+  "type": "hosting",
+  "created": "2002-07-24",
+  "updated": "2024-11-28",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS8622",
+  "prefixes": [
+    "85.233.160.0/19",
+    "94.126.40.0/24",
+    "178.18.112.0/22",
+    "195.7.224.0/19",
+    "212.84.96.0/19",
+    "212.84.125.0/24",
+    "213.246.64.0/18"
+  ],
+  "prefixesIPv6": [
+    "2a00:13b0::/32"
+  ],
+  "updated_at": "2025-07-19T00:07:39Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
+  "created_at": "2025-07-19T00:07:39Z"
+}

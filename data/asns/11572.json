@@ -1,0 +1,36 @@
+{
+  "asn": 11572,
+  "descr": "SS-ATL, US",
+  "country": "us",
+  "active": true,
+  "org": "PhoenixNAP LLC",
+  "domain": "phoenixnap.com",
+  "abuse": "abuse@phoenixnap.com",
+  "type": "hosting",
+  "created": "2010-01-11",
+  "updated": "2018-02-27",
+  "rir": "ARIN",
+  "whois": "https://api.ipapi.is/?whois=AS11572",
+  "prefixes": [
+    "63.214.166.0/23",
+    "64.38.249.0/24",
+    "64.38.250.0/24",
+    "104.244.52.0/24",
+    "131.153.24.0/21",
+    "131.153.65.0/24",
+    "131.153.66.0/23",
+    "131.153.82.0/24",
+    "131.153.132.0/22",
+    "131.153.152.0/23",
+    "204.217.128.0/22",
+    "206.232.0.0/22"
+  ],
+  "prefixesIPv6": [
+    "2607:6003:2305::/48",
+    "2607:ff00:500::/40"
+  ],
+  "updated_at": "2025-07-19T00:07:45Z",
+  "abuser_score": "0.0016",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:07:45Z"
+}

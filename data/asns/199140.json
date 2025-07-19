@@ -1,0 +1,35 @@
+{
+  "asn": 199140,
+  "descr": "ORE-AS, FR",
+  "country": "fr",
+  "active": true,
+  "org": "Orange S.A.",
+  "domain": "orange.com",
+  "abuse": "gestionip.ft@orange.com",
+  "type": "isp",
+  "created": "2012-08-21",
+  "updated": "2018-09-04",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS199140",
+  "prefixes": [
+    "80.12.212.0/24",
+    "80.12.213.0/24",
+    "80.12.240.0/24",
+    "80.12.241.0/24",
+    "80.12.243.0/24",
+    "80.12.249.0/24",
+    "80.12.250.0/24",
+    "80.12.253.0/24",
+    "80.12.254.0/24"
+  ],
+  "prefixesIPv6": [
+    "2a01:cb22:4002::/48",
+    "2a01:cb22:4200::/40",
+    "2a01:cb22:4300::/40",
+    "2a01:cb22:4fff::/48"
+  ],
+  "updated_at": "2025-07-19T00:23:24Z",
+  "abuser_score": "0.0011",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:23:24Z"
+}

@@ -1,0 +1,27 @@
+{
+  "asn": 21501,
+  "descr": "GODADDY-AMS, DE",
+  "country": "de",
+  "active": true,
+  "org": "Host Europe GmbH",
+  "domain": "hosteurope.de",
+  "abuse": "abuse@godaddy.com",
+  "type": "hosting",
+  "created": "2002-09-25",
+  "updated": "2020-03-10",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS21501",
+  "prefixes": [
+    "160.153.13.0/24",
+    "160.153.14.0/24",
+    "160.153.128.0/21",
+    "160.153.139.0/24",
+    "160.153.144.0/20",
+    "160.153.168.0/22",
+    "188.121.44.0/24"
+  ],
+  "updated_at": "2025-07-19T00:17:23Z",
+  "abuser_score": "0.0013",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:17:23Z"
+}

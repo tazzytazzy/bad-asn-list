@@ -1,0 +1,26 @@
+{
+  "asn": 56268,
+  "descr": "SREERAM-NED1-IN Northeast Dataa Network Pvt Ltd, IN",
+  "country": "in",
+  "active": true,
+  "org": "Northeast Dataa Network Pvt Ltd",
+  "domain": "nedataa.com",
+  "abuse": "sreeramdhayalen@nedataa.com",
+  "type": "isp",
+  "updated": "2013-05-22",
+  "rir": "APNIC",
+  "whois": "https://api.ipapi.is/?whois=AS56268",
+  "prefixes": [
+    "43.224.128.0/22",
+    "103.57.80.0/22",
+    "103.252.24.0/22",
+    "202.38.180.0/22"
+  ],
+  "prefixesIPv6": [
+    "2404:580::/32"
+  ],
+  "updated_at": "2025-07-19T00:22:05Z",
+  "abuser_score": "0.0034",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:22:05Z"
+}

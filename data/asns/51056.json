@@ -1,0 +1,22 @@
+{
+  "asn": 51056,
+  "descr": "AS-INETEHNO, MD",
+  "country": "md",
+  "active": true,
+  "org": "Inet Tehno SRL",
+  "domain": "inetehno.md",
+  "abuse": "inet0tehno@gmail.com",
+  "type": "isp",
+  "created": "2010-05-25",
+  "updated": "2024-03-05",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS51056",
+  "prefixes": [
+    "109.233.192.0/21",
+    "185.64.236.0/22"
+  ],
+  "updated_at": "2025-07-19T00:21:47Z",
+  "abuser_score": "0.001",
+  "abuse_rank": "Low",
+  "created_at": "2025-07-19T00:21:47Z"
+}
