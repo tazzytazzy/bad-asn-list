@@ -8,13 +8,14 @@
   "abuse": "abuse@feral.io",
   "type": "hosting",
   "created": "2013-10-22",
-  "updated_at": "2025-07-18T09:27:20.001816Z",
+  "updated": "2019-12-06",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS200052",
   "prefixes": [
     "185.21.216.0/22"
   ],
-  "abuser_score": "0.0034",
+  "updated_at": "2025-08-28T23:33:28Z",
+  "abuser_score": "0.0015",
   "abuse_rank": "Low",
   "created_at": "2025-07-18T09:27:20.001816Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "abuse@rackspace.com",
   "type": "hosting",
   "created": "2003-02-20",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2012-02-24",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS27357",
   "prefixes": [
@@ -38,6 +38,7 @@
     "172.99.64.0/19",
     "173.203.128.0/18",
     "173.204.89.0/24",
+    "192.68.40.0/24",
     "198.210.16.0/21",
     "204.51.224.0/24",
     "204.51.235.0/24",
@@ -49,7 +50,8 @@
   "prefixesIPv6": [
     "2001:4802::/32"
   ],
-  "abuser_score": "0",
+  "updated_at": "2025-08-28T23:24:52Z",
+  "abuser_score": "0.0001",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"
 }

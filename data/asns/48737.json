@@ -12,7 +12,6 @@
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS48737",
   "prefixes": [
-    "5.181.17.0/24",
     "37.58.16.0/24",
     "37.58.17.0/24",
     "37.58.18.0/24",
@@ -70,7 +69,7 @@
   "prefixesIPv6": [
     "2a02:dc40::/48"
   ],
-  "updated_at": "2025-07-19T00:21:40Z",
+  "updated_at": "2025-08-28T23:28:57Z",
   "abuser_score": "0.0008",
   "abuse_rank": "Low",
   "created_at": "2025-07-19T00:21:40Z"

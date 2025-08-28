@@ -8,7 +8,7 @@
   "abuse": "dfrazier@newtekone.com",
   "type": "business",
   "created": "2000-03-03",
-  "updated_at": "2025-07-18T08:17:32.165576Z",
+  "updated": "2024-06-24",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS14992",
   "prefixes": [
@@ -27,7 +27,8 @@
     "216.119.64.0/18",
     "216.197.96.0/19"
   ],
-  "abuser_score": "0",
+  "updated_at": "2025-08-28T23:22:44Z",
+  "abuser_score": "0.0002",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:17:32.165576Z"
 }

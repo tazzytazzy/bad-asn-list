@@ -8,7 +8,7 @@
   "abuse": "abuse@interhost.com",
   "type": "hosting",
   "created": "2002-09-12",
-  "updated_at": "2025-07-18T08:20:26.664735Z",
+  "updated": "2017-11-15",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS15919",
   "prefixes": [
@@ -22,6 +22,7 @@
   "prefixesIPv6": [
     "2001:b90::/32"
   ],
+  "updated_at": "2025-08-28T23:22:55Z",
   "abuser_score": "0.0001",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:20:26.664735Z"

@@ -8,7 +8,7 @@
   "abuse": "abuse@coloradocolo.com",
   "type": "hosting",
   "created": "2007-08-28",
-  "updated_at": "2025-07-18T08:27:46.797146Z",
+  "updated": "2024-06-03",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS17139",
   "prefixes": [
@@ -46,7 +46,6 @@
     "173.247.236.0/24",
     "173.247.237.0/24",
     "205.134.224.0/21",
-    "205.134.224.0/24",
     "205.134.228.0/24",
     "205.134.229.0/24",
     "208.51.60.0/22",
@@ -56,7 +55,8 @@
   "prefixesIPv6": [
     "2607:fca8::/32"
   ],
-  "abuser_score": "0.0002",
+  "updated_at": "2025-08-28T23:23:06Z",
+  "abuser_score": "0.0003",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:27:46.797146Z"
 }

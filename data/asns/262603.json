@@ -7,7 +7,7 @@
   "domain": "homehost.com.br",
   "type": "hosting",
   "created": "20110930",
-  "updated_at": "2025-07-18T09:27:20.001816Z",
+  "updated": "20220629",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS262603",
   "prefixes": [
@@ -15,7 +15,8 @@
     "177.85.100.0/24",
     "185.169.99.0/24"
   ],
-  "abuser_score": "0.0007",
-  "abuse_rank": "Low",
+  "updated_at": "2025-08-28T23:38:41Z",
+  "abuser_score": "0",
+  "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:27:20.001816Z"
 }

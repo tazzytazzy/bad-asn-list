@@ -8,7 +8,7 @@
   "abuse": "admin@qwknetllc.com",
   "type": "hosting",
   "created": "2006-10-13",
-  "updated_at": "2025-07-18T09:14:08.290501Z",
+  "updated": "2012-02-24",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS40281",
   "prefixes": [
@@ -45,6 +45,7 @@
     "2602:fc33::/36",
     "2604:680::/32"
   ],
+  "updated_at": "2025-08-28T23:27:21Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:14:08.290501Z"

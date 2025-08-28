@@ -8,7 +8,7 @@
   "abuse": "abuse@cdnvideo.ru",
   "type": "hosting",
   "created": "2011-10-10",
-  "updated_at": "2025-07-18T09:20:40.874730Z",
+  "updated": "2023-06-09",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS57363",
   "prefixes": [
@@ -75,13 +75,13 @@
     "2a02:aec0:1::/48",
     "2a02:aec0:2::/48",
     "2a02:aec0:3::/48",
-    "2a02:aec0:5::/48",
     "2a02:aec0:6::/48",
     "2a02:aec0:7::/48",
     "2a02:aec0:8::/48",
     "2a02:aec0:9::/48",
     "2a02:aec0:b::/48"
   ],
+  "updated_at": "2025-08-28T23:30:44Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:20:40.874730Z"

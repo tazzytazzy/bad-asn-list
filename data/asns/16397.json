@@ -7,7 +7,7 @@
   "domain": "equinix.com.br",
   "type": "hosting",
   "created": "20000503",
-  "updated_at": "2025-07-18T08:22:39.236137Z",
+  "updated": "20211018",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS16397",
   "prefixes": [
@@ -15,6 +15,7 @@
     "142.215.101.0/24",
     "155.204.192.0/24"
   ],
+  "updated_at": "2025-08-28T23:23:01Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:22:39.236137Z"

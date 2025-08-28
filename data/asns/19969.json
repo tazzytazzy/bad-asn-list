@@ -8,7 +8,7 @@
   "abuse": "security@joesdatacenter.com",
   "type": "hosting",
   "created": "2008-03-17",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2012-02-24",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS19969",
   "prefixes": [
@@ -37,7 +37,8 @@
     "2602:ffc5:10a::/48",
     "2604:5800::/32"
   ],
-  "abuser_score": "0.0003",
+  "updated_at": "2025-08-28T23:23:43Z",
+  "abuser_score": "0.0004",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"
 }

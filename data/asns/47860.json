@@ -8,13 +8,14 @@
   "abuse": "kotov@engisyst.com",
   "type": "business",
   "created": "2017-04-06",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2020-11-16",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS47860",
   "prefixes": [
     "89.188.160.0/24",
     "89.188.180.0/24"
   ],
+  "updated_at": "2025-08-28T23:28:44Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:16:13.366429Z"

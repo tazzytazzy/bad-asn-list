@@ -2,19 +2,16 @@
   "asn": 59705,
   "descr": "POBOX2-AS, GB",
   "country": "gb",
-  "active": true,
+  "active": false,
   "org": "Acora Limited",
   "domain": "acora.com",
   "abuse": "registry@ada.co.uk",
   "type": "business",
   "created": "2012-09-28",
-  "updated_at": "2025-07-18T09:20:40.874730Z",
+  "updated": "2022-11-22",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS59705",
-  "prefixes": [
-    "5.45.16.0/23",
-    "5.45.18.0/24"
-  ],
+  "updated_at": "2025-08-28T23:31:08Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:20:40.874730Z"

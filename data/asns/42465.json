@@ -8,12 +8,13 @@
   "abuse": "noc@forcepoint.com",
   "type": "hosting",
   "created": "2007-02-23",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2018-09-04",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS42465",
   "prefixes": [
     "86.111.216.0/24"
   ],
+  "updated_at": "2025-08-28T23:27:40Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:16:13.366429Z"

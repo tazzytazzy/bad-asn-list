@@ -8,7 +8,7 @@
   "abuse": "abuse@skydsl.ir",
   "type": "government",
   "created": "2010-06-29",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2019-12-04",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS51241",
   "prefixes": [
@@ -21,6 +21,7 @@
     "178.219.238.0/24",
     "178.219.239.0/24"
   ],
+  "updated_at": "2025-08-28T23:29:31Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:16:13.366429Z"

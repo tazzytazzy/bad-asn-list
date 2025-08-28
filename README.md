@@ -37,6 +37,35 @@ many rules as it can, and starting with the worst offenders, working it's way do
 `build_cloudclare.py` script to generate the `data/cloudflare_rules.txt`, which can be used to manuly create
 or update the rulesets within cloudflare.
 
+### ASN Allow List
+The build_cloudflare.py script supports an allow list to prevent certain ASNs from being included in the generated
+Cloudflare block rules. This is useful if you need to ensure that specific networks (e.g., your own, or a critical
+service provider's) are never blocked.To use this feature, create a file named local-allow-list.txt in the root
+directory of the project.The format of this file is a simple list of Autonomous System Numbers (ASNs), with one ASN
+per line.Example local-allow-list.txt:
+
+```text
+
+# This is a comment, lines starting with # are ignored.
+13335   # Cloudflare's ASN
+15169   # Google's ASN
+
+# You can add any ASN you want to explicitly allow.
+8075
+```
+* Blank lines are ignored.
+* Lines starting with a # are treated as comments and are also ignored.
+
+When you run build_cloudflare.py, it will automatically detect local-allow-list.txt if it exists, load the ASNs, and
+exclude them from the cloudflare_rules.txt output.
+
+If you wish to use a different file name or path for your allow list, you can specify it using
+the --allowlist-file argument:
+
+```shell
+./build_cloudflare.py --allowlist-file /path/to/my/custom-allow-list.txt
+```
+
 ### `build_cloudflare.py`
 Uses the `data/bad-asn-list.csv` to build the cloudflare ruleset to `data/cloudflare_rules.txt`.
 

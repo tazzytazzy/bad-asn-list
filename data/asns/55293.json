@@ -8,7 +8,7 @@
   "abuse": "noc@a2hosting.com",
   "type": "hosting",
   "created": "2013-05-17",
-  "updated_at": "2025-07-18T09:20:40.874730Z",
+  "updated": "2013-05-17",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS55293",
   "prefixes": [
@@ -132,6 +132,7 @@
     "216.137.186.0/23",
     "216.137.188.0/22"
   ],
+  "updated_at": "2025-08-28T23:30:19Z",
   "abuser_score": "0.0003",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:20:40.874730Z"

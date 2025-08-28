@@ -7,7 +7,7 @@
   "abuse": "carlosallpcom@gmail.com",
   "type": "business",
   "created": "20070810",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "20130306",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS28333",
   "prefixes": [
@@ -17,6 +17,7 @@
   "prefixesIPv6": [
     "2804:4bbc::/32"
   ],
+  "updated_at": "2025-08-28T23:25:01Z",
   "abuser_score": "0.0001",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"

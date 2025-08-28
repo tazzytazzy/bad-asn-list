@@ -7,12 +7,13 @@
   "abuse": "dimsok1@hotmail.com",
   "type": "business",
   "created": "1970-01-01",
-  "updated_at": "2025-07-18T08:12:03.842442Z",
+  "updated": "2021-05-13",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS12679",
   "prefixes": [
     "212.8.224.0/23"
   ],
+  "updated_at": "2025-08-28T23:22:12Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:12:03.842442Z"

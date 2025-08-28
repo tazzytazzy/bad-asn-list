@@ -8,7 +8,7 @@
   "abuse": "abuse@webzilla.com",
   "type": "hosting",
   "created": "2008-04-24",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2023-04-26",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS40824",
   "prefixes": [
@@ -50,6 +50,7 @@
   "prefixesIPv6": [
     "2607:fbe0::/32"
   ],
+  "updated_at": "2025-08-28T23:27:26Z",
   "abuser_score": "0.0005",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:16:13.366429Z"

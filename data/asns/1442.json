@@ -8,7 +8,7 @@
   "abuse": "support@securedlogics.com",
   "type": "hosting",
   "created": "2009-08-05",
-  "updated_at": "2025-07-18T07:32:46.358798Z",
+  "updated": "2012-03-02",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS1442",
   "prefixes": [
@@ -18,6 +18,7 @@
   "prefixesIPv6": [
     "2606:800::/32"
   ],
+  "updated_at": "2025-08-28T23:20:38Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T07:32:46.358798Z"

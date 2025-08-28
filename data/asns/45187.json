@@ -7,7 +7,7 @@
   "domain": "rackspace.com",
   "abuse": "abuse@rackspace.com",
   "type": "hosting",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2020-07-14",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS45187",
   "prefixes": [
@@ -29,7 +29,8 @@
     "2401:1800::/32",
     "2407:fa00::/32"
   ],
-  "abuser_score": "0",
+  "updated_at": "2025-08-28T23:28:08Z",
+  "abuser_score": "0.0001",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:16:13.366429Z"
 }

@@ -1,6 +1,6 @@
 {
   "asn": 40021,
-  "descr": "NL-811-40021, US",
+  "descr": "CONTABO-40021, US",
   "country": "us",
   "active": true,
   "org": "Nubes, LLC",
@@ -103,8 +103,8 @@
     "2605:a142::/32",
     "2605:a143::/32"
   ],
-  "updated_at": "2025-07-19T00:21:01Z",
-  "abuser_score": "0.0054",
+  "updated_at": "2025-08-28T23:27:18Z",
+  "abuser_score": "0.0057",
   "abuse_rank": "Low",
   "created_at": "2025-07-19T00:21:01Z"
 }

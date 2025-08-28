@@ -8,7 +8,7 @@
   "abuse": "abuse@cyberneticos.com",
   "type": "hosting",
   "created": "2012-07-04",
-  "updated_at": "2025-07-18T09:27:20.001816Z",
+  "updated": "2024-12-17",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS198968",
   "prefixes": [
@@ -22,7 +22,8 @@
     "164.138.212.0/23",
     "164.138.215.0/24"
   ],
-  "abuser_score": "0.0008",
+  "updated_at": "2025-08-28T23:33:18Z",
+  "abuser_score": "0.0006",
   "abuse_rank": "Low",
   "created_at": "2025-07-18T09:27:20.001816Z"
 }

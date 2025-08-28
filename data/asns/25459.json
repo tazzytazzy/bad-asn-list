@@ -8,7 +8,7 @@
   "abuse": "abuse@eurofibercloudinfra.com",
   "type": "hosting",
   "created": "2002-11-29",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2024-05-24",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS25459",
   "prefixes": [
@@ -41,6 +41,7 @@
     "2a02:ac40::/29",
     "2a02:cec0::/30"
   ],
+  "updated_at": "2025-08-28T23:24:35Z",
   "abuser_score": "0.0002",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"

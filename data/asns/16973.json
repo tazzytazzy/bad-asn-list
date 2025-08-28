@@ -8,7 +8,7 @@
   "abuse": "amurillo@t4.cr",
   "type": "isp",
   "created": "20000707",
-  "updated_at": "2025-07-18T08:26:59.817135Z",
+  "updated": "20230620",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS16973",
   "prefixes": [
@@ -30,7 +30,8 @@
   "prefixesIPv6": [
     "2803:3100::/32"
   ],
-  "abuser_score": "0.0001",
+  "updated_at": "2025-08-28T23:23:04Z",
+  "abuser_score": "0.0002",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:26:59.817135Z"
 }

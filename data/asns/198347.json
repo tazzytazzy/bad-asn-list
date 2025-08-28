@@ -8,17 +8,16 @@
   "abuse": "abuse@game-hosting.com",
   "type": "hosting",
   "created": "2011-12-20",
-  "updated_at": "2025-07-18T09:25:24.927704Z",
+  "updated": "2018-09-04",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS198347",
   "prefixes": [
     "37.18.192.0/21",
     "37.18.200.0/23",
     "37.18.202.0/23",
-    "37.18.208.0/23",
-    "185.140.36.0/23",
-    "185.140.38.0/23"
+    "37.18.208.0/23"
   ],
+  "updated_at": "2025-08-28T23:33:14Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:25:24.927704Z"

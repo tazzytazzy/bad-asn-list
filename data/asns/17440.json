@@ -7,7 +7,7 @@
   "domain": "ptsaa.co.id",
   "abuse": "abuse@ptsaa.co.id",
   "type": "isp",
-  "updated_at": "2025-07-18T08:27:46.797146Z",
+  "updated": "2020-01-03",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS17440",
   "prefixes": [
@@ -17,7 +17,8 @@
     "103.209.250.0/24",
     "103.209.251.0/24"
   ],
-  "abuser_score": "0.0007",
-  "abuse_rank": "Low",
+  "updated_at": "2025-08-28T23:23:09Z",
+  "abuser_score": "0.0005",
+  "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:27:46.797146Z"
 }

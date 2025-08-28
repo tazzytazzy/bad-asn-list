@@ -8,7 +8,7 @@
   "abuse": "abuse@lightupnet.de",
   "type": "hosting",
   "created": "2002-12-09",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2020-09-01",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS25486",
   "prefixes": [
@@ -23,6 +23,7 @@
     "2a02:b08::/29",
     "2a09:a040::/29"
   ],
+  "updated_at": "2025-08-28T23:24:36Z",
   "abuser_score": "0.0003",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"

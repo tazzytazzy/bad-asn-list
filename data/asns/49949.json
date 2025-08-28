@@ -8,7 +8,7 @@
   "abuse": "support@complior.se",
   "type": "business",
   "created": "2009-10-16",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2023-06-08",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS49949",
   "prefixes": [
@@ -20,6 +20,7 @@
   "prefixesIPv6": [
     "2001:67c:1880::/48"
   ],
+  "updated_at": "2025-08-28T23:29:13Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:16:13.366429Z"

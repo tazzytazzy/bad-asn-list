@@ -8,11 +8,12 @@
   "abuse": "abusesupport@dotblock.com",
   "type": "hosting",
   "created": "2002-04-04",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2012-02-24",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS23535",
   "prefixes": [
     "66.147.224.0/20",
+    "198.8.60.0/23",
     "199.101.48.0/22",
     "216.120.224.0/20",
     "216.120.240.0/22",
@@ -23,7 +24,8 @@
   "prefixesIPv6": [
     "2605:f080:500::/40"
   ],
-  "abuser_score": "0.0002",
+  "updated_at": "2025-08-28T23:24:11Z",
+  "abuser_score": "0.0003",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"
 }

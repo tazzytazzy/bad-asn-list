@@ -7,7 +7,7 @@
   "domain": "webzilla.com",
   "abuse": "abuse@webzilla.com",
   "type": "hosting",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2020-07-29",
   "rir": "APNIC",
   "whois": "https://api.ipapi.is/?whois=AS45470",
   "prefixes": [
@@ -32,7 +32,8 @@
   "prefixesIPv6": [
     "2407:ac00::/32"
   ],
-  "abuser_score": "0",
+  "updated_at": "2025-08-28T23:28:13Z",
+  "abuser_score": "0.0001",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:16:13.366429Z"
 }

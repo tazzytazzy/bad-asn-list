@@ -8,7 +8,7 @@
   "abuse": "arin@acehost.com",
   "type": "hosting",
   "created": "2020-09-01",
-  "updated_at": "2025-07-18T09:27:20.001816Z",
+  "updated": "2020-09-01",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS398779",
   "prefixes": [
@@ -55,7 +55,8 @@
     "2606:6680:50::/48",
     "2607:1740:1000::/36"
   ],
-  "abuser_score": "0.0011",
+  "updated_at": "2025-08-28T23:39:13Z",
+  "abuser_score": "0.0013",
   "abuse_rank": "Low",
   "created_at": "2025-07-18T09:27:20.001816Z"
 }

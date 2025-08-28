@@ -8,13 +8,14 @@
   "abuse": "abuse@turien.nl",
   "type": "business",
   "created": "2022-08-16",
-  "updated_at": "2025-07-18T09:27:20.001816Z",
+  "updated": "2022-08-16",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS203320",
   "prefixes": [
     "45.133.1.0/24"
   ],
-  "abuser_score": "0.0371",
+  "updated_at": "2025-08-28T23:34:04Z",
+  "abuser_score": "0.0352",
   "abuse_rank": "High",
   "created_at": "2025-07-18T09:27:20.001816Z"
 }

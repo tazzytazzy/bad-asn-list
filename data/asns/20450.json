@@ -8,12 +8,13 @@
   "abuse": "casey@colmanagement.com",
   "type": "hosting",
   "created": "2007-10-01",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2025-03-28",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS20450",
   "prefixes": [
     "74.231.237.0/24"
   ],
+  "updated_at": "2025-08-28T23:23:48Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"

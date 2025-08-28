@@ -8,12 +8,13 @@
   "abuse": "support@spiderhost.com",
   "type": "hosting",
   "created": "2002-04-12",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2019-06-11",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS25642",
   "prefixes": [
     "66.192.101.0/24"
   ],
+  "updated_at": "2025-08-28T23:24:38Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"

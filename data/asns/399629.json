@@ -8,7 +8,7 @@
   "abuse": "admin@blnwx.com",
   "type": "business",
   "created": "2021-04-30",
-  "updated_at": "2025-07-18T09:27:20.001816Z",
+  "updated": "2021-04-30",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS399629",
   "prefixes": [
@@ -63,7 +63,8 @@
     "206.188.197.0/24",
     "216.245.184.0/24"
   ],
-  "abuser_score": "0.0099",
+  "updated_at": "2025-08-28T23:39:15Z",
+  "abuser_score": "0.0106",
   "abuse_rank": "Elevated",
   "created_at": "2025-07-18T09:27:20.001816Z"
 }

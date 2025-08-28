@@ -8,7 +8,7 @@
   "abuse": "ipadmin@colombiahosting.com.co",
   "type": "hosting",
   "created": "20110722",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "20110723",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52335",
   "prefixes": [
@@ -17,6 +17,7 @@
     "185.74.19.0/24",
     "190.8.176.0/22"
   ],
+  "updated_at": "2025-08-28T23:29:46Z",
   "abuser_score": "0.0002",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:16:13.366429Z"

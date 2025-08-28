@@ -8,7 +8,7 @@
   "abuse": "abuse@mivocloud.com",
   "type": "hosting",
   "created": "2015-03-24",
-  "updated_at": "2025-07-18T09:14:08.290501Z",
+  "updated": "2025-02-25",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS39798",
   "prefixes": [
@@ -42,7 +42,8 @@
     "2a0a:c802:4::/48",
     "2a0a:c802:5::/48"
   ],
-  "abuser_score": "0.0111",
+  "updated_at": "2025-08-28T23:27:16Z",
+  "abuser_score": "0.0123",
   "abuse_rank": "Elevated",
   "created_at": "2025-07-18T09:14:08.290501Z"
 }

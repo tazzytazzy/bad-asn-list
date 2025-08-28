@@ -8,7 +8,7 @@
   "abuse": "abuse@black.host",
   "type": "hosting",
   "created": "2003-05-12",
-  "updated_at": "2025-07-18T08:12:03.842442Z",
+  "updated": "2025-02-24",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS12989",
   "prefixes": [
@@ -29,7 +29,8 @@
     "2a01:e945::/48",
     "2a01:e947::/48"
   ],
-  "abuser_score": "0.0044",
+  "updated_at": "2025-08-28T23:22:17Z",
+  "abuser_score": "0.0042",
   "abuse_rank": "Low",
   "created_at": "2025-07-18T08:12:03.842442Z"
 }

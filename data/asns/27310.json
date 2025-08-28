@@ -2,18 +2,16 @@
   "asn": 27310,
   "descr": "180SERVERS, US",
   "country": "us",
-  "active": true,
+  "active": false,
   "org": "180Servers.com",
   "domain": "180servers.com",
   "abuse": "noc@ihnetworks.com",
   "type": "hosting",
   "created": "2010-04-07",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2016-03-23",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS27310",
-  "prefixes": [
-    "72.29.111.0/24"
-  ],
+  "updated_at": "2025-08-28T23:24:51Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"

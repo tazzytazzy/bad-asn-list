@@ -8,7 +8,7 @@
   "abuse": "ipadmin@fxdana-dns.com",
   "type": "business",
   "created": "20120829",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "20120829",
   "rir": "LACNIC",
   "whois": "https://api.ipapi.is/?whois=AS52393",
   "prefixes": [
@@ -19,7 +19,8 @@
   "prefixesIPv6": [
     "2803:8200::/32"
   ],
-  "abuser_score": "0.0065",
+  "updated_at": "2025-08-28T23:29:47Z",
+  "abuser_score": "0.0057",
   "abuse_rank": "Low",
   "created_at": "2025-07-18T09:16:13.366429Z"
 }

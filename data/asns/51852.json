@@ -8,7 +8,7 @@
   "abuse": "abuse@privatelayer.com",
   "type": "hosting",
   "created": "2010-11-15",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2019-08-30",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS51852",
   "prefixes": [
@@ -96,10 +96,10 @@
   ],
   "prefixesIPv6": [
     "2a02:29b8::/32",
-    "2a09:4d45::/32",
-    "2a0f:dd40::/29"
+    "2a09:4d45::/32"
   ],
-  "abuser_score": "0.0056",
+  "updated_at": "2025-08-28T23:29:40Z",
+  "abuser_score": "0.0054",
   "abuse_rank": "Low",
   "created_at": "2025-07-18T09:16:13.366429Z"
 }

@@ -8,7 +8,7 @@
   "abuse": "noc@peacecom.net",
   "type": "isp",
   "created": "2001-05-09",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2025-01-29",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS20448",
   "prefixes": [
@@ -26,7 +26,8 @@
   "prefixesIPv6": [
     "2606:1000::/32"
   ],
-  "abuser_score": "0",
+  "updated_at": "2025-08-28T23:23:48Z",
+  "abuser_score": "0.0001",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"
 }

@@ -8,13 +8,14 @@
   "abuse": "alex@belowzero.biz",
   "type": "hosting",
   "created": "2004-07-05",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2018-09-04",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS31659",
   "prefixes": [
     "91.212.212.0/24",
     "194.36.163.0/24"
   ],
+  "updated_at": "2025-08-28T23:25:42Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"

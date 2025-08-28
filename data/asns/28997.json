@@ -8,7 +8,7 @@
   "abuse": "beheer@nedcomp.nl",
   "type": "business",
   "created": "2003-05-05",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2025-01-10",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS28997",
   "prefixes": [
@@ -18,6 +18,7 @@
   "prefixesIPv6": [
     "2a03:7000::/32"
   ],
+  "updated_at": "2025-08-28T23:25:08Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T08:28:10.294159Z"

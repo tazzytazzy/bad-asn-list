@@ -8,12 +8,14 @@
   "abuse": "jcgalvez@megalink.com",
   "type": "business",
   "created": "2022-11-30",
-  "updated_at": "2025-07-18T09:27:20.001816Z",
+  "updated": "2022-11-30",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS204655",
   "prefixes": [
+    "190.14.103.0/24",
     "200.85.141.0/24"
   ],
+  "updated_at": "2025-08-28T23:34:14Z",
   "abuser_score": "0",
   "abuse_rank": "Very Low",
   "created_at": "2025-07-18T09:27:20.001816Z"

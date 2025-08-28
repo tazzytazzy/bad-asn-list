@@ -8,7 +8,7 @@
   "abuse": "netabuse@as20068.net",
   "type": "hosting",
   "created": "2014-01-28",
-  "updated_at": "2025-07-18T08:28:10.294159Z",
+  "updated": "2024-12-16",
   "rir": "ARIN",
   "whois": "https://api.ipapi.is/?whois=AS20068",
   "prefixes": [
@@ -31,7 +31,8 @@
     "198.252.109.0/24",
     "198.252.111.0/24"
   ],
-  "abuser_score": "0.0012",
+  "updated_at": "2025-08-28T23:23:45Z",
+  "abuser_score": "0.0013",
   "abuse_rank": "Low",
   "created_at": "2025-07-18T08:28:10.294159Z"
 }

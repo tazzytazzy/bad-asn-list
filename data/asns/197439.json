@@ -8,7 +8,7 @@
   "abuse": "abuse@init7.net",
   "type": "hosting",
   "created": "2010-12-01",
-  "updated_at": "2025-07-18T09:27:20.001816Z",
+  "updated": "2018-09-04",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS197439",
   "prefixes": [
@@ -17,7 +17,8 @@
   "prefixesIPv6": [
     "2001:4060:4052::/48"
   ],
-  "abuser_score": "0",
-  "abuse_rank": "Very Low",
+  "updated_at": "2025-08-28T23:33:04Z",
+  "abuser_score": "0.001",
+  "abuse_rank": "Low",
   "created_at": "2025-07-18T09:27:20.001816Z"
 }

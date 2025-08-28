@@ -8,7 +8,7 @@
   "abuse": "abuse@eonix.net",
   "type": "hosting",
   "created": "2016-02-05",
-  "updated_at": "2025-07-18T09:16:13.366429Z",
+  "updated": "2020-12-05",
   "rir": "RIPE",
   "whois": "https://api.ipapi.is/?whois=AS49532",
   "prefixes": [
@@ -35,7 +35,8 @@
     "2403:ad80:8002::/48",
     "2a07:440::/32"
   ],
-  "abuser_score": "0.0059",
+  "updated_at": "2025-08-28T23:29:08Z",
+  "abuser_score": "0.0066",
   "abuse_rank": "Low",
   "created_at": "2025-07-18T09:16:13.366429Z"
 }
