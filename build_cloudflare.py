@@ -43,7 +43,7 @@ def parse_asn(value):
 
 def load_allowlist(allowlist_path):
     """
-    Loads a allowlist of ASNs from a text file, if it exists.
+    Loads an allowlist of ASNs from a text file, if it exists.
     The file should contain one ASN per line. Blank lines and lines
     starting with '#' are ignored.
     """
@@ -58,9 +58,9 @@ def load_allowlist(allowlist_path):
                 if line.isdigit():
                     allowlisted_asns.add(int(line))
         if allowlisted_asns:
-            print(f"Loaded {len(allowlisted_asns)} ASN(s) from local allowlist.")
+            print(f"Loaded {len(allowlisted_asns)} ASN(s) from the local allowlist.")
     except FileNotFoundError:
-        print("allowlist file not found. Continuing without a allowlist.")
+        print("Allowlist file not found. Continuing without an allowlist.")
     except Exception as e:
         print(f"An error occurred while reading the allowlist file: {e}", file=sys.stderr)
     return allowlisted_asns
@@ -68,7 +68,7 @@ def load_allowlist(allowlist_path):
 
 def create_cloudflare_rules(input_file_path, allowlist_path, max_length=4096):
     """
-    Reads ASNs from a CSV file, filters them against a allowlist, and
+    Reads ASNs from a CSV file, filters them against an allowlist, and
     generates compact Cloudflare filter rules, splitting them based on the
     maximum character length.
 
