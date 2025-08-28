@@ -159,8 +159,8 @@ def main():
     )
     parser.add_argument(
         '--allowlist-file',
-        default='local-white-list.txt',
-        help="Path to the allowlist file containing ASNs to exclude from the rules.\n(default: data/local-white-list.txt)"
+        default='local-allow-list.txt',
+        help="Path to the allowlist file containing ASNs to exclude from the rules.\n(default: local-allow-list.txt)"
     )
     args = parser.parse_args()
 
