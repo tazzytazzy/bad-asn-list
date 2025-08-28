@@ -41,10 +41,36 @@ def parse_asn(value):
     return None
 
 
-def create_cloudflare_rules(input_file_path, max_length=4096):
+def load_allowlist(allowlist_path):
     """
-    Reads ASNs from a CSV file and generates compact Cloudflare filter rules,
-    splitting them based on the maximum character length.
+    Loads a allowlist of ASNs from a text file, if it exists.
+    The file should contain one ASN per line. Blank lines and lines
+    starting with '#' are ignored.
+    """
+    allowlisted_asns = set()
+    try:
+        print(f"Attempting to load ASN allowlist from: {allowlist_path}")
+        with open(allowlist_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                if line.isdigit():
+                    allowlisted_asns.add(int(line))
+        if allowlisted_asns:
+            print(f"Loaded {len(allowlisted_asns)} ASN(s) from local allowlist.")
+    except FileNotFoundError:
+        print("allowlist file not found. Continuing without a allowlist.")
+    except Exception as e:
+        print(f"An error occurred while reading the allowlist file: {e}", file=sys.stderr)
+    return allowlisted_asns
+
+
+def create_cloudflare_rules(input_file_path, allowlist_path, max_length=4096):
+    """
+    Reads ASNs from a CSV file, filters them against a allowlist, and
+    generates compact Cloudflare filter rules, splitting them based on the
+    maximum character length.
 
     Cloudflare has a limit of 4096 character per rule. We shoot to get close
     to that, but not over.
@@ -53,22 +79,31 @@ def create_cloudflare_rules(input_file_path, max_length=4096):
         print(f"\nBuild process failed during execution of 'sort_list.py abuser_score --direction desc'.")
         sys.exit(1)
 
+    allowlisted_asns = load_allowlist(allowlist_path)
+
     asns = []
+    original_asn_count = 0
     try:
         with open(input_file_path, 'r', encoding='utf-8') as file:
             reader = csv.reader(file)
             next(reader)  # Skip the header row
             for row in reader:
                 if row:
+                    original_asn_count += 1
                     asn = parse_asn(row[0])
-                    if asn is not None:
+                    if asn is not None and asn not in allowlisted_asns:
                         asns.append(asn)
+                    elif asn in allowlisted_asns:
+                        print(f"ASN {asn} is in the allowlist, excluding from block rule.")
     except FileNotFoundError:
         print(f"Error: Input file not found at '{input_file_path}'", file=sys.stderr)
         return []
     except Exception as e:
         print(f"An error occurred while reading the file: {e}", file=sys.stderr)
         return []
+
+    if allowlisted_asns:
+        print(f"Excluded {original_asn_count - len(asns)} ASN(s) based on the allowlist.")
 
     if not asns:
         return []
@@ -122,10 +157,15 @@ def main():
         default='data/cloudflare_rules.txt',
         help="Path to the output file to save the rules.\n(default: cloudflare_rules.txt)"
     )
+    parser.add_argument(
+        '--allowlist-file',
+        default='local-white-list.txt',
+        help="Path to the allowlist file containing ASNs to exclude from the rules.\n(default: data/local-white-list.txt)"
+    )
     args = parser.parse_args()
 
     print(f"Reading ASNs from: {args.input_file}")
-    rules = create_cloudflare_rules(args.input_file)
+    rules = create_cloudflare_rules(args.input_file, args.allowlist_file)
 
     if rules:
         try:

@@ -47,7 +47,7 @@ python3 build_cloudflare.py
 
 To specify both input and output files:
 ```bash
-python3 build_cloudflare.py my_custom_asns.csv my_cloudflare_rules.txt
+python3 `build_cloudflare.py` my_custom_asns.csv my_cloudflare_rules.txt
 ```
 
 ### `cf_apply.py`

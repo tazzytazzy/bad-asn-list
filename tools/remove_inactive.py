@@ -22,6 +22,9 @@ import csv
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
 
+# Add the parent directory to sys.path
+sys.path.append(PROJECT_ROOT)
+
 # --- Local/Project Imports ---
 try:
     from helpers.utils import parse_asn, read_asn_from_csv
