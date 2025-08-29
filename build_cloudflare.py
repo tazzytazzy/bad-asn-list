@@ -75,7 +75,17 @@ def create_cloudflare_rules(input_file_path, allowlist_path, max_length=4096):
     Cloudflare has a limit of 4096 character per rule. We shoot to get close
     to that, but not over.
     """
-    if not run_script("sort_list.py", "abuser_score", "--direction", "desc"):
+    scripts_to_run = [
+        "tools/update_bad_asn_list_attributes.py",
+    ]
+
+    for script in scripts_to_run:
+        if not run_script(script):
+            print(f"\nBuild process failed during execution of {script}.")
+            sys.exit(1)
+
+
+    if not run_script("tools/sort_list.py", "abuser_score", "--direction", "desc"):
         print(f"\nBuild process failed during execution of 'sort_list.py abuser_score --direction desc'.")
         sys.exit(1)
 

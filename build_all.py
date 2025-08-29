@@ -10,48 +10,27 @@ Execution Order:
 3. build_numbers.py: Extracts a clean list of ASN numbers.
 4. asn2ip.py: Fetches IP blocks for all ASNs.
 """
-
 import subprocess
 import sys
 
-
-def run_script(script_name):
-    """
-    Executes a given Python script using the system's python3 interpreter.
-    Checks for errors and streams the script's output live.
-    Returns True on success, False on failure.
-    """
-    print(f"\n----- Running {script_name} -----")
-    try:
-        # Use sys.executable to ensure the same Python interpreter is used
-        subprocess.run(
-            [sys.executable, script_name],
-            check=True,
-            text=True,
-            encoding='utf-8'
-        )
-        print(f"----- Finished {script_name} successfully -----")
-        return True
-    except FileNotFoundError:
-        print(f"Error: Script '{script_name}' not found.", file=sys.stderr)
-        print("Please ensure you are running this from the repository root directory.", file=sys.stderr)
-        return False
-    except subprocess.CalledProcessError as e:
-        # The output from the script is streamed live, so we don't need to print it here.
-        print(f"\nError: {script_name} failed with exit code {e.returncode}", file=sys.stderr)
-        print(f"----- {script_name} failed -----", file=sys.stderr)
-        return False
-    except Exception as e:
-        print(f"An unexpected error occurred while running {script_name}: {e}", file=sys.stderr)
-        return False
-
+# --- Local/Project Imports ---
+try:
+    # Attempt to import from the helpers package
+    from helpers.utils import run_script
+except ImportError:
+    print("Error: The 'helpers' module is not found.", file=sys.stderr)
+    print("Please ensure you are running this from the repository's root directory", file=sys.stderr)
+    print("and that the 'helpers' directory with its '__init__.py' and 'utils.py' files exist.", file=sys.stderr)
+    sys.exit(1)
 
 def main():
     """
     Main function to run all build scripts in sequence.
     """
     scripts_to_run = [
+        "tools/update_bad_asn_list_attributes.py",
         "build_cloudflare.py", # Sorts the list in here.
+        "tools/netset_from_json.py",
         "build_numbers.py",
         "tools/netset_from_json.py",
         "netset_from_ipinfo.py"

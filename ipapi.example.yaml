@@ -7,7 +7,7 @@ api_key: "YOUR_IPAPI_IS_API_KEY_HERE"
 # Default is 0, which includes all ASNs that have any score.
 # The highest abuser_score is 0.0586, you'll want to stick to something
 # around 0.0005 or so. Maybe up to 0.005. Test it out.
-minimum_abuse_score: 0
+minimum_abuse_score: 0.005
 
 # A list of recent API usage sessions.
 # This is managed automatically by the script to respect the API rate limit.

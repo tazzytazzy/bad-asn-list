@@ -2,7 +2,12 @@ import csv
 import os
 import sys
 
-def fix_csv_columns(filepath="../data/bad-asn-list.csv"):
+# --- Path Setup ---
+# This makes the script runnable from anywhere by establishing the project root.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
+
+def fix_csv_columns(filepath=f"{PROJECT_ROOT}/data/bad-asn-list.csv"):
     """
     Reads the specified CSV file, finds rows with only 2 columns (ASN, Entity),
     and adds four empty columns to them to match the expected 6-column format.

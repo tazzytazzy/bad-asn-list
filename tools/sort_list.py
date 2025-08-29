@@ -8,8 +8,28 @@ Example: ./sort_list.py ASN --direction desc
 
 import argparse
 import csv
+import os
 import sys
-from helpers.utils import parse_asn, read_asn_from_csv
+
+# --- Local/Project Imports ---
+try:
+    # Attempt to import from the helpers package from the project root.
+    from helpers.utils import read_asn_from_csv, parse_asn
+except ImportError:
+    # If the script is run from the 'tools' directory, we need to adjust the path
+    # to find the 'helpers' module at the project root.
+    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+    try:
+        from helpers.utils import read_asn_from_csv, parse_asn
+    except ImportError:
+        print("Error: The 'helpers' module is not found.", file=sys.stderr)
+        print("Please ensure the script is in a 'tools' directory and the 'helpers' directory exists at the project root.", file=sys.stderr)
+        sys.exit(1)
+
+# --- Path Setup ---
+# This makes the script runnable from anywhere by establishing the project root.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
 
 
 def get_column_index(header, column_name):
@@ -110,13 +130,12 @@ def main():
         help="Sort direction: 'asc' for ascending, 'desc' for descending.\n(default: desc)"
     )
     parser.add_argument(
-        '--file',
-        default='data/bad-asn-list.csv',
-        help="Path to the CSV file to sort in-place.\n(default: data/bad-asn-list.csv)"
+        '--csv-file',
+        default=f"{PROJECT_ROOT}/data/bad-asn-list.csv",
+        help=f"Path to the master CSV file to update.\n(default: {PROJECT_ROOT}/data/bad-asn-list.csv)"
     )
     args = parser.parse_args()
-    sort_file(args.file, args.column, args.direction)
-
+    sort_file(args.csv_file, args.column, args.direction)
 
 if __name__ == '__main__':
     main()

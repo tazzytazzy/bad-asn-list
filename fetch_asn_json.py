@@ -306,9 +306,8 @@ def main():
     save_progress()
 
     scripts_to_run = [
-        "tools/update_csv_from_json.py",
-        "sort_list.py",
-        "build_cloudflare.py",
+        "tools/update_bad_asn_list_attributes",
+        "build_cloudflare.py", # Sorts the list in here.
         "tools/netset_from_json.py",
     ]
 

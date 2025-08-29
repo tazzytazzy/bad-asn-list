@@ -175,12 +175,12 @@ If you have ASNs you'd like to contribute, the preferred method is:
 ## `build_numbers.py`
 Uses the bad-asn-list.csv to build the cloudflare ruleset to `only_numbers.txt`.
 
-# `sort_list.py`
+# `tools/sort_list.py`
 Simply resorts the bad-asn-list.csv file by column name, not case-sensitive. Uses the new helper library to
 read the ASN file.
 
 ```bash
-./sort_list.py abuser_score --direction desc
+./ort_list.py abuser_score --direction desc
 ```
 
 # `tools/netset_from_json.py`
@@ -189,5 +189,6 @@ Create the blocklist_json.netset from using the ASN JSON files. This is called a
 # `tools/remove_inactive.py`
 Checks all the JSON files, if an ASN is marked inactive, it moves it to the dead CSV.
 
-# `tools/update_csv_from_json.py`
-Updates various attributes in the `bad-asn-list.csv`. This is called automatically after `fetch_asn_json.py` runs.
+# `tools/update_bad_asn_list_attributes.py`
+Updates various attributes in the `bad-asn-list.csv`. This is called automatically after `fetch_asn_json.py` runs,
+and before the `build_cloudflare.py` script runs.
