@@ -3,10 +3,10 @@
 This script performs maintenance on the ASN data files.
 
 It performs the following actions:
-1. Removes any "orphaned" JSON files from `data/asns` that are no longer
+1. Removes any "orphaned" JSON files from `data/ipapi_json` that are no longer
    listed in the master `data/bad-asn-list.csv`.
 2. Scans the remaining JSON files for ASNs with no announced prefixes.
-3. If an ASN has no prefixes, its JSON file is moved to `data/asns_dead/`.
+3. If an ASN has no prefixes, its JSON file is moved to `data/ipapi_json_dead/`.
 4. The corresponding ASN row is moved from `data/bad-asn-list.csv` to
    `data/bad-asn-list-dead.csv`.
 """
@@ -34,8 +34,8 @@ except ImportError:
     sys.exit(1)
 
 # --- Constants ---
-ASN_DIR = os.path.join(PROJECT_ROOT, 'data/asns')
-DEAD_ASN_DIR = os.path.join(PROJECT_ROOT, 'data/asns_dead')
+ASN_DIR = os.path.join(PROJECT_ROOT, 'data/ipapi_json')
+DEAD_ASN_DIR = os.path.join(PROJECT_ROOT, 'data/ipapi_json_dead')
 MAIN_CSV_PATH = os.path.join(PROJECT_ROOT, 'data/bad-asn-list.csv')
 DEAD_CSV_PATH = os.path.join(PROJECT_ROOT, 'data/bad-asn-list-dead.csv')
 

@@ -95,8 +95,8 @@ def main():
     )
     parser.add_argument(
         '--json-dir',
-        default=f"{PROJECT_ROOT}/data/asns",
-        help=f"Directory containing JSON files named <ASN>.json.\n(default: {PROJECT_ROOT}/data/asns)"
+        default=f"{PROJECT_ROOT}/data/ipapi_json",
+        help=f"Directory containing JSON files named <ASN>.json.\n(default: {PROJECT_ROOT}/data/ipapi_json)"
     )
     args = parser.parse_args()
 

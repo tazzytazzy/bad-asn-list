@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Reads all JSON files from the data/asns/ directory, filters them based on
+Reads all JSON files from the data/ipapi_json/ directory, filters them based on
 a minimum abuse score defined in ipapi.yaml, extracts IPv4 and IPv6
 prefixes, and compiles them into a single, sorted, and unique netset file.
 """
@@ -25,7 +25,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
 
 # --- Constants ---
-ASN_DATA_DIR = os.path.join(PROJECT_ROOT, "data/asns")
+ASN_DATA_DIR = os.path.join(PROJECT_ROOT, "data/ipapi_json")
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, "data/blocklist_json.netset")
 CONFIG_FILE = os.path.join(PROJECT_ROOT, "ipapi.yaml")
 
@@ -75,7 +75,7 @@ def main():
 
     if not os.path.isdir(ASN_DATA_DIR):
         print(f"Error: Input directory '{ASN_DATA_DIR}' not found.", file=sys.stderr)
-        print("Please run the fetch_asn_json.py script first to generate the data.", file=sys.stderr)
+        print("Please run the fetch_ipapi_json.py script first to generate the data.", file=sys.stderr)
         sys.exit(1)
 
     all_prefixes = set()
