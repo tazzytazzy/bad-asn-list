@@ -5,7 +5,7 @@ in the repository in the correct order. It ensures that the final
 artifacts are up-to-date based on the latest ASN lists.
 
 Execution Order:
-1. merge_lists.py: Merges new ASNs and sorts the master list.
+1. merge_asn_lists.py: Merges new ASNs and sorts the master list.
 2. build_rules.py: Generates Cloudflare firewall rules.
 3. build_numbers.py: Extracts a clean list of ASN numbers.
 4. asn2ip.py: Fetches IP blocks for all ASNs.
@@ -30,10 +30,10 @@ def main():
     scripts_to_run = [
         "tools/update_bad_asn_list_attributes.py",
         "build_cloudflare.py", # Sorts the list in here.
-        "tools/netset_from_json.py",
+        "tools/netset_from_ipapi_json.py",
+        "tools/netset_from_ipinfo_list.py",
+        "tools/merge_netsets.py",
         "build_numbers.py",
-        "tools/netset_from_json.py",
-        "netset_from_ipinfo.py"
     ]
 
     print("Starting the build process for all artifacts...")

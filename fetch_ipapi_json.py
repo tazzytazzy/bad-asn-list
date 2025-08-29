@@ -36,8 +36,8 @@ except ImportError:
 # --- Constants ---
 CONFIG_FILE = "ipapi.yaml"
 ASN_LIST_FILE = "data/bad-asn-list.csv"
-ASN_DATA_DIR = "data/asns"
-ASN_CHECKED_YAML = "data/asn_json_last_checked.yaml"
+ASN_DATA_DIR = "data/ipapi_json"
+ASN_CHECKED_YAML = "data/ipapi_json_last_checked.yaml"
 LOG_FILE = "fetch_asn_json.log"
 API_BASE_URL = "https://api.ipapi.is"
 PLACEHOLDER_KEY = "YOUR_IPAPI_IS_API_KEY_HERE"
@@ -308,7 +308,7 @@ def main():
     scripts_to_run = [
         "tools/update_bad_asn_list_attributes",
         "build_cloudflare.py", # Sorts the list in here.
-        "tools/netset_from_json.py",
+        "tools/netset_from_ipapi_json.py",
     ]
 
     print("Starting the build process for all artifacts...")

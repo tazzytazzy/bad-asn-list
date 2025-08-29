@@ -140,34 +140,34 @@ Once you have generated the rules file, follow these steps to apply them to your
 First, you'll need to copy the configuration file `ipapi.example.yaml` to `ipai.yaml` and edit the
 API key. You can create a free API key from ipapi's webset. See the `ipapi.example.yaml` for details.
 
-Use the `fetch_asn_json.py` to fetch all the details of each ASN. This will be stored inside the
-`data/asns` directory. This contains all the IP address ranges for each ASN, along with additional details
-about the ASN such as abuser_scores and location.  This will also build the `data/blocklist_json.netset`
+Use the `fetch_ipapi_json.py` to fetch all the details of each ASN. This will be stored inside the
+`data/ipapi_json` directory. This contains all the IP address ranges for each ASN, along with additional details
+about the ASN such as abuser_scores and location.  This will also build the `data/blocklist_ipapi_json.netset`
 file which can be used by various firewalls and network tools to block acess by IP address.
 
 **If you don't want to get an API key for https://ipapi.is/**, you can still use this. Just run the
-`tools/netset_from_json.py` script, which will build the blocklist_json.netset file using existing data. This
+`tools/netset_from_ipapi_json.py` script, which will build the blocklist_ipapi_json.netset file using existing data. This
 still allows you to select the abuse level you'll accept. You'll set this value in the yaml file. The
-`fetch_asn_json.py` will call the `netset_from_json.py` when it's complete.
+`fetch_ipapi_json.py` will call the `netset_from_ipapi_json.py` when it's complete.
 
 Abuse Level: The JSON files have a field for `abuser_score`, which is provided through the API. You
 can filter on this value as a setting in side the yaml file. See the example yaml for details. The abuser_score
 is also used when creating the CloudFlare rules to prioritze the rules.
 
-You can also run the `netset_from_ipinfo.py` with no API key. You'll see the data in `data/blocklest_ipinfo.netset`.
+You can also run the `netset_from_ipinfo_list.py` with no API key. You'll see the data in `data/blocklest_ipinfo.netset`.
 
-When you have completed both scripts (`netset_from_json.py` and `netset_from_ipinfo.py`), you can now run the
+When you have completed both scripts (`netset_from_ipapi_json.py` and `netset_from_ipinfo_list.py`), you can now run the
 `merge_netsets.py` to create a combined netset list. This will be in `blocklist_combined.netset`.
 
-# Contributing New ASNs - `merge_lists.py`
+# Contributing New ASNs - `merge_asn_lists.py`
 
 If you have ASNs you'd like to contribute, the preferred method is:
 1. Check to make sure the ASN isn't list in `data/good-asn-list.csv`. This list is used to make sure crawlers and
    can still access the site.
 2. Add your new entries to the `to_merge.csv` file. See the `to_merge.example.csv` file formatting.
-3. Run the merge script: `python3 merge_lists.py`
+3. Run the merge script: `python3 merge_asn_lists.py`
 4. This will add your unique entries to `bad-asn-list.csv`.
-5. Run `fetch_asn_json.py` to download the JSON file.
+5. Run `fetch_ipapi_json.py` to download the JSON file.
 6. Commit the changes to `bad-asn-list.csv` and create a pull request.
 
 # Other Scripts
@@ -183,12 +183,12 @@ read the ASN file.
 ./ort_list.py abuser_score --direction desc
 ```
 
-# `tools/netset_from_json.py`
-Create the blocklist_json.netset from using the ASN JSON files. This is called automatically from `fetch_asn_json.py`.
+# `tools/netset_from_ipapi_json.py`
+Create the blocklist_ipapi_json.netset from using the ASN JSON files. This is called automatically from `fetch_ipapi_json.py`.
 
 # `tools/remove_inactive.py`
 Checks all the JSON files, if an ASN is marked inactive, it moves it to the dead CSV.
 
 # `tools/update_bad_asn_list_attributes.py`
-Updates various attributes in the `bad-asn-list.csv`. This is called automatically after `fetch_asn_json.py` runs,
+Updates various attributes in the `bad-asn-list.csv`. This is called automatically after `fetch_ipapi_json.py` runs,
 and before the `build_cloudflare.py` script runs.

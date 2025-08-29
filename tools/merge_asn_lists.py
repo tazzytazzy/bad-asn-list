@@ -11,16 +11,28 @@ of the destination file.
 
 import argparse
 import csv
+import os
 import sys
 
 # --- Local/Project Imports ---
 try:
-    from helpers.utils import parse_asn
+    # Attempt to import from the helpers package from the project root.
+    from helpers.utils import read_asn_from_csv, parse_asn
 except ImportError:
-    print("Error: The 'helpers' module is not found.", file=sys.stderr)
-    print("Please ensure you are running this from the repository's root directory", file=sys.stderr)
-    print("and that the 'helpers' directory with its '__init__.py' and 'utils.py' files exist.", file=sys.stderr)
-    sys.exit(1)
+    # If the script is run from the 'tools' directory, we need to adjust the path
+    # to find the 'helpers' module at the project root.
+    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+    try:
+        from helpers.utils import read_asn_from_csv, parse_asn
+    except ImportError:
+        print("Error: The 'helpers' module is not found.", file=sys.stderr)
+        print("Please ensure the script is in a 'tools' directory and the 'helpers' directory exists at the project root.", file=sys.stderr)
+        sys.exit(1)
+
+# --- Path Setup ---
+# This makes the script runnable from anywhere by establishing the project root.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
 
 
 def merge_and_sort_asn_files(source_path, dest_path):
@@ -101,10 +113,10 @@ def main():
         description="Merge and sort ASN list files, matching columns by header name.",
         formatter_class=argparse.RawTextHelpFormatter
     )
-    parser.add_argument('source_file', nargs='?', default='to_merge.csv',
+    parser.add_argument('source_file', nargs='?', default=f"{PROJECT_ROOT}to_merge.csv",
                         help="Source file with ASNs to merge. (default: to_merge.csv)")
-    parser.add_argument('dest_file', nargs='?', default='data/bad-asn-list.csv',
-                        help="Destination file to merge into. (default: data/bad-asn-list.csv)")
+    parser.add_argument('dest_file', nargs='?', default=f"{PROJECT_ROOT}/data/bad-asn-list.csv",
+                        help=f"Destination file to merge into. (default: {PROJECT_ROOT}/data/bad-asn-list.csv)")
     args = parser.parse_args()
 
     merge_and_sort_asn_files(args.source_file, args.dest_file)

@@ -2,8 +2,8 @@
 """
 Merges multiple netset files into a single, sorted, and unique blocklist.
 
-This script reads IP prefixes from 'data/blocklist_ipapi.netset' and
-'data/blocklist_json.netset', combines them, removes duplicates, sorts them
+This script reads IP prefixes from 'data/blocklist_ipinfo_list.netset' and
+'data/blocklist_ipapi_json.netset', combines them, removes duplicates, sorts them
 canonically (by IP address, not just as strings), and writes the result to
 'data/blocklist.netset'.
 """
@@ -15,16 +15,17 @@ import ipaddress
 # --- Path Setup ---
 # This makes the script runnable from anywhere by establishing the project root.
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
 
 # --- Constants ---
 # A list of input files to be merged.
 INPUT_FILES = [
-    os.path.join(SCRIPT_DIR, "data/blocklist_ipapi.netset"),
-    os.path.join(SCRIPT_DIR, "data/blocklist_json.netset")
+    os.path.join(PROJECT_ROOT, "data/blocklist_ipapi_json.netset"),
+    os.path.join(PROJECT_ROOT, "data/blocklist_ipinfo_list.netset"),
 ]
 
 # The final, merged output file.
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "data/blocklist.netset")
+OUTPUT_FILE = os.path.join(PROJECT_ROOT, "data/blocklist.netset")
 
 
 def read_prefixes_from_file(filepath: str, prefix_set: set) -> int:

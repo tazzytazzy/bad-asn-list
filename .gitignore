@@ -51,7 +51,7 @@ ehthumbs.db
 Desktop.ini
 
 # Temporary file for contributing
-# Add new ASNs here, run `merge_lists.py`, then commit the updated `bad-asn-list.csv`.
+# Add new ASNs here, run `merge_asn_lists.py`, then commit the updated `bad-asn-list.csv`.
 /to_merge.csv
 
 # Cloudflare configuration
@@ -62,3 +62,4 @@ Desktop.ini
 
 fetch_asn_json.log
 .python-version
+/fetch_ipinfo_lists.log

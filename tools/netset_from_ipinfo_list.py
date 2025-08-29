@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Reads all JSON files from the data/ipapi_json/ directory, filters them based on
+Reads all JSON files from the data/ipinfo_list/ directory, filters them based on
 a minimum abuse score defined in ipapi.yaml, extracts IPv4 and IPv6
 prefixes, and compiles them into a single, sorted, and unique netset file.
 """
@@ -25,10 +25,10 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
 
 # --- Constants ---
-ASN_DATA_DIR = os.path.join(PROJECT_ROOT, "data/ipapi_json")
-OUTPUT_FILE = os.path.join(PROJECT_ROOT, "data/blocklist_json.netset")
+ASN_DATA_DIR = os.path.join(PROJECT_ROOT, "data/ipinfo_list")
+ASN_JSON_DATA_DIR = os.path.join(PROJECT_ROOT, "data/ipapi_json")
+OUTPUT_FILE = os.path.join(PROJECT_ROOT, "data/blocklist_ipinfo_list.netset")
 CONFIG_FILE = os.path.join(PROJECT_ROOT, "ipapi.yaml")
-
 
 def load_ipapi_config(filepath: str) -> dict:
     """Loads the ipapi.yaml configuration file."""
@@ -75,7 +75,7 @@ def main():
 
     if not os.path.isdir(ASN_DATA_DIR):
         print(f"Error: Input directory '{ASN_DATA_DIR}' not found.", file=sys.stderr)
-        print("Please run the fetch_ipapi_json.py script first to generate the data.", file=sys.stderr)
+        print("Please run the fetch_ipinfo_list.py script first to generate the data.", file=sys.stderr)
         sys.exit(1)
 
     all_prefixes = set()
@@ -94,16 +94,23 @@ def main():
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
+            filepath = os.path.join(ASN_JSON_DATA_DIR, filename)
+            current_score = 1
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    json_data = json.load(f)
+            except:
+                pass
+            else:
+                current_score_str = json_data.get('abuser_score', '0.0')
+                try:
+                    current_score = float(current_score_str)
+                except (ValueError, TypeError):
+                    pass
+
             processed_files += 1
 
             # --- Filtering Logic ---
-            current_score_str = data.get('abuser_score', '0.0')
-            try:
-                current_score = float(current_score_str)
-            except (ValueError, TypeError):
-                print(f"  ! Warning: Could not parse abuser_score '{current_score_str}' for {filename}. Skipping.", file=sys.stderr)
-                skipped_asns += 1
-                continue
 
             if current_score >= min_abuse_score:
                 included_asns += 1
@@ -116,6 +123,7 @@ def main():
                 if isinstance(ipv6_prefixes, list):
                     all_prefixes.update(ipv6_prefixes)
             else:
+
                 skipped_asns += 1
             # --- End Filtering Logic ---
 
